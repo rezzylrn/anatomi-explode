@@ -1,0 +1,9055 @@
+{
+ "skeleton": {
+  "files": [
+   "FJ1254.obj",
+   "FJ1255.obj",
+   "FJ1256.obj",
+   "FJ1257.obj",
+   "FJ1258.obj",
+   "FJ1259.obj",
+   "FJ1260.obj",
+   "FJ1261.obj",
+   "FJ1262.obj",
+   "FJ1263.obj",
+   "FJ1264.obj",
+   "FJ1265.obj",
+   "FJ1266.obj",
+   "FJ1267.obj",
+   "FJ1268.obj",
+   "FJ1269.obj",
+   "FJ1270.obj",
+   "FJ1271.obj",
+   "FJ1272.obj",
+   "FJ1273.obj",
+   "FJ1274.obj",
+   "FJ1275.obj",
+   "FJ1276.obj",
+   "FJ1277.obj",
+   "FJ1278.obj",
+   "FJ1279.obj",
+   "FJ1280.obj",
+   "FJ1281.obj",
+   "FJ1392.obj",
+   "FJ1392M.obj",
+   "FJ1424.obj",
+   "FJ1424M.obj",
+   "FJ1476.obj",
+   "FJ1476M.obj",
+   "FJ2763.obj",
+   "FJ2764.obj",
+   "FJ2771.obj",
+   "FJ2772.obj",
+   "FJ2779.obj",
+   "FJ2789.obj",
+   "FJ2790.obj",
+   "FJ2797.obj",
+   "FJ2807.obj",
+   "FJ3152.obj",
+   "FJ3153.obj",
+   "FJ3154.obj",
+   "FJ3155.obj",
+   "FJ3156.obj",
+   "FJ3157.obj",
+   "FJ3158.obj",
+   "FJ3159.obj",
+   "FJ3160.obj",
+   "FJ3161.obj",
+   "FJ3162.obj",
+   "FJ3163.obj",
+   "FJ3164.obj",
+   "FJ3165.obj",
+   "FJ3166.obj",
+   "FJ3167.obj",
+   "FJ3168.obj",
+   "FJ3169.obj",
+   "FJ3170.obj",
+   "FJ3171.obj",
+   "FJ3172.obj",
+   "FJ3173.obj",
+   "FJ3174.obj",
+   "FJ3175.obj",
+   "FJ3176.obj",
+   "FJ3177.obj",
+   "FJ3178.obj",
+   "FJ3179.obj",
+   "FJ3180.obj",
+   "FJ3181.obj",
+   "FJ3182.obj",
+   "FJ3183.obj",
+   "FJ3184.obj",
+   "FJ3185.obj",
+   "FJ3186.obj",
+   "FJ3187.obj",
+   "FJ3188.obj",
+   "FJ3189.obj",
+   "FJ3190.obj",
+   "FJ3191.obj",
+   "FJ3192.obj",
+   "FJ3193.obj",
+   "FJ3194.obj",
+   "FJ3195.obj",
+   "FJ3196.obj",
+   "FJ3197.obj",
+   "FJ3198.obj",
+   "FJ3199.obj",
+   "FJ3200.obj",
+   "FJ3201.obj",
+   "FJ3202.obj",
+   "FJ3203.obj",
+   "FJ3204.obj",
+   "FJ3205.obj",
+   "FJ3206.obj",
+   "FJ3207.obj",
+   "FJ3208.obj",
+   "FJ3209.obj",
+   "FJ3210.obj",
+   "FJ3211.obj",
+   "FJ3212.obj",
+   "FJ3213.obj",
+   "FJ3214.obj",
+   "FJ3215.obj",
+   "FJ3216.obj",
+   "FJ3217.obj",
+   "FJ3218.obj",
+   "FJ3219.obj",
+   "FJ3220.obj",
+   "FJ3221.obj",
+   "FJ3222.obj",
+   "FJ3223.obj",
+   "FJ3224.obj",
+   "FJ3225.obj",
+   "FJ3226.obj",
+   "FJ3227.obj",
+   "FJ3228.obj",
+   "FJ3229.obj",
+   "FJ3230.obj",
+   "FJ3231.obj",
+   "FJ3232.obj",
+   "FJ3233.obj",
+   "FJ3234.obj",
+   "FJ3235.obj",
+   "FJ3236.obj",
+   "FJ3237.obj",
+   "FJ3239.obj",
+   "FJ3240.obj",
+   "FJ3241.obj",
+   "FJ3242.obj",
+   "FJ3243.obj",
+   "FJ3244.obj",
+   "FJ3245.obj",
+   "FJ3246.obj",
+   "FJ3247.obj",
+   "FJ3248.obj",
+   "FJ3249.obj",
+   "FJ3250.obj",
+   "FJ3251.obj",
+   "FJ3252.obj",
+   "FJ3253.obj",
+   "FJ3254.obj",
+   "FJ3255.obj",
+   "FJ3256.obj",
+   "FJ3257.obj",
+   "FJ3258.obj",
+   "FJ3259.obj",
+   "FJ3260.obj",
+   "FJ3261.obj",
+   "FJ3262.obj",
+   "FJ3264.obj",
+   "FJ3265.obj",
+   "FJ3266.obj",
+   "FJ3267.obj",
+   "FJ3268.obj",
+   "FJ3269.obj",
+   "FJ3270.obj",
+   "FJ3271.obj",
+   "FJ3273.obj",
+   "FJ3274.obj",
+   "FJ3275.obj",
+   "FJ3276.obj",
+   "FJ3277.obj",
+   "FJ3278.obj",
+   "FJ3279.obj",
+   "FJ3280.obj",
+   "FJ3281.obj",
+   "FJ3282.obj",
+   "FJ3283.obj",
+   "FJ3284.obj",
+   "FJ3285.obj",
+   "FJ3286.obj",
+   "FJ3287.obj",
+   "FJ3288.obj",
+   "FJ3289.obj",
+   "FJ3290.obj",
+   "FJ3291.obj",
+   "FJ3292.obj",
+   "FJ3293.obj",
+   "FJ3294.obj",
+   "FJ3295.obj",
+   "FJ3296.obj",
+   "FJ3297.obj",
+   "FJ3298.obj",
+   "FJ3299.obj",
+   "FJ3300.obj",
+   "FJ3301.obj",
+   "FJ3302.obj",
+   "FJ3303.obj",
+   "FJ3304.obj",
+   "FJ3305.obj",
+   "FJ3306.obj",
+   "FJ3307.obj",
+   "FJ3308.obj",
+   "FJ3309.obj",
+   "FJ3310.obj",
+   "FJ3311.obj",
+   "FJ3312.obj",
+   "FJ3313.obj",
+   "FJ3314.obj",
+   "FJ3315.obj",
+   "FJ3316.obj",
+   "FJ3317.obj",
+   "FJ3318.obj",
+   "FJ3319.obj",
+   "FJ3320.obj",
+   "FJ3321.obj",
+   "FJ3322.obj",
+   "FJ3323.obj",
+   "FJ3324.obj",
+   "FJ3325.obj",
+   "FJ3326.obj",
+   "FJ3327.obj",
+   "FJ3328.obj",
+   "FJ3329.obj",
+   "FJ3330.obj",
+   "FJ3331.obj",
+   "FJ3332.obj",
+   "FJ3333.obj",
+   "FJ3334.obj",
+   "FJ3335.obj",
+   "FJ3336.obj",
+   "FJ3337.obj",
+   "FJ3338.obj",
+   "FJ3339.obj",
+   "FJ3340.obj",
+   "FJ3341.obj",
+   "FJ3342.obj",
+   "FJ3343.obj",
+   "FJ3344.obj",
+   "FJ3345.obj",
+   "FJ3346.obj",
+   "FJ3347.obj",
+   "FJ3348.obj",
+   "FJ3349.obj",
+   "FJ3350.obj",
+   "FJ3351.obj",
+   "FJ3352.obj",
+   "FJ3353.obj",
+   "FJ3354.obj",
+   "FJ3355.obj",
+   "FJ3356.obj",
+   "FJ3357.obj",
+   "FJ3358.obj",
+   "FJ3359.obj",
+   "FJ3360.obj",
+   "FJ3361.obj",
+   "FJ3362.obj",
+   "FJ3364.obj",
+   "FJ3365.obj",
+   "FJ3366.obj",
+   "FJ3367.obj",
+   "FJ3368.obj",
+   "FJ3370.obj",
+   "FJ3371.obj",
+   "FJ3372.obj",
+   "FJ3373.obj",
+   "FJ3374.obj",
+   "FJ3375.obj",
+   "FJ3376.obj",
+   "FJ3377.obj",
+   "FJ3379.obj",
+   "FJ3380.obj",
+   "FJ3381.obj",
+   "FJ3382.obj",
+   "FJ3383.obj",
+   "FJ3384.obj",
+   "FJ3385.obj",
+   "FJ3386.obj",
+   "FJ3387.obj",
+   "FJ3388.obj",
+   "FJ3389.obj",
+   "FJ3390.obj",
+   "FJ3391.obj",
+   "FJ3392.obj",
+   "FJ3393.obj",
+   "FJ3394.obj",
+   "FJ3395.obj"
+  ],
+  "mesh_count": 281,
+  "bytes": 2701764,
+  "failed": [],
+  "mapping": {
+   "FJ1254.obj": [
+    "Left_lower_first_secondary_molar_tooth"
+   ],
+   "FJ1255.obj": [
+    "Left_lower_first_secondary_premolar_tooth"
+   ],
+   "FJ1256.obj": [
+    "Left_lower_second_secondary_molar_tooth"
+   ],
+   "FJ1257.obj": [
+    "Left_lower_second_secondary_premolar_tooth"
+   ],
+   "FJ1258.obj": [
+    "Left_lower_central_secondary_incisor_tooth"
+   ],
+   "FJ1259.obj": [
+    "Left_lower_lateral_secondary_incisor_tooth"
+   ],
+   "FJ1260.obj": [
+    "Left_lower_secondary_canine_tooth"
+   ],
+   "FJ1261.obj": [
+    "Left_upper_first_secondary_molar_tooth"
+   ],
+   "FJ1262.obj": [
+    "Left_upper_first_secondary_premolar_tooth"
+   ],
+   "FJ1263.obj": [
+    "Left_upper_second_secondary_molar_tooth"
+   ],
+   "FJ1264.obj": [
+    "Left_upper_second_secondary_premolar_tooth"
+   ],
+   "FJ1265.obj": [
+    "Left_upper_central_secondary_incisor_tooth"
+   ],
+   "FJ1266.obj": [
+    "Left_upper_lateral_secondary_incisor_tooth"
+   ],
+   "FJ1267.obj": [
+    "Left_upper_secondary_canine_tooth"
+   ],
+   "FJ1268.obj": [
+    "Right_lower_first_secondary_molar_tooth"
+   ],
+   "FJ1269.obj": [
+    "Right_lower_first_secondary_premolar_tooth"
+   ],
+   "FJ1270.obj": [
+    "Right_lower_second_secondary_molar_tooth"
+   ],
+   "FJ1271.obj": [
+    "Right_lower_second_secondary_premolar_tooth"
+   ],
+   "FJ1272.obj": [
+    "Right_lower_central_secondary_incisor_tooth"
+   ],
+   "FJ1273.obj": [
+    "Right_lower_lateral_secondary_incisor_tooth"
+   ],
+   "FJ1274.obj": [
+    "Right_lower_secondary_canine_tooth"
+   ],
+   "FJ1275.obj": [
+    "Right_upper_second_secondary_molar_tooth"
+   ],
+   "FJ1276.obj": [
+    "Right_upper_first_secondary_molar_tooth"
+   ],
+   "FJ1277.obj": [
+    "Right_upper_first_secondary_premolar_tooth"
+   ],
+   "FJ1278.obj": [
+    "Right_upper_second_secondary_premolar_tooth"
+   ],
+   "FJ1279.obj": [
+    "Right_upper_central_secondary_incisor_tooth"
+   ],
+   "FJ1280.obj": [
+    "Right_upper_lateral_secondary_incisor_tooth"
+   ],
+   "FJ1281.obj": [
+    "Right_upper_secondary_canine_tooth"
+   ],
+   "FJ1392.obj": [
+    "Interosseous_membrane_of_right_leg"
+   ],
+   "FJ1392M.obj": [
+    "Interosseous_membrane_of_left_leg"
+   ],
+   "FJ1424.obj": [
+    "Right_long_plantar_ligament"
+   ],
+   "FJ1424M.obj": [
+    "Left_long_plantar_ligament"
+   ],
+   "FJ1476.obj": [
+    "Interosseous_membrane_of_right_forearm"
+   ],
+   "FJ1476M.obj": [
+    "Interosseous_membrane_of_left_forearm"
+   ],
+   "FJ2763.obj": [
+    "Left_stylohyoid_ligament"
+   ],
+   "FJ2764.obj": [
+    "Right_stylohyoid_ligament"
+   ],
+   "FJ2771.obj": [
+    "Hyo_epiglottic_ligament"
+   ],
+   "FJ2772.obj": [
+    "Hyoid_bone"
+   ],
+   "FJ2779.obj": [
+    "Left_lateral_thyrohyoid_ligament"
+   ],
+   "FJ2789.obj": [
+    "Median_cricothyroid_ligament"
+   ],
+   "FJ2790.obj": [
+    "Median_thyrohyoid_ligament"
+   ],
+   "FJ2797.obj": [
+    "Right_lateral_thyrohyoid_ligament"
+   ],
+   "FJ2807.obj": [
+    "Thyro_epiglottic_ligament"
+   ],
+   "FJ3152.obj": [
+    "Right_hip_bone"
+   ],
+   "FJ3153.obj": [
+    "Xiphoid_process"
+   ],
+   "FJ3154.obj": [
+    "Tenth_thoracic_vertebra"
+   ],
+   "FJ3155.obj": [
+    "Eleventh_thoracic_vertebra"
+   ],
+   "FJ3156.obj": [
+    "Twelfth_thoracic_vertebra"
+   ],
+   "FJ3157.obj": [
+    "First_lumbar_vertebra"
+   ],
+   "FJ3158.obj": [
+    "First_thoracic_vertebra"
+   ],
+   "FJ3159.obj": [
+    "Second_lumbar_vertebra"
+   ],
+   "FJ3160.obj": [
+    "Second_thoracic_vertebra"
+   ],
+   "FJ3161.obj": [
+    "Third_cervical_vertebra"
+   ],
+   "FJ3162.obj": [
+    "Third_lumbar_vertebra"
+   ],
+   "FJ3163.obj": [
+    "Third_thoracic_vertebra"
+   ],
+   "FJ3164.obj": [
+    "Fourth_cervical_vertebra"
+   ],
+   "FJ3165.obj": [
+    "Fourth_lumbar_vertebra"
+   ],
+   "FJ3166.obj": [
+    "Fourth_thoracic_vertebra"
+   ],
+   "FJ3167.obj": [
+    "Fifth_cervical_vertebra"
+   ],
+   "FJ3168.obj": [
+    "Fifth_lumbar_vertebra"
+   ],
+   "FJ3169.obj": [
+    "Fifth_thoracic_vertebra"
+   ],
+   "FJ3170.obj": [
+    "Sixth_cervical_vertebra"
+   ],
+   "FJ3171.obj": [
+    "Sixth_thoracic_vertebra"
+   ],
+   "FJ3172.obj": [
+    "Seventh_cervical_vertebra"
+   ],
+   "FJ3173.obj": [
+    "Seventh_thoracic_vertebra"
+   ],
+   "FJ3174.obj": [
+    "Eighth_thoracic_vertebra"
+   ],
+   "FJ3175.obj": [
+    "Ninth_thoracic_vertebra"
+   ],
+   "FJ3176.obj": [
+    "Atlas"
+   ],
+   "FJ3177.obj": [
+    "Axis"
+   ],
+   "FJ3178.obj": [
+    "Body_of_sternum"
+   ],
+   "FJ3179.obj": [
+    "Distal_phalanx_of_left_second_toe"
+   ],
+   "FJ3180.obj": [
+    "Distal_phalanx_of_left_third_toe"
+   ],
+   "FJ3181.obj": [
+    "Distal_phalanx_of_left_fourth_toe"
+   ],
+   "FJ3182.obj": [
+    "Distal_phalanx_of_left_big_toe"
+   ],
+   "FJ3183.obj": [
+    "Distal_phalanx_of_left_index_finger"
+   ],
+   "FJ3184.obj": [
+    "Distal_phalanx_of_left_little_finger"
+   ],
+   "FJ3185.obj": [
+    "Distal_phalanx_of_left_little_toe"
+   ],
+   "FJ3186.obj": [
+    "Distal_phalanx_of_left_middle_finger"
+   ],
+   "FJ3187.obj": [
+    "Distal_phalanx_of_left_ring_finger"
+   ],
+   "FJ3188.obj": [
+    "Distal_phalanx_of_left_thumb"
+   ],
+   "FJ3189.obj": [
+    "Distal_phalanx_of_right_second_toe"
+   ],
+   "FJ3190.obj": [
+    "Distal_phalanx_of_right_third_toe"
+   ],
+   "FJ3191.obj": [
+    "Distal_phalanx_of_right_fourth_toe"
+   ],
+   "FJ3192.obj": [
+    "Distal_phalanx_of_right_big_toe"
+   ],
+   "FJ3193.obj": [
+    "Distal_phalanx_of_right_index_finger"
+   ],
+   "FJ3194.obj": [
+    "Distal_phalanx_of_right_little_finger"
+   ],
+   "FJ3195.obj": [
+    "Distal_phalanx_of_right_little_toe"
+   ],
+   "FJ3196.obj": [
+    "Distal_phalanx_of_right_middle_finger"
+   ],
+   "FJ3197.obj": [
+    "Distal_phalanx_of_right_ring_finger"
+   ],
+   "FJ3198.obj": [
+    "Distal_phalanx_of_right_thumb"
+   ],
+   "FJ3199.obj": [
+    "Ethmoid"
+   ],
+   "FJ3200.obj": [
+    "Frontal_bone"
+   ],
+   "FJ3201.obj": [
+    "Hyoid_bone_2"
+   ],
+   "FJ3202.obj": [
+    "Intervertebral_disk_of_axis"
+   ],
+   "FJ3203.obj": [
+    "Intervertebral_disk_of_fourth_thoracic_vertebra"
+   ],
+   "FJ3204.obj": [
+    "Intervertebral_disk_of_fifth_thoracic_vertebra"
+   ],
+   "FJ3205.obj": [
+    "Intervertebral_disk_of_sixth_thoracic_vertebra"
+   ],
+   "FJ3206.obj": [
+    "Intervertebral_disk_of_seventh_thoracic_vertebra"
+   ],
+   "FJ3207.obj": [
+    "Intervertebral_disk_of_eighth_thoracic_vertebra"
+   ],
+   "FJ3208.obj": [
+    "Intervertebral_disk_of_ninth_thoracic_vertebra"
+   ],
+   "FJ3209.obj": [
+    "Intervertebral_disk_of_tenth_thoracic_vertebra"
+   ],
+   "FJ3210.obj": [
+    "Intervertebral_disk_of_eleventh_thoracic_vertebra"
+   ],
+   "FJ3211.obj": [
+    "Intervertebral_disk"
+   ],
+   "FJ3212.obj": [
+    "Intervertebral_disk_of_first_lumbar_vertebra"
+   ],
+   "FJ3213.obj": [
+    "Intervertebral_disk_of_third_cervical_vertebra"
+   ],
+   "FJ3214.obj": [
+    "Intervertebral_disk_of_second_lumbar_vertebra"
+   ],
+   "FJ3215.obj": [
+    "Intervertebral_disk_of_third_lumbar_vertebra"
+   ],
+   "FJ3216.obj": [
+    "Intervertebral_disk_of_fourth_lumbar_vertebra"
+   ],
+   "FJ3217.obj": [
+    "Intervertebral_disk_of_fifth_lumbar_vertebra"
+   ],
+   "FJ3218.obj": [
+    "Intervertebral_disk_of_fourth_cervical_vertebra"
+   ],
+   "FJ3219.obj": [
+    "Intervertebral_disk_of_fifth_cervical_vertebra"
+   ],
+   "FJ3220.obj": [
+    "Intervertebral_disk_of_sixth_cervical_vertebra"
+   ],
+   "FJ3221.obj": [
+    "Intervertebral_disk_of_seventh_cervical_vertebra"
+   ],
+   "FJ3222.obj": [
+    "Intervertebral_disk_of_first_thoracic_vertebra"
+   ],
+   "FJ3223.obj": [
+    "Intervertebral_disk_of_second_thoracic_vertebra"
+   ],
+   "FJ3224.obj": [
+    "Intervertebral_disk_of_third_thoracic_vertebra"
+   ],
+   "FJ3225.obj": [
+    "Left_tenth_rib"
+   ],
+   "FJ3226.obj": [
+    "Left_eleventh_rib"
+   ],
+   "FJ3227.obj": [
+    "Left_twelfth_rib"
+   ],
+   "FJ3228.obj": [
+    "Left_first_rib"
+   ],
+   "FJ3229.obj": [
+    "Left_second_rib"
+   ],
+   "FJ3230.obj": [
+    "Left_third_rib"
+   ],
+   "FJ3231.obj": [
+    "Left_fourth_rib"
+   ],
+   "FJ3232.obj": [
+    "Left_fifth_rib"
+   ],
+   "FJ3233.obj": [
+    "Left_sixth_rib"
+   ],
+   "FJ3234.obj": [
+    "Left_seventh_rib"
+   ],
+   "FJ3235.obj": [
+    "Left_eighth_rib"
+   ],
+   "FJ3236.obj": [
+    "Left_ninth_rib"
+   ],
+   "FJ3237.obj": [
+    "Left_clavicle"
+   ],
+   "FJ3239.obj": [
+    "Left_first_costal_cartilage"
+   ],
+   "FJ3240.obj": [
+    "Left_first_metacarpal_bone"
+   ],
+   "FJ3241.obj": [
+    "Left_first_metatarsal_bone"
+   ],
+   "FJ3242.obj": [
+    "Left_second_costal_cartilage"
+   ],
+   "FJ3243.obj": [
+    "Left_second_metacarpal_bone"
+   ],
+   "FJ3244.obj": [
+    "Left_second_metatarsal_bone"
+   ],
+   "FJ3245.obj": [
+    "Left_third_costal_cartilage"
+   ],
+   "FJ3246.obj": [
+    "Left_third_metacarpal_bone"
+   ],
+   "FJ3247.obj": [
+    "Left_third_metatarsal_bone"
+   ],
+   "FJ3248.obj": [
+    "Left_fourth_costal_cartilage"
+   ],
+   "FJ3249.obj": [
+    "Left_fourth_metacarpal_bone"
+   ],
+   "FJ3250.obj": [
+    "Left_fourth_metatarsal_bone"
+   ],
+   "FJ3251.obj": [
+    "Left_fifth_costal_cartilage"
+   ],
+   "FJ3252.obj": [
+    "Left_fifth_metacarpal_bone"
+   ],
+   "FJ3253.obj": [
+    "Left_fifth_metatarsal_bone"
+   ],
+   "FJ3254.obj": [
+    "Left_sixth_costal_cartilage"
+   ],
+   "FJ3255.obj": [
+    "Left_seventh_costal_cartilage"
+   ],
+   "FJ3256.obj": [
+    "Left_calcaneus"
+   ],
+   "FJ3257.obj": [
+    "Left_capitate"
+   ],
+   "FJ3258.obj": [
+    "Left_cuboid_bone"
+   ],
+   "FJ3259.obj": [
+    "Left_femur"
+   ],
+   "FJ3260.obj": [
+    "Left_fibula"
+   ],
+   "FJ3261.obj": [
+    "Left_hamate"
+   ],
+   "FJ3262.obj": [
+    "Left_humerus"
+   ],
+   "FJ3264.obj": [
+    "Left_intermediate_cuneiform_bone"
+   ],
+   "FJ3265.obj": [
+    "Left_lacrimal_bone"
+   ],
+   "FJ3266.obj": [
+    "Sesamoid_bone_of_left_foot"
+   ],
+   "FJ3267.obj": [
+    "Left_lateral_cuneiform_bone"
+   ],
+   "FJ3268.obj": [
+    "Left_lunate"
+   ],
+   "FJ3269.obj": [
+    "Left_maxilla"
+   ],
+   "FJ3270.obj": [
+    "Sesamoid_bone_of_left_foot_2"
+   ],
+   "FJ3271.obj": [
+    "Left_medial_cuneiform_bone"
+   ],
+   "FJ3273.obj": [
+    "Left_palatine_bone"
+   ],
+   "FJ3274.obj": [
+    "Left_parietal_bone"
+   ],
+   "FJ3275.obj": [
+    "Left_patella"
+   ],
+   "FJ3276.obj": [
+    "Left_pisiform"
+   ],
+   "FJ3277.obj": [
+    "Left_radius"
+   ],
+   "FJ3278.obj": [
+    "Left_scaphoid"
+   ],
+   "FJ3279.obj": [
+    "Left_scapula"
+   ],
+   "FJ3280.obj": [
+    "Left_talus"
+   ],
+   "FJ3281.obj": [
+    "Left_temporal_bone"
+   ],
+   "FJ3282.obj": [
+    "Left_tibia"
+   ],
+   "FJ3283.obj": [
+    "Left_trapezium"
+   ],
+   "FJ3284.obj": [
+    "Left_trapezoid"
+   ],
+   "FJ3285.obj": [
+    "Left_triquetral"
+   ],
+   "FJ3286.obj": [
+    "Left_ulna"
+   ],
+   "FJ3287.obj": [
+    "Left_zygomatic_bone"
+   ],
+   "FJ3288.obj": [
+    "Left_hip_bone"
+   ],
+   "FJ3289.obj": [
+    "Mandible"
+   ],
+   "FJ3290.obj": [
+    "Manubrium"
+   ],
+   "FJ3291.obj": [
+    "Middle_phalanx_of_left_ring_finger"
+   ],
+   "FJ3292.obj": [
+    "Middle_phalanx_of_right_ring_finger"
+   ],
+   "FJ3293.obj": [
+    "Middle_phalanx_of_left_second_toe"
+   ],
+   "FJ3294.obj": [
+    "Middle_phalanx_of_left_third_toe"
+   ],
+   "FJ3295.obj": [
+    "Middle_phalanx_of_left_fourth_toe"
+   ],
+   "FJ3296.obj": [
+    "Middle_phalanx_of_left_index_finger"
+   ],
+   "FJ3297.obj": [
+    "Middle_phalanx_of_left_little_finger"
+   ],
+   "FJ3298.obj": [
+    "Middle_phalanx_of_left_little_toe"
+   ],
+   "FJ3299.obj": [
+    "Middle_phalanx_of_left_middle_finger"
+   ],
+   "FJ3300.obj": [
+    "Middle_phalanx_of_right_second_toe"
+   ],
+   "FJ3301.obj": [
+    "Middle_phalanx_of_right_third_toe"
+   ],
+   "FJ3302.obj": [
+    "Middle_phalanx_of_right_fourth_toe"
+   ],
+   "FJ3303.obj": [
+    "Middle_phalanx_of_right_index_finger"
+   ],
+   "FJ3304.obj": [
+    "Middle_phalanx_of_right_little_finger"
+   ],
+   "FJ3305.obj": [
+    "Middle_phalanx_of_right_little_toe"
+   ],
+   "FJ3306.obj": [
+    "Middle_phalanx_of_right_middle_finger"
+   ],
+   "FJ3307.obj": [
+    "Navicular_bone_of_left_foot"
+   ],
+   "FJ3308.obj": [
+    "Navicular_bone_of_right_foot"
+   ],
+   "FJ3309.obj": [
+    "Occipital_bone"
+   ],
+   "FJ3310.obj": [
+    "Proximal_phalanx_of_right_big_toe"
+   ],
+   "FJ3311.obj": [
+    "Proximal_phalanx_of_left_third_toe"
+   ],
+   "FJ3312.obj": [
+    "Proximal_phalanx_of_left_fourth_toe"
+   ],
+   "FJ3313.obj": [
+    "Proximal_phalanx_of_left_index_finger"
+   ],
+   "FJ3314.obj": [
+    "Proximal_phalanx_of_left_little_finger"
+   ],
+   "FJ3315.obj": [
+    "Proximal_phalanx_of_left_little_toe"
+   ],
+   "FJ3316.obj": [
+    "Proximal_phalanx_of_left_middle_finger"
+   ],
+   "FJ3317.obj": [
+    "Proximal_phalanx_of_left_ring_finger"
+   ],
+   "FJ3318.obj": [
+    "Proximal_phalanx_of_left_thumb"
+   ],
+   "FJ3319.obj": [
+    "Proximal_phalanx_of_right_second_toe"
+   ],
+   "FJ3320.obj": [
+    "Proximal_phalanx_of_right_third_toe"
+   ],
+   "FJ3321.obj": [
+    "Proximal_phalanx_of_right_fourth_toe"
+   ],
+   "FJ3322.obj": [
+    "Proximal_phalanx_of_right_index_finger"
+   ],
+   "FJ3323.obj": [
+    "Proximal_phalanx_of_right_little_finger"
+   ],
+   "FJ3324.obj": [
+    "Proximal_phalanx_of_right_little_toe"
+   ],
+   "FJ3325.obj": [
+    "Proximal_phalanx_of_right_middle_finger"
+   ],
+   "FJ3326.obj": [
+    "Proximal_phalanx_of_right_ring_finger"
+   ],
+   "FJ3327.obj": [
+    "Proximal_phalanx_of_right_thumb"
+   ],
+   "FJ3328.obj": [
+    "Proximal_phalanx_of_left_second_toe"
+   ],
+   "FJ3329.obj": [
+    "Proximal_phalanx_of_left_big_toe"
+   ],
+   "FJ3330.obj": [
+    "Right_tenth_rib"
+   ],
+   "FJ3331.obj": [
+    "Right_eleventh_rib"
+   ],
+   "FJ3332.obj": [
+    "Right_twelfth_rib"
+   ],
+   "FJ3333.obj": [
+    "Right_first_costal_cartilage"
+   ],
+   "FJ3334.obj": [
+    "Right_first_rib"
+   ],
+   "FJ3335.obj": [
+    "Right_second_costal_cartilage"
+   ],
+   "FJ3336.obj": [
+    "Right_second_rib"
+   ],
+   "FJ3337.obj": [
+    "Right_third_costal_cartilage"
+   ],
+   "FJ3338.obj": [
+    "Right_third_rib"
+   ],
+   "FJ3339.obj": [
+    "Right_fourth_costal_cartilage"
+   ],
+   "FJ3340.obj": [
+    "Right_fourth_rib"
+   ],
+   "FJ3341.obj": [
+    "Right_fifth_costal_cartilage"
+   ],
+   "FJ3342.obj": [
+    "Right_fifth_rib"
+   ],
+   "FJ3343.obj": [
+    "Right_sixth_costal_cartilage"
+   ],
+   "FJ3344.obj": [
+    "Right_sixth_rib"
+   ],
+   "FJ3345.obj": [
+    "Right_seventh_costal_cartilage"
+   ],
+   "FJ3346.obj": [
+    "Right_seventh_rib"
+   ],
+   "FJ3347.obj": [
+    "Right_eighth_rib"
+   ],
+   "FJ3348.obj": [
+    "Right_ninth_rib"
+   ],
+   "FJ3349.obj": [
+    "Right_radius"
+   ],
+   "FJ3350.obj": [
+    "Right_first_metacarpal_bone"
+   ],
+   "FJ3351.obj": [
+    "Right_first_metatarsal_bone"
+   ],
+   "FJ3352.obj": [
+    "Right_second_metacarpal_bone"
+   ],
+   "FJ3353.obj": [
+    "Right_second_metatarsal_bone"
+   ],
+   "FJ3354.obj": [
+    "Right_third_metacarpal_bone"
+   ],
+   "FJ3355.obj": [
+    "Right_third_metatarsal_bone"
+   ],
+   "FJ3356.obj": [
+    "Right_fourth_metacarpal_bone"
+   ],
+   "FJ3357.obj": [
+    "Right_fourth_metatarsal_bone"
+   ],
+   "FJ3358.obj": [
+    "Right_fifth_metacarpal_bone"
+   ],
+   "FJ3359.obj": [
+    "Right_fifth_metatarsal_bone"
+   ],
+   "FJ3360.obj": [
+    "Right_calcaneus"
+   ],
+   "FJ3361.obj": [
+    "Right_capitate"
+   ],
+   "FJ3362.obj": [
+    "Right_clavicle"
+   ],
+   "FJ3364.obj": [
+    "Right_cuboid_bone"
+   ],
+   "FJ3365.obj": [
+    "Right_femur"
+   ],
+   "FJ3366.obj": [
+    "Right_fibula"
+   ],
+   "FJ3367.obj": [
+    "Right_hamate"
+   ],
+   "FJ3368.obj": [
+    "Right_humerus"
+   ],
+   "FJ3370.obj": [
+    "Right_intermediate_cuneiform_bone"
+   ],
+   "FJ3371.obj": [
+    "Right_lacrimal_bone"
+   ],
+   "FJ3372.obj": [
+    "Sesamoid_bone_of_right_foot"
+   ],
+   "FJ3373.obj": [
+    "Right_lateral_cuneiform_bone"
+   ],
+   "FJ3374.obj": [
+    "Right_lunate"
+   ],
+   "FJ3375.obj": [
+    "Right_maxilla"
+   ],
+   "FJ3376.obj": [
+    "Sesamoid_bone_of_right_foot_2"
+   ],
+   "FJ3377.obj": [
+    "Right_medial_cuneiform_bone"
+   ],
+   "FJ3379.obj": [
+    "Right_palatine_bone"
+   ],
+   "FJ3380.obj": [
+    "Right_parietal_bone"
+   ],
+   "FJ3381.obj": [
+    "Right_patella"
+   ],
+   "FJ3382.obj": [
+    "Right_pisiform"
+   ],
+   "FJ3383.obj": [
+    "Right_scaphoid"
+   ],
+   "FJ3384.obj": [
+    "Right_scapula"
+   ],
+   "FJ3385.obj": [
+    "Right_talus"
+   ],
+   "FJ3386.obj": [
+    "Right_temporal_bone"
+   ],
+   "FJ3387.obj": [
+    "Right_tibia"
+   ],
+   "FJ3388.obj": [
+    "Right_trapezium"
+   ],
+   "FJ3389.obj": [
+    "Right_trapezoid"
+   ],
+   "FJ3390.obj": [
+    "Right_triquetral"
+   ],
+   "FJ3391.obj": [
+    "Right_ulna"
+   ],
+   "FJ3392.obj": [
+    "Right_zygomatic_bone"
+   ],
+   "FJ3393.obj": [
+    "Sacrum"
+   ],
+   "FJ3394.obj": [
+    "Sphenoid_bone"
+   ],
+   "FJ3395.obj": [
+    "Vomer"
+   ]
+  }
+ },
+ "muscles": {
+  "files": [
+   "FJ1284.obj",
+   "FJ1292.obj",
+   "FJ1294.obj",
+   "FJ1295.obj",
+   "FJ1304.obj",
+   "FJ1306.obj",
+   "FJ1308.obj",
+   "FJ1322.obj",
+   "FJ1323.obj",
+   "FJ1329.obj",
+   "FJ1334.obj",
+   "FJ1335.obj",
+   "FJ1343.obj",
+   "FJ1345.obj",
+   "FJ1346.obj",
+   "FJ1355.obj",
+   "FJ1357.obj",
+   "FJ1359.obj",
+   "FJ1373.obj",
+   "FJ1374.obj",
+   "FJ1380.obj",
+   "FJ1383.obj",
+   "FJ1383M.obj",
+   "FJ1384.obj",
+   "FJ1384M.obj",
+   "FJ1385.obj",
+   "FJ1385M.obj",
+   "FJ1386.obj",
+   "FJ1386M.obj",
+   "FJ1387.obj",
+   "FJ1387M.obj",
+   "FJ1388.obj",
+   "FJ1388M.obj",
+   "FJ1389.obj",
+   "FJ1389M.obj",
+   "FJ1390.obj",
+   "FJ1390M.obj",
+   "FJ1391.obj",
+   "FJ1391M.obj",
+   "FJ1393.obj",
+   "FJ1393M.obj",
+   "FJ1394.obj",
+   "FJ1394M.obj",
+   "FJ1395.obj",
+   "FJ1395M.obj",
+   "FJ1396.obj",
+   "FJ1396M.obj",
+   "FJ1397.obj",
+   "FJ1397M.obj",
+   "FJ1398.obj",
+   "FJ1398M.obj",
+   "FJ1399.obj",
+   "FJ1399M.obj",
+   "FJ1400.obj",
+   "FJ1400M.obj",
+   "FJ1401.obj",
+   "FJ1401M.obj",
+   "FJ1402.obj",
+   "FJ1402M.obj",
+   "FJ1403.obj",
+   "FJ1403M.obj",
+   "FJ1404.obj",
+   "FJ1404M.obj",
+   "FJ1405.obj",
+   "FJ1405M.obj",
+   "FJ1406.obj",
+   "FJ1406M.obj",
+   "FJ1407.obj",
+   "FJ1407M.obj",
+   "FJ1408.obj",
+   "FJ1408M.obj",
+   "FJ1409.obj",
+   "FJ1409M.obj",
+   "FJ1410.obj",
+   "FJ1410M.obj",
+   "FJ1411.obj",
+   "FJ1411M.obj",
+   "FJ1412.obj",
+   "FJ1412M.obj",
+   "FJ1413.obj",
+   "FJ1413M.obj",
+   "FJ1414.obj",
+   "FJ1414M.obj",
+   "FJ1415.obj",
+   "FJ1415M.obj",
+   "FJ1416.obj",
+   "FJ1416M.obj",
+   "FJ1417.obj",
+   "FJ1417M.obj",
+   "FJ1418.obj",
+   "FJ1418M.obj",
+   "FJ1419.obj",
+   "FJ1419M.obj",
+   "FJ1420.obj",
+   "FJ1420M.obj",
+   "FJ1421.obj",
+   "FJ1421M.obj",
+   "FJ1422.obj",
+   "FJ1422M.obj",
+   "FJ1425.obj",
+   "FJ1425M.obj",
+   "FJ1426.obj",
+   "FJ1426M.obj",
+   "FJ1427.obj",
+   "FJ1427M.obj",
+   "FJ1428.obj",
+   "FJ1428M.obj",
+   "FJ1429.obj",
+   "FJ1429M.obj",
+   "FJ1430.obj",
+   "FJ1430M.obj",
+   "FJ1431.obj",
+   "FJ1431M.obj",
+   "FJ1432.obj",
+   "FJ1432M.obj",
+   "FJ1433.obj",
+   "FJ1433M.obj",
+   "FJ1434.obj",
+   "FJ1434M.obj",
+   "FJ1435.obj",
+   "FJ1435M.obj",
+   "FJ1436.obj",
+   "FJ1436M.obj",
+   "FJ1437.obj",
+   "FJ1437M.obj",
+   "FJ1438.obj",
+   "FJ1438M.obj",
+   "FJ1439.obj",
+   "FJ1439M.obj",
+   "FJ1440.obj",
+   "FJ1440M.obj",
+   "FJ1441.obj",
+   "FJ1441M.obj",
+   "FJ1442.obj",
+   "FJ1442M.obj",
+   "FJ1443.obj",
+   "FJ1443M.obj",
+   "FJ1444.obj",
+   "FJ1444M.obj",
+   "FJ1445.obj",
+   "FJ1445M.obj",
+   "FJ1446.obj",
+   "FJ1446M.obj",
+   "FJ1447.obj",
+   "FJ1447M.obj",
+   "FJ1449M.obj",
+   "FJ1451.obj",
+   "FJ1451M.obj",
+   "FJ1452.obj",
+   "FJ1452M.obj",
+   "FJ1453M.obj",
+   "FJ1454.obj",
+   "FJ1454M.obj",
+   "FJ1455.obj",
+   "FJ1455M.obj",
+   "FJ1456.obj",
+   "FJ1456M.obj",
+   "FJ1457M.obj",
+   "FJ1458M.obj",
+   "FJ1459.obj",
+   "FJ1459M.obj",
+   "FJ1460.obj",
+   "FJ1460M.obj",
+   "FJ1461.obj",
+   "FJ1461M.obj",
+   "FJ1462.obj",
+   "FJ1462M.obj",
+   "FJ1463.obj",
+   "FJ1463M.obj",
+   "FJ1464.obj",
+   "FJ1464M.obj",
+   "FJ1465.obj",
+   "FJ1465M.obj",
+   "FJ1466.obj",
+   "FJ1466M.obj",
+   "FJ1467.obj",
+   "FJ1467M.obj",
+   "FJ1468.obj",
+   "FJ1468M.obj",
+   "FJ1469.obj",
+   "FJ1469M.obj",
+   "FJ1470.obj",
+   "FJ1470M.obj",
+   "FJ1471.obj",
+   "FJ1471M.obj",
+   "FJ1472.obj",
+   "FJ1472M.obj",
+   "FJ1473.obj",
+   "FJ1473M.obj",
+   "FJ1474.obj",
+   "FJ1474M.obj",
+   "FJ1475.obj",
+   "FJ1475M.obj",
+   "FJ1477.obj",
+   "FJ1477M.obj",
+   "FJ1478.obj",
+   "FJ1478M.obj",
+   "FJ1479.obj",
+   "FJ1479M.obj",
+   "FJ1480.obj",
+   "FJ1480M.obj",
+   "FJ1481.obj",
+   "FJ1481M.obj",
+   "FJ1482.obj",
+   "FJ1482M.obj",
+   "FJ1483.obj",
+   "FJ1483M.obj",
+   "FJ1484.obj",
+   "FJ1484M.obj",
+   "FJ1485.obj",
+   "FJ1485M.obj",
+   "FJ1486.obj",
+   "FJ1486M.obj",
+   "FJ1487.obj",
+   "FJ1487M.obj",
+   "FJ1488.obj",
+   "FJ1488M.obj",
+   "FJ1489.obj",
+   "FJ1489M.obj",
+   "FJ1490.obj",
+   "FJ1490M.obj",
+   "FJ1491.obj",
+   "FJ1491M.obj",
+   "FJ1492.obj",
+   "FJ1492M.obj",
+   "FJ1493.obj",
+   "FJ1493M.obj",
+   "FJ1494.obj",
+   "FJ1494M.obj",
+   "FJ1495.obj",
+   "FJ1495M.obj",
+   "FJ1496.obj",
+   "FJ1496M.obj",
+   "FJ1497.obj",
+   "FJ1497M.obj",
+   "FJ1498.obj",
+   "FJ1498M.obj",
+   "FJ1499.obj",
+   "FJ1499M.obj",
+   "FJ1500.obj",
+   "FJ1500M.obj",
+   "FJ1501.obj",
+   "FJ1501M.obj",
+   "FJ1502.obj",
+   "FJ1502M.obj",
+   "FJ1503.obj",
+   "FJ1503M.obj",
+   "FJ1504.obj",
+   "FJ1504M.obj",
+   "FJ1505.obj",
+   "FJ1505M.obj",
+   "FJ1506.obj",
+   "FJ1506M.obj",
+   "FJ1507.obj",
+   "FJ1507M.obj",
+   "FJ1508.obj",
+   "FJ1508M.obj",
+   "FJ1509.obj",
+   "FJ1509M.obj",
+   "FJ1510.obj",
+   "FJ1510M.obj",
+   "FJ1511.obj",
+   "FJ1511M.obj",
+   "FJ1512.obj",
+   "FJ1512M.obj",
+   "FJ1513.obj",
+   "FJ1513M.obj",
+   "FJ1514.obj",
+   "FJ1514M.obj",
+   "FJ1515.obj",
+   "FJ1515M.obj",
+   "FJ1516.obj",
+   "FJ1516M.obj",
+   "FJ1517.obj",
+   "FJ1517M.obj",
+   "FJ1518.obj",
+   "FJ1518M.obj",
+   "FJ1520.obj",
+   "FJ1520M.obj",
+   "FJ1521.obj",
+   "FJ1521M.obj",
+   "FJ1522.obj",
+   "FJ1522M.obj",
+   "FJ1524.obj",
+   "FJ1524M.obj",
+   "FJ1525.obj",
+   "FJ1525M.obj",
+   "FJ1526.obj",
+   "FJ1526M.obj",
+   "FJ1527.obj",
+   "FJ1527M.obj",
+   "FJ1528.obj",
+   "FJ1528M.obj",
+   "FJ1532.obj",
+   "FJ1532M.obj",
+   "FJ1533.obj",
+   "FJ1533M.obj",
+   "FJ1534.obj",
+   "FJ1534M.obj",
+   "FJ1535.obj",
+   "FJ1535M.obj",
+   "FJ1536.obj",
+   "FJ1536M.obj",
+   "FJ1537.obj",
+   "FJ1537M.obj",
+   "FJ1538.obj",
+   "FJ1538M.obj",
+   "FJ1539.obj",
+   "FJ1539M.obj",
+   "FJ1540.obj",
+   "FJ1540M.obj",
+   "FJ1541.obj",
+   "FJ1541M.obj",
+   "FJ1542.obj",
+   "FJ1542M.obj",
+   "FJ1543.obj",
+   "FJ1543M.obj",
+   "FJ1544.obj",
+   "FJ1544M.obj",
+   "FJ1545.obj",
+   "FJ1545M.obj",
+   "FJ1546.obj",
+   "FJ1546M.obj",
+   "FJ1547.obj",
+   "FJ1547M.obj",
+   "FJ1548.obj",
+   "FJ1548M.obj",
+   "FJ1549.obj",
+   "FJ1549M.obj",
+   "FJ1550.obj",
+   "FJ1550M.obj",
+   "FJ1551.obj",
+   "FJ1551M.obj",
+   "FJ1552.obj",
+   "FJ1552M.obj",
+   "FJ1553.obj",
+   "FJ1553M.obj",
+   "FJ1554.obj",
+   "FJ1554M.obj",
+   "FJ1555.obj",
+   "FJ1556.obj",
+   "FJ1557.obj",
+   "FJ1558.obj",
+   "FJ1559.obj",
+   "FJ1560.obj",
+   "FJ1561.obj",
+   "FJ1562.obj",
+   "FJ1563.obj",
+   "FJ1564.obj",
+   "FJ1565.obj",
+   "FJ1566.obj",
+   "FJ1567.obj",
+   "FJ1568.obj",
+   "FJ1569.obj",
+   "FJ1570.obj",
+   "FJ1571.obj",
+   "FJ1572.obj",
+   "FJ1573.obj",
+   "FJ1574.obj",
+   "FJ1575.obj",
+   "FJ1576.obj",
+   "FJ1577.obj",
+   "FJ1578.obj",
+   "FJ1579.obj",
+   "FJ1580.obj",
+   "FJ1581.obj",
+   "FJ1582.obj",
+   "FJ1583.obj",
+   "FJ1584.obj",
+   "FJ1585.obj",
+   "FJ1586.obj",
+   "FJ1587.obj",
+   "FJ1588.obj",
+   "FJ1589.obj",
+   "FJ1590.obj",
+   "FJ1591.obj",
+   "FJ1592.obj",
+   "FJ1593.obj",
+   "FJ1594.obj",
+   "FJ1595.obj",
+   "FJ1596.obj",
+   "FJ1597.obj",
+   "FJ1598.obj",
+   "FJ1599.obj",
+   "FJ1600.obj",
+   "FJ1601.obj",
+   "FJ2542.obj",
+   "FJ2544.obj",
+   "FJ2545.obj",
+   "FJ2546.obj",
+   "FJ2547.obj",
+   "FJ2549.obj",
+   "FJ2550.obj",
+   "FJ2551.obj",
+   "FJ2552.obj",
+   "FJ2553.obj",
+   "FJ2738.obj",
+   "FJ2739.obj",
+   "FJ2741.obj",
+   "FJ2743.obj",
+   "FJ2745.obj",
+   "FJ2746.obj",
+   "FJ2748.obj",
+   "FJ2750.obj",
+   "FJ2751.obj",
+   "FJ2753.obj",
+   "FJ2755.obj",
+   "FJ2757.obj",
+   "FJ2758.obj",
+   "FJ2760.obj",
+   "FJ2762.obj",
+   "FJ2774.obj",
+   "FJ2778.obj",
+   "FJ2780.obj",
+   "FJ2781.obj",
+   "FJ2782.obj",
+   "FJ2783.obj",
+   "FJ2784.obj",
+   "FJ2785.obj",
+   "FJ2788.obj",
+   "FJ2791.obj",
+   "FJ2796.obj",
+   "FJ2798.obj",
+   "FJ2799.obj",
+   "FJ2800.obj",
+   "FJ2801.obj",
+   "FJ2802.obj",
+   "FJ2803.obj",
+   "FJ2806.obj",
+   "FJ2809.obj"
+  ],
+  "mesh_count": 430,
+  "bytes": 10146692,
+  "failed": [],
+  "mapping": {
+   "FJ1284.obj": [
+    "Check_ligament_of_left_lateral_rectus"
+   ],
+   "FJ1292.obj": [
+    "Check_ligament_of_left_medial_rectus"
+   ],
+   "FJ1294.obj": [
+    "Left_inferior_oblique"
+   ],
+   "FJ1295.obj": [
+    "Left_inferior_rectus"
+   ],
+   "FJ1304.obj": [
+    "Left_lateral_rectus"
+   ],
+   "FJ1306.obj": [
+    "Left_levator_palpebrae_superioris"
+   ],
+   "FJ1308.obj": [
+    "Left_medial_rectus"
+   ],
+   "FJ1322.obj": [
+    "Left_superior_oblique"
+   ],
+   "FJ1323.obj": [
+    "Left_superior_rectus"
+   ],
+   "FJ1329.obj": [
+    "Trochlea_of_left_superior_oblique"
+   ],
+   "FJ1334.obj": [
+    "Check_ligament_of_right_lateral_rectus"
+   ],
+   "FJ1335.obj": [
+    "Check_ligament_of_right_medial_rectus"
+   ],
+   "FJ1343.obj": [
+    "Tendon_of_right_levator_palpebrae_superioris"
+   ],
+   "FJ1345.obj": [
+    "Right_inferior_oblique"
+   ],
+   "FJ1346.obj": [
+    "Right_inferior_rectus"
+   ],
+   "FJ1355.obj": [
+    "Right_lateral_rectus"
+   ],
+   "FJ1357.obj": [
+    "Right_levator_palpebrae_superioris"
+   ],
+   "FJ1359.obj": [
+    "Right_medial_rectus"
+   ],
+   "FJ1373.obj": [
+    "Right_superior_oblique"
+   ],
+   "FJ1374.obj": [
+    "Right_superior_rectus"
+   ],
+   "FJ1380.obj": [
+    "Trochlea_of_right_superior_oblique"
+   ],
+   "FJ1383.obj": [
+    "First_lumbrical_of_right_foot"
+   ],
+   "FJ1383M.obj": [
+    "First_lumbrical_of_left_foot"
+   ],
+   "FJ1384.obj": [
+    "First_plantar_interosseous_of_right_foot"
+   ],
+   "FJ1384M.obj": [
+    "First_plantar_interosseous_of_left_foot"
+   ],
+   "FJ1385.obj": [
+    "Second_lumbrical_of_right_foot"
+   ],
+   "FJ1385M.obj": [
+    "Second_lumbrical_of_left_foot"
+   ],
+   "FJ1386.obj": [
+    "Second_plantar_interosseous_of_right_foot"
+   ],
+   "FJ1386M.obj": [
+    "Second_plantar_interosseous_of_left_foot"
+   ],
+   "FJ1387.obj": [
+    "Third_lumbrical_of_right_foot"
+   ],
+   "FJ1387M.obj": [
+    "Third_lumbrical_of_left_foot"
+   ],
+   "FJ1388.obj": [
+    "Third_plantar_interosseous_of_right_foot"
+   ],
+   "FJ1388M.obj": [
+    "Third_plantar_interosseous_of_left_foot"
+   ],
+   "FJ1389.obj": [
+    "Fourth_lumbrical_of_right_foot"
+   ],
+   "FJ1389M.obj": [
+    "Fourth_lumbrical_of_left_foot"
+   ],
+   "FJ1390.obj": [
+    "Abductor_digiti_minimi_of_right_foot"
+   ],
+   "FJ1390M.obj": [
+    "Abductor_digiti_minimi_of_left_foot"
+   ],
+   "FJ1391.obj": [
+    "Flexor_digiti_minimi_brevis_of_right_foot"
+   ],
+   "FJ1391M.obj": [
+    "Flexor_digiti_minimi_brevis_of_left_foot"
+   ],
+   "FJ1393.obj": [
+    "Lateral_head_of_right_flexor_hallucis_brevis"
+   ],
+   "FJ1393M.obj": [
+    "Lateral_head_of_left_flexor_hallucis_brevis"
+   ],
+   "FJ1394.obj": [
+    "Lateral_head_of_right_gastrocnemius"
+   ],
+   "FJ1394M.obj": [
+    "Lateral_head_of_left_gastrocnemius"
+   ],
+   "FJ1395.obj": [
+    "Long_head_of_right_biceps_femoris"
+   ],
+   "FJ1395M.obj": [
+    "Long_head_of_left_biceps_femoris"
+   ],
+   "FJ1396.obj": [
+    "Medial_head_of_right_flexor_hallucis_brevis"
+   ],
+   "FJ1396M.obj": [
+    "Medial_head_of_left_flexor_hallucis_brevis"
+   ],
+   "FJ1397.obj": [
+    "Medial_head_of_right_gastrocnemius"
+   ],
+   "FJ1397M.obj": [
+    "Medial_head_of_left_gastrocnemius"
+   ],
+   "FJ1398.obj": [
+    "Oblique_head_of_right_adductor_hallucis"
+   ],
+   "FJ1398M.obj": [
+    "Oblique_head_of_left_adductor_hallucis"
+   ],
+   "FJ1399.obj": [
+    "Opponens_digiti_minimi_of_right_foot"
+   ],
+   "FJ1399M.obj": [
+    "Opponens_digiti_minimi_of_left_foot"
+   ],
+   "FJ1400.obj": [
+    "Right_abductor_hallucis"
+   ],
+   "FJ1400M.obj": [
+    "Left_abductor_hallucis"
+   ],
+   "FJ1401.obj": [
+    "Right_adductor_brevis"
+   ],
+   "FJ1401M.obj": [
+    "Left_adductor_brevis"
+   ],
+   "FJ1402.obj": [
+    "Right_adductor_longus"
+   ],
+   "FJ1402M.obj": [
+    "Left_adductor_longus"
+   ],
+   "FJ1403.obj": [
+    "Right_adductor_magnus"
+   ],
+   "FJ1403M.obj": [
+    "Left_adductor_magnus"
+   ],
+   "FJ1404.obj": [
+    "Right_adductor_minimus"
+   ],
+   "FJ1404M.obj": [
+    "Left_adductor_minimus"
+   ],
+   "FJ1405.obj": [
+    "Right_calcaneal_tendon"
+   ],
+   "FJ1405M.obj": [
+    "Left_calcaneal_tendon"
+   ],
+   "FJ1406.obj": [
+    "Right_extensor_digitorum_longus"
+   ],
+   "FJ1406M.obj": [
+    "Left_extensor_digitorum_longus"
+   ],
+   "FJ1407.obj": [
+    "Right_extensor_hallucis_brevis"
+   ],
+   "FJ1407M.obj": [
+    "Left_extensor_hallucis_brevis"
+   ],
+   "FJ1408.obj": [
+    "Right_extensor_hallucis_longus"
+   ],
+   "FJ1408M.obj": [
+    "Left_extensor_hallucis_longus"
+   ],
+   "FJ1409.obj": [
+    "Right_fibularis_brevis"
+   ],
+   "FJ1409M.obj": [
+    "Left_fibularis_brevis"
+   ],
+   "FJ1410.obj": [
+    "Right_fibularis_longus"
+   ],
+   "FJ1410M.obj": [
+    "Left_fibularis_longus"
+   ],
+   "FJ1411.obj": [
+    "Right_fibularis_tertius"
+   ],
+   "FJ1411M.obj": [
+    "Left_fibularis_tertius"
+   ],
+   "FJ1412.obj": [
+    "Right_flexor_accessorius"
+   ],
+   "FJ1412M.obj": [
+    "Left_flexor_accessorius"
+   ],
+   "FJ1413.obj": [
+    "Right_flexor_digitorum_brevis"
+   ],
+   "FJ1413M.obj": [
+    "Left_flexor_digitorum_brevis"
+   ],
+   "FJ1414.obj": [
+    "Right_flexor_digitorum_longus"
+   ],
+   "FJ1414M.obj": [
+    "Left_flexor_digitorum_longus"
+   ],
+   "FJ1415.obj": [
+    "Right_flexor_hallucis_longus"
+   ],
+   "FJ1415M.obj": [
+    "Left_flexor_hallucis_longus"
+   ],
+   "FJ1416.obj": [
+    "Right_gemellus_inferior"
+   ],
+   "FJ1416M.obj": [
+    "Left_gemellus_inferior"
+   ],
+   "FJ1417.obj": [
+    "Right_gemellus_superior"
+   ],
+   "FJ1417M.obj": [
+    "Left_gemellus_superior"
+   ],
+   "FJ1418.obj": [
+    "Right_gluteus_maximus"
+   ],
+   "FJ1418M.obj": [
+    "Left_gluteus_maximus"
+   ],
+   "FJ1419.obj": [
+    "Right_gluteus_medius"
+   ],
+   "FJ1419M.obj": [
+    "Left_gluteus_medius"
+   ],
+   "FJ1420.obj": [
+    "Right_gluteus_minimus"
+   ],
+   "FJ1420M.obj": [
+    "Left_gluteus_minimus"
+   ],
+   "FJ1421.obj": [
+    "Right_gracilis"
+   ],
+   "FJ1421M.obj": [
+    "Left_gracilis"
+   ],
+   "FJ1422.obj": [
+    "Right_iliacus"
+   ],
+   "FJ1422M.obj": [
+    "Left_iliacus"
+   ],
+   "FJ1425.obj": [
+    "Right_obturator_externus"
+   ],
+   "FJ1425M.obj": [
+    "Left_obturator_externus"
+   ],
+   "FJ1426.obj": [
+    "Right_obturator_internus"
+   ],
+   "FJ1426M.obj": [
+    "Left_obturator_internus"
+   ],
+   "FJ1427.obj": [
+    "Right_pectineus"
+   ],
+   "FJ1427M.obj": [
+    "Left_pectineus"
+   ],
+   "FJ1428.obj": [
+    "Right_piriformis"
+   ],
+   "FJ1428M.obj": [
+    "Left_piriformis"
+   ],
+   "FJ1429.obj": [
+    "Right_plantaris"
+   ],
+   "FJ1429M.obj": [
+    "Left_plantaris"
+   ],
+   "FJ1430.obj": [
+    "Right_popliteus"
+   ],
+   "FJ1430M.obj": [
+    "Left_popliteus"
+   ],
+   "FJ1431.obj": [
+    "Right_psoas_major"
+   ],
+   "FJ1431M.obj": [
+    "Left_psoas_major"
+   ],
+   "FJ1432.obj": [
+    "Right_quadratus_femoris"
+   ],
+   "FJ1432M.obj": [
+    "Left_quadratus_femoris"
+   ],
+   "FJ1433.obj": [
+    "Right_rectus_femoris"
+   ],
+   "FJ1433M.obj": [
+    "Left_rectus_femoris"
+   ],
+   "FJ1434.obj": [
+    "Right_sartorius"
+   ],
+   "FJ1434M.obj": [
+    "Left_sartorius"
+   ],
+   "FJ1435.obj": [
+    "Right_semimembranosus"
+   ],
+   "FJ1435M.obj": [
+    "Left_semimembranosus"
+   ],
+   "FJ1436.obj": [
+    "Right_semitendinosus"
+   ],
+   "FJ1436M.obj": [
+    "Left_semitendinosus"
+   ],
+   "FJ1437.obj": [
+    "Right_soleus"
+   ],
+   "FJ1437M.obj": [
+    "Left_soleus"
+   ],
+   "FJ1438.obj": [
+    "Right_tensor_fasciae_latae"
+   ],
+   "FJ1438M.obj": [
+    "Left_tensor_fasciae_latae"
+   ],
+   "FJ1439.obj": [
+    "Right_tibialis_anterior"
+   ],
+   "FJ1439M.obj": [
+    "Left_tibialis_anterior"
+   ],
+   "FJ1440.obj": [
+    "Right_tibialis_posterior"
+   ],
+   "FJ1440M.obj": [
+    "Left_tibialis_posterior"
+   ],
+   "FJ1441.obj": [
+    "Right_vastus_intermedius"
+   ],
+   "FJ1441M.obj": [
+    "Left_vastus_intermedius"
+   ],
+   "FJ1442.obj": [
+    "Right_vastus_lateralis"
+   ],
+   "FJ1442M.obj": [
+    "Left_vastus_lateralis"
+   ],
+   "FJ1443.obj": [
+    "Right_vastus_medialis"
+   ],
+   "FJ1443M.obj": [
+    "Left_vastus_medialis"
+   ],
+   "FJ1444.obj": [
+    "Short_head_of_right_biceps_femoris"
+   ],
+   "FJ1444M.obj": [
+    "Short_head_of_left_biceps_femoris"
+   ],
+   "FJ1445.obj": [
+    "Transverse_head_of_right_adductor_hallucis"
+   ],
+   "FJ1445M.obj": [
+    "Transverse_head_of_left_adductor_hallucis"
+   ],
+   "FJ1446.obj": [
+    "Abdominal_part_of_right_pectoralis_major"
+   ],
+   "FJ1446M.obj": [
+    "Abdominal_part_of_left_pectoralis_major"
+   ],
+   "FJ1447.obj": [
+    "Clavicular_part_of_right_pectoralis_major"
+   ],
+   "FJ1447M.obj": [
+    "Clavicular_part_of_left_pectoralis_major"
+   ],
+   "FJ1449M.obj": [
+    "Left_coccygeus"
+   ],
+   "FJ1451.obj": [
+    "FJ1451"
+   ],
+   "FJ1451M.obj": [
+    "External_intercostal_muscle"
+   ],
+   "FJ1452.obj": [
+    "Right_external_oblique"
+   ],
+   "FJ1452M.obj": [
+    "Left_external_oblique"
+   ],
+   "FJ1453M.obj": [
+    "Left_iliococcygeus"
+   ],
+   "FJ1454.obj": [
+    "FJ1454"
+   ],
+   "FJ1454M.obj": [
+    "Innermost_intercostal_muscle"
+   ],
+   "FJ1455.obj": [
+    "FJ1455"
+   ],
+   "FJ1455M.obj": [
+    "Internal_intercostal_muscle"
+   ],
+   "FJ1456.obj": [
+    "Right_pectoralis_minor"
+   ],
+   "FJ1456M.obj": [
+    "Left_pectoralis_minor"
+   ],
+   "FJ1457M.obj": [
+    "Left_pubococcygeus"
+   ],
+   "FJ1458M.obj": [
+    "Left_puborectalis"
+   ],
+   "FJ1459.obj": [
+    "Right_serratus_anterior"
+   ],
+   "FJ1459M.obj": [
+    "Left_serratus_anterior"
+   ],
+   "FJ1460.obj": [
+    "Right_subclavius"
+   ],
+   "FJ1460M.obj": [
+    "Left_subclavius"
+   ],
+   "FJ1461.obj": [
+    "Right_transversus_thoracis"
+   ],
+   "FJ1461M.obj": [
+    "Left_transversus_thoracis"
+   ],
+   "FJ1462.obj": [
+    "Set_of_right_levatores_costarum_breves"
+   ],
+   "FJ1462M.obj": [
+    "Set_of_left_levatores_costarum_breves"
+   ],
+   "FJ1463.obj": [
+    "Set_of_right_levatores_costarum_longi"
+   ],
+   "FJ1463M.obj": [
+    "Set_of_left_levatores_costarum_longi"
+   ],
+   "FJ1464.obj": [
+    "Sternocostal_part_of_right_pectoralis_major"
+   ],
+   "FJ1464M.obj": [
+    "Sternocostal_part_of_left_pectoralis_major"
+   ],
+   "FJ1465.obj": [
+    "FJ1465"
+   ],
+   "FJ1465M.obj": [
+    "Tendinous_arch_of_levator_ani"
+   ],
+   "FJ1466.obj": [
+    "Abductor_digiti_minimi_of_right_hand"
+   ],
+   "FJ1466M.obj": [
+    "Abductor_digiti_minimi_of_left_hand"
+   ],
+   "FJ1467.obj": [
+    "Acromial_part_of_right_deltoid"
+   ],
+   "FJ1467M.obj": [
+    "Acromial_part_of_left_deltoid"
+   ],
+   "FJ1468.obj": [
+    "Clavicular_part_of_right_deltoid"
+   ],
+   "FJ1468M.obj": [
+    "Clavicular_part_of_left_deltoid"
+   ],
+   "FJ1469.obj": [
+    "Left_flexor_pollicis_brevis"
+   ],
+   "FJ1469M.obj": [
+    "Right_flexor_pollicis_brevis"
+   ],
+   "FJ1470.obj": [
+    "Flexor_digiti_minimi_brevis_of_right_hand"
+   ],
+   "FJ1470M.obj": [
+    "Flexor_digiti_minimi_brevis_of_left_hand"
+   ],
+   "FJ1471.obj": [
+    "Flexor_retinaculum_of_right_wrist"
+   ],
+   "FJ1471M.obj": [
+    "Flexor_retinaculum_of_left_wrist"
+   ],
+   "FJ1472.obj": [
+    "Right_extensor_carpi_ulnaris"
+   ],
+   "FJ1472M.obj": [
+    "Left_extensor_carpi_ulnaris"
+   ],
+   "FJ1473.obj": [
+    "Humeral_head_of_right_flexor_carpi_ulnaris"
+   ],
+   "FJ1473M.obj": [
+    "Humeral_head_of_left_flexor_carpi_ulnaris"
+   ],
+   "FJ1474.obj": [
+    "Humeral_head_of_right_pronator_teres"
+   ],
+   "FJ1474M.obj": [
+    "Humeral_head_of_left_pronator_teres"
+   ],
+   "FJ1475.obj": [
+    "Right_flexor_digitorum_superficialis"
+   ],
+   "FJ1475M.obj": [
+    "Left_flexor_digitorum_superficialis"
+   ],
+   "FJ1477.obj": [
+    "Lateral_head_of_right_triceps_brachii"
+   ],
+   "FJ1477M.obj": [
+    "Lateral_head_of_left_triceps_brachii"
+   ],
+   "FJ1478.obj": [
+    "Long_head_of_right_biceps_brachii"
+   ],
+   "FJ1478M.obj": [
+    "Long_head_of_left_biceps_brachii"
+   ],
+   "FJ1479.obj": [
+    "Long_head_of_right_triceps_brachii"
+   ],
+   "FJ1479M.obj": [
+    "Long_head_of_left_triceps_brachii"
+   ],
+   "FJ1480.obj": [
+    "Medial_head_of_right_triceps_brachii"
+   ],
+   "FJ1480M.obj": [
+    "Medial_head_of_left_triceps_brachii"
+   ],
+   "FJ1481.obj": [
+    "Oblique_head_of_right_adductor_pollicis"
+   ],
+   "FJ1481M.obj": [
+    "Oblique_head_of_left_adductor_pollicis"
+   ],
+   "FJ1482.obj": [
+    "Opponens_digiti_minimi_of_right_hand"
+   ],
+   "FJ1482M.obj": [
+    "Opponens_digiti_minimi_of_left_hand"
+   ],
+   "FJ1483.obj": [
+    "Right_abductor_pollicis_brevis"
+   ],
+   "FJ1483M.obj": [
+    "Left_abductor_pollicis_brevis"
+   ],
+   "FJ1484.obj": [
+    "Right_abductor_pollicis_longus"
+   ],
+   "FJ1484M.obj": [
+    "Left_abductor_pollicis_longus"
+   ],
+   "FJ1485.obj": [
+    "Right_anconeus"
+   ],
+   "FJ1485M.obj": [
+    "Left_anconeus"
+   ],
+   "FJ1486.obj": [
+    "Right_brachialis"
+   ],
+   "FJ1486M.obj": [
+    "Left_brachialis"
+   ],
+   "FJ1487.obj": [
+    "Right_brachioradialis"
+   ],
+   "FJ1487M.obj": [
+    "Left_brachioradialis"
+   ],
+   "FJ1488.obj": [
+    "Right_coracobrachialis"
+   ],
+   "FJ1488M.obj": [
+    "Left_coracobrachialis"
+   ],
+   "FJ1489.obj": [
+    "Right_extensor_carpi_radialis_brevis"
+   ],
+   "FJ1489M.obj": [
+    "Left_extensor_carpi_radialis_brevis"
+   ],
+   "FJ1490.obj": [
+    "Right_extensor_carpi_radialis_longus"
+   ],
+   "FJ1490M.obj": [
+    "Left_extensor_carpi_radialis_longus"
+   ],
+   "FJ1491.obj": [
+    "Right_extensor_digiti_minimi"
+   ],
+   "FJ1491M.obj": [
+    "Left_extensor_digiti_minimi"
+   ],
+   "FJ1492.obj": [
+    "Right_extensor_digitorum"
+   ],
+   "FJ1492M.obj": [
+    "Left_extensor_digitorum"
+   ],
+   "FJ1493.obj": [
+    "Right_extensor_indicis"
+   ],
+   "FJ1493M.obj": [
+    "Left_extensor_indicis"
+   ],
+   "FJ1494.obj": [
+    "Right_extensor_pollicis_brevis"
+   ],
+   "FJ1494M.obj": [
+    "Left_extensor_pollicis_brevis"
+   ],
+   "FJ1495.obj": [
+    "Right_extensor_pollicis_longus"
+   ],
+   "FJ1495M.obj": [
+    "Left_extensor_pollicis_longus"
+   ],
+   "FJ1496.obj": [
+    "Right_flexor_carpi_radialis"
+   ],
+   "FJ1496M.obj": [
+    "Left_flexor_carpi_radialis"
+   ],
+   "FJ1497.obj": [
+    "Right_flexor_digitorum_profundus"
+   ],
+   "FJ1497M.obj": [
+    "Left_flexor_digitorum_profundus"
+   ],
+   "FJ1498.obj": [
+    "Right_flexor_pollicis_longus"
+   ],
+   "FJ1498M.obj": [
+    "Left_flexor_pollicis_longus"
+   ],
+   "FJ1499.obj": [
+    "Right_flexor_digitorum_superficialis_2"
+   ],
+   "FJ1499M.obj": [
+    "Left_flexor_digitorum_superficialis_2"
+   ],
+   "FJ1500.obj": [
+    "Right_infraspinatus_muscle"
+   ],
+   "FJ1500M.obj": [
+    "Left_infraspinatus_muscle"
+   ],
+   "FJ1501.obj": [
+    "Right_opponens_pollicis"
+   ],
+   "FJ1501M.obj": [
+    "Left_opponens_pollicis"
+   ],
+   "FJ1502.obj": [
+    "Right_palmaris_longus"
+   ],
+   "FJ1502M.obj": [
+    "Left_palmaris_longus"
+   ],
+   "FJ1503.obj": [
+    "Right_pronator_quadratus"
+   ],
+   "FJ1503M.obj": [
+    "Left_pronator_quadratus"
+   ],
+   "FJ1504.obj": [
+    "Right_subscapularis"
+   ],
+   "FJ1504M.obj": [
+    "Left_subscapularis"
+   ],
+   "FJ1505.obj": [
+    "Right_supinator"
+   ],
+   "FJ1505M.obj": [
+    "Left_supinator"
+   ],
+   "FJ1506.obj": [
+    "Right_supraspinatus"
+   ],
+   "FJ1506M.obj": [
+    "Left_supraspinatus"
+   ],
+   "FJ1507.obj": [
+    "Right_teres_major"
+   ],
+   "FJ1507M.obj": [
+    "Left_teres_major"
+   ],
+   "FJ1508.obj": [
+    "Right_teres_minor"
+   ],
+   "FJ1508M.obj": [
+    "Left_teres_minor"
+   ],
+   "FJ1509.obj": [
+    "Set_of_dorsal_interossei_of_right_hand"
+   ],
+   "FJ1509M.obj": [
+    "Set_of_dorsal_interossei_of_left_hand"
+   ],
+   "FJ1510.obj": [
+    "Set_of_lumbricals_of_right_hand"
+   ],
+   "FJ1510M.obj": [
+    "Set_of_lumbricals_of_left_hand"
+   ],
+   "FJ1511.obj": [
+    "Set_of_palmar_interossei_of_right_hand"
+   ],
+   "FJ1511M.obj": [
+    "Set_of_palmar_interossei_of_left_hand"
+   ],
+   "FJ1512.obj": [
+    "Short_head_of_right_biceps_brachii"
+   ],
+   "FJ1512M.obj": [
+    "Short_head_of_left_biceps_brachii"
+   ],
+   "FJ1513.obj": [
+    "Spinal_part_of_right_deltoid"
+   ],
+   "FJ1513M.obj": [
+    "Spinal_part_of_left_deltoid"
+   ],
+   "FJ1514.obj": [
+    "Superficial_head_of_right_flexor_pollicis_brevis"
+   ],
+   "FJ1514M.obj": [
+    "Superficial_head_of_left_flexor_pollicis_brevis"
+   ],
+   "FJ1515.obj": [
+    "Transverse_head_of_right_adductor_pollicis"
+   ],
+   "FJ1515M.obj": [
+    "Transverse_head_of_left_adductor_pollicis"
+   ],
+   "FJ1516.obj": [
+    "Ulnar_head_of_right_pronator_teres"
+   ],
+   "FJ1516M.obj": [
+    "Ulnar_head_of_left_pronator_teres"
+   ],
+   "FJ1517.obj": [
+    "Right_extensor_carpi_ulnaris_2"
+   ],
+   "FJ1517M.obj": [
+    "Left_extensor_carpi_ulnaris_2"
+   ],
+   "FJ1518.obj": [
+    "Ulnar_head_of_right_flexor_carpi_ulnaris"
+   ],
+   "FJ1518M.obj": [
+    "Ulnar_head_of_left_flexor_carpi_ulnaris"
+   ],
+   "FJ1520.obj": [
+    "Ascending_part_of_right_trapezius"
+   ],
+   "FJ1520M.obj": [
+    "Ascending_part_of_left_trapezius"
+   ],
+   "FJ1521.obj": [
+    "Descending_part_of_right_trapezius"
+   ],
+   "FJ1521M.obj": [
+    "Descending_part_of_left_trapezius"
+   ],
+   "FJ1522.obj": [
+    "Right_lumbar_rotator"
+   ],
+   "FJ1522M.obj": [
+    "Left_lumbar_rotator"
+   ],
+   "FJ1524.obj": [
+    "Right_cervical_rotator"
+   ],
+   "FJ1524M.obj": [
+    "Left_cervical_rotator"
+   ],
+   "FJ1525.obj": [
+    "FJ1525"
+   ],
+   "FJ1525M.obj": [
+    "Thoracic_rotator"
+   ],
+   "FJ1526.obj": [
+    "Right_iliocostalis_cervicis"
+   ],
+   "FJ1526M.obj": [
+    "Left_iliocostalis_cervicis"
+   ],
+   "FJ1527.obj": [
+    "Right_iliocostalis_lumborum"
+   ],
+   "FJ1527M.obj": [
+    "Left_iliocostalis_lumborum"
+   ],
+   "FJ1528.obj": [
+    "Right_iliocostalis_thoracis"
+   ],
+   "FJ1528M.obj": [
+    "Left_iliocostalis_thoracis"
+   ],
+   "FJ1532.obj": [
+    "Right_levator_scapulae"
+   ],
+   "FJ1532M.obj": [
+    "Left_levator_scapulae"
+   ],
+   "FJ1533.obj": [
+    "Right_longissimus_capitis"
+   ],
+   "FJ1533M.obj": [
+    "Left_longissimus_capitis"
+   ],
+   "FJ1534.obj": [
+    "Right_longissimus_cervicis"
+   ],
+   "FJ1534M.obj": [
+    "Left_longissimus_cervicis"
+   ],
+   "FJ1535.obj": [
+    "Right_longissimus_thoracis"
+   ],
+   "FJ1535M.obj": [
+    "Left_longissimus_thoracis"
+   ],
+   "FJ1536.obj": [
+    "Right_rhomboid_major"
+   ],
+   "FJ1536M.obj": [
+    "Left_rhomboid_major"
+   ],
+   "FJ1537.obj": [
+    "Right_rhomboid_minor"
+   ],
+   "FJ1537M.obj": [
+    "Left_rhomboid_minor"
+   ],
+   "FJ1538.obj": [
+    "Right_semispinalis_capitis"
+   ],
+   "FJ1538M.obj": [
+    "Left_semispinalis_capitis"
+   ],
+   "FJ1539.obj": [
+    "Right_semispinalis_cervicis"
+   ],
+   "FJ1539M.obj": [
+    "Left_semispinalis_cervicis"
+   ],
+   "FJ1540.obj": [
+    "Right_semispinalis_thoracis"
+   ],
+   "FJ1540M.obj": [
+    "Left_semispinalis_thoracis"
+   ],
+   "FJ1541.obj": [
+    "Right_serratus_posterior_inferior"
+   ],
+   "FJ1541M.obj": [
+    "Left_serratus_posterior_inferior"
+   ],
+   "FJ1542.obj": [
+    "Right_serratus_posterior_superior"
+   ],
+   "FJ1542M.obj": [
+    "Left_serratus_posterior_superior"
+   ],
+   "FJ1543.obj": [
+    "FJ1543"
+   ],
+   "FJ1543M.obj": [
+    "Spinalis"
+   ],
+   "FJ1544.obj": [
+    "Right_spinalis_thoracis"
+   ],
+   "FJ1544M.obj": [
+    "Left_spinalis_thoracis"
+   ],
+   "FJ1545.obj": [
+    "Right_splenius_capitis"
+   ],
+   "FJ1545M.obj": [
+    "Left_splenius_capitis"
+   ],
+   "FJ1546.obj": [
+    "Right_splenius_cervicis"
+   ],
+   "FJ1546M.obj": [
+    "Left_splenius_cervicis"
+   ],
+   "FJ1547.obj": [
+    "FJ1547"
+   ],
+   "FJ1547M.obj": [
+    "Lateral_lumbar_intertransversarius"
+   ],
+   "FJ1548.obj": [
+    "FJ1548"
+   ],
+   "FJ1548M.obj": [
+    "Medial_lumbar_intertransversarius"
+   ],
+   "FJ1549.obj": [
+    "FJ1549"
+   ],
+   "FJ1549M.obj": [
+    "Set_of_anterior_cervical_intertransversarii"
+   ],
+   "FJ1550.obj": [
+    "FJ1550"
+   ],
+   "FJ1550M.obj": [
+    "Set_of_interspinales_lumborum"
+   ],
+   "FJ1551.obj": [
+    "Right_interspinalis_thoracis"
+   ],
+   "FJ1551M.obj": [
+    "Left_interspinalis_thoracis"
+   ],
+   "FJ1552.obj": [
+    "FJ1552"
+   ],
+   "FJ1552M.obj": [
+    "Set_of_interspinales_cervicis"
+   ],
+   "FJ1553.obj": [
+    "FJ1553"
+   ],
+   "FJ1553M.obj": [
+    "Set_of_posterior_cervical_intertransversarii"
+   ],
+   "FJ1554.obj": [
+    "Transverse_part_of_right_trapezius"
+   ],
+   "FJ1554M.obj": [
+    "Transverse_part_of_left_trapezius"
+   ],
+   "FJ1555.obj": [
+    "Left_digastric"
+   ],
+   "FJ1556.obj": [
+    "Right_digastric"
+   ],
+   "FJ1557.obj": [
+    "Inferior_oblique_part_of_left_longus_colli"
+   ],
+   "FJ1558.obj": [
+    "Left_platysma"
+   ],
+   "FJ1559.obj": [
+    "Left_geniohyoid"
+   ],
+   "FJ1560.obj": [
+    "Left_digastric_2"
+   ],
+   "FJ1561.obj": [
+    "Left_longus_capitis"
+   ],
+   "FJ1562.obj": [
+    "Left_mylohyoid"
+   ],
+   "FJ1563.obj": [
+    "Left_obliquus_capitis_inferior"
+   ],
+   "FJ1564.obj": [
+    "Left_obliquus_capitis_superior"
+   ],
+   "FJ1565.obj": [
+    "Left_omohyoid"
+   ],
+   "FJ1566.obj": [
+    "Left_rectus_capitis_anterior"
+   ],
+   "FJ1567.obj": [
+    "Left_rectus_capitis_posterior_major"
+   ],
+   "FJ1568.obj": [
+    "Left_rectus_capitis_posterior_minor"
+   ],
+   "FJ1569.obj": [
+    "Left_rectus_capitis_lateralis"
+   ],
+   "FJ1570.obj": [
+    "Left_scalenus_anterior"
+   ],
+   "FJ1571.obj": [
+    "Left_scalenus_medius"
+   ],
+   "FJ1572.obj": [
+    "Left_scalenus_posterior"
+   ],
+   "FJ1573.obj": [
+    "Left_sternocleidomastoid"
+   ],
+   "FJ1574.obj": [
+    "Left_sternohyoid"
+   ],
+   "FJ1575.obj": [
+    "Left_sternothyroid"
+   ],
+   "FJ1576.obj": [
+    "Left_stylohyoid"
+   ],
+   "FJ1577.obj": [
+    "Left_thyrohyoid"
+   ],
+   "FJ1578.obj": [
+    "Left_digastric_3"
+   ],
+   "FJ1579.obj": [
+    "Right_digastric_2"
+   ],
+   "FJ1580.obj": [
+    "Right_geniohyoid"
+   ],
+   "FJ1581.obj": [
+    "Right_intermediate_tendon"
+   ],
+   "FJ1582.obj": [
+    "Right_longus_capitis"
+   ],
+   "FJ1583.obj": [
+    "Right_mylohyoid"
+   ],
+   "FJ1584.obj": [
+    "Right_obliquus_capitis_inferior"
+   ],
+   "FJ1585.obj": [
+    "Right_obliquus_capitis_superior"
+   ],
+   "FJ1586.obj": [
+    "Right_omohyoid"
+   ],
+   "FJ1587.obj": [
+    "Right_platysma"
+   ],
+   "FJ1588.obj": [
+    "Right_rectus_capitis_anterior"
+   ],
+   "FJ1589.obj": [
+    "Right_rectus_capitis_posterior_major"
+   ],
+   "FJ1590.obj": [
+    "Right_rectus_capitis_posterior_minor"
+   ],
+   "FJ1591.obj": [
+    "Right_rectus_capitis_lateralis"
+   ],
+   "FJ1592.obj": [
+    "Right_scalenus_anterior"
+   ],
+   "FJ1593.obj": [
+    "Right_scalenus_medius"
+   ],
+   "FJ1594.obj": [
+    "Right_scalenus_posterior"
+   ],
+   "FJ1595.obj": [
+    "Right_sternocleidomastoid"
+   ],
+   "FJ1596.obj": [
+    "Right_sternohyoid"
+   ],
+   "FJ1597.obj": [
+    "Right_sternothyroid"
+   ],
+   "FJ1598.obj": [
+    "Right_stylohyoid"
+   ],
+   "FJ1599.obj": [
+    "Right_thyrohyoid"
+   ],
+   "FJ1600.obj": [
+    "Superior_oblique_part_of_left_longus_colli"
+   ],
+   "FJ1601.obj": [
+    "Vertical_intermediate_part_of_left_longus_colli"
+   ],
+   "FJ2542.obj": [
+    "Left_coccygeus_2"
+   ],
+   "FJ2544.obj": [
+    "Left_iliococcygeus_2"
+   ],
+   "FJ2545.obj": [
+    "Left_pubococcygeus_2"
+   ],
+   "FJ2546.obj": [
+    "Left_puborectalis_2"
+   ],
+   "FJ2547.obj": [
+    "Right_coccygeus"
+   ],
+   "FJ2549.obj": [
+    "Right_iliococcygeus"
+   ],
+   "FJ2550.obj": [
+    "Right_pubococcygeus"
+   ],
+   "FJ2551.obj": [
+    "Right_puborectalis"
+   ],
+   "FJ2552.obj": [
+    "Tendinous_arch_of_levator_ani_2"
+   ],
+   "FJ2553.obj": [
+    "Tendinous_arch_of_levator_ani_3"
+   ],
+   "FJ2738.obj": [
+    "Left_genioglossus"
+   ],
+   "FJ2739.obj": [
+    "Left_hyoglossus"
+   ],
+   "FJ2741.obj": [
+    "Left_levator_veli_palatini"
+   ],
+   "FJ2743.obj": [
+    "Left_palatopharyngeus"
+   ],
+   "FJ2745.obj": [
+    "Left_salpingopharyngeus"
+   ],
+   "FJ2746.obj": [
+    "Left_stylopharyngeus"
+   ],
+   "FJ2748.obj": [
+    "Left_tensor_veli_palatini"
+   ],
+   "FJ2750.obj": [
+    "Right_genioglossus"
+   ],
+   "FJ2751.obj": [
+    "Right_hyoglossus"
+   ],
+   "FJ2753.obj": [
+    "Right_levator_veli_palatini"
+   ],
+   "FJ2755.obj": [
+    "Right_palatopharyngeus"
+   ],
+   "FJ2757.obj": [
+    "Right_salpingopharyngeus"
+   ],
+   "FJ2758.obj": [
+    "Right_stylopharyngeus"
+   ],
+   "FJ2760.obj": [
+    "Right_tensor_veli_palatini"
+   ],
+   "FJ2762.obj": [
+    "Uvular_muscle"
+   ],
+   "FJ2774.obj": [
+    "Left_aryepiglotticus"
+   ],
+   "FJ2778.obj": [
+    "Left_lateral_crico_arytenoid"
+   ],
+   "FJ2780.obj": [
+    "Left_oblique_arytenoid"
+   ],
+   "FJ2781.obj": [
+    "Oblique_part_of_left_cricothyroid"
+   ],
+   "FJ2782.obj": [
+    "Left_posterior_crico_arytenoid"
+   ],
+   "FJ2783.obj": [
+    "Straight_part_of_left_cricothyroid"
+   ],
+   "FJ2784.obj": [
+    "Left_thyro_arytenoid"
+   ],
+   "FJ2785.obj": [
+    "Left_thyro_arytenoid_2"
+   ],
+   "FJ2788.obj": [
+    "Left_vocalis"
+   ],
+   "FJ2791.obj": [
+    "Right_aryepiglotticus"
+   ],
+   "FJ2796.obj": [
+    "Right_lateral_crico_arytenoid"
+   ],
+   "FJ2798.obj": [
+    "Right_oblique_arytenoid"
+   ],
+   "FJ2799.obj": [
+    "Oblique_part_of_right_cricothyroid"
+   ],
+   "FJ2800.obj": [
+    "Right_posterior_crico_arytenoid"
+   ],
+   "FJ2801.obj": [
+    "Straight_part_of_right_cricothyroid"
+   ],
+   "FJ2802.obj": [
+    "Right_thyro_arytenoid"
+   ],
+   "FJ2803.obj": [
+    "Right_thyro_arytenoid_2"
+   ],
+   "FJ2806.obj": [
+    "Right_vocalis"
+   ],
+   "FJ2809.obj": [
+    "Transverse_arytenoid"
+   ]
+  }
+ },
+ "heart": {
+  "files": [
+   "FJ2417.obj",
+   "FJ2418.obj",
+   "FJ2419.obj",
+   "FJ2420.obj",
+   "FJ2421.obj",
+   "FJ2422.obj",
+   "FJ2423.obj",
+   "FJ2424.obj",
+   "FJ2425.obj",
+   "FJ2426.obj",
+   "FJ2427.obj",
+   "FJ2428.obj",
+   "FJ2429.obj",
+   "FJ2430.obj",
+   "FJ2431.obj",
+   "FJ2432.obj",
+   "FJ2433.obj",
+   "FJ2434.obj",
+   "FJ2435.obj",
+   "FJ2436.obj",
+   "FJ2437.obj",
+   "FJ2438.obj",
+   "FJ2439.obj",
+   "FJ2655.obj"
+  ],
+  "mesh_count": 24,
+  "bytes": 396788,
+  "failed": [],
+  "mapping": {
+   "FJ2417.obj": [
+    "Left_anterior_cusp_of_pulmonary_valve"
+   ],
+   "FJ2418.obj": [
+    "Anterolateral_head_of_lateral_papillary_muscle_of_left_ventr"
+   ],
+   "FJ2419.obj": [
+    "Anterior_papillary_muscle_of_right_ventricle"
+   ],
+   "FJ2420.obj": [
+    "Anterior_leaflet_of_mitral_valve"
+   ],
+   "FJ2421.obj": [
+    "Anterior_leaflet_of_tricuspid_valve"
+   ],
+   "FJ2422.obj": [
+    "Cavity_of_left_ventricle"
+   ],
+   "FJ2423.obj": [
+    "Cavity_of_right_ventricle"
+   ],
+   "FJ2424.obj": [
+    "Cavity_of_right_atrium"
+   ],
+   "FJ2425.obj": [
+    "Cavity_of_left_atrium"
+   ],
+   "FJ2426.obj": [
+    "Left_posterior_cusp_of_aortic_valve"
+   ],
+   "FJ2427.obj": [
+    "Posterior_cusp_of_pulmonary_valve"
+   ],
+   "FJ2428.obj": [
+    "Wall_of_ventricle"
+   ],
+   "FJ2429.obj": [
+    "Lateral_papillary_muscle_of_left_ventricle"
+   ],
+   "FJ2430.obj": [
+    "Posterior_papillary_muscle_of_right_ventricle"
+   ],
+   "FJ2431.obj": [
+    "Right_posterior_cusp_of_aortic_valve"
+   ],
+   "FJ2432.obj": [
+    "Posterior_leaflet_of_mitral_valve"
+   ],
+   "FJ2433.obj": [
+    "Posterior_leaflet_of_tricuspid_valve"
+   ],
+   "FJ2434.obj": [
+    "Right_anterior_cusp_of_pulmonary_valve"
+   ],
+   "FJ2435.obj": [
+    "Anterior_cusp_of_aortic_valve"
+   ],
+   "FJ2436.obj": [
+    "Septal_leaflet_of_tricuspid_valve"
+   ],
+   "FJ2437.obj": [
+    "Septal_papillary_muscle_of_right_ventricle"
+   ],
+   "FJ2438.obj": [
+    "Wall_of_left_atrium"
+   ],
+   "FJ2439.obj": [
+    "Wall_of_right_atrium"
+   ],
+   "FJ2655.obj": [
+    "Coronary_sinus"
+   ]
+  }
+ },
+ "arteries": {
+  "files": [
+   "FJ1654.obj",
+   "FJ1654M.obj",
+   "FJ1655.obj",
+   "FJ1656.obj",
+   "FJ1656M.obj",
+   "FJ1657.obj",
+   "FJ1657M.obj",
+   "FJ1658.obj",
+   "FJ1658M.obj",
+   "FJ1659.obj",
+   "FJ1659M.obj",
+   "FJ1660.obj",
+   "FJ1660M.obj",
+   "FJ1661.obj",
+   "FJ1661M.obj",
+   "FJ1662.obj",
+   "FJ1662M.obj",
+   "FJ1663.obj",
+   "FJ1663M.obj",
+   "FJ1664.obj",
+   "FJ1664M.obj",
+   "FJ1665.obj",
+   "FJ1665M.obj",
+   "FJ1666.obj",
+   "FJ1666M.obj",
+   "FJ1667.obj",
+   "FJ1667M.obj",
+   "FJ1668.obj",
+   "FJ1668M.obj",
+   "FJ1669.obj",
+   "FJ1669M.obj",
+   "FJ1670.obj",
+   "FJ1670M.obj",
+   "FJ1671.obj",
+   "FJ1671M.obj",
+   "FJ1672.obj",
+   "FJ1673.obj",
+   "FJ1673M.obj",
+   "FJ1674.obj",
+   "FJ1674M.obj",
+   "FJ1675.obj",
+   "FJ1675M.obj",
+   "FJ1676.obj",
+   "FJ1676M.obj",
+   "FJ1677.obj",
+   "FJ1677M.obj",
+   "FJ1678.obj",
+   "FJ1678M.obj",
+   "FJ1679.obj",
+   "FJ1679M.obj",
+   "FJ1680.obj",
+   "FJ1680M.obj",
+   "FJ1681.obj",
+   "FJ1681M.obj",
+   "FJ1682.obj",
+   "FJ1682M.obj",
+   "FJ1683.obj",
+   "FJ1683M.obj",
+   "FJ1684.obj",
+   "FJ1684M.obj",
+   "FJ1685.obj",
+   "FJ1685M.obj",
+   "FJ1686.obj",
+   "FJ1686M.obj",
+   "FJ1687.obj",
+   "FJ1687M.obj",
+   "FJ1688.obj",
+   "FJ1688M.obj",
+   "FJ1689.obj",
+   "FJ1689M.obj",
+   "FJ1690.obj",
+   "FJ1690M.obj",
+   "FJ1691.obj",
+   "FJ1691M.obj",
+   "FJ1692.obj",
+   "FJ1692M.obj",
+   "FJ1693.obj",
+   "FJ1693M.obj",
+   "FJ1694.obj",
+   "FJ1694M.obj",
+   "FJ1695.obj",
+   "FJ1695M.obj",
+   "FJ1696.obj",
+   "FJ1696M.obj",
+   "FJ1697.obj",
+   "FJ1697M.obj",
+   "FJ1698.obj",
+   "FJ1698M.obj",
+   "FJ1699.obj",
+   "FJ1699M.obj",
+   "FJ1700.obj",
+   "FJ1700M.obj",
+   "FJ1701.obj",
+   "FJ1701M.obj",
+   "FJ1702.obj",
+   "FJ1702M.obj",
+   "FJ1703.obj",
+   "FJ1703M.obj",
+   "FJ1704.obj",
+   "FJ1704M.obj",
+   "FJ1705.obj",
+   "FJ1705M.obj",
+   "FJ1706.obj",
+   "FJ1706M.obj",
+   "FJ1707.obj",
+   "FJ1707M.obj",
+   "FJ1708.obj",
+   "FJ1708M.obj",
+   "FJ1709.obj",
+   "FJ1709M.obj",
+   "FJ1710.obj",
+   "FJ1710M.obj",
+   "FJ1711.obj",
+   "FJ1711M.obj",
+   "FJ1712.obj",
+   "FJ1712M.obj",
+   "FJ1713.obj",
+   "FJ1713M.obj",
+   "FJ1714.obj",
+   "FJ1714M.obj",
+   "FJ1715.obj",
+   "FJ1715M.obj",
+   "FJ1716.obj",
+   "FJ1716M.obj",
+   "FJ1717.obj",
+   "FJ1717M.obj",
+   "FJ1718.obj",
+   "FJ1718M.obj",
+   "FJ1719.obj",
+   "FJ1719M.obj",
+   "FJ1720.obj",
+   "FJ1720M.obj",
+   "FJ1721.obj",
+   "FJ1721M.obj",
+   "FJ1722.obj",
+   "FJ1722M.obj",
+   "FJ1723.obj",
+   "FJ1723M.obj",
+   "FJ1724.obj",
+   "FJ1724M.obj",
+   "FJ1725.obj",
+   "FJ1725M.obj",
+   "FJ1726.obj",
+   "FJ1726M.obj",
+   "FJ1727.obj",
+   "FJ1727M.obj",
+   "FJ1728.obj",
+   "FJ1728M.obj",
+   "FJ1729.obj",
+   "FJ1729M.obj",
+   "FJ1844.obj",
+   "FJ1846.obj",
+   "FJ1874.obj",
+   "FJ1916.obj",
+   "FJ1924.obj",
+   "FJ1928.obj",
+   "FJ1931.obj",
+   "FJ1932.obj",
+   "FJ1933.obj",
+   "FJ1934.obj",
+   "FJ1935.obj",
+   "FJ1936.obj",
+   "FJ1937.obj",
+   "FJ1938.obj",
+   "FJ1939.obj",
+   "FJ1950.obj",
+   "FJ1961.obj",
+   "FJ1967.obj",
+   "FJ1969.obj",
+   "FJ1970.obj",
+   "FJ1971.obj",
+   "FJ1972.obj",
+   "FJ1973.obj",
+   "FJ1974.obj",
+   "FJ1975.obj",
+   "FJ1976.obj",
+   "FJ1977.obj",
+   "FJ1979.obj",
+   "FJ2011.obj",
+   "FJ2013.obj",
+   "FJ2025.obj",
+   "FJ2034.obj",
+   "FJ2038.obj",
+   "FJ2041.obj",
+   "FJ2042.obj",
+   "FJ2043.obj",
+   "FJ2044.obj",
+   "FJ2045.obj",
+   "FJ2046.obj",
+   "FJ2049.obj",
+   "FJ2052.obj",
+   "FJ2053.obj",
+   "FJ2054.obj",
+   "FJ2055.obj",
+   "FJ2057.obj",
+   "FJ2058.obj",
+   "FJ2063.obj",
+   "FJ2064.obj",
+   "FJ2065.obj",
+   "FJ2066.obj",
+   "FJ2067.obj",
+   "FJ2068.obj",
+   "FJ2069.obj",
+   "FJ2072.obj",
+   "FJ2073.obj",
+   "FJ2074.obj",
+   "FJ2076.obj",
+   "FJ2077.obj",
+   "FJ2078.obj",
+   "FJ2079.obj",
+   "FJ2080.obj",
+   "FJ2081.obj",
+   "FJ2082.obj",
+   "FJ2083.obj",
+   "FJ2084.obj",
+   "FJ2085.obj",
+   "FJ2086.obj",
+   "FJ2087.obj",
+   "FJ2089.obj",
+   "FJ2090.obj",
+   "FJ2091.obj",
+   "FJ2092.obj",
+   "FJ2093.obj",
+   "FJ2094.obj",
+   "FJ2095.obj",
+   "FJ2096.obj",
+   "FJ2127.obj",
+   "FJ2130.obj",
+   "FJ2131.obj",
+   "FJ2133.obj",
+   "FJ2136.obj",
+   "FJ2137.obj",
+   "FJ2141.obj",
+   "FJ2143.obj",
+   "FJ2150.obj",
+   "FJ2152.obj",
+   "FJ2158.obj",
+   "FJ2159.obj",
+   "FJ2162.obj",
+   "FJ2163.obj",
+   "FJ2164.obj",
+   "FJ2166.obj",
+   "FJ2167.obj",
+   "FJ2169.obj",
+   "FJ2170.obj",
+   "FJ2172.obj",
+   "FJ2179.obj",
+   "FJ2195.obj",
+   "FJ2196.obj",
+   "FJ2197.obj",
+   "FJ2203.obj",
+   "FJ2204.obj",
+   "FJ2205.obj",
+   "FJ2206.obj",
+   "FJ2209.obj",
+   "FJ2210.obj",
+   "FJ2211.obj",
+   "FJ2212.obj",
+   "FJ2214.obj",
+   "FJ2215.obj",
+   "FJ2216.obj",
+   "FJ2219.obj",
+   "FJ2221.obj",
+   "FJ2223.obj",
+   "FJ2224.obj",
+   "FJ2225.obj",
+   "FJ2226.obj",
+   "FJ2227.obj",
+   "FJ2230.obj",
+   "FJ2231.obj",
+   "FJ2232.obj",
+   "FJ2236.obj",
+   "FJ2237.obj",
+   "FJ2239.obj",
+   "FJ2240.obj",
+   "FJ2241.obj",
+   "FJ2242.obj",
+   "FJ2243.obj",
+   "FJ2245.obj",
+   "FJ2246.obj",
+   "FJ2248.obj",
+   "FJ2251.obj",
+   "FJ2252.obj",
+   "FJ2253.obj",
+   "FJ2255.obj",
+   "FJ2256.obj",
+   "FJ2257.obj",
+   "FJ2258.obj",
+   "FJ2259.obj",
+   "FJ2261.obj",
+   "FJ2262.obj",
+   "FJ2263.obj",
+   "FJ2264.obj",
+   "FJ2266.obj",
+   "FJ2267.obj",
+   "FJ2268.obj",
+   "FJ2271.obj",
+   "FJ2273.obj",
+   "FJ2275.obj",
+   "FJ2276.obj",
+   "FJ2277.obj",
+   "FJ2278.obj",
+   "FJ2279.obj",
+   "FJ2282.obj",
+   "FJ2283.obj",
+   "FJ2284.obj",
+   "FJ2288.obj",
+   "FJ2289.obj",
+   "FJ2291.obj",
+   "FJ2292.obj",
+   "FJ2293.obj",
+   "FJ2294.obj",
+   "FJ2295.obj",
+   "FJ2297.obj",
+   "FJ2298.obj",
+   "FJ2300.obj",
+   "FJ2303.obj",
+   "FJ2304.obj",
+   "FJ2305.obj",
+   "FJ2307.obj",
+   "FJ2308.obj",
+   "FJ2309.obj",
+   "FJ2310.obj",
+   "FJ2311.obj",
+   "FJ2314.obj",
+   "FJ2315.obj",
+   "FJ2316.obj",
+   "FJ2317.obj",
+   "FJ2318.obj",
+   "FJ2330.obj",
+   "FJ2331.obj",
+   "FJ2332.obj",
+   "FJ2333.obj",
+   "FJ2334.obj",
+   "FJ2335.obj",
+   "FJ2336.obj",
+   "FJ2337.obj",
+   "FJ2338.obj",
+   "FJ2339.obj",
+   "FJ2342.obj",
+   "FJ2343.obj",
+   "FJ2344.obj",
+   "FJ2345.obj",
+   "FJ2346.obj",
+   "FJ2347.obj",
+   "FJ2348.obj",
+   "FJ2361.obj",
+   "FJ2362.obj",
+   "FJ2363.obj",
+   "FJ2364.obj",
+   "FJ2365.obj",
+   "FJ2366.obj",
+   "FJ2367.obj",
+   "FJ2368.obj",
+   "FJ2369.obj",
+   "FJ2370.obj",
+   "FJ2371.obj",
+   "FJ2372.obj",
+   "FJ2373.obj",
+   "FJ2374.obj",
+   "FJ2386.obj",
+   "FJ2394.obj",
+   "FJ2562.obj",
+   "FJ2631.obj",
+   "FJ2632.obj",
+   "FJ2633.obj",
+   "FJ2634.obj",
+   "FJ2635.obj",
+   "FJ2636.obj",
+   "FJ2637.obj",
+   "FJ2638.obj",
+   "FJ2639.obj",
+   "FJ2640.obj",
+   "FJ2641.obj",
+   "FJ2642.obj",
+   "FJ2643.obj",
+   "FJ2644.obj",
+   "FJ2645.obj",
+   "FJ2646.obj",
+   "FJ2647.obj",
+   "FJ2648.obj",
+   "FJ2649.obj",
+   "FJ2650.obj",
+   "FJ2651.obj",
+   "FJ2652.obj",
+   "FJ2653.obj",
+   "FJ2654.obj",
+   "FJ2667.obj",
+   "FJ2668.obj",
+   "FJ2670.obj",
+   "FJ2671.obj",
+   "FJ2672.obj",
+   "FJ2673.obj",
+   "FJ2674.obj",
+   "FJ2675.obj",
+   "FJ2676.obj",
+   "FJ2677.obj",
+   "FJ2692.obj",
+   "FJ2693.obj",
+   "FJ2694.obj",
+   "FJ2695.obj",
+   "FJ2696.obj",
+   "FJ2697.obj",
+   "FJ2698.obj",
+   "FJ2699.obj",
+   "FJ2700.obj",
+   "FJ2714.obj",
+   "FJ2715.obj",
+   "FJ2716.obj",
+   "FJ2717.obj",
+   "FJ2718.obj",
+   "FJ2719.obj",
+   "FJ2720.obj",
+   "FJ2721.obj",
+   "FJ2722.obj",
+   "FJ2723.obj",
+   "FJ2732.obj",
+   "FJ2733.obj",
+   "FJ2734.obj",
+   "FJ2735.obj",
+   "FJ2736.obj",
+   "FJ2737.obj",
+   "FJ2881.obj",
+   "FJ2882.obj",
+   "FJ2883.obj",
+   "FJ2884.obj",
+   "FJ2885.obj",
+   "FJ2886.obj",
+   "FJ2887.obj",
+   "FJ2888.obj",
+   "FJ2889.obj",
+   "FJ2890.obj",
+   "FJ2891.obj",
+   "FJ2892.obj",
+   "FJ2893.obj",
+   "FJ2894.obj",
+   "FJ2895.obj",
+   "FJ2896.obj",
+   "FJ2897.obj",
+   "FJ2898.obj",
+   "FJ2899.obj",
+   "FJ2900.obj",
+   "FJ2901.obj",
+   "FJ2902.obj",
+   "FJ2903.obj",
+   "FJ2904.obj",
+   "FJ2905.obj",
+   "FJ2906.obj",
+   "FJ2907.obj",
+   "FJ2908.obj",
+   "FJ2909.obj",
+   "FJ2910.obj",
+   "FJ2911.obj",
+   "FJ2912.obj",
+   "FJ2913.obj",
+   "FJ2914.obj",
+   "FJ2915.obj",
+   "FJ2916.obj",
+   "FJ2917.obj",
+   "FJ2918.obj",
+   "FJ2919.obj",
+   "FJ2920.obj",
+   "FJ2921.obj",
+   "FJ2922.obj",
+   "FJ2923.obj",
+   "FJ2924.obj",
+   "FJ2966.obj",
+   "FJ2967.obj",
+   "FJ2968.obj",
+   "FJ2969.obj",
+   "FJ2970.obj",
+   "FJ2971.obj",
+   "FJ2972.obj",
+   "FJ2973.obj",
+   "FJ2974.obj",
+   "FJ2975.obj",
+   "FJ2976.obj",
+   "FJ2977.obj",
+   "FJ2978.obj",
+   "FJ2979.obj",
+   "FJ2980.obj",
+   "FJ2981.obj",
+   "FJ2982.obj",
+   "FJ2983.obj",
+   "FJ2984.obj",
+   "FJ2985.obj",
+   "FJ2986.obj",
+   "FJ2987.obj",
+   "FJ2988.obj",
+   "FJ2989.obj",
+   "FJ2990.obj",
+   "FJ2991.obj",
+   "FJ2992.obj",
+   "FJ2993.obj",
+   "FJ2994.obj",
+   "FJ2995.obj",
+   "FJ2996.obj",
+   "FJ2997.obj",
+   "FJ2998.obj",
+   "FJ2999.obj",
+   "FJ3000.obj",
+   "FJ3001.obj",
+   "FJ3002.obj",
+   "FJ3003.obj",
+   "FJ3004.obj",
+   "FJ3005.obj",
+   "FJ3006.obj",
+   "FJ3007.obj",
+   "FJ3008.obj",
+   "FJ3009.obj",
+   "FJ3010.obj",
+   "FJ3011.obj",
+   "FJ3012.obj",
+   "FJ3013.obj",
+   "FJ3014.obj",
+   "FJ3015.obj",
+   "FJ3016.obj",
+   "FJ3017.obj",
+   "FJ3018.obj",
+   "FJ3019.obj",
+   "FJ3075.obj",
+   "FJ3076.obj",
+   "FJ3077.obj",
+   "FJ3078.obj",
+   "FJ3081.obj",
+   "FJ3091.obj",
+   "FJ3092.obj",
+   "FJ3093.obj",
+   "FJ3095.obj",
+   "FJ3106.obj",
+   "FJ3107.obj",
+   "FJ3114.obj",
+   "FJ3115.obj",
+   "FJ3116.obj",
+   "FJ3117.obj",
+   "FJ3399.obj",
+   "FJ3401.obj",
+   "FJ3406.obj",
+   "FJ3409.obj",
+   "FJ3410.obj",
+   "FJ3411.obj",
+   "FJ3413.obj",
+   "FJ3414.obj",
+   "FJ3417.obj",
+   "FJ3418.obj",
+   "FJ3419.obj",
+   "FJ3420.obj",
+   "FJ3421.obj",
+   "FJ3427.obj",
+   "FJ3428.obj",
+   "FJ3430.obj",
+   "FJ3431.obj",
+   "FJ3432.obj",
+   "FJ3433.obj",
+   "FJ3437.obj",
+   "FJ3439.obj",
+   "FJ3442.obj",
+   "FJ3444.obj",
+   "FJ3446.obj",
+   "FJ3458.obj",
+   "FJ3459.obj",
+   "FJ3460.obj",
+   "FJ3461.obj",
+   "FJ3462.obj",
+   "FJ3463.obj",
+   "FJ3464.obj",
+   "FJ3466.obj",
+   "FJ3467.obj",
+   "FJ3468.obj",
+   "FJ3472.obj",
+   "FJ3473.obj",
+   "FJ3474.obj",
+   "FJ3475.obj",
+   "FJ3476.obj",
+   "FJ3479.obj",
+   "FJ3481.obj",
+   "FJ3483.obj",
+   "FJ3494.obj",
+   "FJ3496.obj",
+   "FJ3497.obj",
+   "FJ3499.obj",
+   "FJ3501.obj",
+   "FJ3511.obj",
+   "FJ3514.obj",
+   "FJ3515.obj",
+   "FJ3516.obj",
+   "FJ3517.obj",
+   "FJ3518.obj",
+   "FJ3519.obj",
+   "FJ3520.obj",
+   "FJ3529.obj",
+   "FJ3532.obj",
+   "FJ3534.obj",
+   "FJ3542.obj",
+   "FJ3544.obj",
+   "FJ3546.obj",
+   "FJ3553.obj",
+   "FJ3557.obj",
+   "FJ3558.obj",
+   "FJ3559.obj",
+   "FJ3560.obj",
+   "FJ3561.obj",
+   "FJ3562.obj",
+   "FJ3563.obj",
+   "FJ3564.obj",
+   "FJ3565.obj",
+   "FJ3567.obj",
+   "FJ3569.obj",
+   "FJ3573.obj",
+   "FJ3574.obj",
+   "FJ3575.obj",
+   "FJ3576.obj",
+   "FJ3579.obj",
+   "FJ3581.obj",
+   "FJ3582.obj",
+   "FJ3584.obj",
+   "FJ3586.obj",
+   "FJ3590.obj",
+   "FJ3592.obj",
+   "FJ3593.obj",
+   "FJ3594.obj",
+   "FJ3596.obj",
+   "FJ3604.obj",
+   "FJ3614.obj",
+   "FJ3617.obj",
+   "FJ3619.obj",
+   "FJ3620.obj",
+   "FJ3621.obj",
+   "FJ3622.obj",
+   "FJ3623.obj",
+   "FJ3624.obj",
+   "FJ3625.obj",
+   "FJ3626.obj",
+   "FJ3632.obj",
+   "FJ3636.obj",
+   "FJ3638.obj",
+   "FJ3640.obj",
+   "FJ3644.obj",
+   "FJ3656.obj"
+  ],
+  "mesh_count": 639,
+  "bytes": 3803136,
+  "failed": [],
+  "mapping": {
+   "FJ1654.obj": [
+    "Right_anterior_cerebral_artery"
+   ],
+   "FJ1654M.obj": [
+    "Left_anterior_cerebral_artery"
+   ],
+   "FJ1655.obj": [
+    "Anterior_communicating_artery"
+   ],
+   "FJ1656.obj": [
+    "FJ1656"
+   ],
+   "FJ1656M.obj": [
+    "Anterior_inferior_cerebellar_artery"
+   ],
+   "FJ1657.obj": [
+    "Right_anterior_spinal_artery"
+   ],
+   "FJ1657M.obj": [
+    "Left_anterior_spinal_artery"
+   ],
+   "FJ1658.obj": [
+    "Right_anterior_choroidal_artery"
+   ],
+   "FJ1658M.obj": [
+    "Left_anterior_choroidal_artery"
+   ],
+   "FJ1659.obj": [
+    "Right_anterior_temporal_artery"
+   ],
+   "FJ1659M.obj": [
+    "Left_anterior_temporal_artery"
+   ],
+   "FJ1660.obj": [
+    "Insular_part_of_right_middle_cerebral_artery"
+   ],
+   "FJ1660M.obj": [
+    "Insular_part_of_left_middle_cerebral_artery"
+   ],
+   "FJ1661.obj": [
+    "Anterior_temporal_branch_of_right_lateral_occipital_artery"
+   ],
+   "FJ1661M.obj": [
+    "Anterior_temporal_branch_of_left_lateral_occipital_artery"
+   ],
+   "FJ1662.obj": [
+    "Anterolateral_central_branch_of_right_middle_cerebral_artery"
+   ],
+   "FJ1662M.obj": [
+    "Anterolateral_central_branch_of_left_middle_cerebral_artery"
+   ],
+   "FJ1663.obj": [
+    "Anterolateral_central_branch_of_right_middle_cerebral_artery_2"
+   ],
+   "FJ1663M.obj": [
+    "Anterolateral_central_branch_of_left_middle_cerebral_artery_2"
+   ],
+   "FJ1664.obj": [
+    "FJ1664"
+   ],
+   "FJ1664M.obj": [
+    "Artery_of_central_sulcus"
+   ],
+   "FJ1665.obj": [
+    "FJ1665"
+   ],
+   "FJ1665M.obj": [
+    "Artery_of_central_sulcus_2"
+   ],
+   "FJ1666.obj": [
+    "Artery_of_right_postcentral_sulcus"
+   ],
+   "FJ1666M.obj": [
+    "Artery_of_left_postcentral_sulcus"
+   ],
+   "FJ1667.obj": [
+    "Right_anterior_parietal_artery"
+   ],
+   "FJ1667M.obj": [
+    "Left_anterior_parietal_artery"
+   ],
+   "FJ1668.obj": [
+    "Artery_of_right_precentral_sulcus"
+   ],
+   "FJ1668M.obj": [
+    "Artery_of_left_precentral_sulcus"
+   ],
+   "FJ1669.obj": [
+    "Artery_of_right_precentral_sulcus_2"
+   ],
+   "FJ1669M.obj": [
+    "Artery_of_left_precentral_sulcus_2"
+   ],
+   "FJ1670.obj": [
+    "Artery_of_right_precentral_sulcus_3"
+   ],
+   "FJ1670M.obj": [
+    "Artery_of_left_precentral_sulcus_3"
+   ],
+   "FJ1671.obj": [
+    "Precuneal_branch_of_right_pericallosal_artery"
+   ],
+   "FJ1671M.obj": [
+    "Precuneal_branch_of_left_pericallosal_artery"
+   ],
+   "FJ1672.obj": [
+    "Basilar_artery"
+   ],
+   "FJ1673.obj": [
+    "Branch_of_right_middle_cerebral_artery_to_right_angular_gyru"
+   ],
+   "FJ1673M.obj": [
+    "Branch_of_left_middle_cerebral_artery_to_left_angular_gyrus"
+   ],
+   "FJ1674.obj": [
+    "Branch_of_right_anterior_choroidal_artery_to_posterior_limb_"
+   ],
+   "FJ1674M.obj": [
+    "Branch_of_left_anterior_choroidal_artery_to_posterior_limb_o"
+   ],
+   "FJ1675.obj": [
+    "Right_thalamogeniculate_artery"
+   ],
+   "FJ1675M.obj": [
+    "Left_thalamogeniculate_artery"
+   ],
+   "FJ1676.obj": [
+    "Right_callosomarginal_artery"
+   ],
+   "FJ1676M.obj": [
+    "Left_callosomarginal_artery"
+   ],
+   "FJ1677.obj": [
+    "Right_splenial_artery"
+   ],
+   "FJ1677M.obj": [
+    "Left_splenial_artery"
+   ],
+   "FJ1678.obj": [
+    "Right_splenial_artery_2"
+   ],
+   "FJ1678M.obj": [
+    "Left_splenial_artery_2"
+   ],
+   "FJ1679.obj": [
+    "Hypothalamic_branch_of_right_posterior_communicating_artery"
+   ],
+   "FJ1679M.obj": [
+    "Hypothalamic_branch_of_left_posterior_communicating_artery"
+   ],
+   "FJ1680.obj": [
+    "Middle_temporal_branch_of_right_lateral_occipital_artery"
+   ],
+   "FJ1680M.obj": [
+    "Middle_temporal_branch_of_left_lateral_occipital_artery"
+   ],
+   "FJ1681.obj": [
+    "Intermediomedial_branch_of_right_callosomarginal_artery"
+   ],
+   "FJ1681M.obj": [
+    "Intermediomedial_branch_of_left_callosomarginal_artery"
+   ],
+   "FJ1682.obj": [
+    "Right_internal_carotid_artery"
+   ],
+   "FJ1682M.obj": [
+    "Left_internal_carotid_artery"
+   ],
+   "FJ1683.obj": [
+    "Lateral_branch_of_right_superior_cerebellar_artery"
+   ],
+   "FJ1683M.obj": [
+    "Lateral_branch_of_left_superior_cerebellar_artery"
+   ],
+   "FJ1684.obj": [
+    "Lateral_branch_of_right_pontine_artery"
+   ],
+   "FJ1684M.obj": [
+    "Lateral_branch_of_left_pontine_artery"
+   ],
+   "FJ1685.obj": [
+    "Right_lateral_frontobasal_artery"
+   ],
+   "FJ1685M.obj": [
+    "Left_lateral_frontobasal_artery"
+   ],
+   "FJ1686.obj": [
+    "Right_lateral_frontobasal_artery_2"
+   ],
+   "FJ1686M.obj": [
+    "Left_lateral_frontobasal_artery_2"
+   ],
+   "FJ1687.obj": [
+    "Right_lateral_occipital_artery"
+   ],
+   "FJ1687M.obj": [
+    "Left_lateral_occipital_artery"
+   ],
+   "FJ1688.obj": [
+    "Medial_branch_of_right_superior_cerebellar_artery"
+   ],
+   "FJ1688M.obj": [
+    "Medial_branch_of_left_superior_cerebellar_artery"
+   ],
+   "FJ1689.obj": [
+    "Medial_branch_of_right_pontine_artery"
+   ],
+   "FJ1689M.obj": [
+    "Medial_branch_of_left_pontine_artery"
+   ],
+   "FJ1690.obj": [
+    "Right_medial_frontobasal_artery"
+   ],
+   "FJ1690M.obj": [
+    "Left_medial_frontobasal_artery"
+   ],
+   "FJ1691.obj": [
+    "Right_medial_occipital_artery"
+   ],
+   "FJ1691M.obj": [
+    "Left_medial_occipital_artery"
+   ],
+   "FJ1692.obj": [
+    "Sphenoid_part_of_right_middle_cerebral_artery"
+   ],
+   "FJ1692M.obj": [
+    "Sphenoid_part_of_left_middle_cerebral_artery"
+   ],
+   "FJ1693.obj": [
+    "Middle_temporal_branch_of_right_middle_cerebral_artery"
+   ],
+   "FJ1693M.obj": [
+    "Middle_temporal_branch_of_left_middle_cerebral_artery"
+   ],
+   "FJ1694.obj": [
+    "Insular_part_of_right_middle_cerebral_artery_2"
+   ],
+   "FJ1694M.obj": [
+    "Insular_part_of_left_middle_cerebral_artery_2"
+   ],
+   "FJ1695.obj": [
+    "Right_ophthalmic_artery"
+   ],
+   "FJ1695M.obj": [
+    "Left_ophthalmic_artery"
+   ],
+   "FJ1696.obj": [
+    "Paracentral_branch_of_right_callosomarginal_artery"
+   ],
+   "FJ1696M.obj": [
+    "Paracentral_branch_of_left_callosomarginal_artery"
+   ],
+   "FJ1697.obj": [
+    "Paracentral_branch_of_right_callosomarginal_artery_2"
+   ],
+   "FJ1697M.obj": [
+    "Paracentral_branch_of_left_callosomarginal_artery_2"
+   ],
+   "FJ1698.obj": [
+    "Paracentral_branch_of_right_callosomarginal_artery_3"
+   ],
+   "FJ1698M.obj": [
+    "Paracentral_branch_of_left_callosomarginal_artery_3"
+   ],
+   "FJ1699.obj": [
+    "Right_pericallosal_artery"
+   ],
+   "FJ1699M.obj": [
+    "Left_pericallosal_artery"
+   ],
+   "FJ1700.obj": [
+    "Right_posterior_inferior_cerebellar_artery"
+   ],
+   "FJ1700M.obj": [
+    "Left_posterior_inferior_cerebellar_artery"
+   ],
+   "FJ1701.obj": [
+    "Right_posterior_inferior_cerebellar_artery_2"
+   ],
+   "FJ1701M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_2"
+   ],
+   "FJ1702.obj": [
+    "Right_posterior_inferior_cerebellar_artery_3"
+   ],
+   "FJ1702M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_3"
+   ],
+   "FJ1703.obj": [
+    "Right_posterior_inferior_cerebellar_artery_4"
+   ],
+   "FJ1703M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_4"
+   ],
+   "FJ1704.obj": [
+    "Right_posterior_inferior_cerebellar_artery_5"
+   ],
+   "FJ1704M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_5"
+   ],
+   "FJ1705.obj": [
+    "Right_posterior_inferior_cerebellar_artery_6"
+   ],
+   "FJ1705M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_6"
+   ],
+   "FJ1706.obj": [
+    "Right_posterior_inferior_cerebellar_artery_7"
+   ],
+   "FJ1706M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_7"
+   ],
+   "FJ1707.obj": [
+    "Right_posterior_inferior_cerebellar_artery_8"
+   ],
+   "FJ1707M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_8"
+   ],
+   "FJ1708.obj": [
+    "Right_posterior_inferior_cerebellar_artery_9"
+   ],
+   "FJ1708M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_9"
+   ],
+   "FJ1709.obj": [
+    "Right_posterior_inferior_cerebellar_artery_10"
+   ],
+   "FJ1709M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_10"
+   ],
+   "FJ1710.obj": [
+    "Right_posterior_inferior_cerebellar_artery_11"
+   ],
+   "FJ1710M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_11"
+   ],
+   "FJ1711.obj": [
+    "Right_posterior_inferior_cerebellar_artery_12"
+   ],
+   "FJ1711M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_12"
+   ],
+   "FJ1712.obj": [
+    "Right_polar_temporal_artery"
+   ],
+   "FJ1712M.obj": [
+    "Left_polar_temporal_artery"
+   ],
+   "FJ1713.obj": [
+    "Right_posterior_communicating_artery"
+   ],
+   "FJ1713M.obj": [
+    "Left_posterior_communicating_artery"
+   ],
+   "FJ1714.obj": [
+    "Postcommunicating_part_of_right_posterior_cerebral_artery"
+   ],
+   "FJ1714M.obj": [
+    "Postcommunicating_part_of_left_posterior_cerebral_artery"
+   ],
+   "FJ1715.obj": [
+    "Right_posterior_inferior_cerebellar_artery_13"
+   ],
+   "FJ1715M.obj": [
+    "Left_posterior_inferior_cerebellar_artery_13"
+   ],
+   "FJ1716.obj": [
+    "Right_posterior_parietal_artery"
+   ],
+   "FJ1716M.obj": [
+    "Left_posterior_parietal_artery"
+   ],
+   "FJ1717.obj": [
+    "Posterior_temporal_branch_of_right_middle_cerebral_artery"
+   ],
+   "FJ1717M.obj": [
+    "Posterior_temporal_branch_of_left_middle_cerebral_artery"
+   ],
+   "FJ1718.obj": [
+    "Trunk_of_inferior_terminal_branch_of_right_middle_cerebral_a"
+   ],
+   "FJ1718M.obj": [
+    "Trunk_of_inferior_terminal_branch_of_left_middle_cerebral_ar"
+   ],
+   "FJ1719.obj": [
+    "FJ1719"
+   ],
+   "FJ1719M.obj": [
+    "Set_of_posterior_temporal_branches_of_lateral_occipital_arte"
+   ],
+   "FJ1720.obj": [
+    "Right_thalamoperforating_artery"
+   ],
+   "FJ1720M.obj": [
+    "Left_thalamoperforating_artery"
+   ],
+   "FJ1721.obj": [
+    "Posteromedial_central_branch_of_right_posterior_cerebral_art"
+   ],
+   "FJ1721M.obj": [
+    "Posteromedial_central_branch_of_left_posterior_cerebral_arte"
+   ],
+   "FJ1722.obj": [
+    "Posteromedial_branch_of_right_callosomarginal_artery"
+   ],
+   "FJ1722M.obj": [
+    "Posteromedial_branch_of_left_callosomarginal_artery"
+   ],
+   "FJ1723.obj": [
+    "Precommunicating_part_of_right_posterior_cerebral_artery"
+   ],
+   "FJ1723M.obj": [
+    "Precommunicating_part_of_left_posterior_cerebral_artery"
+   ],
+   "FJ1724.obj": [
+    "Right_prefrontal_artery"
+   ],
+   "FJ1724M.obj": [
+    "Left_prefrontal_artery"
+   ],
+   "FJ1725.obj": [
+    "Right_vertebral_artery"
+   ],
+   "FJ1725M.obj": [
+    "Left_vertebral_artery"
+   ],
+   "FJ1726.obj": [
+    "Right_superior_cerebellar_artery"
+   ],
+   "FJ1726M.obj": [
+    "Left_superior_cerebellar_artery"
+   ],
+   "FJ1727.obj": [
+    "Right_posterior_medial_choroidal_artery"
+   ],
+   "FJ1727M.obj": [
+    "Left_posterior_medial_choroidal_artery"
+   ],
+   "FJ1728.obj": [
+    "Superior_vermian_branch_of_medial_branch_of_right_superior_c"
+   ],
+   "FJ1728M.obj": [
+    "Superior_vermian_branch_of_medial_branch_of_left_superior_ce"
+   ],
+   "FJ1729.obj": [
+    "Temporo_occipital_branch_of_right_middle_cerebral_artery"
+   ],
+   "FJ1729M.obj": [
+    "Temporo_occipital_branch_of_left_middle_cerebral_artery"
+   ],
+   "FJ1844.obj": [
+    "Basilar_artery_2"
+   ],
+   "FJ1846.obj": [
+    "Celiac_artery"
+   ],
+   "FJ1874.obj": [
+    "Left_lobe_branch_of_left_hepatic_artery"
+   ],
+   "FJ1916.obj": [
+    "Caudate_lobe_branch_of_right_hepatic_artery"
+   ],
+   "FJ1924.obj": [
+    "Right_lobe_branch_of_right_hepatic_artery"
+   ],
+   "FJ1928.obj": [
+    "Superior_mesenteric_artery"
+   ],
+   "FJ1931.obj": [
+    "Descending_thoracic_aorta"
+   ],
+   "FJ1932.obj": [
+    "Abdominal_aorta"
+   ],
+   "FJ1933.obj": [
+    "Bronchial_artery"
+   ],
+   "FJ1934.obj": [
+    "Esophageal_artery"
+   ],
+   "FJ1935.obj": [
+    "Right_superior_intercostal_artery"
+   ],
+   "FJ1936.obj": [
+    "Right_superior_epigastric_artery"
+   ],
+   "FJ1937.obj": [
+    "Right_internal_thoracic_artery"
+   ],
+   "FJ1938.obj": [
+    "Right_lateral_thoracic_artery"
+   ],
+   "FJ1939.obj": [
+    "Right_first_posterior_intercostal_artery"
+   ],
+   "FJ1950.obj": [
+    "Right_second_posterior_intercostal_artery"
+   ],
+   "FJ1961.obj": [
+    "Posterior_intercostal_arteries"
+   ],
+   "FJ1967.obj": [
+    "Right_subcostal_artery"
+   ],
+   "FJ1969.obj": [
+    "Right_musculophrenic_artery"
+   ],
+   "FJ1970.obj": [
+    "Left_superior_intercostal_artery"
+   ],
+   "FJ1971.obj": [
+    "Left_superior_epigastric_artery"
+   ],
+   "FJ1972.obj": [
+    "Left_internal_thoracic_artery"
+   ],
+   "FJ1973.obj": [
+    "Left_first_posterior_intercostal_artery"
+   ],
+   "FJ1974.obj": [
+    "Left_second_posterior_intercostal_artery"
+   ],
+   "FJ1975.obj": [
+    "Posterior_intercostal_arteries_2"
+   ],
+   "FJ1976.obj": [
+    "Left_lateral_thoracic_artery"
+   ],
+   "FJ1977.obj": [
+    "Left_subcostal_artery"
+   ],
+   "FJ1979.obj": [
+    "Left_musculophrenic_artery"
+   ],
+   "FJ2011.obj": [
+    "Superior_mesenteric_artery_2"
+   ],
+   "FJ2013.obj": [
+    "Celiac_artery_2"
+   ],
+   "FJ2025.obj": [
+    "Marginal_colic_artery"
+   ],
+   "FJ2034.obj": [
+    "Ileal_branch_of_inferior_branch_of_ileocolic_artery"
+   ],
+   "FJ2038.obj": [
+    "Right_renal_artery"
+   ],
+   "FJ2041.obj": [
+    "Right_anterior_segmental_artery"
+   ],
+   "FJ2042.obj": [
+    "Superior_segmental_branch_of_right_renal_artery"
+   ],
+   "FJ2043.obj": [
+    "Inferior_segmental_branch_of_right_renal_artery"
+   ],
+   "FJ2044.obj": [
+    "Right_anterior_segmental_artery_2"
+   ],
+   "FJ2045.obj": [
+    "Posterior_segmental_branch_of_right_renal_artery"
+   ],
+   "FJ2046.obj": [
+    "Left_renal_artery"
+   ],
+   "FJ2049.obj": [
+    "Inferior_segmental_branch_of_left_renal_artery"
+   ],
+   "FJ2052.obj": [
+    "Superior_segmental_branch_of_left_renal_artery"
+   ],
+   "FJ2053.obj": [
+    "Posterior_segmental_branch_of_left_renal_artery"
+   ],
+   "FJ2054.obj": [
+    "Posterior_segmental_branch_of_left_renal_artery_2"
+   ],
+   "FJ2055.obj": [
+    "Right_dorsalis_pedis_artery"
+   ],
+   "FJ2057.obj": [
+    "Descending_branch_of_right_lateral_circumflex_femoral_artery"
+   ],
+   "FJ2058.obj": [
+    "Distal_perforating_artery"
+   ],
+   "FJ2063.obj": [
+    "Descending_branch_of_left_lateral_circumflex_femoral_artery"
+   ],
+   "FJ2064.obj": [
+    "Distal_perforating_artery_2"
+   ],
+   "FJ2065.obj": [
+    "Left_anterior_tibial_artery"
+   ],
+   "FJ2066.obj": [
+    "Left_anterior_tibial_recurrent_artery"
+   ],
+   "FJ2067.obj": [
+    "Left_arcuate_artery"
+   ],
+   "FJ2068.obj": [
+    "Left_deep_plantar_artery"
+   ],
+   "FJ2069.obj": [
+    "Left_descending_genicular_artery"
+   ],
+   "FJ2072.obj": [
+    "Dorsal_digital_artery_of_foot"
+   ],
+   "FJ2073.obj": [
+    "Left_dorsalis_pedis_artery"
+   ],
+   "FJ2074.obj": [
+    "Left_femoral_artery"
+   ],
+   "FJ2076.obj": [
+    "Left_inferior_lateral_genicular_artery"
+   ],
+   "FJ2077.obj": [
+    "Left_inferior_medial_genicular_artery"
+   ],
+   "FJ2078.obj": [
+    "Left_lateral_circumflex_femoral_artery"
+   ],
+   "FJ2079.obj": [
+    "Left_lateral_plantar_artery"
+   ],
+   "FJ2080.obj": [
+    "Left_lateral_superior_genicular_artery"
+   ],
+   "FJ2081.obj": [
+    "Left_lateral_tarsal_artery"
+   ],
+   "FJ2082.obj": [
+    "Left_medial_plantar_artery"
+   ],
+   "FJ2083.obj": [
+    "Left_medial_superior_genicular_artery"
+   ],
+   "FJ2084.obj": [
+    "Left_middle_genicular_artery"
+   ],
+   "FJ2085.obj": [
+    "Left_plantar_arch"
+   ],
+   "FJ2086.obj": [
+    "Left_popliteal_artery"
+   ],
+   "FJ2087.obj": [
+    "Left_posterior_tibial_artery"
+   ],
+   "FJ2089.obj": [
+    "Left_superficial_medial_plantar_artery"
+   ],
+   "FJ2090.obj": [
+    "Set_of_perforating_arteries"
+   ],
+   "FJ2091.obj": [
+    "Set_of_calcaneal_branches_of_posterior_tibial_artery"
+   ],
+   "FJ2092.obj": [
+    "Set_of_common_plantar_digital_arteries"
+   ],
+   "FJ2093.obj": [
+    "Set_of_dorsal_digital_arteries"
+   ],
+   "FJ2094.obj": [
+    "Set_of_perforating_arteries_2"
+   ],
+   "FJ2095.obj": [
+    "Set_of_plantar_digital_arteries_proper"
+   ],
+   "FJ2096.obj": [
+    "Plantar_metatarsal_artery"
+   ],
+   "FJ2127.obj": [
+    "Set_of_perforating_arteries_3"
+   ],
+   "FJ2130.obj": [
+    "Right_anterior_tibial_artery"
+   ],
+   "FJ2131.obj": [
+    "Right_anterior_tibial_recurrent_artery"
+   ],
+   "FJ2133.obj": [
+    "Right_arcuate_artery"
+   ],
+   "FJ2136.obj": [
+    "Right_deep_plantar_artery"
+   ],
+   "FJ2137.obj": [
+    "Right_descending_genicular_artery"
+   ],
+   "FJ2141.obj": [
+    "Dorsal_digital_artery_of_foot_2"
+   ],
+   "FJ2143.obj": [
+    "Right_femoral_artery"
+   ],
+   "FJ2150.obj": [
+    "Right_inferior_lateral_genicular_artery"
+   ],
+   "FJ2152.obj": [
+    "Right_inferior_medial_genicular_artery"
+   ],
+   "FJ2158.obj": [
+    "Right_lateral_circumflex_femoral_artery"
+   ],
+   "FJ2159.obj": [
+    "Right_lateral_plantar_artery"
+   ],
+   "FJ2162.obj": [
+    "Right_lateral_superior_genicular_artery"
+   ],
+   "FJ2163.obj": [
+    "Right_lateral_tarsal_artery"
+   ],
+   "FJ2164.obj": [
+    "Right_medial_plantar_artery"
+   ],
+   "FJ2166.obj": [
+    "Right_medial_superior_genicular_artery"
+   ],
+   "FJ2167.obj": [
+    "Right_middle_genicular_artery"
+   ],
+   "FJ2169.obj": [
+    "Right_plantar_arch"
+   ],
+   "FJ2170.obj": [
+    "Right_popliteal_artery"
+   ],
+   "FJ2172.obj": [
+    "Right_posterior_tibial_artery"
+   ],
+   "FJ2179.obj": [
+    "Right_superficial_medial_plantar_artery"
+   ],
+   "FJ2195.obj": [
+    "Set_of_calcaneal_branches_of_posterior_tibial_artery_2"
+   ],
+   "FJ2196.obj": [
+    "Set_of_common_plantar_digital_arteries_2"
+   ],
+   "FJ2197.obj": [
+    "Set_of_dorsal_digital_arteries_2"
+   ],
+   "FJ2203.obj": [
+    "Set_of_perforating_arteries_4"
+   ],
+   "FJ2204.obj": [
+    "Set_of_plantar_digital_arteries_proper_2"
+   ],
+   "FJ2205.obj": [
+    "Set_of_plantar_digital_arteries_proper_3"
+   ],
+   "FJ2206.obj": [
+    "Plantar_metatarsal_artery_2"
+   ],
+   "FJ2209.obj": [
+    "Right_inferior_thyroid_artery"
+   ],
+   "FJ2210.obj": [
+    "Left_inferior_thyroid_artery"
+   ],
+   "FJ2211.obj": [
+    "Acromial_branch_of_left_thoraco_acromial_artery"
+   ],
+   "FJ2212.obj": [
+    "Left_anterior_circumflex_humeral_artery"
+   ],
+   "FJ2214.obj": [
+    "Left_anterior_interosseous_artery"
+   ],
+   "FJ2215.obj": [
+    "Left_inferior_ulnar_collateral_artery"
+   ],
+   "FJ2216.obj": [
+    "Left_axillary_artery"
+   ],
+   "FJ2219.obj": [
+    "Left_brachial_artery"
+   ],
+   "FJ2221.obj": [
+    "Left_circumflex_scapular_artery"
+   ],
+   "FJ2223.obj": [
+    "Left_common_interosseous_artery"
+   ],
+   "FJ2224.obj": [
+    "Left_costocervical_trunk"
+   ],
+   "FJ2225.obj": [
+    "Left_deep_brachial_artery"
+   ],
+   "FJ2226.obj": [
+    "Left_deep_cervical_artery"
+   ],
+   "FJ2227.obj": [
+    "Left_deep_palmar_arch"
+   ],
+   "FJ2230.obj": [
+    "Deltoid_branch_of_left_thoraco_acromial_artery"
+   ],
+   "FJ2231.obj": [
+    "Dorsal_carpal_branch_of_left_radial_artery"
+   ],
+   "FJ2232.obj": [
+    "Left_dorsal_scapular_artery"
+   ],
+   "FJ2236.obj": [
+    "Left_dorsal_carpal_branch_of_ulnar_artery"
+   ],
+   "FJ2237.obj": [
+    "Left_palmar_metacarpal_artery"
+   ],
+   "FJ2239.obj": [
+    "Left_posterior_circumflex_humeral_artery"
+   ],
+   "FJ2240.obj": [
+    "Left_posterior_circumflex_humeral_artery_2"
+   ],
+   "FJ2241.obj": [
+    "Left_posterior_ulnar_recurrent_artery"
+   ],
+   "FJ2242.obj": [
+    "Left_radial_artery"
+   ],
+   "FJ2243.obj": [
+    "Left_radial_recurrent_artery"
+   ],
+   "FJ2245.obj": [
+    "Left_recurrent_interosseous_artery"
+   ],
+   "FJ2246.obj": [
+    "Left_subscapular_artery"
+   ],
+   "FJ2248.obj": [
+    "Left_superficial_palmar_arterial_arch"
+   ],
+   "FJ2251.obj": [
+    "Left_suprascapular_artery"
+   ],
+   "FJ2252.obj": [
+    "Trunk_of_left_thoraco_acromial_artery"
+   ],
+   "FJ2253.obj": [
+    "Left_thoracodorsal_artery"
+   ],
+   "FJ2255.obj": [
+    "Left_thyrocervical_trunk"
+   ],
+   "FJ2256.obj": [
+    "Left_superficial_cervical_artery"
+   ],
+   "FJ2257.obj": [
+    "Left_transverse_cervical_artery"
+   ],
+   "FJ2258.obj": [
+    "Left_ulnar_artery"
+   ],
+   "FJ2259.obj": [
+    "Left_anterior_ulnar_recurrent_artery"
+   ],
+   "FJ2261.obj": [
+    "Radial_collateral_branch_of_left_deep_brachial_artery"
+   ],
+   "FJ2262.obj": [
+    "Radial_collateral_branch_of_right_deep_brachial_artery"
+   ],
+   "FJ2263.obj": [
+    "Acromial_branch_of_right_thoraco_acromial_artery"
+   ],
+   "FJ2264.obj": [
+    "Right_anterior_circumflex_humeral_artery"
+   ],
+   "FJ2266.obj": [
+    "Right_anterior_interosseous_artery"
+   ],
+   "FJ2267.obj": [
+    "Right_inferior_ulnar_collateral_artery"
+   ],
+   "FJ2268.obj": [
+    "Right_axillary_artery"
+   ],
+   "FJ2271.obj": [
+    "Right_brachial_artery"
+   ],
+   "FJ2273.obj": [
+    "Right_circumflex_scapular_artery"
+   ],
+   "FJ2275.obj": [
+    "Right_common_interosseous_artery"
+   ],
+   "FJ2276.obj": [
+    "Right_costocervical_trunk"
+   ],
+   "FJ2277.obj": [
+    "Right_deep_brachial_artery"
+   ],
+   "FJ2278.obj": [
+    "Right_deep_cervical_artery"
+   ],
+   "FJ2279.obj": [
+    "Right_deep_palmar_arch"
+   ],
+   "FJ2282.obj": [
+    "Deltoid_branch_of_right_thoraco_acromial_artery"
+   ],
+   "FJ2283.obj": [
+    "Dorsal_carpal_branch_of_right_radial_artery"
+   ],
+   "FJ2284.obj": [
+    "Right_dorsal_scapular_artery"
+   ],
+   "FJ2288.obj": [
+    "Right_dorsal_carpal_branch_of_ulnar_artery"
+   ],
+   "FJ2289.obj": [
+    "Right_palmar_metacarpal_artery"
+   ],
+   "FJ2291.obj": [
+    "Right_posterior_circumflex_humeral_artery"
+   ],
+   "FJ2292.obj": [
+    "Right_posterior_circumflex_humeral_artery_2"
+   ],
+   "FJ2293.obj": [
+    "Right_posterior_ulnar_recurrent_artery"
+   ],
+   "FJ2294.obj": [
+    "Right_radial_artery"
+   ],
+   "FJ2295.obj": [
+    "Right_radial_recurrent_artery"
+   ],
+   "FJ2297.obj": [
+    "Right_recurrent_interosseous_artery"
+   ],
+   "FJ2298.obj": [
+    "Right_subscapular_artery"
+   ],
+   "FJ2300.obj": [
+    "Right_superficial_palmar_arterial_arch"
+   ],
+   "FJ2303.obj": [
+    "Right_suprascapular_artery"
+   ],
+   "FJ2304.obj": [
+    "Trunk_of_right_thoraco_acromial_artery"
+   ],
+   "FJ2305.obj": [
+    "Right_thoracodorsal_artery"
+   ],
+   "FJ2307.obj": [
+    "Right_thyrocervical_trunk"
+   ],
+   "FJ2308.obj": [
+    "Right_superficial_cervical_artery"
+   ],
+   "FJ2309.obj": [
+    "Right_transverse_cervical_artery"
+   ],
+   "FJ2310.obj": [
+    "Right_ulnar_artery"
+   ],
+   "FJ2311.obj": [
+    "Right_anterior_ulnar_recurrent_artery"
+   ],
+   "FJ2314.obj": [
+    "Left_arteria_radialis_indicis"
+   ],
+   "FJ2315.obj": [
+    "Left_first_common_palmar_digital_artery"
+   ],
+   "FJ2316.obj": [
+    "Left_second_common_palmar_digital_artery"
+   ],
+   "FJ2317.obj": [
+    "Left_third_common_palmar_digital_artery"
+   ],
+   "FJ2318.obj": [
+    "Set_of_dorsal_digital_arteries_3"
+   ],
+   "FJ2330.obj": [
+    "Pectoral_branch_of_left_thoraco_acromial_artery"
+   ],
+   "FJ2331.obj": [
+    "Middle_collateral_branch_of_left_deep_brachial_artery"
+   ],
+   "FJ2332.obj": [
+    "Left_arteria_radialis_indicis_2"
+   ],
+   "FJ2333.obj": [
+    "Medial_proper_palmar_digital_artery_of_left_index_finger"
+   ],
+   "FJ2334.obj": [
+    "Lateral_proper_palmar_digital_artery_of_left_middle_finger"
+   ],
+   "FJ2335.obj": [
+    "Lateral_proper_palmar_digital_artery_of_left_ring_finger"
+   ],
+   "FJ2336.obj": [
+    "Lateral_proper_palmar_digital_artery_of_left_little_finger"
+   ],
+   "FJ2337.obj": [
+    "Left_fourth_common_palmar_digital_artery"
+   ],
+   "FJ2338.obj": [
+    "Left_arteria_princeps_pollicis"
+   ],
+   "FJ2339.obj": [
+    "Left_arteria_princeps_pollicis_2"
+   ],
+   "FJ2342.obj": [
+    "Right_arteria_radialis_indicis"
+   ],
+   "FJ2343.obj": [
+    "Right_first_common_palmar_digital_artery"
+   ],
+   "FJ2344.obj": [
+    "Right_second_common_palmar_digital_artery"
+   ],
+   "FJ2345.obj": [
+    "Right_third_common_palmar_digital_artery"
+   ],
+   "FJ2346.obj": [
+    "Set_of_dorsal_digital_arteries_4"
+   ],
+   "FJ2347.obj": [
+    "Set_of_dorsal_metacarpal_arteries"
+   ],
+   "FJ2348.obj": [
+    "Set_of_dorsal_metacarpal_arteries_2"
+   ],
+   "FJ2361.obj": [
+    "Pectoral_branch_of_right_thoraco_acromial_artery"
+   ],
+   "FJ2362.obj": [
+    "Middle_collateral_branch_of_right_deep_brachial_artery"
+   ],
+   "FJ2363.obj": [
+    "Right_arteria_radialis_indicis_2"
+   ],
+   "FJ2364.obj": [
+    "Medial_proper_palmar_digital_artery_of_right_index_finger"
+   ],
+   "FJ2365.obj": [
+    "Lateral_proper_palmar_digital_artery_of_right_middle_finger"
+   ],
+   "FJ2366.obj": [
+    "Lateral_proper_palmar_digital_artery_of_right_ring_finger"
+   ],
+   "FJ2367.obj": [
+    "Medial_proper_palmar_digital_artery_of_right_middle_finger"
+   ],
+   "FJ2368.obj": [
+    "Lateral_proper_palmar_digital_artery_of_right_little_finger"
+   ],
+   "FJ2369.obj": [
+    "Medial_proper_palmar_digital_artery_of_right_ring_finger"
+   ],
+   "FJ2370.obj": [
+    "Right_fourth_common_palmar_digital_artery"
+   ],
+   "FJ2371.obj": [
+    "Right_arteria_princeps_pollicis"
+   ],
+   "FJ2372.obj": [
+    "Right_arteria_princeps_pollicis_2"
+   ],
+   "FJ2373.obj": [
+    "Right_superior_ulnar_collateral_artery"
+   ],
+   "FJ2374.obj": [
+    "Left_superior_ulnar_collateral_artery"
+   ],
+   "FJ2386.obj": [
+    "Caudate_lobe_branch_of_right_hepatic_artery_2"
+   ],
+   "FJ2394.obj": [
+    "Right_lobe_branch_of_right_hepatic_artery_2"
+   ],
+   "FJ2562.obj": [
+    "Splenic_artery"
+   ],
+   "FJ2631.obj": [
+    "Trunk_of_anterior_interventricular_branch_of_left_coronary_a"
+   ],
+   "FJ2632.obj": [
+    "First_right_anterior_branch_of_anterior_interventricular_bra"
+   ],
+   "FJ2633.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona"
+   ],
+   "FJ2634.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_2"
+   ],
+   "FJ2635.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_3"
+   ],
+   "FJ2636.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_4"
+   ],
+   "FJ2637.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_5"
+   ],
+   "FJ2638.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_6"
+   ],
+   "FJ2639.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_7"
+   ],
+   "FJ2640.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_8"
+   ],
+   "FJ2641.obj": [
+    "Third_right_anterior_branch_of_anterior_interventricular_bra"
+   ],
+   "FJ2642.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_9"
+   ],
+   "FJ2643.obj": [
+    "Conus_branch_of_anterior_interventricular_branch_of_left_cor"
+   ],
+   "FJ2644.obj": [
+    "Conus_branch_of_anterior_interventricular_branch_of_left_cor_2"
+   ],
+   "FJ2645.obj": [
+    "First_right_anterior_branch_of_anterior_interventricular_bra_2"
+   ],
+   "FJ2646.obj": [
+    "Second_right_anterior_branch_of_anterior_interventricular_br"
+   ],
+   "FJ2647.obj": [
+    "Third_right_anterior_branch_of_anterior_interventricular_bra_2"
+   ],
+   "FJ2648.obj": [
+    "Diagonal_branch_of_anterior_descending_branch_of_left_corona_10"
+   ],
+   "FJ2649.obj": [
+    "Circumflex_branch_of_left_coronary_artery"
+   ],
+   "FJ2650.obj": [
+    "Circumflex_branch_of_left_coronary_artery_2"
+   ],
+   "FJ2651.obj": [
+    "Circumflex_branch_of_left_coronary_artery_3"
+   ],
+   "FJ2652.obj": [
+    "Circumflex_branch_of_left_coronary_artery_4"
+   ],
+   "FJ2653.obj": [
+    "Circumflex_branch_of_left_coronary_artery_5"
+   ],
+   "FJ2654.obj": [
+    "Circumflex_branch_of_left_coronary_artery_6"
+   ],
+   "FJ2667.obj": [
+    "Marginal_branch_of_right_coronary_artery"
+   ],
+   "FJ2668.obj": [
+    "Marginal_branch_of_right_coronary_artery_2"
+   ],
+   "FJ2670.obj": [
+    "Right_conus_artery"
+   ],
+   "FJ2671.obj": [
+    "First_anterior_ventricular_branch_of_right_coronary_artery"
+   ],
+   "FJ2672.obj": [
+    "Marginal_branch_of_right_coronary_artery_3"
+   ],
+   "FJ2673.obj": [
+    "First_anterior_ventricular_branch_of_right_coronary_artery_2"
+   ],
+   "FJ2674.obj": [
+    "Marginal_branch_of_right_coronary_artery_4"
+   ],
+   "FJ2675.obj": [
+    "Marginal_branch_of_right_coronary_artery_5"
+   ],
+   "FJ2676.obj": [
+    "Right_conus_artery_2"
+   ],
+   "FJ2677.obj": [
+    "First_anterior_ventricular_branch_of_right_coronary_artery_3"
+   ],
+   "FJ2692.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery"
+   ],
+   "FJ2693.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_2"
+   ],
+   "FJ2694.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_3"
+   ],
+   "FJ2695.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_4"
+   ],
+   "FJ2696.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_5"
+   ],
+   "FJ2697.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_6"
+   ],
+   "FJ2698.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_7"
+   ],
+   "FJ2699.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_8"
+   ],
+   "FJ2700.obj": [
+    "Posterior_interventricular_branch_of_right_coronary_artery_9"
+   ],
+   "FJ2714.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery"
+   ],
+   "FJ2715.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_2"
+   ],
+   "FJ2716.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_3"
+   ],
+   "FJ2717.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_4"
+   ],
+   "FJ2718.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_5"
+   ],
+   "FJ2719.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_6"
+   ],
+   "FJ2720.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_7"
+   ],
+   "FJ2721.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_8"
+   ],
+   "FJ2722.obj": [
+    "First_posterior_ventricular_branch_of_right_coronary_artery_9"
+   ],
+   "FJ2723.obj": [
+    "Trunk_of_right_coronary_artery"
+   ],
+   "FJ2732.obj": [
+    "Septal_branch_of_anterior_interventricular_artery"
+   ],
+   "FJ2733.obj": [
+    "Septal_branch_of_anterior_interventricular_artery_2"
+   ],
+   "FJ2734.obj": [
+    "Septal_branch_of_anterior_interventricular_artery_3"
+   ],
+   "FJ2735.obj": [
+    "First_septal_branch_of_right_posterior_interventricular_arte"
+   ],
+   "FJ2736.obj": [
+    "Second_septal_branch_of_right_posterior_interventricular_art"
+   ],
+   "FJ2737.obj": [
+    "Trunk_of_left_coronary_artery"
+   ],
+   "FJ2881.obj": [
+    "Left_posterior_basal_segmental_artery"
+   ],
+   "FJ2882.obj": [
+    "Left_lateral_basal_segmental_artery"
+   ],
+   "FJ2883.obj": [
+    "Left_anterior_basal_segmental_artery"
+   ],
+   "FJ2884.obj": [
+    "Left_medial_basal_segmental_artery"
+   ],
+   "FJ2885.obj": [
+    "Left_medial_basal_segmental_artery_2"
+   ],
+   "FJ2886.obj": [
+    "Left_anterior_basal_segmental_artery_2"
+   ],
+   "FJ2887.obj": [
+    "Left_anterior_basal_segmental_artery_3"
+   ],
+   "FJ2888.obj": [
+    "Left_superior_segmental_artery"
+   ],
+   "FJ2889.obj": [
+    "Left_superior_segmental_artery_2"
+   ],
+   "FJ2890.obj": [
+    "Left_superior_segmental_artery_3"
+   ],
+   "FJ2891.obj": [
+    "Left_superior_segmental_artery_4"
+   ],
+   "FJ2892.obj": [
+    "Left_posterior_basal_segmental_artery_2"
+   ],
+   "FJ2893.obj": [
+    "Left_superior_segmental_artery_5"
+   ],
+   "FJ2894.obj": [
+    "Left_superior_segmental_artery_6"
+   ],
+   "FJ2895.obj": [
+    "Left_superior_segmental_artery_7"
+   ],
+   "FJ2896.obj": [
+    "Inferior_lingular_artery"
+   ],
+   "FJ2897.obj": [
+    "Inferior_lingular_artery_2"
+   ],
+   "FJ2898.obj": [
+    "Superior_lingular_artery"
+   ],
+   "FJ2899.obj": [
+    "Superior_lingular_artery_2"
+   ],
+   "FJ2900.obj": [
+    "Superior_lingular_artery_3"
+   ],
+   "FJ2901.obj": [
+    "Superior_lingular_artery_4"
+   ],
+   "FJ2902.obj": [
+    "Left_anterior_segmental_artery"
+   ],
+   "FJ2903.obj": [
+    "Left_posterior_basal_segmental_artery_3"
+   ],
+   "FJ2904.obj": [
+    "Left_anterior_segmental_artery_2"
+   ],
+   "FJ2905.obj": [
+    "Left_anterior_segmental_artery_3"
+   ],
+   "FJ2906.obj": [
+    "Left_anterior_segmental_artery_4"
+   ],
+   "FJ2907.obj": [
+    "Left_anterior_segmental_artery_5"
+   ],
+   "FJ2908.obj": [
+    "Left_anterior_segmental_artery_6"
+   ],
+   "FJ2909.obj": [
+    "Left_anterior_segmental_artery_7"
+   ],
+   "FJ2910.obj": [
+    "Left_anterior_segmental_artery_8"
+   ],
+   "FJ2911.obj": [
+    "Left_posterior_segmental_artery"
+   ],
+   "FJ2912.obj": [
+    "Left_posterior_segmental_artery_2"
+   ],
+   "FJ2913.obj": [
+    "Left_posterior_segmental_artery_3"
+   ],
+   "FJ2914.obj": [
+    "Left_posterior_basal_segmental_artery_4"
+   ],
+   "FJ2915.obj": [
+    "Left_apical_segmental_artery"
+   ],
+   "FJ2916.obj": [
+    "Left_apical_segmental_artery_2"
+   ],
+   "FJ2917.obj": [
+    "Left_apical_segmental_artery_3"
+   ],
+   "FJ2918.obj": [
+    "Left_apical_segmental_artery_4"
+   ],
+   "FJ2919.obj": [
+    "Left_posterior_basal_segmental_artery_5"
+   ],
+   "FJ2920.obj": [
+    "Left_posterior_basal_segmental_artery_6"
+   ],
+   "FJ2921.obj": [
+    "Left_lateral_basal_segmental_artery_2"
+   ],
+   "FJ2922.obj": [
+    "Left_lateral_basal_segmental_artery_3"
+   ],
+   "FJ2923.obj": [
+    "Left_lateral_basal_segmental_artery_4"
+   ],
+   "FJ2924.obj": [
+    "Left_pulmonary_artery"
+   ],
+   "FJ2966.obj": [
+    "Pulmonary_trunk"
+   ],
+   "FJ2967.obj": [
+    "Apical_part_of_right_apical_segmental_artery"
+   ],
+   "FJ2968.obj": [
+    "Apical_part_of_right_posterior_segmental_artery"
+   ],
+   "FJ2969.obj": [
+    "Apical_part_of_right_posterior_segmental_artery_2"
+   ],
+   "FJ2970.obj": [
+    "Posterior_part_of_right_posterior_segmental_artery"
+   ],
+   "FJ2971.obj": [
+    "Posterior_part_of_right_posterior_segmental_artery_2"
+   ],
+   "FJ2972.obj": [
+    "Posterior_part_of_right_posterior_segmental_artery_3"
+   ],
+   "FJ2973.obj": [
+    "Right_upper_lobar_artery"
+   ],
+   "FJ2974.obj": [
+    "Posterior_branch_of_right_anterior_segmental_artery"
+   ],
+   "FJ2975.obj": [
+    "Anterior_branch_of_right_anterior_segmental_artery"
+   ],
+   "FJ2976.obj": [
+    "Anterior_branch_of_right_anterior_segmental_artery_2"
+   ],
+   "FJ2977.obj": [
+    "Anterior_branch_of_right_anterior_segmental_artery_3"
+   ],
+   "FJ2978.obj": [
+    "Anterior_part_of_right_apical_segmental_artery"
+   ],
+   "FJ2979.obj": [
+    "Anterior_branch_of_right_anterior_segmental_artery_4"
+   ],
+   "FJ2980.obj": [
+    "Posterior_branch_of_right_anterior_segmental_artery_2"
+   ],
+   "FJ2981.obj": [
+    "Posterior_branch_of_right_anterior_segmental_artery_3"
+   ],
+   "FJ2982.obj": [
+    "Anterior_branch_of_lateral_segmental_artery"
+   ],
+   "FJ2983.obj": [
+    "Posterior_branch_of_lateral_segmental_artery"
+   ],
+   "FJ2984.obj": [
+    "Posterior_branch_of_lateral_segmental_artery_2"
+   ],
+   "FJ2985.obj": [
+    "Anterior_branch_of_lateral_segmental_artery_2"
+   ],
+   "FJ2986.obj": [
+    "Superior_branch_of_medial_segmental_artery"
+   ],
+   "FJ2987.obj": [
+    "Inferior_branch_of_medial_segmental_artery"
+   ],
+   "FJ2988.obj": [
+    "Inferior_branch_of_medial_segmental_artery_2"
+   ],
+   "FJ2989.obj": [
+    "Anterior_part_of_right_apical_segmental_artery_2"
+   ],
+   "FJ2990.obj": [
+    "Superior_branch_of_medial_segmental_artery_2"
+   ],
+   "FJ2991.obj": [
+    "Lateral_branch_of_right_superior_segmental_artery"
+   ],
+   "FJ2992.obj": [
+    "Lateral_branch_of_right_superior_segmental_artery_2"
+   ],
+   "FJ2993.obj": [
+    "Lateral_branch_of_right_superior_segmental_artery_3"
+   ],
+   "FJ2994.obj": [
+    "Medial_branch_of_right_superior_segmental_artery"
+   ],
+   "FJ2995.obj": [
+    "Medial_branch_of_right_superior_segmental_artery_2"
+   ],
+   "FJ2996.obj": [
+    "Medial_branch_of_right_superior_segmental_artery_3"
+   ],
+   "FJ2997.obj": [
+    "Superior_branch_of_right_superior_segmental_artery"
+   ],
+   "FJ2998.obj": [
+    "Superior_branch_of_right_superior_segmental_artery_2"
+   ],
+   "FJ2999.obj": [
+    "Superior_branch_of_right_superior_segmental_artery_3"
+   ],
+   "FJ3000.obj": [
+    "Anterior_part_of_right_apical_segmental_artery_3"
+   ],
+   "FJ3001.obj": [
+    "Lateral_branch_of_right_anterior_basal_segmental_artery"
+   ],
+   "FJ3002.obj": [
+    "Basal_branch_of_right_anterior_basal_segmental_artery"
+   ],
+   "FJ3003.obj": [
+    "Basal_branch_of_right_anterior_basal_segmental_artery_2"
+   ],
+   "FJ3004.obj": [
+    "Lateral_branch_of_right_lateral_basal_segmental_artery"
+   ],
+   "FJ3005.obj": [
+    "Lateral_branch_of_right_lateral_basal_segmental_artery_2"
+   ],
+   "FJ3006.obj": [
+    "Lateral_branch_of_right_lateral_basal_segmental_artery_3"
+   ],
+   "FJ3007.obj": [
+    "Lateral_branch_of_right_lateral_basal_segmental_artery_4"
+   ],
+   "FJ3008.obj": [
+    "Mediobasal_branch_of_right_posterior_basal_segmental_artery"
+   ],
+   "FJ3009.obj": [
+    "Accessory_subsuperior_branch_of_right_posterior_basal_segmen"
+   ],
+   "FJ3010.obj": [
+    "Accessory_subsuperior_branch_of_right_posterior_basal_segmen_2"
+   ],
+   "FJ3011.obj": [
+    "Anterior_part_of_right_apical_segmental_artery_4"
+   ],
+   "FJ3012.obj": [
+    "Mediobasal_branch_of_right_posterior_basal_segmental_artery_2"
+   ],
+   "FJ3013.obj": [
+    "Laterobasal_branch_of_right_posterior_basal_segmental_artery"
+   ],
+   "FJ3014.obj": [
+    "Laterobasal_branch_of_right_posterior_basal_segmental_artery_2"
+   ],
+   "FJ3015.obj": [
+    "Apical_part_of_right_apical_segmental_artery_2"
+   ],
+   "FJ3016.obj": [
+    "Apical_part_of_right_apical_segmental_artery_3"
+   ],
+   "FJ3017.obj": [
+    "Apical_part_of_right_apical_segmental_artery_4"
+   ],
+   "FJ3018.obj": [
+    "Apical_part_of_right_posterior_segmental_artery_3"
+   ],
+   "FJ3019.obj": [
+    "Right_pulmonary_artery"
+   ],
+   "FJ3075.obj": [
+    "Anterior_inferior_segmental_hepatic_artery"
+   ],
+   "FJ3076.obj": [
+    "Anterior_superior_segmental_hepatic_artery"
+   ],
+   "FJ3077.obj": [
+    "Caudate_lobe_branch_of_left_hepatic_artery"
+   ],
+   "FJ3078.obj": [
+    "Common_hepatic_artery"
+   ],
+   "FJ3081.obj": [
+    "Hepatic_artery_proper"
+   ],
+   "FJ3091.obj": [
+    "Lateral_superior_segmental_hepatic_artery"
+   ],
+   "FJ3092.obj": [
+    "Lateral_inferior_segmental_hepatic_artery"
+   ],
+   "FJ3093.obj": [
+    "Lateral_superior_segmental_hepatic_artery_2"
+   ],
+   "FJ3095.obj": [
+    "Trunk_of_left_hepatic_artery"
+   ],
+   "FJ3106.obj": [
+    "Medial_inferior_segmental_hepatic_artery"
+   ],
+   "FJ3107.obj": [
+    "Medial_superior_segmental_hepatic_artery"
+   ],
+   "FJ3114.obj": [
+    "Posterior_inferior_segmental_hepatic_artery"
+   ],
+   "FJ3115.obj": [
+    "Posterior_superior_segmental_hepatic_artery"
+   ],
+   "FJ3116.obj": [
+    "Posterior_superior_segmental_hepatic_artery_2"
+   ],
+   "FJ3117.obj": [
+    "Trunk_of_right_hepatic_artery"
+   ],
+   "FJ3399.obj": [
+    "Ascending_branch_of_left_colic_artery"
+   ],
+   "FJ3401.obj": [
+    "Anterior_inferior_pancreaticoduodenal_artery"
+   ],
+   "FJ3406.obj": [
+    "Anterior_cecal_artery"
+   ],
+   "FJ3409.obj": [
+    "Anterior_superior_pancreaticoduodenal_artery"
+   ],
+   "FJ3410.obj": [
+    "Appendicular_artery"
+   ],
+   "FJ3411.obj": [
+    "Arch_of_aorta"
+   ],
+   "FJ3413.obj": [
+    "Ascending_aorta"
+   ],
+   "FJ3414.obj": [
+    "Ascending_branch_of_inferior_branch_of_ileocolic_artery"
+   ],
+   "FJ3417.obj": [
+    "Brachiocephalic_artery"
+   ],
+   "FJ3418.obj": [
+    "Bronchial_branch_of_arch_of_aorta"
+   ],
+   "FJ3419.obj": [
+    "Caudal_pancreatic_artery"
+   ],
+   "FJ3420.obj": [
+    "Splenic_artery_2"
+   ],
+   "FJ3421.obj": [
+    "Celiac_trunk"
+   ],
+   "FJ3427.obj": [
+    "Descending_aorta"
+   ],
+   "FJ3428.obj": [
+    "Descending_branch_of_left_colic_artery"
+   ],
+   "FJ3430.obj": [
+    "Dorsal_pancreatic_artery"
+   ],
+   "FJ3431.obj": [
+    "Set_of_oesophageal_branches_of_thoracic_aorta"
+   ],
+   "FJ3432.obj": [
+    "Trunk_of_gastroduodenal_artery"
+   ],
+   "FJ3433.obj": [
+    "Great_pancreatic_artery"
+   ],
+   "FJ3437.obj": [
+    "Ileal_artery"
+   ],
+   "FJ3439.obj": [
+    "Ileocolic_artery"
+   ],
+   "FJ3442.obj": [
+    "Inferior_mesenteric_artery"
+   ],
+   "FJ3444.obj": [
+    "Inferior_pancreatic_artery"
+   ],
+   "FJ3446.obj": [
+    "Inferior_pancreaticoduodenal_artery"
+   ],
+   "FJ3458.obj": [
+    "Anterior_division_of_left_renal_artery"
+   ],
+   "FJ3459.obj": [
+    "Anterior_division_of_left_renal_artery_2"
+   ],
+   "FJ3460.obj": [
+    "Anterior_division_of_left_renal_artery_3"
+   ],
+   "FJ3461.obj": [
+    "Anterior_division_of_left_renal_artery_4"
+   ],
+   "FJ3462.obj": [
+    "Anterior_division_of_left_renal_artery_5"
+   ],
+   "FJ3463.obj": [
+    "Anterior_division_of_left_renal_artery_6"
+   ],
+   "FJ3464.obj": [
+    "Left_common_iliac_artery"
+   ],
+   "FJ3466.obj": [
+    "Left_external_iliac_artery"
+   ],
+   "FJ3467.obj": [
+    "Left_inferior_suprarenal_artery"
+   ],
+   "FJ3468.obj": [
+    "Left_internal_iliac_artery"
+   ],
+   "FJ3472.obj": [
+    "Left_middle_suprarenal_artery"
+   ],
+   "FJ3473.obj": [
+    "Posterior_division_of_left_renal_artery"
+   ],
+   "FJ3474.obj": [
+    "Posterior_division_of_left_renal_artery_2"
+   ],
+   "FJ3475.obj": [
+    "Posterior_division_of_left_renal_artery_3"
+   ],
+   "FJ3476.obj": [
+    "Trunk_of_left_renal_artery"
+   ],
+   "FJ3479.obj": [
+    "Left_subclavian_artery"
+   ],
+   "FJ3481.obj": [
+    "Ureteric_segment_of_left_renal_artery"
+   ],
+   "FJ3483.obj": [
+    "Left_common_carotid_artery"
+   ],
+   "FJ3494.obj": [
+    "Left_colic_artery"
+   ],
+   "FJ3496.obj": [
+    "Left_dorsal_artery_of_penis"
+   ],
+   "FJ3497.obj": [
+    "Left_dorsal_artery_of_penis_2"
+   ],
+   "FJ3499.obj": [
+    "Left_gastric_artery"
+   ],
+   "FJ3501.obj": [
+    "Left_gastro_epiploic_artery"
+   ],
+   "FJ3511.obj": [
+    "Left_inferior_epigastric_artery"
+   ],
+   "FJ3514.obj": [
+    "Left_inferior_phrenic_artery"
+   ],
+   "FJ3515.obj": [
+    "Left_inferior_phrenic_artery_2"
+   ],
+   "FJ3516.obj": [
+    "Left_inferior_phrenic_artery_3"
+   ],
+   "FJ3517.obj": [
+    "Left_inferior_phrenic_artery_4"
+   ],
+   "FJ3518.obj": [
+    "Left_inferior_phrenic_artery_5"
+   ],
+   "FJ3519.obj": [
+    "Left_inferior_phrenic_artery_6"
+   ],
+   "FJ3520.obj": [
+    "Left_inferior_phrenic_artery_7"
+   ],
+   "FJ3529.obj": [
+    "Left_superficial_epigastric_artery"
+   ],
+   "FJ3532.obj": [
+    "Left_testicular_artery"
+   ],
+   "FJ3534.obj": [
+    "Marginal_artery_of_colon"
+   ],
+   "FJ3542.obj": [
+    "Middle_colic_artery"
+   ],
+   "FJ3544.obj": [
+    "Splenic_artery_3"
+   ],
+   "FJ3546.obj": [
+    "Posterior_inferior_pancreaticoduodenal_artery"
+   ],
+   "FJ3553.obj": [
+    "Posterior_cecal_artery"
+   ],
+   "FJ3557.obj": [
+    "Posterior_superior_pancreaticoduodenal_artery"
+   ],
+   "FJ3558.obj": [
+    "Anterior_division_of_right_renal_artery"
+   ],
+   "FJ3559.obj": [
+    "Anterior_division_of_right_renal_artery_2"
+   ],
+   "FJ3560.obj": [
+    "Anterior_division_of_right_renal_artery_3"
+   ],
+   "FJ3561.obj": [
+    "Anterior_division_of_right_renal_artery_4"
+   ],
+   "FJ3562.obj": [
+    "Anterior_division_of_right_renal_artery_5"
+   ],
+   "FJ3563.obj": [
+    "Anterior_division_of_right_renal_artery_6"
+   ],
+   "FJ3564.obj": [
+    "Right_common_carotid_artery"
+   ],
+   "FJ3565.obj": [
+    "Right_common_iliac_artery"
+   ],
+   "FJ3567.obj": [
+    "Right_external_iliac_artery"
+   ],
+   "FJ3569.obj": [
+    "Right_internal_iliac_artery"
+   ],
+   "FJ3573.obj": [
+    "Posterior_division_of_right_renal_artery"
+   ],
+   "FJ3574.obj": [
+    "Posterior_division_of_right_renal_artery_2"
+   ],
+   "FJ3575.obj": [
+    "Posterior_division_of_right_renal_artery_3"
+   ],
+   "FJ3576.obj": [
+    "Trunk_of_right_renal_artery"
+   ],
+   "FJ3579.obj": [
+    "Right_subclavian_artery"
+   ],
+   "FJ3581.obj": [
+    "Ureteric_segment_of_right_renal_artery"
+   ],
+   "FJ3582.obj": [
+    "Ureteric_segment_of_right_renal_artery_2"
+   ],
+   "FJ3584.obj": [
+    "Right_inferior_suprarenal_artery"
+   ],
+   "FJ3586.obj": [
+    "Right_middle_suprarenal_artery"
+   ],
+   "FJ3590.obj": [
+    "Right_colic_artery"
+   ],
+   "FJ3592.obj": [
+    "Right_dorsal_artery_of_penis"
+   ],
+   "FJ3593.obj": [
+    "Right_dorsal_artery_of_penis_2"
+   ],
+   "FJ3594.obj": [
+    "Right_gastric_artery"
+   ],
+   "FJ3596.obj": [
+    "Right_gastro_epiploic_artery"
+   ],
+   "FJ3604.obj": [
+    "Right_inferior_epigastric_artery"
+   ],
+   "FJ3614.obj": [
+    "Right_superficial_epigastric_artery"
+   ],
+   "FJ3617.obj": [
+    "Right_testicular_artery"
+   ],
+   "FJ3619.obj": [
+    "Right_inferior_phrenic_artery"
+   ],
+   "FJ3620.obj": [
+    "Right_inferior_phrenic_artery_2"
+   ],
+   "FJ3621.obj": [
+    "Right_inferior_phrenic_artery_3"
+   ],
+   "FJ3622.obj": [
+    "Right_inferior_phrenic_artery_4"
+   ],
+   "FJ3623.obj": [
+    "Right_inferior_phrenic_artery_5"
+   ],
+   "FJ3624.obj": [
+    "Right_inferior_phrenic_artery_6"
+   ],
+   "FJ3625.obj": [
+    "Right_inferior_phrenic_artery_7"
+   ],
+   "FJ3626.obj": [
+    "Right_inferior_phrenic_artery_8"
+   ],
+   "FJ3632.obj": [
+    "Lumbar_artery"
+   ],
+   "FJ3636.obj": [
+    "Lumbar_artery_2"
+   ],
+   "FJ3638.obj": [
+    "Sigmoid_artery"
+   ],
+   "FJ3640.obj": [
+    "Splenic_artery_4"
+   ],
+   "FJ3644.obj": [
+    "Trunk_of_superior_mesenteric_artery"
+   ],
+   "FJ3656.obj": [
+    "Superior_rectal_artery"
+   ]
+  }
+ },
+ "veins": {
+  "files": [
+   "FJ1853.obj",
+   "FJ1867.obj",
+   "FJ1893.obj",
+   "FJ1913.obj",
+   "FJ1914.obj",
+   "FJ1981.obj",
+   "FJ1985.obj",
+   "FJ1986.obj",
+   "FJ1987.obj",
+   "FJ1988.obj",
+   "FJ1991.obj",
+   "FJ1993.obj",
+   "FJ1994.obj",
+   "FJ1995.obj",
+   "FJ1996.obj",
+   "FJ2056.obj",
+   "FJ2059.obj",
+   "FJ2060.obj",
+   "FJ2061.obj",
+   "FJ2062.obj",
+   "FJ2097.obj",
+   "FJ2099.obj",
+   "FJ2100.obj",
+   "FJ2102.obj",
+   "FJ2103.obj",
+   "FJ2107.obj",
+   "FJ2108.obj",
+   "FJ2113.obj",
+   "FJ2115.obj",
+   "FJ2117.obj",
+   "FJ2118.obj",
+   "FJ2119.obj",
+   "FJ2120.obj",
+   "FJ2121.obj",
+   "FJ2122.obj",
+   "FJ2124.obj",
+   "FJ2125.obj",
+   "FJ2128.obj",
+   "FJ2129.obj",
+   "FJ2132.obj",
+   "FJ2135.obj",
+   "FJ2138.obj",
+   "FJ2144.obj",
+   "FJ2145.obj",
+   "FJ2151.obj",
+   "FJ2153.obj",
+   "FJ2160.obj",
+   "FJ2165.obj",
+   "FJ2171.obj",
+   "FJ2173.obj",
+   "FJ2174.obj",
+   "FJ2175.obj",
+   "FJ2176.obj",
+   "FJ2178.obj",
+   "FJ2181.obj",
+   "FJ2182.obj",
+   "FJ2183.obj",
+   "FJ2184.obj",
+   "FJ2185.obj",
+   "FJ2186.obj",
+   "FJ2187.obj",
+   "FJ2188.obj",
+   "FJ2189.obj",
+   "FJ2190.obj",
+   "FJ2191.obj",
+   "FJ2192.obj",
+   "FJ2193.obj",
+   "FJ2194.obj",
+   "FJ2198.obj",
+   "FJ2199.obj",
+   "FJ2200.obj",
+   "FJ2201.obj",
+   "FJ2202.obj",
+   "FJ2207.obj",
+   "FJ2208.obj",
+   "FJ2213.obj",
+   "FJ2217.obj",
+   "FJ2218.obj",
+   "FJ2220.obj",
+   "FJ2222.obj",
+   "FJ2228.obj",
+   "FJ2229.obj",
+   "FJ2233.obj",
+   "FJ2234.obj",
+   "FJ2235.obj",
+   "FJ2238.obj",
+   "FJ2244.obj",
+   "FJ2247.obj",
+   "FJ2249.obj",
+   "FJ2250.obj",
+   "FJ2254.obj",
+   "FJ2260.obj",
+   "FJ2265.obj",
+   "FJ2269.obj",
+   "FJ2270.obj",
+   "FJ2272.obj",
+   "FJ2274.obj",
+   "FJ2280.obj",
+   "FJ2281.obj",
+   "FJ2285.obj",
+   "FJ2286.obj",
+   "FJ2287.obj",
+   "FJ2290.obj",
+   "FJ2296.obj",
+   "FJ2299.obj",
+   "FJ2301.obj",
+   "FJ2302.obj",
+   "FJ2306.obj",
+   "FJ2312.obj",
+   "FJ2313.obj",
+   "FJ2319.obj",
+   "FJ2320.obj",
+   "FJ2321.obj",
+   "FJ2322.obj",
+   "FJ2323.obj",
+   "FJ2324.obj",
+   "FJ2325.obj",
+   "FJ2326.obj",
+   "FJ2327.obj",
+   "FJ2328.obj",
+   "FJ2329.obj",
+   "FJ2340.obj",
+   "FJ2341.obj",
+   "FJ2349.obj",
+   "FJ2350.obj",
+   "FJ2351.obj",
+   "FJ2352.obj",
+   "FJ2353.obj",
+   "FJ2354.obj",
+   "FJ2355.obj",
+   "FJ2356.obj",
+   "FJ2357.obj",
+   "FJ2358.obj",
+   "FJ2359.obj",
+   "FJ2360.obj",
+   "FJ2404.obj",
+   "FJ2405.obj",
+   "FJ2414.obj",
+   "FJ2415.obj",
+   "FJ2416.obj",
+   "FJ2656.obj",
+   "FJ2657.obj",
+   "FJ2658.obj",
+   "FJ2659.obj",
+   "FJ2660.obj",
+   "FJ2661.obj",
+   "FJ2662.obj",
+   "FJ2663.obj",
+   "FJ2664.obj",
+   "FJ2665.obj",
+   "FJ2678.obj",
+   "FJ2679.obj",
+   "FJ2680.obj",
+   "FJ2681.obj",
+   "FJ2682.obj",
+   "FJ2683.obj",
+   "FJ2684.obj",
+   "FJ2685.obj",
+   "FJ2686.obj",
+   "FJ2687.obj",
+   "FJ2688.obj",
+   "FJ2689.obj",
+   "FJ2690.obj",
+   "FJ2691.obj",
+   "FJ2701.obj",
+   "FJ2702.obj",
+   "FJ2703.obj",
+   "FJ2704.obj",
+   "FJ2705.obj",
+   "FJ2706.obj",
+   "FJ2707.obj",
+   "FJ2708.obj",
+   "FJ2709.obj",
+   "FJ2710.obj",
+   "FJ2711.obj",
+   "FJ2712.obj",
+   "FJ2713.obj",
+   "FJ2724.obj",
+   "FJ2725.obj",
+   "FJ2727.obj",
+   "FJ2728.obj",
+   "FJ2729.obj",
+   "FJ2730.obj",
+   "FJ2731.obj",
+   "FJ2925.obj",
+   "FJ2926.obj",
+   "FJ2927.obj",
+   "FJ2928.obj",
+   "FJ2929.obj",
+   "FJ2930.obj",
+   "FJ2931.obj",
+   "FJ2932.obj",
+   "FJ2933.obj",
+   "FJ2934.obj",
+   "FJ2935.obj",
+   "FJ2936.obj",
+   "FJ2937.obj",
+   "FJ2938.obj",
+   "FJ2939.obj",
+   "FJ2940.obj",
+   "FJ2941.obj",
+   "FJ2942.obj",
+   "FJ2943.obj",
+   "FJ2944.obj",
+   "FJ2945.obj",
+   "FJ2946.obj",
+   "FJ2947.obj",
+   "FJ2948.obj",
+   "FJ2949.obj",
+   "FJ2950.obj",
+   "FJ2951.obj",
+   "FJ2952.obj",
+   "FJ2953.obj",
+   "FJ2954.obj",
+   "FJ2955.obj",
+   "FJ2956.obj",
+   "FJ2957.obj",
+   "FJ2958.obj",
+   "FJ2959.obj",
+   "FJ2960.obj",
+   "FJ2961.obj",
+   "FJ2962.obj",
+   "FJ2963.obj",
+   "FJ2964.obj",
+   "FJ2965.obj",
+   "FJ3020.obj",
+   "FJ3021.obj",
+   "FJ3022.obj",
+   "FJ3023.obj",
+   "FJ3024.obj",
+   "FJ3025.obj",
+   "FJ3026.obj",
+   "FJ3027.obj",
+   "FJ3028.obj",
+   "FJ3029.obj",
+   "FJ3030.obj",
+   "FJ3031.obj",
+   "FJ3032.obj",
+   "FJ3033.obj",
+   "FJ3034.obj",
+   "FJ3035.obj",
+   "FJ3036.obj",
+   "FJ3037.obj",
+   "FJ3038.obj",
+   "FJ3039.obj",
+   "FJ3040.obj",
+   "FJ3041.obj",
+   "FJ3042.obj",
+   "FJ3043.obj",
+   "FJ3044.obj",
+   "FJ3045.obj",
+   "FJ3046.obj",
+   "FJ3047.obj",
+   "FJ3048.obj",
+   "FJ3049.obj",
+   "FJ3050.obj",
+   "FJ3051.obj",
+   "FJ3052.obj",
+   "FJ3053.obj",
+   "FJ3054.obj",
+   "FJ3055.obj",
+   "FJ3056.obj",
+   "FJ3057.obj",
+   "FJ3058.obj",
+   "FJ3059.obj",
+   "FJ3060.obj",
+   "FJ3061.obj",
+   "FJ3062.obj",
+   "FJ3063.obj",
+   "FJ3064.obj",
+   "FJ3065.obj",
+   "FJ3066.obj",
+   "FJ3067.obj",
+   "FJ3068.obj",
+   "FJ3069.obj",
+   "FJ3070.obj",
+   "FJ3073.obj",
+   "FJ3074.obj",
+   "FJ3082.obj",
+   "FJ3083.obj",
+   "FJ3084.obj",
+   "FJ3085.obj",
+   "FJ3086.obj",
+   "FJ3097.obj",
+   "FJ3098.obj",
+   "FJ3099.obj",
+   "FJ3100.obj",
+   "FJ3101.obj",
+   "FJ3102.obj",
+   "FJ3111.obj",
+   "FJ3112.obj",
+   "FJ3113.obj",
+   "FJ3118.obj",
+   "FJ3119.obj",
+   "FJ3120.obj",
+   "FJ3121.obj",
+   "FJ3122.obj",
+   "FJ3124.obj",
+   "FJ3125.obj",
+   "FJ3126.obj",
+   "FJ3127.obj",
+   "FJ3128.obj",
+   "FJ3400.obj",
+   "FJ3415.obj",
+   "FJ3416.obj",
+   "FJ3426.obj",
+   "FJ3429.obj",
+   "FJ3434.obj",
+   "FJ3438.obj",
+   "FJ3440.obj",
+   "FJ3441.obj",
+   "FJ3443.obj",
+   "FJ3447.obj",
+   "FJ3448.obj",
+   "FJ3449.obj",
+   "FJ3450.obj",
+   "FJ3451.obj",
+   "FJ3452.obj",
+   "FJ3465.obj",
+   "FJ3469.obj",
+   "FJ3470.obj",
+   "FJ3471.obj",
+   "FJ3477.obj",
+   "FJ3478.obj",
+   "FJ3480.obj",
+   "FJ3482.obj",
+   "FJ3484.obj",
+   "FJ3485.obj",
+   "FJ3486.obj",
+   "FJ3493.obj",
+   "FJ3495.obj",
+   "FJ3500.obj",
+   "FJ3502.obj",
+   "FJ3510.obj",
+   "FJ3512.obj",
+   "FJ3513.obj",
+   "FJ3522.obj",
+   "FJ3523.obj",
+   "FJ3524.obj",
+   "FJ3525.obj",
+   "FJ3526.obj",
+   "FJ3527.obj",
+   "FJ3530.obj",
+   "FJ3531.obj",
+   "FJ3533.obj",
+   "FJ3541.obj",
+   "FJ3543.obj",
+   "FJ3545.obj",
+   "FJ3566.obj",
+   "FJ3568.obj",
+   "FJ3570.obj",
+   "FJ3571.obj",
+   "FJ3572.obj",
+   "FJ3577.obj",
+   "FJ3578.obj",
+   "FJ3580.obj",
+   "FJ3583.obj",
+   "FJ3585.obj",
+   "FJ3587.obj",
+   "FJ3589.obj",
+   "FJ3591.obj",
+   "FJ3595.obj",
+   "FJ3597.obj",
+   "FJ3603.obj",
+   "FJ3605.obj",
+   "FJ3606.obj",
+   "FJ3607.obj",
+   "FJ3608.obj",
+   "FJ3609.obj",
+   "FJ3610.obj",
+   "FJ3611.obj",
+   "FJ3612.obj",
+   "FJ3615.obj",
+   "FJ3616.obj",
+   "FJ3618.obj",
+   "FJ3631.obj",
+   "FJ3635.obj",
+   "FJ3637.obj",
+   "FJ3639.obj",
+   "FJ3641.obj",
+   "FJ3645.obj",
+   "FJ3646.obj",
+   "FJ3647.obj",
+   "FJ3648.obj",
+   "FJ3649.obj",
+   "FJ3650.obj",
+   "FJ3651.obj",
+   "FJ3652.obj",
+   "FJ3653.obj",
+   "FJ3654.obj",
+   "FJ3655.obj",
+   "FJ3657.obj",
+   "FJ3658.obj",
+   "FJ3659.obj"
+  ],
+  "mesh_count": 394,
+  "bytes": 3064824,
+  "failed": [],
+  "mapping": {
+   "FJ1853.obj": [
+    "Hepatic_portal_vein"
+   ],
+   "FJ1867.obj": [
+    "Tributary_of_middle_hepatic_vein"
+   ],
+   "FJ1893.obj": [
+    "Left_portal_vein"
+   ],
+   "FJ1913.obj": [
+    "Right_portal_vein"
+   ],
+   "FJ1914.obj": [
+    "Caudate_lobe_branch_of_right_portal_vein"
+   ],
+   "FJ1981.obj": [
+    "Accessory_hemiazygos_vein"
+   ],
+   "FJ1985.obj": [
+    "Set_of_anterior_intercostal_veins"
+   ],
+   "FJ1986.obj": [
+    "Left_superior_intercostal_vein"
+   ],
+   "FJ1987.obj": [
+    "Left_subcostal_vein"
+   ],
+   "FJ1988.obj": [
+    "Left_musculophrenic_vein"
+   ],
+   "FJ1991.obj": [
+    "Right_superior_intercostal_vein"
+   ],
+   "FJ1993.obj": [
+    "Right_internal_thoracic_vein"
+   ],
+   "FJ1994.obj": [
+    "Set_of_anterior_intercostal_veins_2"
+   ],
+   "FJ1995.obj": [
+    "Right_subcostal_vein"
+   ],
+   "FJ1996.obj": [
+    "Right_musculophrenic_vein"
+   ],
+   "FJ2056.obj": [
+    "Deep_dorsal_vein_of_penis"
+   ],
+   "FJ2059.obj": [
+    "Dorsal_venous_arch_of_left_foot"
+   ],
+   "FJ2060.obj": [
+    "Dorsal_venous_arch_of_left_foot_2"
+   ],
+   "FJ2061.obj": [
+    "Dorsal_venous_arch_of_right_foot"
+   ],
+   "FJ2062.obj": [
+    "Dorsal_venous_arch_of_right_foot_2"
+   ],
+   "FJ2097.obj": [
+    "Left_anterior_tibial_vein"
+   ],
+   "FJ2099.obj": [
+    "Left_deep_femoral_vein"
+   ],
+   "FJ2100.obj": [
+    "Set_of_perforating_veins"
+   ],
+   "FJ2102.obj": [
+    "Left_femoral_vein"
+   ],
+   "FJ2103.obj": [
+    "Left_great_saphenous_vein"
+   ],
+   "FJ2107.obj": [
+    "Left_genicular_vein"
+   ],
+   "FJ2108.obj": [
+    "Left_genicular_vein_2"
+   ],
+   "FJ2113.obj": [
+    "Tributary_of_plantar_venous_arch"
+   ],
+   "FJ2115.obj": [
+    "Tributary_of_plantar_venous_arch_2"
+   ],
+   "FJ2117.obj": [
+    "Left_popliteal_vein"
+   ],
+   "FJ2118.obj": [
+    "Left_posterior_tibial_vein"
+   ],
+   "FJ2119.obj": [
+    "Set_of_perforating_veins_2"
+   ],
+   "FJ2120.obj": [
+    "Set_of_plantar_digital_veins"
+   ],
+   "FJ2121.obj": [
+    "Left_small_saphenous_vein"
+   ],
+   "FJ2122.obj": [
+    "Left_superficial_epigastric_vein"
+   ],
+   "FJ2124.obj": [
+    "Left_genicular_vein_3"
+   ],
+   "FJ2125.obj": [
+    "Left_genicular_vein_4"
+   ],
+   "FJ2128.obj": [
+    "Plantar_venous_arch_of_left_foot"
+   ],
+   "FJ2129.obj": [
+    "Plantar_venous_arch_of_right_foot"
+   ],
+   "FJ2132.obj": [
+    "Right_anterior_tibial_vein"
+   ],
+   "FJ2135.obj": [
+    "Right_deep_femoral_vein"
+   ],
+   "FJ2138.obj": [
+    "Set_of_perforating_veins_3"
+   ],
+   "FJ2144.obj": [
+    "Right_femoral_vein"
+   ],
+   "FJ2145.obj": [
+    "Right_great_saphenous_vein"
+   ],
+   "FJ2151.obj": [
+    "Right_genicular_vein"
+   ],
+   "FJ2153.obj": [
+    "Right_genicular_vein_2"
+   ],
+   "FJ2160.obj": [
+    "Tributary_of_plantar_venous_arch_3"
+   ],
+   "FJ2165.obj": [
+    "Tributary_of_plantar_venous_arch_4"
+   ],
+   "FJ2171.obj": [
+    "Right_popliteal_vein"
+   ],
+   "FJ2173.obj": [
+    "Right_posterior_tibial_vein"
+   ],
+   "FJ2174.obj": [
+    "Set_of_perforating_veins_4"
+   ],
+   "FJ2175.obj": [
+    "Set_of_plantar_digital_veins_2"
+   ],
+   "FJ2176.obj": [
+    "Right_small_saphenous_vein"
+   ],
+   "FJ2178.obj": [
+    "Right_superficial_epigastric_vein"
+   ],
+   "FJ2181.obj": [
+    "Right_genicular_vein_3"
+   ],
+   "FJ2182.obj": [
+    "Right_genicular_vein_4"
+   ],
+   "FJ2183.obj": [
+    "Left_anterior_tibial_vein_2"
+   ],
+   "FJ2184.obj": [
+    "Left_fibular_vein"
+   ],
+   "FJ2185.obj": [
+    "Set_of_dorsal_digital_veins"
+   ],
+   "FJ2186.obj": [
+    "Dorsal_metacarpal_vein"
+   ],
+   "FJ2187.obj": [
+    "Left_fibular_vein_2"
+   ],
+   "FJ2188.obj": [
+    "Left_lateral_circumflex_femoral_vein"
+   ],
+   "FJ2189.obj": [
+    "Left_medial_circumflex_femoral_vein"
+   ],
+   "FJ2190.obj": [
+    "Right_fibular_vein"
+   ],
+   "FJ2191.obj": [
+    "Plantar_metatarsal_vein"
+   ],
+   "FJ2192.obj": [
+    "Set_of_perforating_veins_5"
+   ],
+   "FJ2193.obj": [
+    "Right_anterior_tibial_vein_2"
+   ],
+   "FJ2194.obj": [
+    "Right_fibular_vein_2"
+   ],
+   "FJ2198.obj": [
+    "Set_of_dorsal_digital_veins_2"
+   ],
+   "FJ2199.obj": [
+    "Dorsal_metacarpal_vein_2"
+   ],
+   "FJ2200.obj": [
+    "Right_fibular_vein_3"
+   ],
+   "FJ2201.obj": [
+    "Right_lateral_circumflex_femoral_vein"
+   ],
+   "FJ2202.obj": [
+    "Right_medial_circumflex_femoral_vein"
+   ],
+   "FJ2207.obj": [
+    "Plantar_metatarsal_vein_2"
+   ],
+   "FJ2208.obj": [
+    "Superficial_dorsal_vein_of_penis"
+   ],
+   "FJ2213.obj": [
+    "Left_anterior_circumflex_humeral_vein"
+   ],
+   "FJ2217.obj": [
+    "Left_axillary_vein"
+   ],
+   "FJ2218.obj": [
+    "Left_basilic_vein"
+   ],
+   "FJ2220.obj": [
+    "Left_cephalic_vein"
+   ],
+   "FJ2222.obj": [
+    "Left_circumflex_scapular_vein"
+   ],
+   "FJ2228.obj": [
+    "Dorsal_venous_network_of_left_hand"
+   ],
+   "FJ2229.obj": [
+    "Left_deep_palmar_venous_arch"
+   ],
+   "FJ2233.obj": [
+    "Left_lateral_thoracic_vein"
+   ],
+   "FJ2234.obj": [
+    "Left_median_antebrachial_vein"
+   ],
+   "FJ2235.obj": [
+    "Left_median_cubital_vein"
+   ],
+   "FJ2238.obj": [
+    "Left_palmar_metacarpal_vein"
+   ],
+   "FJ2244.obj": [
+    "Left_radial_vein"
+   ],
+   "FJ2247.obj": [
+    "Left_subscapular_vein"
+   ],
+   "FJ2249.obj": [
+    "Left_superficial_palmar_venous_arch"
+   ],
+   "FJ2250.obj": [
+    "Left_suprascapular_vein"
+   ],
+   "FJ2254.obj": [
+    "Left_thoracodorsal_vein"
+   ],
+   "FJ2260.obj": [
+    "Left_ulnar_vein"
+   ],
+   "FJ2265.obj": [
+    "Right_anterior_circumflex_humeral_vein"
+   ],
+   "FJ2269.obj": [
+    "Right_axillary_vein"
+   ],
+   "FJ2270.obj": [
+    "Right_basilic_vein"
+   ],
+   "FJ2272.obj": [
+    "Right_cephalic_vein"
+   ],
+   "FJ2274.obj": [
+    "Right_circumflex_scapular_vein"
+   ],
+   "FJ2280.obj": [
+    "Dorsal_venous_network_of_right_hand"
+   ],
+   "FJ2281.obj": [
+    "Right_deep_palmar_venous_arch"
+   ],
+   "FJ2285.obj": [
+    "Right_lateral_thoracic_vein"
+   ],
+   "FJ2286.obj": [
+    "Right_median_antebrachial_vein"
+   ],
+   "FJ2287.obj": [
+    "Right_median_cubital_vein"
+   ],
+   "FJ2290.obj": [
+    "Right_palmar_metacarpal_vein"
+   ],
+   "FJ2296.obj": [
+    "Right_radial_vein"
+   ],
+   "FJ2299.obj": [
+    "Right_subscapular_vein"
+   ],
+   "FJ2301.obj": [
+    "Right_superficial_palmar_venous_arch"
+   ],
+   "FJ2302.obj": [
+    "Right_suprascapular_vein"
+   ],
+   "FJ2306.obj": [
+    "Right_thoracodorsal_vein"
+   ],
+   "FJ2312.obj": [
+    "Right_ulnar_vein"
+   ],
+   "FJ2313.obj": [
+    "Left_medial_brachial_vein"
+   ],
+   "FJ2319.obj": [
+    "Proper_palmar_digital_vein_of_left_little_finger"
+   ],
+   "FJ2320.obj": [
+    "Left_palmar_metacarpal_vein_2"
+   ],
+   "FJ2321.obj": [
+    "Proper_palmar_digital_vein_of_left_little_finger_2"
+   ],
+   "FJ2322.obj": [
+    "Common_palmar_digital_vein"
+   ],
+   "FJ2323.obj": [
+    "Left_palmar_metacarpal_vein_3"
+   ],
+   "FJ2324.obj": [
+    "Proper_palmar_digital_vein_of_left_index_finger"
+   ],
+   "FJ2325.obj": [
+    "Proper_palmar_digital_vein_of_left_index_finger_2"
+   ],
+   "FJ2326.obj": [
+    "Proper_palmar_digital_vein_of_left_middle_finger"
+   ],
+   "FJ2327.obj": [
+    "Proper_palmar_digital_vein_of_left_ring_finger"
+   ],
+   "FJ2328.obj": [
+    "Proper_palmar_digital_vein_of_left_ring_finger_2"
+   ],
+   "FJ2329.obj": [
+    "Proper_palmar_digital_vein_of_left_little_finger_3"
+   ],
+   "FJ2340.obj": [
+    "Proper_palmar_digital_vein_of_left_middle_finger_2"
+   ],
+   "FJ2341.obj": [
+    "Right_medial_brachial_vein"
+   ],
+   "FJ2349.obj": [
+    "Proper_palmar_digital_vein_of_right_little_finger"
+   ],
+   "FJ2350.obj": [
+    "Right_palmar_metacarpal_vein_2"
+   ],
+   "FJ2351.obj": [
+    "Proper_palmar_digital_vein_of_right_little_finger_2"
+   ],
+   "FJ2352.obj": [
+    "Common_palmar_digital_vein_2"
+   ],
+   "FJ2353.obj": [
+    "Right_palmar_metacarpal_vein_3"
+   ],
+   "FJ2354.obj": [
+    "Proper_palmar_digital_vein_of_right_index_finger"
+   ],
+   "FJ2355.obj": [
+    "Proper_palmar_digital_vein_of_right_index_finger_2"
+   ],
+   "FJ2356.obj": [
+    "Proper_palmar_digital_vein_of_right_middle_finger"
+   ],
+   "FJ2357.obj": [
+    "Proper_palmar_digital_vein_of_right_middle_finger_2"
+   ],
+   "FJ2358.obj": [
+    "Proper_palmar_digital_vein_of_right_ring_finger"
+   ],
+   "FJ2359.obj": [
+    "Proper_palmar_digital_vein_of_right_ring_finger_2"
+   ],
+   "FJ2360.obj": [
+    "Proper_palmar_digital_vein_of_right_little_finger_3"
+   ],
+   "FJ2404.obj": [
+    "Left_portal_vein_2"
+   ],
+   "FJ2405.obj": [
+    "Right_portal_vein_2"
+   ],
+   "FJ2414.obj": [
+    "Middle_hepatic_vein"
+   ],
+   "FJ2415.obj": [
+    "Left_hepatic_vein"
+   ],
+   "FJ2416.obj": [
+    "Right_hepatic_vein"
+   ],
+   "FJ2656.obj": [
+    "Great_cardiac_vein"
+   ],
+   "FJ2657.obj": [
+    "Anterior_interventricular_vein"
+   ],
+   "FJ2658.obj": [
+    "Anterior_interventricular_vein_2"
+   ],
+   "FJ2659.obj": [
+    "Anterior_interventricular_vein_3"
+   ],
+   "FJ2660.obj": [
+    "Anterior_interventricular_vein_4"
+   ],
+   "FJ2661.obj": [
+    "Anterior_interventricular_vein_5"
+   ],
+   "FJ2662.obj": [
+    "Anterior_interventricular_vein_6"
+   ],
+   "FJ2663.obj": [
+    "Anterior_interventricular_vein_7"
+   ],
+   "FJ2664.obj": [
+    "Anterior_interventricular_vein_8"
+   ],
+   "FJ2665.obj": [
+    "Anterior_interventricular_vein_9"
+   ],
+   "FJ2678.obj": [
+    "Middle_cardiac_vein"
+   ],
+   "FJ2679.obj": [
+    "Middle_cardiac_vein_2"
+   ],
+   "FJ2680.obj": [
+    "Middle_cardiac_vein_3"
+   ],
+   "FJ2681.obj": [
+    "Middle_cardiac_vein_4"
+   ],
+   "FJ2682.obj": [
+    "Middle_cardiac_vein_5"
+   ],
+   "FJ2683.obj": [
+    "Middle_cardiac_vein_6"
+   ],
+   "FJ2684.obj": [
+    "Middle_cardiac_vein_7"
+   ],
+   "FJ2685.obj": [
+    "Middle_cardiac_vein_8"
+   ],
+   "FJ2686.obj": [
+    "Middle_cardiac_vein_9"
+   ],
+   "FJ2687.obj": [
+    "Middle_cardiac_vein_10"
+   ],
+   "FJ2688.obj": [
+    "Middle_cardiac_vein_11"
+   ],
+   "FJ2689.obj": [
+    "Middle_cardiac_vein_12"
+   ],
+   "FJ2690.obj": [
+    "Middle_cardiac_vein_13"
+   ],
+   "FJ2691.obj": [
+    "Middle_cardiac_vein_14"
+   ],
+   "FJ2701.obj": [
+    "Posterior_vein_of_left_ventricle"
+   ],
+   "FJ2702.obj": [
+    "Posterior_vein_of_left_ventricle_2"
+   ],
+   "FJ2703.obj": [
+    "Left_marginal_vein"
+   ],
+   "FJ2704.obj": [
+    "Left_marginal_vein_2"
+   ],
+   "FJ2705.obj": [
+    "Left_marginal_vein_3"
+   ],
+   "FJ2706.obj": [
+    "Posterior_vein_of_left_ventricle_3"
+   ],
+   "FJ2707.obj": [
+    "Posterior_vein_of_left_ventricle_4"
+   ],
+   "FJ2708.obj": [
+    "Posterior_vein_of_left_ventricle_5"
+   ],
+   "FJ2709.obj": [
+    "Posterior_vein_of_left_ventricle_6"
+   ],
+   "FJ2710.obj": [
+    "Posterior_vein_of_left_ventricle_7"
+   ],
+   "FJ2711.obj": [
+    "Posterior_vein_of_left_ventricle_8"
+   ],
+   "FJ2712.obj": [
+    "Posterior_vein_of_left_ventricle_9"
+   ],
+   "FJ2713.obj": [
+    "Posterior_vein_of_left_ventricle_10"
+   ],
+   "FJ2724.obj": [
+    "Small_cardiac_vein"
+   ],
+   "FJ2725.obj": [
+    "Anterior_cardiac_vein"
+   ],
+   "FJ2727.obj": [
+    "Right_marginal_vein"
+   ],
+   "FJ2728.obj": [
+    "Right_marginal_vein_2"
+   ],
+   "FJ2729.obj": [
+    "Right_marginal_vein_3"
+   ],
+   "FJ2730.obj": [
+    "Anterior_cardiac_vein_2"
+   ],
+   "FJ2731.obj": [
+    "Small_cardiac_vein_2"
+   ],
+   "FJ2925.obj": [
+    "Left_superior_pulmonary_vein"
+   ],
+   "FJ2926.obj": [
+    "Left_posterior_segmental_vein"
+   ],
+   "FJ2927.obj": [
+    "Left_posterior_segmental_vein_2"
+   ],
+   "FJ2928.obj": [
+    "Left_posterior_segmental_vein_3"
+   ],
+   "FJ2929.obj": [
+    "Left_posterior_segmental_vein_4"
+   ],
+   "FJ2930.obj": [
+    "Left_anterior_segmental_vein"
+   ],
+   "FJ2931.obj": [
+    "Left_anterior_segmental_vein_2"
+   ],
+   "FJ2932.obj": [
+    "Left_anterior_segmental_vein_3"
+   ],
+   "FJ2933.obj": [
+    "Left_superior_pulmonary_vein_2"
+   ],
+   "FJ2934.obj": [
+    "Inferior_lingular_vein"
+   ],
+   "FJ2935.obj": [
+    "Inferior_lingular_vein_2"
+   ],
+   "FJ2936.obj": [
+    "Left_apical_segmental_vein"
+   ],
+   "FJ2937.obj": [
+    "Superior_lingular_vein"
+   ],
+   "FJ2938.obj": [
+    "Superior_lingular_vein_2"
+   ],
+   "FJ2939.obj": [
+    "Left_posterior_segmental_vein_5"
+   ],
+   "FJ2940.obj": [
+    "Left_posterior_segmental_vein_6"
+   ],
+   "FJ2941.obj": [
+    "Left_posterior_segmental_vein_7"
+   ],
+   "FJ2942.obj": [
+    "Left_posterior_segmental_vein_8"
+   ],
+   "FJ2943.obj": [
+    "Left_posterior_segmental_vein_9"
+   ],
+   "FJ2944.obj": [
+    "Left_inferior_pulmonary_vein"
+   ],
+   "FJ2945.obj": [
+    "Left_posterior_basal_segmental_vein"
+   ],
+   "FJ2946.obj": [
+    "Left_posterior_basal_segmental_vein_2"
+   ],
+   "FJ2947.obj": [
+    "Left_apical_segmental_vein_2"
+   ],
+   "FJ2948.obj": [
+    "Left_posterior_basal_segmental_vein_3"
+   ],
+   "FJ2949.obj": [
+    "Left_posterior_basal_segmental_vein_4"
+   ],
+   "FJ2950.obj": [
+    "Left_inferior_pulmonary_vein_2"
+   ],
+   "FJ2951.obj": [
+    "Left_lateral_basal_segmental_vein"
+   ],
+   "FJ2952.obj": [
+    "Left_lateral_basal_segmental_vein_2"
+   ],
+   "FJ2953.obj": [
+    "Left_lateral_basal_segmental_vein_3"
+   ],
+   "FJ2954.obj": [
+    "Left_lateral_basal_segmental_vein_4"
+   ],
+   "FJ2955.obj": [
+    "Left_inferior_pulmonary_vein_3"
+   ],
+   "FJ2956.obj": [
+    "Left_anterior_basal_segmental_vein"
+   ],
+   "FJ2957.obj": [
+    "Left_anterior_basal_segmental_vein_2"
+   ],
+   "FJ2958.obj": [
+    "Left_apical_segmental_vein_3"
+   ],
+   "FJ2959.obj": [
+    "Left_anterior_basal_segmental_vein_3"
+   ],
+   "FJ2960.obj": [
+    "Left_anterior_basal_segmental_vein_4"
+   ],
+   "FJ2961.obj": [
+    "Left_apical_segmental_vein_4"
+   ],
+   "FJ2962.obj": [
+    "Left_apical_segmental_vein_5"
+   ],
+   "FJ2963.obj": [
+    "Left_apical_segmental_vein_6"
+   ],
+   "FJ2964.obj": [
+    "Left_apical_segmental_vein_7"
+   ],
+   "FJ2965.obj": [
+    "Left_posterior_segmental_vein_10"
+   ],
+   "FJ3020.obj": [
+    "Right_superior_pulmonary_vein"
+   ],
+   "FJ3021.obj": [
+    "Inferior_part_of_right_anterior_segmental_vein"
+   ],
+   "FJ3022.obj": [
+    "Right_posterior_segmental_vein"
+   ],
+   "FJ3023.obj": [
+    "Right_posterior_segmental_vein_2"
+   ],
+   "FJ3024.obj": [
+    "Right_posterior_segmental_vein_3"
+   ],
+   "FJ3025.obj": [
+    "Right_posterior_segmental_vein_4"
+   ],
+   "FJ3026.obj": [
+    "Right_posterior_segmental_vein_5"
+   ],
+   "FJ3027.obj": [
+    "Superior_part_of_right_anterior_segmental_vein"
+   ],
+   "FJ3028.obj": [
+    "Right_anterior_segmental_vein"
+   ],
+   "FJ3029.obj": [
+    "Right_anterior_segmental_vein_2"
+   ],
+   "FJ3030.obj": [
+    "Superior_part_of_medial_segmental_vein"
+   ],
+   "FJ3031.obj": [
+    "Trunk_of_right_apical_segmental_vein"
+   ],
+   "FJ3032.obj": [
+    "Inferior_part_of_medial_segmental_vein"
+   ],
+   "FJ3033.obj": [
+    "Inferior_part_of_medial_segmental_vein_2"
+   ],
+   "FJ3034.obj": [
+    "Anterior_part_of_lateral_segmental_vein"
+   ],
+   "FJ3035.obj": [
+    "Anterior_part_of_lateral_segmental_vein_2"
+   ],
+   "FJ3036.obj": [
+    "Anterior_part_of_lateral_segmental_vein_3"
+   ],
+   "FJ3037.obj": [
+    "Posterior_part_of_lateral_segmental_vein"
+   ],
+   "FJ3038.obj": [
+    "Posterior_part_of_lateral_segmental_vein_2"
+   ],
+   "FJ3039.obj": [
+    "Posterior_part_of_lateral_segmental_vein_3"
+   ],
+   "FJ3040.obj": [
+    "Right_inferior_pulmonary_vein"
+   ],
+   "FJ3041.obj": [
+    "Right_posterior_basal_segmental_vein"
+   ],
+   "FJ3042.obj": [
+    "Anterior_part_of_right_apical_segmental_vein"
+   ],
+   "FJ3043.obj": [
+    "Right_posterior_basal_segmental_vein_2"
+   ],
+   "FJ3044.obj": [
+    "Right_posterior_basal_segmental_vein_3"
+   ],
+   "FJ3045.obj": [
+    "Right_posterior_basal_segmental_vein_4"
+   ],
+   "FJ3046.obj": [
+    "Right_posterior_basal_segmental_vein_5"
+   ],
+   "FJ3047.obj": [
+    "Right_posterior_basal_segmental_vein_6"
+   ],
+   "FJ3048.obj": [
+    "Right_posterior_basal_segmental_vein_7"
+   ],
+   "FJ3049.obj": [
+    "Right_anterior_basal_segmental_vein"
+   ],
+   "FJ3050.obj": [
+    "Right_superior_segmental_vein"
+   ],
+   "FJ3051.obj": [
+    "Right_superior_segmental_vein_2"
+   ],
+   "FJ3052.obj": [
+    "Right_superior_segmental_vein_3"
+   ],
+   "FJ3053.obj": [
+    "Anterior_part_of_right_apical_segmental_vein_2"
+   ],
+   "FJ3054.obj": [
+    "Right_medial_basal_segmental_vein"
+   ],
+   "FJ3055.obj": [
+    "Right_medial_basal_segmental_vein_2"
+   ],
+   "FJ3056.obj": [
+    "Right_anterior_basal_segmental_vein_2"
+   ],
+   "FJ3057.obj": [
+    "Right_posterior_basal_segmental_vein_8"
+   ],
+   "FJ3058.obj": [
+    "Right_posterior_basal_segmental_vein_9"
+   ],
+   "FJ3059.obj": [
+    "Right_lateral_basal_segmental_vein"
+   ],
+   "FJ3060.obj": [
+    "Right_lateral_basal_segmental_vein_2"
+   ],
+   "FJ3061.obj": [
+    "Right_lateral_basal_segmental_vein_3"
+   ],
+   "FJ3062.obj": [
+    "Right_lateral_basal_segmental_vein_4"
+   ],
+   "FJ3063.obj": [
+    "Right_superior_segmental_vein_4"
+   ],
+   "FJ3064.obj": [
+    "Apical_part_of_right_apical_segmental_vein"
+   ],
+   "FJ3065.obj": [
+    "Right_superior_segmental_vein_5"
+   ],
+   "FJ3066.obj": [
+    "Right_superior_segmental_vein_6"
+   ],
+   "FJ3067.obj": [
+    "Apical_part_of_right_apical_segmental_vein_2"
+   ],
+   "FJ3068.obj": [
+    "Apical_part_of_right_apical_segmental_vein_3"
+   ],
+   "FJ3069.obj": [
+    "Right_posterior_segmental_vein_6"
+   ],
+   "FJ3070.obj": [
+    "Right_posterior_segmental_vein_7"
+   ],
+   "FJ3073.obj": [
+    "Anterior_superior_segmental_branch_of_right_portal_vein"
+   ],
+   "FJ3074.obj": [
+    "Anterior_inferior_segmental_branch_of_right_portal_vein"
+   ],
+   "FJ3082.obj": [
+    "Pre_hepatic_portal_vein"
+   ],
+   "FJ3083.obj": [
+    "Anterior_inferior_segmental_tributary_of_middle_hepatic_vein"
+   ],
+   "FJ3084.obj": [
+    "Medial_inferior_segmental_tributary_of_middle_hepatic_vein"
+   ],
+   "FJ3085.obj": [
+    "Medial_inferior_segmental_tributary_of_middle_hepatic_vein_2"
+   ],
+   "FJ3086.obj": [
+    "Anterior_inferior_segmental_tributary_of_middle_hepatic_vein_2"
+   ],
+   "FJ3097.obj": [
+    "Lateral_inferior_segmental_tributary_of_left_hepatic_vein"
+   ],
+   "FJ3098.obj": [
+    "Lateral_superior_segmental_tributary_of_left_hepatic_vein"
+   ],
+   "FJ3099.obj": [
+    "Lateral_inferior_segmental_tributary_of_left_hepatic_vein_2"
+   ],
+   "FJ3100.obj": [
+    "Lateral_inferior_segmental_tributary_of_left_hepatic_vein_3"
+   ],
+   "FJ3101.obj": [
+    "Medial_superior_segmental_tributary_of_left_hepatic_vein"
+   ],
+   "FJ3102.obj": [
+    "Trunk_of_left_portal_vein"
+   ],
+   "FJ3111.obj": [
+    "Posterior_inferior_segmental_branch_of_right_portal_vein"
+   ],
+   "FJ3112.obj": [
+    "Posterior_superior_segmental_branch_of_right_portal_vein"
+   ],
+   "FJ3113.obj": [
+    "Posterior_superior_segmental_branch_of_right_portal_vein_2"
+   ],
+   "FJ3118.obj": [
+    "Posterior_inferior_segmental_tributary_of_right_hepatic_vein"
+   ],
+   "FJ3119.obj": [
+    "Posterior_superior_segmental_tributary_of_right_hepatic_vein"
+   ],
+   "FJ3120.obj": [
+    "Posterior_inferior_segmental_tributary_of_right_hepatic_vein_2"
+   ],
+   "FJ3121.obj": [
+    "Anterior_superior_segmental_tributary_of_right_hepatic_vein"
+   ],
+   "FJ3122.obj": [
+    "Trunk_of_right_portal_vein"
+   ],
+   "FJ3124.obj": [
+    "Caudate_lobe_branch_of_left_portal_vein"
+   ],
+   "FJ3125.obj": [
+    "Lateral_inferior_segmental_branch_of_left_portal_vein"
+   ],
+   "FJ3126.obj": [
+    "Lateral_superior_segmental_branch_of_left_portal_vein"
+   ],
+   "FJ3127.obj": [
+    "Medial_superior_segmental_branch_of_left_portal_vein"
+   ],
+   "FJ3128.obj": [
+    "Medial_inferior_segmental_branch_of_left_portal_vein"
+   ],
+   "FJ3400.obj": [
+    "Left_colic_vein"
+   ],
+   "FJ3415.obj": [
+    "Ileocolic_vein"
+   ],
+   "FJ3416.obj": [
+    "Azygos_vein"
+   ],
+   "FJ3426.obj": [
+    "Left_superficial_dorsal_vein_of_penis"
+   ],
+   "FJ3429.obj": [
+    "Left_colic_vein_2"
+   ],
+   "FJ3434.obj": [
+    "Hemiazygos_vein"
+   ],
+   "FJ3438.obj": [
+    "Ileal_vein"
+   ],
+   "FJ3440.obj": [
+    "Ileocolic_vein_2"
+   ],
+   "FJ3441.obj": [
+    "Inferior_vena_cava"
+   ],
+   "FJ3443.obj": [
+    "Inferior_mesenteric_vein"
+   ],
+   "FJ3447.obj": [
+    "Inferior_phrenic_vein"
+   ],
+   "FJ3448.obj": [
+    "Inferior_phrenic_vein_2"
+   ],
+   "FJ3449.obj": [
+    "Inferior_phrenic_vein_3"
+   ],
+   "FJ3450.obj": [
+    "Inferior_phrenic_vein_4"
+   ],
+   "FJ3451.obj": [
+    "Inferior_phrenic_vein_5"
+   ],
+   "FJ3452.obj": [
+    "Inferior_phrenic_vein_6"
+   ],
+   "FJ3465.obj": [
+    "Left_common_iliac_vein"
+   ],
+   "FJ3469.obj": [
+    "Left_internal_iliac_vein"
+   ],
+   "FJ3470.obj": [
+    "Left_internal_iliac_vein_2"
+   ],
+   "FJ3471.obj": [
+    "Left_internal_iliac_vein_3"
+   ],
+   "FJ3477.obj": [
+    "Left_renal_vein"
+   ],
+   "FJ3478.obj": [
+    "Left_renal_vein_2"
+   ],
+   "FJ3480.obj": [
+    "Left_suprarenal_vein"
+   ],
+   "FJ3482.obj": [
+    "Left_brachiocephalic_vein"
+   ],
+   "FJ3484.obj": [
+    "Left_external_iliac_vein"
+   ],
+   "FJ3485.obj": [
+    "Left_internal_jugular_vein"
+   ],
+   "FJ3486.obj": [
+    "Left_subclavian_vein"
+   ],
+   "FJ3493.obj": [
+    "Left_ascending_lumbar_vein"
+   ],
+   "FJ3495.obj": [
+    "Left_colic_vein_3"
+   ],
+   "FJ3500.obj": [
+    "Left_gastric_vein"
+   ],
+   "FJ3502.obj": [
+    "Left_gastroepiploic_vein"
+   ],
+   "FJ3510.obj": [
+    "Left_iliolumbar_vein"
+   ],
+   "FJ3512.obj": [
+    "Left_inferior_epigastric_vein"
+   ],
+   "FJ3513.obj": [
+    "Left_inferior_gluteal_vein"
+   ],
+   "FJ3522.obj": [
+    "Left_external_iliac_vein_2"
+   ],
+   "FJ3523.obj": [
+    "Left_external_iliac_vein_3"
+   ],
+   "FJ3524.obj": [
+    "Left_external_iliac_vein_4"
+   ],
+   "FJ3525.obj": [
+    "Left_internal_pudendal_vein"
+   ],
+   "FJ3526.obj": [
+    "Left_lateral_sacral_vein"
+   ],
+   "FJ3527.obj": [
+    "Left_obturator_vein"
+   ],
+   "FJ3530.obj": [
+    "Left_superior_epigastric_vein"
+   ],
+   "FJ3531.obj": [
+    "Left_superior_gluteal_vein"
+   ],
+   "FJ3533.obj": [
+    "Left_testicular_vein"
+   ],
+   "FJ3541.obj": [
+    "Median_sacral_vein"
+   ],
+   "FJ3543.obj": [
+    "Middle_colic_vein"
+   ],
+   "FJ3545.obj": [
+    "Pancreaticoduodenal_vein"
+   ],
+   "FJ3566.obj": [
+    "Right_common_iliac_vein"
+   ],
+   "FJ3568.obj": [
+    "Right_external_iliac_vein"
+   ],
+   "FJ3570.obj": [
+    "Right_internal_iliac_vein"
+   ],
+   "FJ3571.obj": [
+    "Right_internal_iliac_vein_2"
+   ],
+   "FJ3572.obj": [
+    "Right_internal_iliac_vein_3"
+   ],
+   "FJ3577.obj": [
+    "Right_renal_vein"
+   ],
+   "FJ3578.obj": [
+    "Right_renal_vein_2"
+   ],
+   "FJ3580.obj": [
+    "Right_suprarenal_vein"
+   ],
+   "FJ3583.obj": [
+    "Right_brachiocephalic_vein"
+   ],
+   "FJ3585.obj": [
+    "Right_internal_jugular_vein"
+   ],
+   "FJ3587.obj": [
+    "Right_subclavian_vein"
+   ],
+   "FJ3589.obj": [
+    "Right_ascending_lumbar_vein"
+   ],
+   "FJ3591.obj": [
+    "Right_colic_vein"
+   ],
+   "FJ3595.obj": [
+    "Right_gastric_vein"
+   ],
+   "FJ3597.obj": [
+    "Right_gastroepiploic_vein"
+   ],
+   "FJ3603.obj": [
+    "Right_iliolumbar_vein"
+   ],
+   "FJ3605.obj": [
+    "Right_inferior_epigastric_vein"
+   ],
+   "FJ3606.obj": [
+    "Right_inferior_gluteal_vein"
+   ],
+   "FJ3607.obj": [
+    "Right_internal_iliac_vein_4"
+   ],
+   "FJ3608.obj": [
+    "Right_internal_iliac_vein_5"
+   ],
+   "FJ3609.obj": [
+    "Right_internal_iliac_vein_6"
+   ],
+   "FJ3610.obj": [
+    "Right_internal_pudendal_vein"
+   ],
+   "FJ3611.obj": [
+    "Right_lateral_sacral_vein"
+   ],
+   "FJ3612.obj": [
+    "Right_obturator_vein"
+   ],
+   "FJ3615.obj": [
+    "Right_superior_epigastric_vein"
+   ],
+   "FJ3616.obj": [
+    "Right_superior_gluteal_vein"
+   ],
+   "FJ3618.obj": [
+    "Right_testicular_vein"
+   ],
+   "FJ3631.obj": [
+    "Lumbar_vein"
+   ],
+   "FJ3635.obj": [
+    "Lumbar_vein_2"
+   ],
+   "FJ3637.obj": [
+    "Right_superficial_dorsal_vein_of_penis"
+   ],
+   "FJ3639.obj": [
+    "Sigmoid_vein"
+   ],
+   "FJ3641.obj": [
+    "Splenic_vein"
+   ],
+   "FJ3645.obj": [
+    "Superior_vena_cava"
+   ],
+   "FJ3646.obj": [
+    "Pancreaticoduodenal_vein_2"
+   ],
+   "FJ3647.obj": [
+    "Superior_mesenteric_vein"
+   ],
+   "FJ3648.obj": [
+    "Superior_phrenic_vein"
+   ],
+   "FJ3649.obj": [
+    "Superior_phrenic_vein_2"
+   ],
+   "FJ3650.obj": [
+    "Superior_phrenic_vein_3"
+   ],
+   "FJ3651.obj": [
+    "Superior_phrenic_vein_4"
+   ],
+   "FJ3652.obj": [
+    "Superior_phrenic_vein_5"
+   ],
+   "FJ3653.obj": [
+    "Superior_phrenic_vein_6"
+   ],
+   "FJ3654.obj": [
+    "Superior_phrenic_vein_7"
+   ],
+   "FJ3655.obj": [
+    "Pancreaticoduodenal_vein_3"
+   ],
+   "FJ3657.obj": [
+    "Superior_rectal_vein"
+   ],
+   "FJ3658.obj": [
+    "Ascending_lumbar_vein"
+   ],
+   "FJ3659.obj": [
+    "Inferior_vena_cava_2"
+   ]
+  }
+ },
+ "nervous_system": {
+  "files": [
+   "FJ1283.obj",
+   "FJ1288.obj",
+   "FJ1290.obj",
+   "FJ1293.obj",
+   "FJ1296.obj",
+   "FJ1300.obj",
+   "FJ1310.obj",
+   "FJ1311.obj",
+   "FJ1312.obj",
+   "FJ1313.obj",
+   "FJ1315.obj",
+   "FJ1318.obj",
+   "FJ1319.obj",
+   "FJ1321.obj",
+   "FJ1325.obj",
+   "FJ1326.obj",
+   "FJ1330.obj",
+   "FJ1333.obj",
+   "FJ1339.obj",
+   "FJ1341.obj",
+   "FJ1344.obj",
+   "FJ1347.obj",
+   "FJ1351.obj",
+   "FJ1361.obj",
+   "FJ1362.obj",
+   "FJ1363.obj",
+   "FJ1364.obj",
+   "FJ1366.obj",
+   "FJ1369.obj",
+   "FJ1370.obj",
+   "FJ1372.obj",
+   "FJ1376.obj",
+   "FJ1377.obj",
+   "FJ1381.obj",
+   "FJ1730.obj",
+   "FJ1731.obj",
+   "FJ1732.obj",
+   "FJ1733.obj",
+   "FJ1734.obj",
+   "FJ1735.obj",
+   "FJ1736.obj",
+   "FJ1737.obj",
+   "FJ1738.obj",
+   "FJ1739.obj",
+   "FJ1740.obj",
+   "FJ1741.obj",
+   "FJ1742.obj",
+   "FJ1743.obj",
+   "FJ1744.obj",
+   "FJ1745.obj",
+   "FJ1746.obj",
+   "FJ1747.obj",
+   "FJ1748.obj",
+   "FJ1749.obj",
+   "FJ1750.obj",
+   "FJ1751.obj",
+   "FJ1752.obj",
+   "FJ1753.obj",
+   "FJ1754.obj",
+   "FJ1755.obj",
+   "FJ1756.obj",
+   "FJ1757.obj",
+   "FJ1758.obj",
+   "FJ1759.obj",
+   "FJ1760.obj",
+   "FJ1761.obj",
+   "FJ1762.obj",
+   "FJ1763.obj",
+   "FJ1764.obj",
+   "FJ1766.obj",
+   "FJ1767.obj",
+   "FJ1768.obj",
+   "FJ1769.obj",
+   "FJ1770.obj",
+   "FJ1772.obj",
+   "FJ1774.obj",
+   "FJ1775.obj",
+   "FJ1776.obj",
+   "FJ1777.obj",
+   "FJ1778.obj",
+   "FJ1779.obj",
+   "FJ1780.obj",
+   "FJ1781.obj",
+   "FJ1782.obj",
+   "FJ1783.obj",
+   "FJ1784.obj",
+   "FJ1785.obj",
+   "FJ1786.obj",
+   "FJ1787.obj",
+   "FJ1788.obj",
+   "FJ1789.obj",
+   "FJ1790.obj",
+   "FJ1791.obj",
+   "FJ1792.obj",
+   "FJ1793.obj",
+   "FJ1794.obj",
+   "FJ1797.obj",
+   "FJ1798.obj",
+   "FJ1799.obj",
+   "FJ1800.obj",
+   "FJ1801.obj",
+   "FJ1802.obj",
+   "FJ1803.obj",
+   "FJ1804.obj",
+   "FJ1805.obj",
+   "FJ1806.obj",
+   "FJ1807.obj",
+   "FJ1808.obj",
+   "FJ1809.obj",
+   "FJ1810.obj",
+   "FJ1811.obj",
+   "FJ1812.obj",
+   "FJ1813.obj",
+   "FJ1814.obj",
+   "FJ1815.obj",
+   "FJ1816.obj",
+   "FJ1816M.obj",
+   "FJ1817.obj",
+   "FJ1819.obj",
+   "FJ1821.obj",
+   "FJ1822.obj",
+   "FJ1823.obj",
+   "FJ1824.obj",
+   "FJ1825.obj",
+   "FJ1826.obj",
+   "FJ1827.obj",
+   "FJ1828.obj",
+   "FJ1829.obj",
+   "FJ1830.obj",
+   "FJ1831.obj",
+   "FJ1832.obj",
+   "FJ1833.obj",
+   "FJ1834.obj",
+   "FJ1835.obj",
+   "FJ1836.obj",
+   "FJ1837.obj",
+   "FJ1838.obj",
+   "FJ1839.obj",
+   "FJ1840.obj",
+   "FJ1841.obj",
+   "FJ1842.obj",
+   "FJ1843.obj"
+  ],
+  "mesh_count": 142,
+  "bytes": 1917824,
+  "failed": [],
+  "mapping": {
+   "FJ1283.obj": [
+    "Left_anterior_ethmoidal_nerve"
+   ],
+   "FJ1288.obj": [
+    "Left_ciliary_ganglion"
+   ],
+   "FJ1290.obj": [
+    "Left_frontal_nerve"
+   ],
+   "FJ1293.obj": [
+    "Inferior_branch_of_left_oculomotor_nerve"
+   ],
+   "FJ1296.obj": [
+    "Left_infratrochlear_nerve"
+   ],
+   "FJ1300.obj": [
+    "Left_lacrimal_nerve"
+   ],
+   "FJ1310.obj": [
+    "Left_nasociliary_nerve"
+   ],
+   "FJ1311.obj": [
+    "Communicating_branch_of_left_nasociliary_nerve_with_left_cil"
+   ],
+   "FJ1312.obj": [
+    "Left_ophthalmic_nerve"
+   ],
+   "FJ1313.obj": [
+    "Left_optic_nerve"
+   ],
+   "FJ1315.obj": [
+    "Left_posterior_ethmoidal_nerve"
+   ],
+   "FJ1318.obj": [
+    "Left_long_ciliary_nerve"
+   ],
+   "FJ1319.obj": [
+    "Short_ciliary_nerve"
+   ],
+   "FJ1321.obj": [
+    "Superior_branch_of_left_oculomotor_nerve"
+   ],
+   "FJ1325.obj": [
+    "Left_supra_orbital_nerve"
+   ],
+   "FJ1326.obj": [
+    "Left_supratrochlear_nerve"
+   ],
+   "FJ1330.obj": [
+    "Left_trochlear_nerve"
+   ],
+   "FJ1333.obj": [
+    "Right_anterior_ethmoidal_nerve"
+   ],
+   "FJ1339.obj": [
+    "Right_ciliary_ganglion"
+   ],
+   "FJ1341.obj": [
+    "Right_frontal_nerve"
+   ],
+   "FJ1344.obj": [
+    "Inferior_branch_of_right_oculomotor_nerve"
+   ],
+   "FJ1347.obj": [
+    "Right_infratrochlear_nerve"
+   ],
+   "FJ1351.obj": [
+    "Right_lacrimal_nerve"
+   ],
+   "FJ1361.obj": [
+    "Right_nasociliary_nerve"
+   ],
+   "FJ1362.obj": [
+    "Communicating_branch_of_right_nasociliary_nerve_with_right_c"
+   ],
+   "FJ1363.obj": [
+    "Right_ophthalmic_nerve"
+   ],
+   "FJ1364.obj": [
+    "Right_optic_nerve"
+   ],
+   "FJ1366.obj": [
+    "Right_posterior_ethmoidal_nerve"
+   ],
+   "FJ1369.obj": [
+    "Right_long_ciliary_nerve"
+   ],
+   "FJ1370.obj": [
+    "Short_ciliary_nerve_2"
+   ],
+   "FJ1372.obj": [
+    "Superior_branch_of_right_oculomotor_nerve"
+   ],
+   "FJ1376.obj": [
+    "Right_supra_orbital_nerve"
+   ],
+   "FJ1377.obj": [
+    "Right_supratrochlear_nerve"
+   ],
+   "FJ1381.obj": [
+    "Right_trochlear_nerve"
+   ],
+   "FJ1730.obj": [
+    "Third_ventricle"
+   ],
+   "FJ1731.obj": [
+    "Fourth_ventricle"
+   ],
+   "FJ1732.obj": [
+    "Left_angular_gyrus"
+   ],
+   "FJ1733.obj": [
+    "Right_angular_gyrus"
+   ],
+   "FJ1734.obj": [
+    "Anterior_commissure"
+   ],
+   "FJ1735.obj": [
+    "Brachium_of_left_superior_colliculus"
+   ],
+   "FJ1736.obj": [
+    "Brachium_of_right_superior_colliculus"
+   ],
+   "FJ1737.obj": [
+    "Central_canal_of_spinal_cord"
+   ],
+   "FJ1738.obj": [
+    "Cerebral_aqueduct"
+   ],
+   "FJ1739.obj": [
+    "Left_cingulate_gyrus"
+   ],
+   "FJ1740.obj": [
+    "Right_cingulate_gyrus"
+   ],
+   "FJ1741.obj": [
+    "Commissure_of_fornix_of_forebrain"
+   ],
+   "FJ1742.obj": [
+    "Corpus_callosum"
+   ],
+   "FJ1743.obj": [
+    "Habenula"
+   ],
+   "FJ1744.obj": [
+    "Left_inferior_frontal_gyrus"
+   ],
+   "FJ1745.obj": [
+    "Right_inferior_frontal_gyrus"
+   ],
+   "FJ1746.obj": [
+    "Left_inferior_temporal_gyrus"
+   ],
+   "FJ1747.obj": [
+    "Right_inferior_temporal_gyrus"
+   ],
+   "FJ1748.obj": [
+    "Left_insula"
+   ],
+   "FJ1749.obj": [
+    "Right_insula"
+   ],
+   "FJ1750.obj": [
+    "Left_internal_capsule"
+   ],
+   "FJ1751.obj": [
+    "Right_internal_capsule"
+   ],
+   "FJ1752.obj": [
+    "Interventricular_foramen"
+   ],
+   "FJ1753.obj": [
+    "Left_amygdala"
+   ],
+   "FJ1754.obj": [
+    "Left_caudate_nucleus"
+   ],
+   "FJ1755.obj": [
+    "Choroid_plexus_of_cerebral_hemisphere"
+   ],
+   "FJ1756.obj": [
+    "Left_fornix_of_forebrain"
+   ],
+   "FJ1757.obj": [
+    "Left_globus_pallidus"
+   ],
+   "FJ1758.obj": [
+    "White_matter_of_left_cerebral_hemisphere"
+   ],
+   "FJ1759.obj": [
+    "Left_hippocampus"
+   ],
+   "FJ1760.obj": [
+    "Hypothalamus"
+   ],
+   "FJ1761.obj": [
+    "Brachium_of_left_inferior_colliculus"
+   ],
+   "FJ1762.obj": [
+    "Left_inferior_colliculus"
+   ],
+   "FJ1763.obj": [
+    "Interpeduncular_fossa"
+   ],
+   "FJ1764.obj": [
+    "Lamina_terminalis"
+   ],
+   "FJ1766.obj": [
+    "Left_lateral_geniculate_body"
+   ],
+   "FJ1767.obj": [
+    "Left_lateral_ventricle"
+   ],
+   "FJ1768.obj": [
+    "Mammillary_body"
+   ],
+   "FJ1769.obj": [
+    "Medulla_oblongata"
+   ],
+   "FJ1770.obj": [
+    "Midbrain"
+   ],
+   "FJ1772.obj": [
+    "Left_optic_nerve_2"
+   ],
+   "FJ1774.obj": [
+    "Peduncle_of_midbrain"
+   ],
+   "FJ1775.obj": [
+    "Pons"
+   ],
+   "FJ1776.obj": [
+    "Left_putamen"
+   ],
+   "FJ1777.obj": [
+    "Left_stria_medullaris_of_thalamus"
+   ],
+   "FJ1778.obj": [
+    "Left_stria_terminalis"
+   ],
+   "FJ1779.obj": [
+    "Left_superior_colliculus"
+   ],
+   "FJ1780.obj": [
+    "Tuber_cinereum"
+   ],
+   "FJ1781.obj": [
+    "Cerebellum"
+   ],
+   "FJ1782.obj": [
+    "Left_thalamus"
+   ],
+   "FJ1783.obj": [
+    "Left_fusiform_gyrus"
+   ],
+   "FJ1784.obj": [
+    "Right_fusiform_gyrus"
+   ],
+   "FJ1785.obj": [
+    "Left_parahippocampal_gyrus"
+   ],
+   "FJ1786.obj": [
+    "Right_parahippocampal_gyrus"
+   ],
+   "FJ1787.obj": [
+    "Left_middle_frontal_gyrus"
+   ],
+   "FJ1788.obj": [
+    "Right_middle_frontal_gyrus"
+   ],
+   "FJ1789.obj": [
+    "Left_middle_temporal_gyrus"
+   ],
+   "FJ1790.obj": [
+    "Right_middle_temporal_gyrus"
+   ],
+   "FJ1791.obj": [
+    "Left_occipital_lobe"
+   ],
+   "FJ1792.obj": [
+    "Right_occipital_lobe"
+   ],
+   "FJ1793.obj": [
+    "Orbital_gyrus"
+   ],
+   "FJ1794.obj": [
+    "Orbital_gyrus_2"
+   ],
+   "FJ1797.obj": [
+    "Left_postcentral_gyrus"
+   ],
+   "FJ1798.obj": [
+    "Right_postcentral_gyrus"
+   ],
+   "FJ1799.obj": [
+    "Posterior_commissure"
+   ],
+   "FJ1800.obj": [
+    "Left_precentral_gyrus"
+   ],
+   "FJ1801.obj": [
+    "Right_precentral_gyrus"
+   ],
+   "FJ1802.obj": [
+    "Right_caudate_nucleus"
+   ],
+   "FJ1803.obj": [
+    "Choroid_plexus_of_cerebral_hemisphere_2"
+   ],
+   "FJ1804.obj": [
+    "Right_fornix_of_forebrain"
+   ],
+   "FJ1805.obj": [
+    "Right_globus_pallidus"
+   ],
+   "FJ1806.obj": [
+    "White_matter_of_right_cerebral_hemisphere"
+   ],
+   "FJ1807.obj": [
+    "Right_hippocampus"
+   ],
+   "FJ1808.obj": [
+    "Hypothalamus_2"
+   ],
+   "FJ1809.obj": [
+    "Brachium_of_right_inferior_colliculus"
+   ],
+   "FJ1810.obj": [
+    "Right_inferior_colliculus"
+   ],
+   "FJ1811.obj": [
+    "Interpeduncular_fossa_2"
+   ],
+   "FJ1812.obj": [
+    "Lamina_terminalis_2"
+   ],
+   "FJ1813.obj": [
+    "Right_lateral_geniculate_body"
+   ],
+   "FJ1814.obj": [
+    "Right_lateral_ventricle"
+   ],
+   "FJ1815.obj": [
+    "Mammillary_body_2"
+   ],
+   "FJ1816.obj": [
+    "Right_medial_geniculate_body"
+   ],
+   "FJ1816M.obj": [
+    "Left_medial_geniculate_body"
+   ],
+   "FJ1817.obj": [
+    "Midbrain_2"
+   ],
+   "FJ1819.obj": [
+    "Right_optic_nerve_2"
+   ],
+   "FJ1821.obj": [
+    "Peduncle_of_midbrain_2"
+   ],
+   "FJ1822.obj": [
+    "Pons_2"
+   ],
+   "FJ1823.obj": [
+    "Right_putamen"
+   ],
+   "FJ1824.obj": [
+    "Right_stria_medullaris_of_thalamus"
+   ],
+   "FJ1825.obj": [
+    "Stria_terminalis"
+   ],
+   "FJ1826.obj": [
+    "Right_superior_colliculus"
+   ],
+   "FJ1827.obj": [
+    "Right_thalamus"
+   ],
+   "FJ1828.obj": [
+    "Tuber_cinereum_2"
+   ],
+   "FJ1829.obj": [
+    "Right_amygdala"
+   ],
+   "FJ1830.obj": [
+    "Cerebellum_2"
+   ],
+   "FJ1831.obj": [
+    "Medulla_oblongata_2"
+   ],
+   "FJ1832.obj": [
+    "Septum_of_telencephalon"
+   ],
+   "FJ1833.obj": [
+    "Left_superior_frontal_gyrus"
+   ],
+   "FJ1834.obj": [
+    "Right_superior_frontal_gyrus"
+   ],
+   "FJ1835.obj": [
+    "Left_superior_parietal_lobule"
+   ],
+   "FJ1836.obj": [
+    "Right_superior_parietal_lobule"
+   ],
+   "FJ1837.obj": [
+    "Anterior_part_of_left_superior_temporal_gyrus"
+   ],
+   "FJ1838.obj": [
+    "Anterior_part_of_right_superior_temporal_gyrus"
+   ],
+   "FJ1839.obj": [
+    "Posterior_part_of_left_superior_temporal_gyrus"
+   ],
+   "FJ1840.obj": [
+    "Posterior_part_of_right_superior_temporal_gyrus"
+   ],
+   "FJ1841.obj": [
+    "Left_supramarginal_gyrus"
+   ],
+   "FJ1842.obj": [
+    "Right_supramarginal_gyrus"
+   ],
+   "FJ1843.obj": [
+    "Tentorium_cerebelli"
+   ]
+  }
+ },
+ "respiratory": {
+  "files": [
+   "FJ2440.obj",
+   "FJ2441.obj",
+   "FJ2442.obj",
+   "FJ2443.obj",
+   "FJ2444.obj",
+   "FJ2445.obj",
+   "FJ2446.obj",
+   "FJ2447.obj",
+   "FJ2448.obj",
+   "FJ2449.obj",
+   "FJ2450.obj",
+   "FJ2451.obj",
+   "FJ2452.obj",
+   "FJ2453.obj",
+   "FJ2454.obj",
+   "FJ2455.obj",
+   "FJ2456.obj",
+   "FJ2457.obj",
+   "FJ2458.obj",
+   "FJ2459.obj",
+   "FJ2460.obj",
+   "FJ2461.obj",
+   "FJ2462.obj",
+   "FJ2463.obj",
+   "FJ2464.obj",
+   "FJ2465.obj",
+   "FJ2466.obj",
+   "FJ2467.obj",
+   "FJ2468.obj",
+   "FJ2469.obj",
+   "FJ2470.obj",
+   "FJ2471.obj",
+   "FJ2472.obj",
+   "FJ2473.obj",
+   "FJ2474.obj",
+   "FJ2475.obj",
+   "FJ2476.obj",
+   "FJ2477.obj",
+   "FJ2478.obj",
+   "FJ2479.obj",
+   "FJ2480.obj",
+   "FJ2481.obj",
+   "FJ2482.obj",
+   "FJ2483.obj",
+   "FJ2484.obj",
+   "FJ2485.obj",
+   "FJ2486.obj",
+   "FJ2487.obj",
+   "FJ2488.obj",
+   "FJ2489.obj",
+   "FJ2490.obj",
+   "FJ2491.obj",
+   "FJ2492.obj",
+   "FJ2493.obj",
+   "FJ2494.obj",
+   "FJ2495.obj",
+   "FJ2496.obj",
+   "FJ2497.obj",
+   "FJ2498.obj",
+   "FJ2499.obj",
+   "FJ2500.obj",
+   "FJ2501.obj",
+   "FJ2502.obj",
+   "FJ2503.obj",
+   "FJ2504.obj",
+   "FJ2505.obj",
+   "FJ2506.obj",
+   "FJ2507.obj",
+   "FJ2508.obj",
+   "FJ2509.obj",
+   "FJ2510.obj",
+   "FJ2511.obj",
+   "FJ2512.obj",
+   "FJ2513.obj",
+   "FJ2514.obj",
+   "FJ2515.obj",
+   "FJ2516.obj",
+   "FJ2517.obj",
+   "FJ2518.obj",
+   "FJ2519.obj",
+   "FJ2520.obj",
+   "FJ2521.obj",
+   "FJ2522.obj",
+   "FJ2523.obj",
+   "FJ2524.obj",
+   "FJ2525.obj",
+   "FJ2526.obj",
+   "FJ2527.obj",
+   "FJ2528.obj",
+   "FJ2529.obj",
+   "FJ2530.obj",
+   "FJ2531.obj",
+   "FJ2532.obj",
+   "FJ2533.obj",
+   "FJ2534.obj",
+   "FJ2535.obj",
+   "FJ2536.obj",
+   "FJ2537.obj",
+   "FJ2538.obj",
+   "FJ2539.obj",
+   "FJ2540.obj",
+   "FJ2541.obj",
+   "FJ2554.obj",
+   "FJ2555.obj",
+   "FJ2556.obj",
+   "FJ2557.obj",
+   "FJ2558.obj",
+   "FJ2769.obj",
+   "FJ2770.obj",
+   "FJ2773.obj",
+   "FJ2775.obj",
+   "FJ2776.obj",
+   "FJ2777.obj",
+   "FJ2786.obj",
+   "FJ2787.obj",
+   "FJ2792.obj",
+   "FJ2793.obj",
+   "FJ2794.obj",
+   "FJ2795.obj",
+   "FJ2804.obj",
+   "FJ2805.obj",
+   "FJ2808.obj",
+   "FJ3131.obj",
+   "FJ3263.obj",
+   "FJ3272.obj",
+   "FJ3369.obj",
+   "FJ3378.obj"
+  ],
+  "mesh_count": 127,
+  "bytes": 743792,
+  "failed": [],
+  "mapping": {
+   "FJ2440.obj": [
+    "Cricoid_cartilage"
+   ],
+   "FJ2441.obj": [
+    "Inferior_lingular_bronchial_tree"
+   ],
+   "FJ2442.obj": [
+    "Left_medial_basal_segmental_bronchial_tree"
+   ],
+   "FJ2443.obj": [
+    "Left_anterior_segmental_bronchial_tree"
+   ],
+   "FJ2444.obj": [
+    "Left_apical_segmental_bronchial_tree"
+   ],
+   "FJ2445.obj": [
+    "Left_lateral_basal_segmental_bronchial_tree"
+   ],
+   "FJ2446.obj": [
+    "Left_posterior_basal_segmental_bronchial_tree"
+   ],
+   "FJ2447.obj": [
+    "Left_posterior_segmental_bronchial_tree"
+   ],
+   "FJ2448.obj": [
+    "Left_superior_segmental_bronchial_tree"
+   ],
+   "FJ2449.obj": [
+    "Lateral_segmental_bronchial_tree"
+   ],
+   "FJ2450.obj": [
+    "Left_main_bronchus"
+   ],
+   "FJ2451.obj": [
+    "Medial_segmental_bronchial_tree"
+   ],
+   "FJ2452.obj": [
+    "Right_anterior_basal_segmental_bronchial_tree"
+   ],
+   "FJ2453.obj": [
+    "Right_anterior_segmental_bronchial_tree"
+   ],
+   "FJ2454.obj": [
+    "Right_apical_segmental_bronchial_tree"
+   ],
+   "FJ2455.obj": [
+    "Right_lateral_basal_segmental_bronchial_tree"
+   ],
+   "FJ2456.obj": [
+    "Right_medial_basal_segmental_bronchial_tree"
+   ],
+   "FJ2457.obj": [
+    "Right_posterior_basal_segmental_bronchial_tree"
+   ],
+   "FJ2458.obj": [
+    "Right_posterior_segmental_bronchial_tree"
+   ],
+   "FJ2459.obj": [
+    "Right_superior_segmental_bronchial_tree"
+   ],
+   "FJ2460.obj": [
+    "Left_apical_segmental_bronchial_tree_2"
+   ],
+   "FJ2461.obj": [
+    "Left_apical_segmental_bronchial_tree_3"
+   ],
+   "FJ2462.obj": [
+    "Left_apical_segmental_bronchial_tree_4"
+   ],
+   "FJ2463.obj": [
+    "Left_apical_segmental_bronchial_tree_5"
+   ],
+   "FJ2464.obj": [
+    "Left_apical_segmental_bronchial_tree_6"
+   ],
+   "FJ2465.obj": [
+    "Left_posterior_segmental_bronchial_tree_2"
+   ],
+   "FJ2466.obj": [
+    "Left_posterior_segmental_bronchial_tree_3"
+   ],
+   "FJ2467.obj": [
+    "Left_anterior_segmental_bronchial_tree_2"
+   ],
+   "FJ2468.obj": [
+    "Left_anterior_segmental_bronchial_tree_3"
+   ],
+   "FJ2469.obj": [
+    "Left_anterior_segmental_bronchial_tree_4"
+   ],
+   "FJ2470.obj": [
+    "Right_posterior_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2471.obj": [
+    "Left_anterior_segmental_bronchial_tree_5"
+   ],
+   "FJ2472.obj": [
+    "Left_anterior_segmental_bronchial_tree_6"
+   ],
+   "FJ2473.obj": [
+    "Left_anterior_segmental_bronchial_tree_7"
+   ],
+   "FJ2474.obj": [
+    "Left_anterior_segmental_bronchial_tree_8"
+   ],
+   "FJ2475.obj": [
+    "Inferior_lingular_bronchial_tree_2"
+   ],
+   "FJ2476.obj": [
+    "Superior_lingular_bronchial_tree"
+   ],
+   "FJ2477.obj": [
+    "Superior_lingular_bronchial_tree_2"
+   ],
+   "FJ2478.obj": [
+    "Superior_lingular_bronchial_tree_3"
+   ],
+   "FJ2479.obj": [
+    "Left_superior_segmental_bronchial_tree_2"
+   ],
+   "FJ2480.obj": [
+    "Left_superior_segmental_bronchial_tree_3"
+   ],
+   "FJ2481.obj": [
+    "Right_posterior_basal_segmental_bronchial_tree_3"
+   ],
+   "FJ2482.obj": [
+    "Left_superior_segmental_bronchial_tree_4"
+   ],
+   "FJ2483.obj": [
+    "Left_superior_segmental_bronchial_tree_5"
+   ],
+   "FJ2484.obj": [
+    "Left_superior_segmental_bronchial_tree_6"
+   ],
+   "FJ2485.obj": [
+    "Left_superior_segmental_bronchial_tree_7"
+   ],
+   "FJ2486.obj": [
+    "Right_posterior_basal_segmental_bronchial_tree_4"
+   ],
+   "FJ2487.obj": [
+    "Right_posterior_basal_segmental_bronchial_tree_5"
+   ],
+   "FJ2488.obj": [
+    "Right_medial_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2489.obj": [
+    "Right_posterior_basal_segmental_bronchial_tree_6"
+   ],
+   "FJ2490.obj": [
+    "Right_lateral_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2491.obj": [
+    "Right_lateral_basal_segmental_bronchial_tree_3"
+   ],
+   "FJ2492.obj": [
+    "Right_lateral_basal_segmental_bronchial_tree_4"
+   ],
+   "FJ2493.obj": [
+    "Right_anterior_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2494.obj": [
+    "Right_anterior_basal_segmental_bronchial_tree_3"
+   ],
+   "FJ2495.obj": [
+    "Right_superior_segmental_bronchial_tree_2"
+   ],
+   "FJ2496.obj": [
+    "Right_superior_segmental_bronchial_tree_3"
+   ],
+   "FJ2497.obj": [
+    "Right_superior_segmental_bronchial_tree_4"
+   ],
+   "FJ2498.obj": [
+    "Right_superior_segmental_bronchial_tree_5"
+   ],
+   "FJ2499.obj": [
+    "Right_superior_segmental_bronchial_tree_6"
+   ],
+   "FJ2500.obj": [
+    "Right_superior_segmental_bronchial_tree_7"
+   ],
+   "FJ2501.obj": [
+    "Right_superior_segmental_bronchial_tree_8"
+   ],
+   "FJ2502.obj": [
+    "Right_superior_segmental_bronchial_tree_9"
+   ],
+   "FJ2503.obj": [
+    "Lateral_segmental_bronchial_tree_2"
+   ],
+   "FJ2504.obj": [
+    "Lateral_segmental_bronchial_tree_3"
+   ],
+   "FJ2505.obj": [
+    "Lateral_segmental_bronchial_tree_4"
+   ],
+   "FJ2506.obj": [
+    "Medial_segmental_bronchial_tree_2"
+   ],
+   "FJ2507.obj": [
+    "Medial_segmental_bronchial_tree_3"
+   ],
+   "FJ2508.obj": [
+    "Medial_segmental_bronchial_tree_4"
+   ],
+   "FJ2509.obj": [
+    "Right_anterior_segmental_bronchial_tree_2"
+   ],
+   "FJ2510.obj": [
+    "Right_anterior_segmental_bronchial_tree_3"
+   ],
+   "FJ2511.obj": [
+    "Right_anterior_segmental_bronchial_tree_4"
+   ],
+   "FJ2512.obj": [
+    "Right_anterior_segmental_bronchial_tree_5"
+   ],
+   "FJ2513.obj": [
+    "Right_anterior_segmental_bronchial_tree_6"
+   ],
+   "FJ2514.obj": [
+    "Right_anterior_segmental_bronchial_tree_7"
+   ],
+   "FJ2515.obj": [
+    "Right_posterior_segmental_bronchial_tree_2"
+   ],
+   "FJ2516.obj": [
+    "Right_posterior_segmental_bronchial_tree_3"
+   ],
+   "FJ2517.obj": [
+    "Right_posterior_segmental_bronchial_tree_4"
+   ],
+   "FJ2518.obj": [
+    "Right_posterior_segmental_bronchial_tree_5"
+   ],
+   "FJ2519.obj": [
+    "Right_posterior_segmental_bronchial_tree_6"
+   ],
+   "FJ2520.obj": [
+    "Right_apical_segmental_bronchial_tree_2"
+   ],
+   "FJ2521.obj": [
+    "Right_apical_segmental_bronchial_tree_3"
+   ],
+   "FJ2522.obj": [
+    "Right_apical_segmental_bronchial_tree_4"
+   ],
+   "FJ2523.obj": [
+    "Right_apical_segmental_bronchial_tree_5"
+   ],
+   "FJ2524.obj": [
+    "Right_apical_segmental_bronchial_tree_6"
+   ],
+   "FJ2525.obj": [
+    "Right_apical_segmental_bronchial_tree_7"
+   ],
+   "FJ2526.obj": [
+    "Right_apical_segmental_bronchial_tree_8"
+   ],
+   "FJ2527.obj": [
+    "Left_posterior_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2528.obj": [
+    "Left_posterior_basal_segmental_bronchial_tree_3"
+   ],
+   "FJ2529.obj": [
+    "Left_posterior_basal_segmental_bronchial_tree_4"
+   ],
+   "FJ2530.obj": [
+    "Left_posterior_basal_segmental_bronchial_tree_5"
+   ],
+   "FJ2531.obj": [
+    "Left_posterior_basal_segmental_bronchial_tree_6"
+   ],
+   "FJ2532.obj": [
+    "Left_lateral_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2533.obj": [
+    "Left_lateral_basal_segmental_bronchial_tree_3"
+   ],
+   "FJ2534.obj": [
+    "Left_lateral_basal_segmental_bronchial_tree_4"
+   ],
+   "FJ2535.obj": [
+    "Left_anterior_basal_segmental_bronchial_tree"
+   ],
+   "FJ2536.obj": [
+    "Left_anterior_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2537.obj": [
+    "Left_medial_basal_segmental_bronchial_tree_2"
+   ],
+   "FJ2538.obj": [
+    "Left_anterior_basal_segmental_bronchial_tree_3"
+   ],
+   "FJ2539.obj": [
+    "Right_main_bronchus_proper"
+   ],
+   "FJ2540.obj": [
+    "Superior_lingular_bronchial_tree_4"
+   ],
+   "FJ2541.obj": [
+    "Trachea"
+   ],
+   "FJ2554.obj": [
+    "Right_major_alar_cartilage"
+   ],
+   "FJ2555.obj": [
+    "Left_major_alar_cartilage"
+   ],
+   "FJ2556.obj": [
+    "Left_lateral_nasal_cartilage"
+   ],
+   "FJ2557.obj": [
+    "Septal_nasal_cartilage"
+   ],
+   "FJ2558.obj": [
+    "Right_lateral_nasal_cartilage"
+   ],
+   "FJ2769.obj": [
+    "Cricoid_cartilage_2"
+   ],
+   "FJ2770.obj": [
+    "Epiglottis"
+   ],
+   "FJ2773.obj": [
+    "Left_cuneiform_cartilage"
+   ],
+   "FJ2775.obj": [
+    "Left_arytenoid_cartilage"
+   ],
+   "FJ2776.obj": [
+    "Left_corniculate_cartilage"
+   ],
+   "FJ2777.obj": [
+    "Left_conus_elasticus"
+   ],
+   "FJ2786.obj": [
+    "Left_thyrohyoid_membrane"
+   ],
+   "FJ2787.obj": [
+    "Left_vocal_ligament"
+   ],
+   "FJ2792.obj": [
+    "Right_arytenoid_cartilage"
+   ],
+   "FJ2793.obj": [
+    "Right_corniculate_cartilage"
+   ],
+   "FJ2794.obj": [
+    "Right_conus_elasticus"
+   ],
+   "FJ2795.obj": [
+    "Right_cuneiform_cartilage"
+   ],
+   "FJ2804.obj": [
+    "Right_thyrohyoid_membrane"
+   ],
+   "FJ2805.obj": [
+    "Right_vocal_ligament"
+   ],
+   "FJ2808.obj": [
+    "Thyroid_cartilage"
+   ],
+   "FJ3131.obj": [
+    "Diaphragm"
+   ],
+   "FJ3263.obj": [
+    "Left_inferior_nasal_concha"
+   ],
+   "FJ3272.obj": [
+    "Left_nasal_bone"
+   ],
+   "FJ3369.obj": [
+    "Right_inferior_nasal_concha"
+   ],
+   "FJ3378.obj": [
+    "Right_nasal_bone"
+   ]
+  }
+ },
+ "digestive": {
+  "files": [
+   "FJ1252.obj",
+   "FJ1253.obj",
+   "FJ1450.obj",
+   "FJ1450M.obj",
+   "FJ1858.obj",
+   "FJ1883.obj",
+   "FJ1895.obj",
+   "FJ1896.obj",
+   "FJ2409.obj",
+   "FJ2543.obj",
+   "FJ2548.obj",
+   "FJ2563.obj",
+   "FJ2564.obj",
+   "FJ2565.obj",
+   "FJ2566.obj",
+   "FJ2567.obj",
+   "FJ2568.obj",
+   "FJ2569.obj",
+   "FJ2570.obj",
+   "FJ2571.obj",
+   "FJ2572.obj",
+   "FJ2573.obj",
+   "FJ2574.obj",
+   "FJ2575.obj",
+   "FJ2576.obj",
+   "FJ2577.obj",
+   "FJ2578.obj",
+   "FJ2579.obj",
+   "FJ2580.obj",
+   "FJ2581.obj",
+   "FJ2582.obj",
+   "FJ2583.obj",
+   "FJ2584.obj",
+   "FJ2585.obj",
+   "FJ2586.obj",
+   "FJ2587.obj",
+   "FJ2588.obj",
+   "FJ2589.obj",
+   "FJ2590.obj",
+   "FJ2591.obj",
+   "FJ2592.obj",
+   "FJ2593.obj",
+   "FJ2594.obj",
+   "FJ2595.obj",
+   "FJ2596.obj",
+   "FJ2597.obj",
+   "FJ2598.obj",
+   "FJ2599.obj",
+   "FJ2600.obj",
+   "FJ2601.obj",
+   "FJ2602.obj",
+   "FJ2603.obj",
+   "FJ2604.obj",
+   "FJ2605.obj",
+   "FJ2606.obj",
+   "FJ2607.obj",
+   "FJ2608.obj",
+   "FJ2609.obj",
+   "FJ2610.obj",
+   "FJ2611.obj",
+   "FJ2612.obj",
+   "FJ2613.obj",
+   "FJ2614.obj",
+   "FJ2615.obj",
+   "FJ2616.obj",
+   "FJ2617.obj",
+   "FJ2618.obj",
+   "FJ2619.obj",
+   "FJ2620.obj",
+   "FJ2621.obj",
+   "FJ2622.obj",
+   "FJ2623.obj",
+   "FJ2624.obj",
+   "FJ2625.obj",
+   "FJ2626.obj",
+   "FJ2627.obj",
+   "FJ2628.obj",
+   "FJ2629.obj",
+   "FJ2630.obj",
+   "FJ2740.obj",
+   "FJ2742.obj",
+   "FJ2747.obj",
+   "FJ2749.obj",
+   "FJ2752.obj",
+   "FJ2754.obj",
+   "FJ2759.obj",
+   "FJ2761.obj",
+   "FJ2765.obj",
+   "FJ2766.obj",
+   "FJ2767.obj",
+   "FJ2768.obj",
+   "FJ2816.obj",
+   "FJ2817.obj",
+   "FJ2818.obj",
+   "FJ2819.obj",
+   "FJ2820.obj",
+   "FJ2821.obj",
+   "FJ2822.obj",
+   "FJ2823.obj",
+   "FJ2824.obj",
+   "FJ3071.obj",
+   "FJ3072.obj",
+   "FJ3079.obj",
+   "FJ3080.obj",
+   "FJ3088.obj",
+   "FJ3089.obj",
+   "FJ3090.obj",
+   "FJ3094.obj",
+   "FJ3096.obj",
+   "FJ3103.obj",
+   "FJ3104.obj",
+   "FJ3105.obj",
+   "FJ3108.obj",
+   "FJ3109.obj",
+   "FJ3110.obj",
+   "FJ3123.obj",
+   "FJ3396.obj",
+   "FJ3397.obj",
+   "FJ3398.obj"
+  ],
+  "mesh_count": 119,
+  "bytes": 1595520,
+  "failed": [],
+  "mapping": {
+   "FJ1252.obj": [
+    "Gingiva_of_upper_jaw"
+   ],
+   "FJ1253.obj": [
+    "Gingiva_of_lower_jaw"
+   ],
+   "FJ1450.obj": [
+    "FJ1450"
+   ],
+   "FJ1450M.obj": [
+    "External_anal_sphincter"
+   ],
+   "FJ1858.obj": [
+    "Hepatovenous_segment_IX"
+   ],
+   "FJ1883.obj": [
+    "Caudate_lobe_tributary_of_left_hepatic_biliary_tree"
+   ],
+   "FJ1895.obj": [
+    "Pancreas"
+   ],
+   "FJ1896.obj": [
+    "Pancreatic_duct"
+   ],
+   "FJ2409.obj": [
+    "Hepatovenous_segment_VII"
+   ],
+   "FJ2543.obj": [
+    "External_anal_sphincter_2"
+   ],
+   "FJ2548.obj": [
+    "External_anal_sphincter_3"
+   ],
+   "FJ2563.obj": [
+    "Esophagus"
+   ],
+   "FJ2564.obj": [
+    "Stomach"
+   ],
+   "FJ2565.obj": [
+    "Appendix"
+   ],
+   "FJ2566.obj": [
+    "Ascending_colon"
+   ],
+   "FJ2567.obj": [
+    "Descending_colon"
+   ],
+   "FJ2568.obj": [
+    "Taenia_libera"
+   ],
+   "FJ2569.obj": [
+    "Taenia_mesocolica"
+   ],
+   "FJ2570.obj": [
+    "Taenia_omentalis"
+   ],
+   "FJ2571.obj": [
+    "Rectum"
+   ],
+   "FJ2572.obj": [
+    "Transverse_colon"
+   ],
+   "FJ2573.obj": [
+    "Duodenum"
+   ],
+   "FJ2574.obj": [
+    "Proximal_part_of_ileum"
+   ],
+   "FJ2575.obj": [
+    "Proximal_part_of_ileum_2"
+   ],
+   "FJ2576.obj": [
+    "Middle_part_of_ileum"
+   ],
+   "FJ2577.obj": [
+    "Middle_part_of_ileum_2"
+   ],
+   "FJ2578.obj": [
+    "Middle_part_of_ileum_3"
+   ],
+   "FJ2579.obj": [
+    "Middle_part_of_ileum_4"
+   ],
+   "FJ2580.obj": [
+    "Middle_part_of_ileum_5"
+   ],
+   "FJ2581.obj": [
+    "Middle_part_of_ileum_6"
+   ],
+   "FJ2582.obj": [
+    "Middle_part_of_ileum_7"
+   ],
+   "FJ2583.obj": [
+    "Middle_part_of_ileum_8"
+   ],
+   "FJ2584.obj": [
+    "Middle_part_of_ileum_9"
+   ],
+   "FJ2585.obj": [
+    "Proximal_part_of_ileum_3"
+   ],
+   "FJ2586.obj": [
+    "Middle_part_of_ileum_10"
+   ],
+   "FJ2587.obj": [
+    "Distal_part_of_ileum"
+   ],
+   "FJ2588.obj": [
+    "Distal_part_of_ileum_2"
+   ],
+   "FJ2589.obj": [
+    "Distal_part_of_ileum_3"
+   ],
+   "FJ2590.obj": [
+    "Distal_part_of_ileum_4"
+   ],
+   "FJ2591.obj": [
+    "Distal_part_of_ileum_5"
+   ],
+   "FJ2592.obj": [
+    "Distal_part_of_ileum_6"
+   ],
+   "FJ2593.obj": [
+    "Distal_part_of_ileum_7"
+   ],
+   "FJ2594.obj": [
+    "Distal_part_of_ileum_8"
+   ],
+   "FJ2595.obj": [
+    "Distal_part_of_ileum_9"
+   ],
+   "FJ2596.obj": [
+    "Proximal_part_of_ileum_4"
+   ],
+   "FJ2597.obj": [
+    "Distal_part_of_ileum_10"
+   ],
+   "FJ2598.obj": [
+    "Distal_part_of_ileum_11"
+   ],
+   "FJ2599.obj": [
+    "Ileocecal_junction"
+   ],
+   "FJ2600.obj": [
+    "Proximal_part_of_ileum_5"
+   ],
+   "FJ2601.obj": [
+    "Proximal_part_of_ileum_6"
+   ],
+   "FJ2602.obj": [
+    "Proximal_part_of_ileum_7"
+   ],
+   "FJ2603.obj": [
+    "Proximal_part_of_ileum_8"
+   ],
+   "FJ2604.obj": [
+    "Proximal_part_of_ileum_9"
+   ],
+   "FJ2605.obj": [
+    "Proximal_part_of_ileum_10"
+   ],
+   "FJ2606.obj": [
+    "Proximal_part_of_jejunum"
+   ],
+   "FJ2607.obj": [
+    "Middle_part_of_jejunum"
+   ],
+   "FJ2608.obj": [
+    "Middle_part_of_jejunum_2"
+   ],
+   "FJ2609.obj": [
+    "Middle_part_of_jejunum_3"
+   ],
+   "FJ2610.obj": [
+    "Middle_part_of_jejunum_4"
+   ],
+   "FJ2611.obj": [
+    "Distal_part_of_jejunum"
+   ],
+   "FJ2612.obj": [
+    "Distal_part_of_jejunum_2"
+   ],
+   "FJ2613.obj": [
+    "Distal_part_of_jejunum_3"
+   ],
+   "FJ2614.obj": [
+    "Distal_part_of_jejunum_4"
+   ],
+   "FJ2615.obj": [
+    "Distal_part_of_jejunum_5"
+   ],
+   "FJ2616.obj": [
+    "Distal_part_of_jejunum_6"
+   ],
+   "FJ2617.obj": [
+    "Proximal_part_of_jejunum_2"
+   ],
+   "FJ2618.obj": [
+    "Distal_part_of_jejunum_7"
+   ],
+   "FJ2619.obj": [
+    "Distal_part_of_jejunum_8"
+   ],
+   "FJ2620.obj": [
+    "Distal_part_of_jejunum_9"
+   ],
+   "FJ2621.obj": [
+    "Distal_part_of_jejunum_10"
+   ],
+   "FJ2622.obj": [
+    "Proximal_part_of_jejunum_3"
+   ],
+   "FJ2623.obj": [
+    "Proximal_part_of_jejunum_4"
+   ],
+   "FJ2624.obj": [
+    "Proximal_part_of_jejunum_5"
+   ],
+   "FJ2625.obj": [
+    "Proximal_part_of_jejunum_6"
+   ],
+   "FJ2626.obj": [
+    "Proximal_part_of_jejunum_7"
+   ],
+   "FJ2627.obj": [
+    "Proximal_part_of_jejunum_8"
+   ],
+   "FJ2628.obj": [
+    "Middle_part_of_jejunum_5"
+   ],
+   "FJ2629.obj": [
+    "Parenchyma_of_pancreas"
+   ],
+   "FJ2630.obj": [
+    "Pancreatic_duct_tree"
+   ],
+   "FJ2740.obj": [
+    "Left_inferior_pharyngeal_constrictor"
+   ],
+   "FJ2742.obj": [
+    "Right_middle_pharyngeal_constrictor"
+   ],
+   "FJ2747.obj": [
+    "Left_superior_pharyngeal_constrictor"
+   ],
+   "FJ2749.obj": [
+    "Pharyngeal_raphe"
+   ],
+   "FJ2752.obj": [
+    "Right_inferior_pharyngeal_constrictor"
+   ],
+   "FJ2754.obj": [
+    "Left_middle_pharyngeal_constrictor"
+   ],
+   "FJ2759.obj": [
+    "Right_superior_pharyngeal_constrictor"
+   ],
+   "FJ2761.obj": [
+    "Tongue"
+   ],
+   "FJ2765.obj": [
+    "Left_sublingual_gland"
+   ],
+   "FJ2766.obj": [
+    "Left_submandibular_gland"
+   ],
+   "FJ2767.obj": [
+    "Right_sublingual_gland"
+   ],
+   "FJ2768.obj": [
+    "Right_submandibular_gland"
+   ],
+   "FJ2816.obj": [
+    "Caudate_lobe_of_liver"
+   ],
+   "FJ2817.obj": [
+    "Gallbladder"
+   ],
+   "FJ2818.obj": [
+    "Hepatovenous_segment_II"
+   ],
+   "FJ2819.obj": [
+    "Hepatovenous_segment_III"
+   ],
+   "FJ2820.obj": [
+    "Hepatovenous_segment_IV"
+   ],
+   "FJ2821.obj": [
+    "Hepatovenous_segment_V"
+   ],
+   "FJ2822.obj": [
+    "Hepatovenous_segment_VI"
+   ],
+   "FJ2823.obj": [
+    "Hepatovenous_segment_VIII"
+   ],
+   "FJ2824.obj": [
+    "Hepatovenous_segment_VIII_2"
+   ],
+   "FJ3071.obj": [
+    "Anterior_superior_tributary_of_right_hepatic_biliary_tree"
+   ],
+   "FJ3072.obj": [
+    "Anterior_inferior_tributary_of_right_hepatic_biliary_tree"
+   ],
+   "FJ3079.obj": [
+    "Common_hepatic_duct"
+   ],
+   "FJ3080.obj": [
+    "Cystic_duct"
+   ],
+   "FJ3088.obj": [
+    "Lateral_superior_tributary_of_left_hepatic_biliary_tree"
+   ],
+   "FJ3089.obj": [
+    "Lateral_inferior_tributary_of_left_hepatic_biliary_tree"
+   ],
+   "FJ3090.obj": [
+    "Lateral_superior_tributary_of_left_hepatic_biliary_tree_2"
+   ],
+   "FJ3094.obj": [
+    "Left_duct_of_caudate_lobe_of_liver"
+   ],
+   "FJ3096.obj": [
+    "Left_hepatic_duct"
+   ],
+   "FJ3103.obj": [
+    "Medial_inferior_tributary_of_left_hepatic_biliary_tree"
+   ],
+   "FJ3104.obj": [
+    "Medial_superior_tributary_of_left_hepatic_biliary_tree"
+   ],
+   "FJ3105.obj": [
+    "Medial_superior_tributary_of_left_hepatic_biliary_tree_2"
+   ],
+   "FJ3108.obj": [
+    "Posterior_inferior_tributary_of_right_hepatic_biliary_tree"
+   ],
+   "FJ3109.obj": [
+    "Posterior_superior_tributary_of_right_hepatic_biliary_tree"
+   ],
+   "FJ3110.obj": [
+    "Posterior_superior_tributary_of_right_hepatic_biliary_tree_2"
+   ],
+   "FJ3123.obj": [
+    "Right_hepatic_duct"
+   ],
+   "FJ3396.obj": [
+    "Mesentery_of_small_intestine"
+   ],
+   "FJ3397.obj": [
+    "Mesoappendix"
+   ],
+   "FJ3398.obj": [
+    "Transverse_mesocolon"
+   ]
+  }
+ },
+ "urinary": {
+  "files": [
+   "FJ3144.obj",
+   "FJ3145.obj",
+   "FJ3146.obj",
+   "FJ3147.obj",
+   "FJ3148.obj",
+   "FJ3149.obj"
+  ],
+  "mesh_count": 6,
+  "bytes": 40156,
+  "failed": [],
+  "mapping": {
+   "FJ3144.obj": [
+    "Left_ureter"
+   ],
+   "FJ3145.obj": [
+    "Left_kidney"
+   ],
+   "FJ3146.obj": [
+    "Right_ureter"
+   ],
+   "FJ3147.obj": [
+    "Right_kidney"
+   ],
+   "FJ3148.obj": [
+    "Urethra"
+   ],
+   "FJ3149.obj": [
+    "Urinary_bladder"
+   ]
+  }
+ },
+ "sensory_organs": {
+  "files": [
+   "FJ1282.obj",
+   "FJ1285.obj",
+   "FJ1286.obj",
+   "FJ1287.obj",
+   "FJ1289.obj",
+   "FJ1291.obj",
+   "FJ1297.obj",
+   "FJ1298.obj",
+   "FJ1299.obj",
+   "FJ1301.obj",
+   "FJ1302.obj",
+   "FJ1305.obj",
+   "FJ1309.obj",
+   "FJ1316.obj",
+   "FJ1317.obj",
+   "FJ1320.obj",
+   "FJ1324.obj",
+   "FJ1328.obj",
+   "FJ1331.obj",
+   "FJ1332.obj",
+   "FJ1336.obj",
+   "FJ1337.obj",
+   "FJ1338.obj",
+   "FJ1340.obj",
+   "FJ1342.obj",
+   "FJ1348.obj",
+   "FJ1349.obj",
+   "FJ1350.obj",
+   "FJ1352.obj",
+   "FJ1353.obj",
+   "FJ1356.obj",
+   "FJ1360.obj",
+   "FJ1367.obj",
+   "FJ1368.obj",
+   "FJ1371.obj",
+   "FJ1375.obj",
+   "FJ1379.obj",
+   "FJ1382.obj",
+   "FJ1771.obj",
+   "FJ1773.obj",
+   "FJ1818.obj",
+   "FJ1820.obj",
+   "FJ2811.obj"
+  ],
+  "mesh_count": 43,
+  "bytes": 1040272,
+  "failed": [],
+  "mapping": {
+   "FJ1282.obj": [
+    "Anterior_chamber_of_left_eyeball"
+   ],
+   "FJ1285.obj": [
+    "Left_choroid"
+   ],
+   "FJ1286.obj": [
+    "Left_choroid_2"
+   ],
+   "FJ1287.obj": [
+    "Left_corona_ciliaris"
+   ],
+   "FJ1289.obj": [
+    "Left_cornea"
+   ],
+   "FJ1291.obj": [
+    "Left_common_tendinous_ring"
+   ],
+   "FJ1297.obj": [
+    "Left_iris"
+   ],
+   "FJ1298.obj": [
+    "Left_lacrimal_canaliculus"
+   ],
+   "FJ1299.obj": [
+    "Left_lacrimal_gland"
+   ],
+   "FJ1301.obj": [
+    "Left_lacrimal_lake"
+   ],
+   "FJ1302.obj": [
+    "Left_nasolacrimal_duct"
+   ],
+   "FJ1305.obj": [
+    "Left_lens"
+   ],
+   "FJ1309.obj": [
+    "Left_lacrimal_sac"
+   ],
+   "FJ1316.obj": [
+    "Optic_part_of_left_retina"
+   ],
+   "FJ1317.obj": [
+    "Left_sclera"
+   ],
+   "FJ1320.obj": [
+    "Suspensory_ligament_of_left_lens"
+   ],
+   "FJ1324.obj": [
+    "Tarsal_plate_of_left_upper_eyelid"
+   ],
+   "FJ1328.obj": [
+    "Tarsal_plate_of_left_lower_eyelid"
+   ],
+   "FJ1331.obj": [
+    "Left_vitreous_body"
+   ],
+   "FJ1332.obj": [
+    "Anterior_chamber_of_right_eyeball"
+   ],
+   "FJ1336.obj": [
+    "Right_choroid"
+   ],
+   "FJ1337.obj": [
+    "Right_choroid_2"
+   ],
+   "FJ1338.obj": [
+    "Right_corona_ciliaris"
+   ],
+   "FJ1340.obj": [
+    "Right_cornea"
+   ],
+   "FJ1342.obj": [
+    "Right_common_tendinous_ring"
+   ],
+   "FJ1348.obj": [
+    "Right_iris"
+   ],
+   "FJ1349.obj": [
+    "Right_lacrimal_canaliculus"
+   ],
+   "FJ1350.obj": [
+    "Right_lacrimal_gland"
+   ],
+   "FJ1352.obj": [
+    "Right_lacrimal_lake"
+   ],
+   "FJ1353.obj": [
+    "Right_nasolacrimal_duct"
+   ],
+   "FJ1356.obj": [
+    "Right_lens"
+   ],
+   "FJ1360.obj": [
+    "Right_lacrimal_sac"
+   ],
+   "FJ1367.obj": [
+    "Optic_part_of_right_retina"
+   ],
+   "FJ1368.obj": [
+    "Right_sclera"
+   ],
+   "FJ1371.obj": [
+    "Suspensory_ligament_of_right_lens"
+   ],
+   "FJ1375.obj": [
+    "Tarsal_plate_of_right_upper_eyelid"
+   ],
+   "FJ1379.obj": [
+    "Tarsal_plate_of_right_lower_eyelid"
+   ],
+   "FJ1382.obj": [
+    "Right_vitreous_body"
+   ],
+   "FJ1771.obj": [
+    "Optic_chiasm"
+   ],
+   "FJ1773.obj": [
+    "Left_optic_tract"
+   ],
+   "FJ1818.obj": [
+    "Optic_chiasm_2"
+   ],
+   "FJ1820.obj": [
+    "Right_optic_tract"
+   ],
+   "FJ2811.obj": [
+    "External_ear"
+   ]
+  }
+ },
+ "skin": {
+  "files": [
+   "FJ2810.obj",
+   "FJ2812.obj",
+   "FJ2813.obj",
+   "FJ2814.obj",
+   "FJ2815.obj"
+  ],
+  "mesh_count": 5,
+  "bytes": 641964,
+  "failed": [],
+  "mapping": {
+   "FJ2810.obj": [
+    "Skin"
+   ],
+   "FJ2812.obj": [
+    "Eyebrow"
+   ],
+   "FJ2813.obj": [
+    "Hair_of_head"
+   ],
+   "FJ2814.obj": [
+    "Lip"
+   ],
+   "FJ2815.obj": [
+    "Pubic_hair"
+   ]
+  }
+ },
+ "reproductive": {
+  "files": [
+   "FJ3132.obj",
+   "FJ3133.obj",
+   "FJ3134.obj",
+   "FJ3135.obj",
+   "FJ3136.obj",
+   "FJ3137.obj",
+   "FJ3138.obj",
+   "FJ3139.obj",
+   "FJ3140.obj",
+   "FJ3141.obj",
+   "FJ3142.obj",
+   "FJ3143.obj"
+  ],
+  "mesh_count": 12,
+  "bytes": 46252,
+  "failed": [],
+  "mapping": {
+   "FJ3132.obj": [
+    "Corpus_cavernosum_of_penis"
+   ],
+   "FJ3133.obj": [
+    "Corpus_spongiosum_of_penis"
+   ],
+   "FJ3134.obj": [
+    "Glans_penis"
+   ],
+   "FJ3135.obj": [
+    "Left_deferent_duct"
+   ],
+   "FJ3136.obj": [
+    "Left_epididymis"
+   ],
+   "FJ3137.obj": [
+    "Left_seminal_vesicle"
+   ],
+   "FJ3138.obj": [
+    "Left_testis"
+   ],
+   "FJ3139.obj": [
+    "Prostate"
+   ],
+   "FJ3140.obj": [
+    "Right_deferent_duct"
+   ],
+   "FJ3141.obj": [
+    "Right_epididymis"
+   ],
+   "FJ3142.obj": [
+    "Right_testis"
+   ],
+   "FJ3143.obj": [
+    "Right_seminal_vesicle"
+   ]
+  }
+ },
+ "lainnya": {
+  "files": [
+   "FJ1423.obj",
+   "FJ1423M.obj",
+   "FJ1448.obj",
+   "FJ1795.obj",
+   "FJ1796.obj",
+   "FJ2561.obj",
+   "FJ2744.obj",
+   "FJ2756.obj",
+   "FJ3129.obj",
+   "FJ3130.obj",
+   "FJ3150.obj",
+   "FJ3151.obj"
+  ],
+  "mesh_count": 12,
+  "bytes": 176424,
+  "failed": [],
+  "mapping": {
+   "FJ1423.obj": [
+    "Right_iliotibial_tract"
+   ],
+   "FJ1423M.obj": [
+    "Left_iliotibial_tract"
+   ],
+   "FJ1448.obj": [
+    "Linea_alba"
+   ],
+   "FJ1795.obj": [
+    "Pineal_body"
+   ],
+   "FJ1796.obj": [
+    "Pituitary_gland"
+   ],
+   "FJ2561.obj": [
+    "Spleen"
+   ],
+   "FJ2744.obj": [
+    "Left_pterygomandibular_raphe"
+   ],
+   "FJ2756.obj": [
+    "Right_pterygomandibular_raphe"
+   ],
+   "FJ3129.obj": [
+    "Left_adrenal_gland"
+   ],
+   "FJ3130.obj": [
+    "Right_adrenal_gland"
+   ],
+   "FJ3150.obj": [
+    "Left_lobe_of_thymus"
+   ],
+   "FJ3151.obj": [
+    "Right_lobe_of_thymus"
+   ]
+  }
+ }
+}
