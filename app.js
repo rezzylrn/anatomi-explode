@@ -1180,12 +1180,12 @@ async function presentQuizQuestion() {
   // Update banner kuis
   document.getElementById('quiz-progress-text').textContent = `Soal ${quizState.currentIndex + 1} / ${quizState.questions.length}`;
   document.getElementById('quiz-score-text').textContent = `Skor: ${quizState.score}`;
-  document.getElementById('quiz-streak-text').textContent = `Streak: ${quizState.streak}`;
+  document.getElementById('quiz-streak-text').textContent = `Beruntun: ${quizState.streak}`;
   document.getElementById('quiz-target-name').textContent = q.targetName;
 
   const feedback = document.getElementById('quiz-feedback');
   feedback.className = 'quiz-feedback';
-  feedback.textContent = 'Klik struktur pada model 3D di bawah';
+  feedback.textContent = 'Klik bagian yang dimaksud pada model';
 }
 
 function evaluateQuizAnswer(clickedMesh) {
@@ -1247,7 +1247,7 @@ function evaluateQuizAnswer(clickedMesh) {
   }
 
   document.getElementById('quiz-score-text').textContent = `Skor: ${quizState.score}`;
-  document.getElementById('quiz-streak-text').textContent = `Streak: ${quizState.streak}`;
+  document.getElementById('quiz-streak-text').textContent = `Beruntun: ${quizState.streak}`;
 }
 
 function finishQuiz() {
@@ -1265,13 +1265,13 @@ function finishQuiz() {
   streakEl.textContent = quizState.maxStreak;
 
   if (pct >= 90) {
-    summary.textContent = 'Luar biasa! Pengetahuan spasial anatomi sangat tajam dan presisi.';
+    summary.textContent = 'Hampir semua benar.';
   } else if (pct >= 70) {
-    summary.textContent = 'Sangat baik! Sebagian besar organ dan sistem berhasil diidentifikasi tepat.';
+    summary.textContent = 'Sebagian besar benar.';
   } else if (pct >= 50) {
-    summary.textContent = 'Cukup bagus. Latihan eksplorasi model 3D akan semakin memperdalam pemahaman.';
+    summary.textContent = 'Setengahnya benar. Main lagi buat naikkin skor.';
   } else {
-    summary.textContent = 'Terus belajar! Gunakan fitur pencarian dan info struktur untuk latihan.';
+    summary.textContent = 'Masih banyak yang meleset. Latihan pakai pencarian dulu.';
   }
 
   modal.style.display = 'flex';
@@ -1324,7 +1324,7 @@ function renderSystemsPanel() {
         <div class="system-status-row">
           <span class="system-name-en">${sys.nameEn}</span>
           <span class="system-status-badge ${sys.defaultOn ? 'status-loading' : 'status-unloaded'}" id="badge-${sys.id}">
-            ${sys.defaultOn ? 'Memuat...' : 'Belum'}
+            ${sys.defaultOn ? 'Memuat…' : 'Belum'}
           </span>
         </div>
       </div>
@@ -1365,7 +1365,7 @@ function updateSystemUIStatus(systemId, status) {
     badge.textContent = 'Sembunyi';
   } else if (status === 'loading') {
     badge.classList.add('status-loading');
-    badge.textContent = 'Memuat...';
+    badge.textContent = 'Memuat…';
   } else {
     badge.classList.add('status-unloaded');
     badge.textContent = 'Belum';

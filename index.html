@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ANATOMI v2 — Human Atlas 3D</title>
+  <title>Anatomi — Atlas 3D</title>
+  <link rel="icon" href="data:,">
   <link rel="stylesheet" href="./styles.css">
   <script type="importmap">
   {
@@ -16,201 +17,152 @@
 </head>
 <body>
   <div id="app">
-    <!-- Header / Navigasi Atas -->
     <header id="header">
       <div class="brand">
-        <span class="brand-title">ANATOMI v2</span>
-        <span class="brand-subtitle">Human Atlas 3D</span>
+        <span class="brand-title">Anatomi</span>
+        <span class="brand-sub">Atlas 3D</span>
       </div>
 
-      <!-- Kotak Pencarian -->
       <div id="search-container">
         <div class="search-input-wrapper">
-          <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+          <svg class="search-icon" viewBox="0 0 20 20" fill="currentColor" width="15" height="15">
             <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
           </svg>
-          <input type="text" id="search-input" placeholder="Cari struktur anatomi (Indonesia / Inggris)..." autocomplete="off" spellcheck="false">
-          <button id="btn-clear-search" class="btn-icon" style="display: none;" title="Hapus pencarian">&times;</button>
+          <input type="text" id="search-input" placeholder="Cari bagian tubuh…" autocomplete="off" spellcheck="false">
+          <button id="btn-clear-search" class="btn-icon" style="display: none;" title="Hapus">&times;</button>
         </div>
         <div id="search-dropdown" class="search-dropdown" style="display: none;"></div>
       </div>
 
-      <!-- Tombol Aksi Header -->
       <div class="header-actions">
-        <button id="btn-quiz" class="btn btn-teal">Mode Kuis</button>
-        <button id="btn-reset-view" class="btn btn-outline" title="Kembalikan orientasi dan posisi kamera ke tampilan awal">Reset Kamera</button>
+        <button id="btn-quiz" class="btn btn-ghost">Kuis</button>
+        <button id="btn-reset-view" class="btn-text" title="Kembalikan kamera ke posisi awal">Reset kamera</button>
       </div>
     </header>
 
-    <!-- Konten Utama: 3 Kolom -->
     <main id="main-content">
-      <!-- Panel Kiri: Daftar 13 Sistem Organ -->
       <aside id="systems-panel" class="sidebar">
         <div class="sidebar-header">
           <div class="sidebar-title-row">
-            <h2 class="sidebar-title">Sistem Organ</h2>
-            <span id="systems-active-count" class="badge-count">3/13</span>
+            <h2 class="sidebar-title">Sistem organ</h2>
+            <span id="systems-active-count" class="count-text">3/13</span>
           </div>
           <div class="sidebar-quick-actions">
-            <button id="btn-all-systems" class="btn-link">Aktifkan Semua</button>
-            <span class="action-sep">•</span>
-            <button id="btn-reset-systems" class="btn-link">Reset Default</button>
+            <button id="btn-all-systems" class="btn-text btn-text-sm">Pilih semua</button>
+            <span class="action-sep">·</span>
+            <button id="btn-reset-systems" class="btn-text btn-text-sm">Awal</button>
           </div>
         </div>
-
-        <div id="systems-list" class="systems-list">
-          <!-- Item sistem organ diinjeksi via JavaScript -->
-        </div>
+        <div id="systems-list" class="systems-list"></div>
       </aside>
 
-      <!-- Viewport Tengah: Scene 3D Three.js -->
       <section id="viewport-container" class="viewport-container">
         <canvas id="webgl-canvas"></canvas>
 
-        <!-- Overlay Banner Mode Kuis -->
-        <div id="quiz-banner" class="quiz-banner" style="display: none;">
-          <div class="quiz-info-col">
-            <div class="quiz-stats-row">
-              <span class="quiz-pill" id="quiz-progress-text">Soal 1 / 10</span>
-              <span class="quiz-pill" id="quiz-score-text">Skor: 0</span>
-              <span class="quiz-pill" id="quiz-streak-text">Streak: 0</span>
-            </div>
-            <div class="quiz-target-row">
-              <span class="quiz-prompt-label">Cari &amp; Klik:</span>
-              <span class="quiz-target-name" id="quiz-target-name">Memuat...</span>
-            </div>
-            <div id="quiz-feedback" class="quiz-feedback">Klik struktur pada model 3D di bawah</div>
-          </div>
-          <button id="btn-exit-quiz" class="btn btn-danger btn-sm">Keluar Kuis</button>
+        <div id="quiz-banner" class="quiz-bar" style="display: none;">
+          <span class="quiz-label">Kuis</span>
+          <span class="quiz-stats">
+            <span id="quiz-progress-text">Soal 1 / 10</span> ·
+            <span id="quiz-score-text">Skor: 0</span> ·
+            <span id="quiz-streak-text">Beruntun: 0</span>
+          </span>
+          <span class="quiz-target">Klik: <strong id="quiz-target-name">…</strong></span>
+          <span id="quiz-feedback" class="quiz-feedback"></span>
+          <button id="btn-exit-quiz" class="btn-text">Keluar</button>
         </div>
 
-        <!-- Floating Controls Bawah: Slider Explode & Preset -->
-        <div id="explode-panel" class="floating-panel">
-          <div class="explode-header">
-            <label for="explode-slider" class="explode-label">Bedah Grid (Explode)</label>
-            <span id="explode-value" class="explode-value-badge">0%</span>
-          </div>
-          <div class="explode-controls-row">
-            <button id="btn-preset-assembled" class="btn btn-preset active" title="Model utuh terkumpul">Tumpuk</button>
-            <input type="range" id="explode-slider" min="0" max="100" value="0" step="1" class="custom-slider">
-            <button id="btn-preset-exploded" class="btn btn-preset" title="Susun tiap potongan dalam grid">Bedah</button>
-          </div>
-        </div>
-
-        <!-- Overlay Loading Awal -->
         <div id="startup-loader" class="startup-loader">
-          <div class="loader-card">
-            <div class="loader-spinner"></div>
-            <h3 class="loader-title">Memuat Atlas 3D</h3>
-            <p id="loader-status" class="loader-desc">Menyiapkan geometri &amp; tekstur...</p>
-            <div class="progress-bar-bg">
-              <div id="loader-progress-bar" class="progress-bar-fill" style="width: 0%;"></div>
-            </div>
-            <div id="loader-counter" class="loader-counter">0%</div>
+          <div class="loader-spinner"></div>
+          <div class="loader-title">Memuat model…</div>
+          <p id="loader-status" class="loader-desc"></p>
+          <div class="progress-bar-bg">
+            <div id="loader-progress-bar" class="progress-bar-fill" style="width: 0%;"></div>
           </div>
+          <div id="loader-counter" class="loader-counter">0%</div>
         </div>
 
-        <!-- Petunjuk Kontrol Orbit Navigasi -->
-        <div class="viewport-hints">
-          <span>Putar: Drag Kiri</span>
-          <span class="hint-sep">•</span>
-          <span>Perbesar: Scroll</span>
-          <span class="hint-sep">•</span>
-          <span>Geser: Drag Kanan</span>
+        <div id="explode-panel" class="explode-bar">
+          <span class="explode-label">Bedah</span>
+          <div class="segmented">
+            <button id="btn-preset-assembled" class="seg-btn active">Utuh</button>
+            <button id="btn-preset-exploded" class="seg-btn">Pisah</button>
+          </div>
+          <input type="range" id="explode-slider" min="0" max="100" value="0" step="1" class="slider">
+          <span id="explode-value" class="explode-value">0%</span>
+          <span class="viewport-hints">Drag kiri: putar&ensp;·&ensp;Scroll: zoom&ensp;·&ensp;Drag kanan: geser</span>
         </div>
       </section>
 
-      <!-- Panel Kanan: Rincian Struktur Anatomi Terpilih -->
       <aside id="info-panel" class="sidebar info-sidebar">
         <div id="info-empty" class="info-empty-state">
-          <div class="info-empty-graphic">
-            <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M15 15l6 6m-11-4a7 7 0 110-14 7 7 0 010 14zm-1-7h2m-1-1v2" />
-            </svg>
-          </div>
-          <h3 class="info-empty-title">Informasi Struktur</h3>
-          <p class="info-empty-text">Klik salah satu mesh pada model 3D atau gunakan kotak pencarian untuk menampilkan data medis, nama latin, dan deskripsi fungsional.</p>
+          <p class="info-empty-text">Klik bagian tubuh pada model, atau cari lewat kotak pencarian.</p>
         </div>
 
         <div id="info-content" class="info-content" style="display: none;">
           <div class="info-card-header">
             <div class="info-badge-row">
-              <span id="info-system-badge" class="system-badge">Sistem</span>
-              <button id="btn-close-info" class="btn-icon" title="Tutup info">&times;</button>
+              <span id="info-system-badge" class="system-label">Sistem</span>
+              <button id="btn-close-info" class="btn-icon" title="Tutup">&times;</button>
             </div>
-            <h2 id="info-name-id" class="info-title-id">Nama Struktur</h2>
-            <div id="info-name-latin" class="info-latin">Nama Latin</div>
-            <div class="info-name-en-box">
-              <span class="info-label">Dataset:</span>
-              <span id="info-name-en" class="info-en-code">mesh_name</span>
-            </div>
+            <h2 id="info-name-id" class="info-title-id">Nama struktur</h2>
+            <div id="info-name-latin" class="info-latin">Nama latin</div>
+            <div class="info-dataset"><span class="info-dataset-key">Dataset</span> <span id="info-name-en" class="info-dataset-val">mesh_name</span></div>
           </div>
 
           <div class="info-card-body">
             <div class="info-section">
-              <h4 class="info-section-title">Deskripsi Anatomi</h4>
-              <p id="info-desc" class="info-desc-text">Deskripsi struktur...</p>
+              <h4 class="info-section-title">Deskripsi</h4>
+              <p id="info-desc" class="info-desc-text"></p>
             </div>
 
-            <div id="info-fact-container" class="info-fact-card">
-              <div class="info-fact-label">Fakta Medis &amp; Klinis</div>
-              <p id="info-fact" class="info-fact-text">Fakta...</p>
+            <div id="info-fact-container" class="info-fact-box">
+              <h4 class="info-section-title">Catatan</h4>
+              <p id="info-fact" class="info-fact-text"></p>
             </div>
 
-            <div class="info-meta-grid">
+            <div class="info-meta">
               <div class="meta-item">
-                <span class="meta-label">ID Kamus</span>
+                <span class="meta-label">ID</span>
                 <span id="info-meta-id" class="meta-value">-</span>
               </div>
               <div class="meta-item">
-                <span class="meta-label">Sumbu Kedudukan</span>
+                <span class="meta-label">Posisi</span>
                 <span id="info-meta-pos" class="meta-value">-</span>
               </div>
             </div>
           </div>
 
           <div class="info-card-footer">
-            <button id="btn-focus-mesh" class="btn btn-teal btn-block">Fokuskan Kamera</button>
+            <button id="btn-focus-mesh" class="btn btn-primary btn-block">Fokus kamera</button>
           </div>
         </div>
       </aside>
     </main>
 
-    <!-- Modal Skor Kuis -->
     <div id="quiz-result-modal" class="modal-backdrop" style="display: none;">
       <div class="modal-card">
-        <h3 class="modal-title">Hasil Kuis Anatomi</h3>
-        <div class="modal-score-circle">
-          <span id="modal-final-score" class="score-large">8</span>
-          <span class="score-denom">/ 10</span>
-        </div>
-        <p id="modal-result-summary" class="modal-summary">Kemampuan identifikasi anatomi sangat baik!</p>
+        <h3 class="modal-title">Hasil kuis</h3>
+        <div class="modal-score"><span id="modal-final-score">8</span><span class="modal-score-den"> / 10</span></div>
+        <p id="modal-result-summary" class="modal-summary"></p>
         <div class="modal-metrics">
-          <div class="metric-box">
-            <span class="metric-label">Akurasi</span>
-            <span id="modal-metric-acc" class="metric-val">80%</span>
-          </div>
-          <div class="metric-box">
-            <span class="metric-label">Streak Tertinggi</span>
-            <span id="modal-metric-streak" class="metric-val">5</span>
-          </div>
+          <div class="metric"><span class="metric-label">Akurasi</span><span id="modal-metric-acc" class="metric-val">80%</span></div>
+          <div class="metric"><span class="metric-label">Beruntun terbaik</span><span id="modal-metric-streak" class="metric-val">5</span></div>
         </div>
         <div class="modal-actions">
-          <button id="btn-modal-retry" class="btn btn-teal">Mulai Kuis Baru</button>
-          <button id="btn-modal-close" class="btn btn-outline">Tutup</button>
+          <button id="btn-modal-retry" class="btn btn-primary">Kuis baru</button>
+          <button id="btn-modal-close" class="btn btn-ghost">Tutup</button>
         </div>
       </div>
     </div>
 
-    <!-- Footer Bar -->
     <footer id="footer">
       <div class="footer-left">
-        <span class="footer-credit">BodyParts3D, © The Database Center for Life Science, CC BY 4.0</span>
-        <span class="footer-sep">•</span>
-        <span class="footer-disclaimer">Media edukasi, bukan alat klinis.</span>
+        <span>BodyParts3D © Database Center for Life Science, CC BY 4.0</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Media edukasi, bukan alat klinis.</span>
       </div>
       <div class="footer-right">
-        <span id="footer-stats">Sistem dimuat: 3 / 13 | 716 mesh</span>
+        <span id="footer-stats"></span>
       </div>
     </footer>
   </div>
