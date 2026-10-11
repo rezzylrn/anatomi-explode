@@ -18,6 +18,9 @@
 <body>
   <div id="app">
     <header id="header">
+      <button id="btn-systems" class="btn-icon btn-menu" aria-label="Daftar sistem organ" title="Sistem organ">
+        <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18"><path d="M3 4h14v2H3V4zm0 5h14v2H3V9zm0 5h14v2H3v-2z"/></svg>
+      </button>
       <div class="brand">
         <span class="brand-title">Anatomi</span>
         <span class="brand-sub">Atlas 3D</span>
@@ -46,6 +49,7 @@
           <div class="sidebar-title-row">
             <h2 class="sidebar-title">Sistem organ</h2>
             <span id="systems-active-count" class="count-text">3/13</span>
+            <button id="btn-close-drawer" class="btn-icon" aria-label="Tutup">&times;</button>
           </div>
           <div class="sidebar-quick-actions">
             <button id="btn-all-systems" class="btn-text btn-text-sm">Pilih semua</button>
@@ -55,6 +59,7 @@
         </div>
         <div id="systems-list" class="systems-list"></div>
       </aside>
+      <div id="drawer-scrim" class="drawer-scrim"></div>
 
       <section id="viewport-container" class="viewport-container">
         <canvas id="webgl-canvas"></canvas>
@@ -89,11 +94,13 @@
           </div>
           <input type="range" id="explode-slider" min="0" max="100" value="0" step="1" class="slider">
           <span id="explode-value" class="explode-value">0%</span>
+          <button id="btn-reset-view-m" class="btn-text btn-text-sm reset-m">Reset kamera</button>
           <span class="viewport-hints">Drag kiri: putar&ensp;·&ensp;Scroll: zoom&ensp;·&ensp;Drag kanan: geser</span>
         </div>
       </section>
 
       <aside id="info-panel" class="sidebar info-sidebar">
+        <div class="sheet-handle" aria-hidden="true"></div>
         <div id="info-empty" class="info-empty-state">
           <p class="info-empty-text">Klik bagian tubuh pada model, atau cari lewat kotak pencarian.</p>
         </div>

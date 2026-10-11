@@ -264,8 +264,79 @@ html, body {
 .footer-note { white-space: nowrap; }
 .footer-right { font-family: var(--mono); white-space: nowrap; }
 
+/* elemen khusus mobile: sembunyi di desktop */
+.btn-menu, #btn-close-drawer, .reset-m, .drawer-scrim, .sheet-handle { display: none; }
+.sidebar-title-row .count-text { margin-left: auto; }
+#btn-close-drawer { margin-left: 2px; }
+
 /* scrollbar tipis */
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: #c9cfd6; border-radius: 4px; border: 2px solid var(--panel); }
 ::-webkit-scrollbar-thumb:hover { background: var(--faint); }
+
+/* ==================== mobile (<=820px) ==================== */
+@media (max-width: 820px) {
+  #app { height: 100vh; height: 100dvh; }
+
+  /* header jadi dua baris */
+  #header { flex-wrap: wrap; height: auto; min-height: 52px; padding: 8px 10px; gap: 8px 10px; }
+  .btn-menu { display: inline-flex; }
+  .brand { min-width: 0; }
+  .brand-sub { display: none; }
+  #search-container { order: 5; flex: 1 1 100%; max-width: none; }
+  #btn-reset-view { display: none; }
+  .header-actions { margin-left: auto; }
+
+  /* panel sistem jadi drawer kiri */
+  #systems-panel {
+    position: fixed; top: 0; bottom: 0; left: 0; z-index: 60;
+    width: 300px; min-width: 0; max-width: 86vw;
+    transform: translateX(-104%);
+    transition: transform 0.22s ease;
+    box-shadow: 8px 0 24px rgba(20, 30, 40, 0.18);
+  }
+  body.drawer-open #systems-panel { transform: translateX(0); }
+  #btn-close-drawer { display: inline-flex; }
+  .drawer-scrim {
+    display: none;
+    position: fixed; inset: 0; z-index: 55;
+    background: rgba(20, 28, 38, 0.4);
+  }
+  body.drawer-open .drawer-scrim { display: block; }
+
+  /* panel info jadi bottom sheet */
+  #info-panel {
+    position: fixed; left: 0; right: 0; bottom: 0; top: auto; z-index: 70;
+    width: auto; min-width: 0; max-height: 54dvh;
+    border-left: none; border-top: 1px solid var(--line);
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -8px 24px rgba(20, 30, 40, 0.16);
+    transform: translateY(105%);
+    transition: transform 0.22s ease;
+  }
+  body.sheet-open #info-panel { transform: translateY(0); }
+  #info-empty { display: none !important; }
+  .sheet-handle {
+    display: block; width: 36px; height: 4px; border-radius: 2px;
+    background: #c9cfd6; margin: 8px auto 0; flex-shrink: 0;
+  }
+  .info-card-header { padding-top: 8px; }
+
+  /* bar bedah: padat, tanpa hints */
+  .explode-bar { gap: 8px; padding: 8px 10px; }
+  .viewport-hints { display: none; }
+  .reset-m { display: inline-flex; flex-shrink: 0; }
+  .explode-label { display: none; }
+  .slider { min-width: 60px; }
+
+  /* bar kuis boleh wrap */
+  .quiz-bar { flex-wrap: wrap; gap: 4px 12px; padding: 8px 10px; font-size: 12px; }
+  .quiz-feedback { flex: 1 1 100%; order: 5; }
+
+  /* footer hemat tempat */
+  #footer { font-size: 10px; padding: 0 10px; }
+  .footer-note { display: none; }
+
+  .modal-card { width: calc(100vw - 48px); max-width: 340px; }
+}

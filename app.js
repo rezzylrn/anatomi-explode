@@ -954,6 +954,7 @@ function displayStructureDetails(mesh) {
 
   infoEmpty.style.display = 'none';
   infoContent.style.display = 'flex';
+  document.body.classList.add('sheet-open');
 }
 
 function hideStructureDetails() {
@@ -961,6 +962,7 @@ function hideStructureDetails() {
   const infoContent = document.getElementById('info-content');
   infoEmpty.style.display = 'flex';
   infoContent.style.display = 'none';
+  document.body.classList.remove('sheet-open');
 }
 
 /* ==========================================================================
@@ -1404,6 +1406,18 @@ function setupUIEventListeners() {
 
   // 2. Tombol Reset Kamera
   document.getElementById('btn-reset-view').addEventListener('click', resetCameraView);
+  document.getElementById('btn-reset-view-m').addEventListener('click', resetCameraView);
+
+  // 2b. Drawer sistem (mobile)
+  document.getElementById('btn-systems').addEventListener('click', () => {
+    document.body.classList.toggle('drawer-open');
+  });
+  document.getElementById('btn-close-drawer').addEventListener('click', () => {
+    document.body.classList.remove('drawer-open');
+  });
+  document.getElementById('drawer-scrim').addEventListener('click', () => {
+    document.body.classList.remove('drawer-open');
+  });
 
   // 3. Tombol Quick Actions Sistem
   document.getElementById('btn-all-systems').addEventListener('click', async () => {
