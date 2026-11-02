@@ -15,7 +15,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Skeleton',
     color: '#e4dccb', // Ivory / Bone White
     defaultOn: true,
-    desc: 'Kerangka tubuh penopang postur, pelindung organ vital, dan tuas mekanis pergerakan.'
+    desc: 'Kerangka tubuh penopang postur, pelindung organ vital, dan tuas mekanis pergerakan.',
+    descEn: 'The body framework supporting posture, protecting vital organs, and acting as levers for movement.'
   },
   {
     id: 'muscles',
@@ -23,7 +24,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Muscles',
     color: '#9e3a30', // Deep Maroon / Red Muscle
     defaultOn: true,
-    desc: 'Jaringan kontraktil yang menghasilkan gaya gerak, stabilitas sendi, dan produksi panas.'
+    desc: 'Jaringan kontraktil yang menghasilkan gaya gerak, stabilitas sendi, dan produksi panas.',
+    descEn: 'Contractile tissue that produces movement, stabilizes joints, and generates heat.'
   },
   {
     id: 'skin',
@@ -32,7 +34,8 @@ const SYSTEMS_CONFIG = [
     color: '#f5d0b5', // Translucent Peach Flesh
     defaultOn: true,
     isSkin: true,
-    desc: 'Barier pelindung eksternal tubuh dari patogen, regulasi suhu, dan reseptor sensorik.'
+    desc: 'Barier pelindung eksternal tubuh dari patogen, regulasi suhu, dan reseptor sensorik.',
+    descEn: 'The external protective barrier against pathogens, for temperature regulation and sensory reception.'
   },
   {
     id: 'heart',
@@ -40,7 +43,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Heart',
     color: '#be123c', // Crimson Heart Muscle
     defaultOn: false,
-    desc: 'Organ pompa muskular utama sirkulasi kardiovaskular dalam rongga mediastinum.'
+    desc: 'Organ pompa muskular utama sirkulasi kardiovaskular dalam rongga mediastinum.',
+    descEn: 'The main muscular pump of cardiovascular circulation within the mediastinum.'
   },
   {
     id: 'arteries',
@@ -48,7 +52,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Arteries',
     color: '#dc2626', // Oxygenated Bright Red
     defaultOn: false,
-    desc: 'Pembuluh elastis bertekanan tinggi penyalur darah kaya oksigen dari jantung ke jaringan perifer.'
+    desc: 'Pembuluh elastis bertekanan tinggi penyalur darah kaya oksigen dari jantung ke jaringan perifer.',
+    descEn: 'High-pressure elastic vessels carrying oxygen-rich blood from the heart to peripheral tissues.'
   },
   {
     id: 'veins',
@@ -56,7 +61,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Veins',
     color: '#2563eb', // Deoxygenated Deep Blue
     defaultOn: false,
-    desc: 'Pembuluh kapasitans pengalir darah balik terdeoksigenasi dari jaringan tubuh ke atrium jantung.'
+    desc: 'Pembuluh kapasitans pengalir darah balik terdeoksigenasi dari jaringan tubuh ke atrium jantung.',
+    descEn: 'Capacitance vessels returning deoxygenated blood from body tissues to the heart atria.'
   },
   {
     id: 'nervous_system',
@@ -64,7 +70,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Nervous System',
     color: '#eab308', // Neural Yellow
     defaultOn: false,
-    desc: 'Jaringan koordinasi sinyal bioelektrik pusat dan perifer pengatur homeostasis dan persepsi sensorik.'
+    desc: 'Jaringan koordinasi sinyal bioelektrik pusat dan perifer pengatur homeostasis dan persepsi sensorik.',
+    descEn: 'Central and peripheral network coordinating bioelectric signals that regulate homeostasis and sensory perception.'
   },
   {
     id: 'respiratory',
@@ -72,7 +79,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Respiratory',
     color: '#06b6d4', // Aerated Cyan / Sky Blue
     defaultOn: false,
-    desc: 'Aparatus ventilasi saluran napas dan pertukaran gas hematosis oksigen-karbondioksida.'
+    desc: 'Aparatus ventilasi saluran napas dan pertukaran gas hematosis oksigen-karbondioksida.',
+    descEn: 'Airway ventilation apparatus for oxygen-carbon dioxide gas exchange.'
   },
   {
     id: 'digestive',
@@ -80,7 +88,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Digestive',
     color: '#d97706', // Enteric Ochre / Amber
     defaultOn: false,
-    desc: 'Saluran gastrointestinal pemroses nutrien makanan, penyerapan sari pati, dan eliminasi sisa.'
+    desc: 'Saluran gastrointestinal pemroses nutrien makanan, penyerapan sari pati, dan eliminasi sisa.',
+    descEn: 'The gastrointestinal tract for processing food nutrients, absorbing them, and eliminating waste.'
   },
   {
     id: 'urinary',
@@ -88,7 +97,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Urinary',
     color: '#ca8a04', // Renal Gold / Amber
     defaultOn: false,
-    desc: 'Organ filtrasi plasma darah, pemelihara kesetimbangan cairan-elektrolit, dan ekskresi urin.'
+    desc: 'Organ filtrasi plasma darah, pemelihara kesetimbangan cairan-elektrolit, dan ekskresi urin.',
+    descEn: 'Blood plasma filtration organs maintaining fluid-electrolyte balance and excreting urine.'
   },
   {
     id: 'sensory_organs',
@@ -96,7 +106,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Sensory Organs',
     color: '#8b5cf6', // Sensory Violet
     defaultOn: false,
-    desc: 'Reseptor spesifik pengindera penglihatan, pendengaran, dan keseimbangan posisi spasial tubuh.'
+    desc: 'Reseptor spesifik pengindera penglihatan, pendengaran, dan keseimbangan posisi spasial tubuh.',
+    descEn: 'Specialized receptors for vision, hearing, and spatial balance.'
   },
   {
     id: 'reproductive',
@@ -104,7 +115,8 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Reproductive',
     color: '#db2777', // Reproductive Magenta
     defaultOn: false,
-    desc: 'Organ gonad dan saluran penghasil gamet serta regulator hormon reproduksi.'
+    desc: 'Organ gonad dan saluran penghasil gamet serta regulator hormon reproduksi.',
+    descEn: 'Gonads and ducts producing gametes and regulating reproductive hormones.'
   },
   {
     id: 'lainnya',
@@ -112,9 +124,147 @@ const SYSTEMS_CONFIG = [
     nameEn: 'Other Organs',
     color: '#10b981', // Glandular Green
     defaultOn: false,
-    desc: 'Kelenjar endokrin pensekresi hormon dan jaringan limfatik pertahanan imunologis tubuh.'
+    desc: 'Kelenjar endokrin pensekresi hormon dan jaringan limfatik pertahanan imunologis tubuh.',
+    descEn: 'Endocrine glands secreting hormones and lymphatic tissue for immune defense.'
   }
 ];
+
+// Bahasa antarmuka: 'id' | 'en' (disimpan di localStorage)
+let currentLang = localStorage.getItem('anatomi-lang') || 'id';
+if (currentLang !== 'en') currentLang = 'id';
+
+const I18N = {
+  id: {
+    quiz: 'Kuis', resetCamera: 'Reset kamera',
+    searchPlaceholder: 'Cari bagian tubuh…', clearSearch: 'Hapus',
+    systemsTitle: 'Sistem organ', selectAll: 'Pilih semua', resetDefault: 'Awal',
+    statusActive: 'Aktif', statusHidden: 'Sembunyi', statusLoading: 'Memuat…', statusUnloaded: 'Belum',
+    explode: 'Bedah', assembled: 'Utuh', exploded: 'Pisah',
+    hints: 'Drag kiri: putar · Scroll: zoom · Drag kanan: geser',
+    infoEmpty: 'Klik bagian tubuh pada model, atau cari lewat kotak pencarian.',
+    dataset: 'Dataset', description: 'Deskripsi', note: 'Catatan',
+    idLabel: 'ID', position: 'Posisi', focusCamera: 'Fokus kamera',
+    question: 'Soal', score: 'Skor', streak: 'Beruntun', find: 'Klik',
+    quizHint: 'Klik bagian yang dimaksud pada model', exitQuiz: 'Keluar',
+    correct: 'Benar! Itu {name}.', wrong: 'Kurang tepat (itu {name}). Jawaban benar ditandai hijau.',
+    resultsTitle: 'Hasil kuis', accuracy: 'Akurasi', bestStreak: 'Beruntun terbaik',
+    newQuiz: 'Kuis baru', close: 'Tutup',
+    summary90: 'Hampir semua benar.', summary70: 'Sebagian besar benar.',
+    summary50: 'Setengahnya benar. Main lagi buat naikkin skor.',
+    summaryLow: 'Masih banyak yang meleset. Latihan pakai pencarian dulu.',
+    loadingModel: 'Memuat model…', loadingSystem: 'Memuat {sys} ({n}/{m})…',
+    noResults: 'Tidak ada struktur yang cocok',
+    footerNote: 'Media edukasi, bukan alat klinis.',
+    footerStats: 'Sistem aktif: {a} / {t} | {m} mesh',
+    genericDesc: 'Bagian struktural dari anatomi tubuh manusia.',
+  },
+  en: {
+    quiz: 'Quiz', resetCamera: 'Reset camera',
+    searchPlaceholder: 'Search body parts…', clearSearch: 'Clear',
+    systemsTitle: 'Organ systems', selectAll: 'Select all', resetDefault: 'Default',
+    statusActive: 'Active', statusHidden: 'Hidden', statusLoading: 'Loading…', statusUnloaded: 'Not loaded',
+    explode: 'Explode', assembled: 'Assembled', exploded: 'Exploded',
+    hints: 'Left-drag: rotate · Scroll: zoom · Right-drag: pan',
+    infoEmpty: 'Click a body part on the model, or search from the search box.',
+    dataset: 'Dataset', description: 'Description', note: 'Note',
+    idLabel: 'ID', position: 'Position', focusCamera: 'Focus camera',
+    question: 'Question', score: 'Score', streak: 'Streak', find: 'Find',
+    quizHint: 'Click the matching part on the model', exitQuiz: 'Exit',
+    correct: 'Correct! That is the {name}.', wrong: 'Not quite (that was the {name}). The correct answer is marked green.',
+    resultsTitle: 'Quiz results', accuracy: 'Accuracy', bestStreak: 'Best streak',
+    newQuiz: 'New quiz', close: 'Close',
+    summary90: 'Almost all correct.', summary70: 'Mostly correct.',
+    summary50: 'About half correct. Play again to raise your score.',
+    summaryLow: 'Still many misses. Practice with search first.',
+    loadingModel: 'Loading model…', loadingSystem: 'Loading {sys} ({n}/{m})…',
+    noResults: 'No matching structures',
+    footerNote: 'Educational media, not a clinical tool.',
+    footerStats: 'Active systems: {a} / {t} | {m} meshes',
+    genericDesc: 'A structural part of the human body.',
+  },
+};
+
+function t(key, vars) {
+  let s = (I18N[currentLang] && I18N[currentLang][key]) || I18N.id[key] || key;
+  if (vars) for (const k in vars) s = s.replaceAll('{' + k + '}', vars[k]);
+  return s;
+}
+
+// Nama sistem & struktur sesuai bahasa aktif
+function sysName(sys) { return currentLang === 'en' ? sys.nameEn : sys.nameId; }
+function sysNameAlt(sys) { return currentLang === 'en' ? sys.nameId : sys.nameEn; }
+function structName(res) { return currentLang === 'en' ? (res.nameEn || res.nameId) : res.nameId; }
+function structDesc(res) { return currentLang === 'en' ? (res.descEn || res.desc) : res.desc; }
+function structFact(res) { return currentLang === 'en' ? (res.factEn || res.fact) : res.fact; }
+
+function applyLang(lang) {
+  currentLang = (lang === 'en') ? 'en' : 'id';
+  localStorage.setItem('anatomi-lang', currentLang);
+  document.documentElement.lang = currentLang;
+  document.getElementById('lang-id').classList.toggle('active', currentLang === 'id');
+  document.getElementById('lang-en').classList.toggle('active', currentLang === 'en');
+
+  // teks statis
+  const setText = (id, key) => { const el = document.getElementById(id); if (el) el.textContent = t(key); };
+  document.getElementById('search-input').placeholder = t('searchPlaceholder');
+  document.getElementById('btn-clear-search').title = t('clearSearch');
+  setText('btn-quiz', 'quiz');
+  setText('btn-reset-view', 'resetCamera');
+  setText('btn-reset-view-m', 'resetCamera');
+  setText('btn-all-systems', 'selectAll');
+  setText('btn-reset-systems', 'resetDefault');
+  setText('btn-preset-assembled', 'assembled');
+  setText('btn-preset-exploded', 'exploded');
+  setText('btn-focus-mesh', 'focusCamera');
+  setText('loader-title', 'loadingModel');
+  setText('footer-note', 'footerNote');
+  setText('quiz-label', 'quiz');
+  setText('btn-exit-quiz', 'exitQuiz');
+  setText('modal-title', 'resultsTitle');
+  setText('modal-acc-label', 'accuracy');
+  setText('modal-streak-label', 'bestStreak');
+  setText('btn-modal-retry', 'newQuiz');
+  setText('btn-modal-close', 'close');
+  setText('info-desc-title', 'description');
+  setText('info-fact-title', 'note');
+  setText('info-dataset-key', 'dataset');
+  setText('meta-id-label', 'idLabel');
+  setText('meta-pos-label', 'position');
+  document.getElementById('quiz-target-label').textContent = t('find') + ':';
+  document.querySelector('.sidebar-title').textContent = t('systemsTitle');
+  document.querySelector('.explode-label').textContent = t('explode');
+  document.querySelector('.viewport-hints').textContent = t('hints');
+  document.querySelector('.info-empty-text').textContent = t('infoEmpty');
+
+  // nama sistem + status badge (state dibaca dari class)
+  for (const sys of SYSTEMS_CONFIG) {
+    const row = document.querySelector(`[data-sys-row="${sys.id}"]`);
+    if (!row) continue;
+    row.querySelector('.system-name-id').textContent = sysName(sys);
+    row.querySelector('.system-name-en').textContent = sysNameAlt(sys);
+    const badge = document.getElementById(`badge-${sys.id}`);
+    if (badge) {
+      if (badge.classList.contains('status-active')) badge.textContent = t('statusActive');
+      else if (badge.classList.contains('status-hidden')) badge.textContent = t('statusHidden');
+      else if (badge.classList.contains('status-loading')) badge.textContent = t('statusLoading');
+      else badge.textContent = t('statusUnloaded');
+    }
+  }
+
+  updateStatsDisplay();
+
+  // panel info yang sedang terbuka
+  if (typeof selectedMesh !== 'undefined' && selectedMesh) displayStructureDetails(selectedMesh);
+
+  // banner kuis yang sedang jalan
+  if (quizState.active) {
+    const q = quizState.questions[quizState.currentIndex];
+    document.getElementById('quiz-progress-text').textContent = `${t('question')} ${quizState.currentIndex + 1} / ${quizState.questions.length}`;
+    document.getElementById('quiz-score-text').textContent = `${t('score')}: ${quizState.score}`;
+    document.getElementById('quiz-streak-text').textContent = `${t('streak')}: ${quizState.streak}`;
+    if (q) document.getElementById('quiz-target-name').textContent = quizTargetDisplayName(q);
+  }
+}
 
 // 2. Pemetaan Manual Struktur Utama (Inggris -> ID Kamus anatomy.json)
 const MANUAL_MAPPING = {
@@ -379,6 +529,7 @@ async function init() {
   renderSystemsPanel();
   setupUIEventListeners();
   buildSearchIndex();
+  applyLang(currentLang);
 
   // 7. Mulai Render Loop
   requestAnimationFrame(renderLoop);
@@ -688,7 +839,7 @@ async function loadDefaultSystemsSequential() {
     const sysConfig = SYSTEMS_CONFIG.find(s => s.id === sysId);
     const stepNum = i + 1;
 
-    loaderStatus.textContent = `Memuat ${sysConfig ? sysConfig.nameId : sysId} (${stepNum}/${total})...`;
+    loaderStatus.textContent = t('loadingSystem', { sys: sysConfig ? sysName(sysConfig) : sysId, n: stepNum, m: total });
     const pct = Math.round((i / total) * 100);
     loaderProgress.style.width = `${pct}%`;
     loaderCounter.textContent = `${pct}%`;
@@ -763,10 +914,12 @@ function resolveStructureInfo(meshName, systemId) {
       return {
         nameId: item.nama_id,
         nameLatin: item.nama_latin || '-',
-        nameEn: meshName,
+        nameEn: item.nama_en || meshName,
         systemId: systemId,
         desc: item.deskripsi,
+        descEn: item.deskripsi_en || null,
         fact: item.fakta || null,
+        factEn: item.fakta_en || null,
         dictId: item.id
       };
     }
@@ -785,10 +938,12 @@ function resolveStructureInfo(meshName, systemId) {
       return {
         nameId: item.nama_id,
         nameLatin: item.nama_latin || '-',
-        nameEn: meshName,
+        nameEn: item.nama_en || meshName,
         systemId: systemId,
         desc: item.deskripsi,
+        descEn: item.deskripsi_en || null,
         fact: item.fakta || null,
+        factEn: item.fakta_en || null,
         dictId: item.id
       };
     }
@@ -814,15 +969,18 @@ function resolveStructureInfo(meshName, systemId) {
     .replace(/\bBone\b/g, 'Tulang');
 
   const sysConfig = SYSTEMS_CONFIG.find(s => s.id === systemId);
-  const genericDesc = sysConfig ? sysConfig.desc : 'Bagian struktural dari anatomi tubuh manusia.';
+  const genericDesc = sysConfig ? sysConfig.desc : t('genericDesc');
+  const genericDescEn = sysConfig ? (sysConfig.descEn || t('genericDesc')) : t('genericDesc');
 
   return {
     nameId: translated,
     nameLatin: meshName.replace(/_/g, ' '),
-    nameEn: meshName,
+    nameEn: meshName.replace(/_\d+$/, '').replace(/_/g, ' '),
     systemId: systemId,
     desc: genericDesc,
+    descEn: genericDescEn,
     fact: null,
+    factEn: null,
     dictId: '-'
   };
 }
@@ -929,15 +1087,16 @@ function displayStructureDetails(mesh) {
 
   const info = resolveStructureInfo(meshName, sysId);
 
-  infoBadge.textContent = sysConfig ? sysConfig.nameId : sysId;
+  infoBadge.textContent = sysConfig ? sysName(sysConfig) : sysId;
   infoBadge.style.color = sysConfig ? sysConfig.color : '#0d9488';
-  infoNameId.textContent = info.nameId;
+  infoNameId.textContent = structName(info);
   infoNameLatin.textContent = info.nameLatin !== '-' ? info.nameLatin : '';
   infoNameEn.textContent = info.nameEn;
-  infoDesc.textContent = info.desc;
+  infoDesc.textContent = structDesc(info);
 
-  if (info.fact) {
-    infoFact.textContent = info.fact;
+  const fact = structFact(info);
+  if (fact) {
+    infoFact.textContent = fact;
     infoFactCard.style.display = 'block';
   } else {
     infoFactCard.style.display = 'none';
@@ -1016,7 +1175,7 @@ function buildSearchIndex() {
   for (const sysId in manifestData) {
     const mEntry = manifestData[sysId];
     const sysConfig = SYSTEMS_CONFIG.find(s => s.id === sysId);
-    const sysName = sysConfig ? sysConfig.nameId : sysId;
+    const sysLabel = sysConfig ? sysName(sysConfig) : sysId;
 
     for (let i = 0; i < mEntry.mesh_names.length; i++) {
       const meshName = mEntry.mesh_names[i];
@@ -1025,10 +1184,11 @@ function buildSearchIndex() {
       searchIndex.push({
         meshName: meshName,
         systemId: sysId,
-        systemName: sysName,
+        systemName: sysLabel,
         nameId: resolved.nameId,
+        nameEn: resolved.nameEn,
         nameLatin: resolved.nameLatin,
-        searchText: `${resolved.nameId} ${resolved.nameLatin} ${meshName}`.toLowerCase()
+        searchText: `${resolved.nameId} ${resolved.nameEn} ${resolved.nameLatin} ${meshName}`.toLowerCase()
       });
     }
   }
@@ -1058,7 +1218,7 @@ function handleSearchInput(query) {
   }
 
   if (matches.length === 0) {
-    dropdown.innerHTML = '<div class="search-empty">Tidak ada struktur yang cocok</div>';
+    dropdown.innerHTML = `<div class="search-empty">${t('noResults')}</div>`;
     dropdown.style.display = 'block';
     return;
   }
@@ -1069,7 +1229,7 @@ function handleSearchInput(query) {
     html += `
       <div class="search-item" data-mesh="${m.meshName}" data-system="${m.systemId}">
         <div class="search-item-info">
-          <span class="search-item-title">${m.nameId}</span>
+          <span class="search-item-title">${currentLang === 'en' ? (m.nameEn || m.nameId) : m.nameId}</span>
           <span class="search-item-meta">${m.nameLatin !== '-' ? m.nameLatin + ' • ' : ''}${m.meshName}</span>
         </div>
         <span class="search-item-badge">${m.systemName}</span>
@@ -1152,6 +1312,11 @@ function exitQuiz() {
   resetAllEmissives();
 }
 
+function quizTargetDisplayName(q) {
+  const resolved = resolveStructureInfo(q.meshNames[0], q.systemId);
+  return structName(resolved);
+}
+
 async function presentQuizQuestion() {
   if (quizState.currentIndex >= quizState.questions.length) {
     finishQuiz();
@@ -1180,14 +1345,14 @@ async function presentQuizQuestion() {
   resetAllEmissives();
 
   // Update banner kuis
-  document.getElementById('quiz-progress-text').textContent = `Soal ${quizState.currentIndex + 1} / ${quizState.questions.length}`;
-  document.getElementById('quiz-score-text').textContent = `Skor: ${quizState.score}`;
-  document.getElementById('quiz-streak-text').textContent = `Beruntun: ${quizState.streak}`;
-  document.getElementById('quiz-target-name').textContent = q.targetName;
+  document.getElementById('quiz-progress-text').textContent = `${t('question')} ${quizState.currentIndex + 1} / ${quizState.questions.length}`;
+  document.getElementById('quiz-score-text').textContent = `${t('score')}: ${quizState.score}`;
+  document.getElementById('quiz-streak-text').textContent = `${t('streak')}: ${quizState.streak}`;
+  document.getElementById('quiz-target-name').textContent = quizTargetDisplayName(q);
 
   const feedback = document.getElementById('quiz-feedback');
   feedback.className = 'quiz-feedback';
-  feedback.textContent = 'Klik bagian yang dimaksud pada model';
+  feedback.textContent = t('quizHint');
 }
 
 function evaluateQuizAnswer(clickedMesh) {
@@ -1212,7 +1377,7 @@ function evaluateQuizAnswer(clickedMesh) {
     }
 
     feedback.className = 'quiz-feedback correct';
-    feedback.textContent = `Benar! Itu ${currentQ.targetName}.`;
+    feedback.textContent = t('correct', { name: quizTargetDisplayName(currentQ) });
 
     setTimeout(() => {
       quizState.currentIndex++;
@@ -1240,7 +1405,7 @@ function evaluateQuizAnswer(clickedMesh) {
 
     const clickedInfo = resolveStructureInfo(clickedMesh.userData.meshName, clickedMesh.userData.systemId);
     feedback.className = 'quiz-feedback wrong';
-    feedback.textContent = `Kurang tepat (itu ${clickedInfo.nameId}). Jawaban benar ditandai hijau.`;
+    feedback.textContent = t('wrong', { name: structName(clickedInfo) });
 
     setTimeout(() => {
       quizState.currentIndex++;
@@ -1248,8 +1413,8 @@ function evaluateQuizAnswer(clickedMesh) {
     }, 2200);
   }
 
-  document.getElementById('quiz-score-text').textContent = `Skor: ${quizState.score}`;
-  document.getElementById('quiz-streak-text').textContent = `Beruntun: ${quizState.streak}`;
+  document.getElementById('quiz-score-text').textContent = `${t('score')}: ${quizState.score}`;
+  document.getElementById('quiz-streak-text').textContent = `${t('streak')}: ${quizState.streak}`;
 }
 
 function finishQuiz() {
@@ -1267,13 +1432,13 @@ function finishQuiz() {
   streakEl.textContent = quizState.maxStreak;
 
   if (pct >= 90) {
-    summary.textContent = 'Hampir semua benar.';
+    summary.textContent = t('summary90');
   } else if (pct >= 70) {
-    summary.textContent = 'Sebagian besar benar.';
+    summary.textContent = t('summary70');
   } else if (pct >= 50) {
-    summary.textContent = 'Setengahnya benar. Main lagi buat naikkin skor.';
+    summary.textContent = t('summary50');
   } else {
-    summary.textContent = 'Masih banyak yang meleset. Latihan pakai pencarian dulu.';
+    summary.textContent = t('summaryLow');
   }
 
   modal.style.display = 'flex';
@@ -1320,13 +1485,13 @@ function renderSystemsPanel() {
       <span class="system-color-dot" style="background-color: ${sys.color};"></span>
       <div class="system-info-col">
         <div class="system-name-row">
-          <span class="system-name-id">${sys.nameId}</span>
+          <span class="system-name-id">${sysName(sys)}</span>
           <span class="system-mesh-count">${mEntry.mesh_count}</span>
         </div>
         <div class="system-status-row">
-          <span class="system-name-en">${sys.nameEn}</span>
+          <span class="system-name-en">${sysNameAlt(sys)}</span>
           <span class="system-status-badge ${sys.defaultOn ? 'status-loading' : 'status-unloaded'}" id="badge-${sys.id}">
-            ${sys.defaultOn ? 'Memuat…' : 'Belum'}
+            ${sys.defaultOn ? t('statusLoading') : t('statusUnloaded')}
           </span>
         </div>
       </div>
@@ -1361,16 +1526,16 @@ function updateSystemUIStatus(systemId, status) {
 
   if (status === 'active') {
     badge.classList.add('status-active');
-    badge.textContent = 'Aktif';
+    badge.textContent = t('statusActive');
   } else if (status === 'hidden') {
     badge.classList.add('status-hidden');
-    badge.textContent = 'Sembunyi';
+    badge.textContent = t('statusHidden');
   } else if (status === 'loading') {
     badge.classList.add('status-loading');
-    badge.textContent = 'Memuat…';
+    badge.textContent = t('statusLoading');
   } else {
     badge.classList.add('status-unloaded');
-    badge.textContent = 'Belum';
+    badge.textContent = t('statusUnloaded');
   }
 }
 
@@ -1386,7 +1551,7 @@ function updateStatsDisplay() {
   }
 
   document.getElementById('systems-active-count').textContent = `${activeSysCount}/${SYSTEMS_CONFIG.length}`;
-  document.getElementById('footer-stats').textContent = `Sistem aktif: ${activeSysCount} / ${SYSTEMS_CONFIG.length} | ${activeMeshCount} mesh`;
+  document.getElementById('footer-stats').textContent = t('footerStats', { a: activeSysCount, t: SYSTEMS_CONFIG.length, m: activeMeshCount });
 }
 
 function setupUIEventListeners() {
@@ -1403,6 +1568,10 @@ function setupUIEventListeners() {
   document.getElementById('btn-preset-exploded').addEventListener('click', () => {
     setExplodeTarget(100);
   });
+
+  // 1b. Toggle bahasa
+  document.getElementById('lang-id').addEventListener('click', () => applyLang('id'));
+  document.getElementById('lang-en').addEventListener('click', () => applyLang('en'));
 
   // 2. Tombol Reset Kamera
   document.getElementById('btn-reset-view').addEventListener('click', resetCameraView);

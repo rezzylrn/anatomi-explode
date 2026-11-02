@@ -1,1306 +1,1795 @@
 [
-  {
-    "id": "epidermis",
-    "nama_id": "Epidermis",
-    "nama_latin": "Epidermis",
-    "sistem": "integumen",
-    "deskripsi": "Epidermis adalah lapisan terluar kulit yang tersusun dari epitel skuamosa berlapis berkeratin. Lapisan ini menjadi penghalang terhadap kehilangan air dan masuknya mikroorganisme.",
-    "fakta": "Epidermis tidak memiliki pembuluh darah; nutrisinya berdifusi dari jaringan di bawahnya."
-  },
-  {
-    "id": "dermis",
-    "nama_id": "Dermis",
-    "nama_latin": "Dermis",
-    "sistem": "integumen",
-    "deskripsi": "Dermis adalah lapisan jaringan ikat di bawah epidermis yang mengandung kolagen dan serat elastis. Pembuluh darah, ujung saraf, serta banyak bagian struktur tambahan kulit berada di lapisan ini.",
-    "fakta": "Dermis memiliki lapisan papiler dan retikuler yang berbeda susunan jaringan ikatnya."
-  },
-  {
-    "id": "folikel-rambut",
-    "nama_id": "Folikel rambut",
-    "nama_latin": "Folliculus pili",
-    "sistem": "integumen",
-    "deskripsi": "Folikel rambut merupakan invaginasi epitel epidermis ke dalam dermis, kadang mencapai jaringan subkutan. Matriks pada bulbus rambut menghasilkan sel yang membentuk batang rambut.",
-    "fakta": "Otot penegak rambut yang melekat pada folikel dapat menyebabkan kulit merinding."
-  },
-  {
-    "id": "kelenjar-keringat",
-    "nama_id": "Kelenjar keringat ekrin",
-    "nama_latin": "Glandula sudorifera eccrina",
-    "sistem": "integumen",
-    "deskripsi": "Kelenjar keringat ekrin adalah kelenjar tubular berkelok yang menghasilkan keringat encer. Salurannya bermuara ke permukaan kulit dan membantu pelepasan panas melalui penguapan.",
-    "fakta": "Telapak tangan dan telapak kaki memiliki kepadatan kelenjar ekrin yang tinggi."
-  },
-  {
-    "id": "kelenjar-sebasea",
-    "nama_id": "Kelenjar minyak",
-    "nama_latin": "Glandula sebacea",
-    "sistem": "integumen",
-    "deskripsi": "Kelenjar sebasea menghasilkan sebum yang melumasi rambut dan permukaan kulit. Sebagian besar kelenjar ini bermuara ke folikel rambut.",
-    "fakta": "Kelenjar sebasea tidak terdapat pada telapak tangan dan telapak kaki."
-  },
-  {
-    "id": "kuku-tangan-kanan",
-    "nama_id": "Kuku tangan kanan",
-    "nama_latin": "Ungues manus dextrae",
-    "sistem": "integumen",
-    "deskripsi": "Kuku tangan kanan adalah lempeng keratin keras pada permukaan dorsal ujung jari. Matriks kuku menghasilkan lempeng kuku yang melindungi ujung jari dan membantu manipulasi benda kecil.",
-    "fakta": "Bagian pucat berbentuk bulan sabit pada pangkal kuku disebut lunula."
-  },
-  {
-    "id": "kuku-tangan-kiri",
-    "nama_id": "Kuku tangan kiri",
-    "nama_latin": "Ungues manus sinistrae",
-    "sistem": "integumen",
-    "deskripsi": "Kuku tangan kiri adalah lempeng keratin keras pada permukaan dorsal ujung jari. Matriks kuku menghasilkan lempeng kuku yang melindungi ujung jari dan membantu manipulasi benda kecil.",
-    "fakta": "Bagian pucat berbentuk bulan sabit pada pangkal kuku disebut lunula."
-  },
-  {
-    "id": "kuku-kaki-kanan",
-    "nama_id": "Kuku kaki kanan",
-    "nama_latin": "Ungues pedis dextri",
-    "sistem": "integumen",
-    "deskripsi": "Kuku kaki kanan adalah lempeng keratin keras yang menutupi permukaan dorsal ujung jari kaki. Lempeng ini melindungi jaringan lunak di bawahnya dan tumbuh dari matriks kuku.",
-    "fakta": "Kuku kaki umumnya tumbuh lebih lambat daripada kuku tangan."
-  },
-  {
-    "id": "kuku-kaki-kiri",
-    "nama_id": "Kuku kaki kiri",
-    "nama_latin": "Ungues pedis sinistri",
-    "sistem": "integumen",
-    "deskripsi": "Kuku kaki kiri adalah lempeng keratin keras yang menutupi permukaan dorsal ujung jari kaki. Lempeng ini melindungi jaringan lunak di bawahnya dan tumbuh dari matriks kuku.",
-    "fakta": "Kuku kaki umumnya tumbuh lebih lambat daripada kuku tangan."
-  },
-  {
-    "id": "masseter-kanan",
-    "nama_id": "Otot pengunyah kanan",
-    "nama_latin": "Musculus masseter dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot masseter kanan menghubungkan lengkung zigomatik dengan ramus dan sudut mandibula. Kontraksinya mengangkat mandibula untuk menutup rahang.",
-    "fakta": "Masseter dipersarafi oleh cabang mandibular saraf trigeminus."
-  },
-  {
-    "id": "masseter-kiri",
-    "nama_id": "Otot pengunyah kiri",
-    "nama_latin": "Musculus masseter sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot masseter kiri menghubungkan lengkung zigomatik dengan ramus dan sudut mandibula. Kontraksinya mengangkat mandibula untuk menutup rahang.",
-    "fakta": "Masseter dipersarafi oleh cabang mandibular saraf trigeminus."
-  },
-  {
-    "id": "trapezius-kanan",
-    "nama_id": "Otot trapezius kanan",
-    "nama_latin": "Musculus trapezius dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot trapezius kanan adalah otot superfisial lebar pada leher posterior dan punggung atas. Serabutnya mengangkat, menarik ke medial, menurunkan, dan membantu rotasi ke atas skapula sesuai bagian yang berkontraksi.",
-    "fakta": "Saraf aksesorius merupakan sumber persarafan motorik utama trapezius."
-  },
-  {
-    "id": "trapezius-kiri",
-    "nama_id": "Otot trapezius kiri",
-    "nama_latin": "Musculus trapezius sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot trapezius kiri adalah otot superfisial lebar pada leher posterior dan punggung atas. Serabutnya mengangkat, menarik ke medial, menurunkan, dan membantu rotasi ke atas skapula sesuai bagian yang berkontraksi.",
-    "fakta": "Saraf aksesorius merupakan sumber persarafan motorik utama trapezius."
-  },
-  {
-    "id": "deltoid-kanan",
-    "nama_id": "Otot deltoid kanan",
-    "nama_latin": "Musculus deltoideus dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot deltoid kanan menyelimuti bahu dan melekat pada klavikula, skapula, serta humerus. Bagian tengah terutama mengabduksi lengan, sedangkan bagian depan dan belakang membantu gerakan lengan lainnya.",
-    "fakta": "Deltoid dipersarafi oleh saraf aksilaris."
-  },
-  {
-    "id": "deltoid-kiri",
-    "nama_id": "Otot deltoid kiri",
-    "nama_latin": "Musculus deltoideus sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot deltoid kiri menyelimuti bahu dan melekat pada klavikula, skapula, serta humerus. Bagian tengah terutama mengabduksi lengan, sedangkan bagian depan dan belakang membantu gerakan lengan lainnya.",
-    "fakta": "Deltoid dipersarafi oleh saraf aksilaris."
-  },
-  {
-    "id": "pectoralis-major-kanan",
-    "nama_id": "Otot dada besar kanan",
-    "nama_latin": "Musculus pectoralis major dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot dada besar kanan berbentuk kipas di dinding dada anterior dan melekat pada humerus. Otot ini mengadduksi serta memutar lengan ke medial, dan bagian klavikulanya membantu fleksi bahu.",
-    "fakta": "Pectoralis major membentuk lipatan aksila anterior."
-  },
-  {
-    "id": "pectoralis-major-kiri",
-    "nama_id": "Otot dada besar kiri",
-    "nama_latin": "Musculus pectoralis major sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot dada besar kiri berbentuk kipas di dinding dada anterior dan melekat pada humerus. Otot ini mengadduksi serta memutar lengan ke medial, dan bagian klavikulanya membantu fleksi bahu.",
-    "fakta": "Pectoralis major membentuk lipatan aksila anterior."
-  },
-  {
-    "id": "biceps-brachii-kanan",
-    "nama_id": "Otot bisep lengan kanan",
-    "nama_latin": "Musculus biceps brachii dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot bisep lengan kanan berada di bagian anterior lengan atas dan memiliki dua kepala asal dari skapula. Otot ini menekuk siku dan melakukan supinasi lengan bawah.",
-    "fakta": "Tendon distal bisep melekat pada tuberositas radius."
-  },
-  {
-    "id": "biceps-brachii-kiri",
-    "nama_id": "Otot bisep lengan kiri",
-    "nama_latin": "Musculus biceps brachii sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot bisep lengan kiri berada di bagian anterior lengan atas dan memiliki dua kepala asal dari skapula. Otot ini menekuk siku dan melakukan supinasi lengan bawah.",
-    "fakta": "Tendon distal bisep melekat pada tuberositas radius."
-  },
-  {
-    "id": "triceps-brachii-kanan",
-    "nama_id": "Otot trisep lengan kanan",
-    "nama_latin": "Musculus triceps brachii dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot trisep lengan kanan terletak di kompartemen posterior lengan atas. Ketiga kepalanya bergabung menjadi tendon yang melekat pada olekranon ulna untuk mengekstensikan siku.",
-    "fakta": "Kepala panjang trisep melintasi sendi bahu sekaligus sendi siku."
-  },
-  {
-    "id": "triceps-brachii-kiri",
-    "nama_id": "Otot trisep lengan kiri",
-    "nama_latin": "Musculus triceps brachii sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot trisep lengan kiri terletak di kompartemen posterior lengan atas. Ketiga kepalanya bergabung menjadi tendon yang melekat pada olekranon ulna untuk mengekstensikan siku.",
-    "fakta": "Kepala panjang trisep melintasi sendi bahu sekaligus sendi siku."
-  },
-  {
-    "id": "rectus-abdominis-kanan",
-    "nama_id": "Otot perut lurus kanan",
-    "nama_latin": "Musculus rectus abdominis dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot perut lurus kanan memanjang di dinding perut anterior dari pubis menuju sternum dan kartilago iga. Otot ini membantu fleksi batang tubuh dan kompresi isi abdomen.",
-    "fakta": "Persilangan tendon pada otot ini membentuk pola yang dikenal sebagai six-pack."
-  },
-  {
-    "id": "rectus-abdominis-kiri",
-    "nama_id": "Otot perut lurus kiri",
-    "nama_latin": "Musculus rectus abdominis sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot perut lurus kiri memanjang di dinding perut anterior dari pubis menuju sternum dan kartilago iga. Otot ini membantu fleksi batang tubuh dan kompresi isi abdomen.",
-    "fakta": "Persilangan tendon pada otot ini membentuk pola yang dikenal sebagai six-pack."
-  },
-  {
-    "id": "obliquus-externus-kanan",
-    "nama_id": "Otot perut miring luar kanan",
-    "nama_latin": "Musculus obliquus externus abdominis dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot perut miring luar kanan membentuk lapisan superfisial sisi dinding abdomen. Kontraksi unilateral membantu memutar batang tubuh ke sisi berlawanan, sedangkan kontraksi bilateral membantu fleksi dan kompresi abdomen.",
-    "fakta": "Sebagian besar serabutnya berjalan ke arah bawah dan medial."
-  },
-  {
-    "id": "obliquus-externus-kiri",
-    "nama_id": "Otot perut miring luar kiri",
-    "nama_latin": "Musculus obliquus externus abdominis sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot perut miring luar kiri membentuk lapisan superfisial sisi dinding abdomen. Kontraksi unilateral membantu memutar batang tubuh ke sisi berlawanan, sedangkan kontraksi bilateral membantu fleksi dan kompresi abdomen.",
-    "fakta": "Sebagian besar serabutnya berjalan ke arah bawah dan medial."
-  },
-  {
-    "id": "obliquus-internus-kanan",
-    "nama_id": "Otot perut miring dalam kanan",
-    "nama_latin": "Musculus obliquus internus abdominis dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot perut miring dalam kanan terletak di bawah otot perut miring luar. Kontraksi unilateral membantu rotasi batang tubuh ke sisi yang sama, dan kontraksi bilateral membantu kompresi abdomen.",
-    "fakta": "Serabutnya umumnya menyilang arah serabut otot miring luar."
-  },
-  {
-    "id": "obliquus-internus-kiri",
-    "nama_id": "Otot perut miring dalam kiri",
-    "nama_latin": "Musculus obliquus internus abdominis sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot perut miring dalam kiri terletak di bawah otot perut miring luar. Kontraksi unilateral membantu rotasi batang tubuh ke sisi yang sama, dan kontraksi bilateral membantu kompresi abdomen.",
-    "fakta": "Serabutnya umumnya menyilang arah serabut otot miring luar."
-  },
-  {
-    "id": "rectus-femoris-kanan",
-    "nama_id": "Otot paha lurus kanan",
-    "nama_latin": "Musculus rectus femoris dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lurus kanan merupakan salah satu dari empat komponen kuadrisep di bagian depan paha. Otot ini mengekstensikan lutut dan juga membantu fleksi panggul karena melintasi kedua sendi tersebut.",
-    "fakta": "Rectus femoris adalah satu-satunya komponen kuadrisep yang melintasi sendi panggul."
-  },
-  {
-    "id": "rectus-femoris-kiri",
-    "nama_id": "Otot paha lurus kiri",
-    "nama_latin": "Musculus rectus femoris sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lurus kiri merupakan salah satu dari empat komponen kuadrisep di bagian depan paha. Otot ini mengekstensikan lutut dan juga membantu fleksi panggul karena melintasi kedua sendi tersebut.",
-    "fakta": "Rectus femoris adalah satu-satunya komponen kuadrisep yang melintasi sendi panggul."
-  },
-  {
-    "id": "vastus-lateralis-kanan",
-    "nama_id": "Otot paha lebar lateral kanan",
-    "nama_latin": "Musculus vastus lateralis dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lebar lateral kanan berada di sisi luar paha dan merupakan bagian kuadrisep. Otot ini mengekstensikan lutut melalui tendon kuadrisep dan ligamen patela.",
-    "fakta": "Vastus lateralis merupakan komponen terbesar kelompok kuadrisep."
-  },
-  {
-    "id": "vastus-lateralis-kiri",
-    "nama_id": "Otot paha lebar lateral kiri",
-    "nama_latin": "Musculus vastus lateralis sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lebar lateral kiri berada di sisi luar paha dan merupakan bagian kuadrisep. Otot ini mengekstensikan lutut melalui tendon kuadrisep dan ligamen patela.",
-    "fakta": "Vastus lateralis merupakan komponen terbesar kelompok kuadrisep."
-  },
-  {
-    "id": "vastus-medialis-kanan",
-    "nama_id": "Otot paha lebar medial kanan",
-    "nama_latin": "Musculus vastus medialis dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lebar medial kanan merupakan komponen kuadrisep pada sisi dalam paha. Selain mengekstensikan lutut, serabut distalnya membantu menstabilkan posisi patela.",
-    "fakta": "Tonjolan otot di dekat sisi medial lutut berasal dari bagian distal vastus medialis."
-  },
-  {
-    "id": "vastus-medialis-kiri",
-    "nama_id": "Otot paha lebar medial kiri",
-    "nama_latin": "Musculus vastus medialis sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lebar medial kiri merupakan komponen kuadrisep pada sisi dalam paha. Selain mengekstensikan lutut, serabut distalnya membantu menstabilkan posisi patela.",
-    "fakta": "Tonjolan otot di dekat sisi medial lutut berasal dari bagian distal vastus medialis."
-  },
-  {
-    "id": "vastus-intermedius-kanan",
-    "nama_id": "Otot paha lebar tengah kanan",
-    "nama_latin": "Musculus vastus intermedius dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lebar tengah kanan terletak di bagian anterior femur, di bawah rectus femoris. Sebagai komponen kuadrisep, otot ini berperan dalam ekstensi lutut.",
-    "fakta": "Vastus intermedius tertutup oleh rectus femoris pada pandangan superfisial."
-  },
-  {
-    "id": "vastus-intermedius-kiri",
-    "nama_id": "Otot paha lebar tengah kiri",
-    "nama_latin": "Musculus vastus intermedius sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot paha lebar tengah kiri terletak di bagian anterior femur, di bawah rectus femoris. Sebagai komponen kuadrisep, otot ini berperan dalam ekstensi lutut.",
-    "fakta": "Vastus intermedius tertutup oleh rectus femoris pada pandangan superfisial."
-  },
-  {
-    "id": "biceps-femoris-kanan",
-    "nama_id": "Otot bisep paha kanan",
-    "nama_latin": "Musculus biceps femoris dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot bisep paha kanan berada di sisi lateral paha posterior dan memiliki kepala panjang serta pendek. Otot ini menekuk lutut dan memutar tungkai ke lateral ketika lutut ditekuk; kepala panjang juga membantu ekstensi panggul.",
-    "fakta": "Kepala pendek tidak melintasi panggul dan tidak memenuhi semua kriteria hamstring sejati."
-  },
-  {
-    "id": "biceps-femoris-kiri",
-    "nama_id": "Otot bisep paha kiri",
-    "nama_latin": "Musculus biceps femoris sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot bisep paha kiri berada di sisi lateral paha posterior dan memiliki kepala panjang serta pendek. Otot ini menekuk lutut dan memutar tungkai ke lateral ketika lutut ditekuk; kepala panjang juga membantu ekstensi panggul.",
-    "fakta": "Kepala pendek tidak melintasi panggul dan tidak memenuhi semua kriteria hamstring sejati."
-  },
-  {
-    "id": "semitendinosus-kanan",
-    "nama_id": "Otot semitendinosus kanan",
-    "nama_latin": "Musculus semitendinosus dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot semitendinosus kanan adalah otot hamstring pada bagian medial paha posterior. Otot ini mengekstensikan panggul, menekuk lutut, dan membantu rotasi medial tungkai saat lutut ditekuk.",
-    "fakta": "Tendonnya bergabung dalam pes anserinus pada tibia bersama sartorius dan gracilis."
-  },
-  {
-    "id": "semitendinosus-kiri",
-    "nama_id": "Otot semitendinosus kiri",
-    "nama_latin": "Musculus semitendinosus sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot semitendinosus kiri adalah otot hamstring pada bagian medial paha posterior. Otot ini mengekstensikan panggul, menekuk lutut, dan membantu rotasi medial tungkai saat lutut ditekuk.",
-    "fakta": "Tendonnya bergabung dalam pes anserinus pada tibia bersama sartorius dan gracilis."
-  },
-  {
-    "id": "semimembranosus-kanan",
-    "nama_id": "Otot semimembranosus kanan",
-    "nama_latin": "Musculus semimembranosus dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot semimembranosus kanan merupakan otot hamstring medial dengan tendon asal yang lebar. Otot ini membantu ekstensi panggul, fleksi lutut, dan rotasi medial tungkai saat lutut ditekuk.",
-    "fakta": "Sebagian ekspansi tendonnya membentuk ligamen popliteum oblik."
-  },
-  {
-    "id": "semimembranosus-kiri",
-    "nama_id": "Otot semimembranosus kiri",
-    "nama_latin": "Musculus semimembranosus sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot semimembranosus kiri merupakan otot hamstring medial dengan tendon asal yang lebar. Otot ini membantu ekstensi panggul, fleksi lutut, dan rotasi medial tungkai saat lutut ditekuk.",
-    "fakta": "Sebagian ekspansi tendonnya membentuk ligamen popliteum oblik."
-  },
-  {
-    "id": "gastrocnemius-kanan",
-    "nama_id": "Otot betis gastroknemius kanan",
-    "nama_latin": "Musculus gastrocnemius dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot gastroknemius kanan membentuk bagian superfisial betis dan berasal dari dua kepala pada femur. Otot ini melakukan fleksi plantar pergelangan kaki serta membantu menekuk lutut.",
-    "fakta": "Gastroknemius bergabung dengan soleus melalui tendon kalkaneus atau tendon Achilles."
-  },
-  {
-    "id": "gastrocnemius-kiri",
-    "nama_id": "Otot betis gastroknemius kiri",
-    "nama_latin": "Musculus gastrocnemius sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot gastroknemius kiri membentuk bagian superfisial betis dan berasal dari dua kepala pada femur. Otot ini melakukan fleksi plantar pergelangan kaki serta membantu menekuk lutut.",
-    "fakta": "Gastroknemius bergabung dengan soleus melalui tendon kalkaneus atau tendon Achilles."
-  },
-  {
-    "id": "gluteus-maximus-kanan",
-    "nama_id": "Otot bokong besar kanan",
-    "nama_latin": "Musculus gluteus maximus dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot bokong besar kanan adalah otot superfisial utama daerah gluteal. Otot ini mengekstensikan dan memutar paha ke lateral, terutama saat bangkit dari duduk atau menaiki tangga.",
-    "fakta": "Sebagian serabutnya melekat pada traktus iliotibialis, bukan langsung pada femur."
-  },
-  {
-    "id": "gluteus-maximus-kiri",
-    "nama_id": "Otot bokong besar kiri",
-    "nama_latin": "Musculus gluteus maximus sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot bokong besar kiri adalah otot superfisial utama daerah gluteal. Otot ini mengekstensikan dan memutar paha ke lateral, terutama saat bangkit dari duduk atau menaiki tangga.",
-    "fakta": "Sebagian serabutnya melekat pada traktus iliotibialis, bukan langsung pada femur."
-  },
-  {
-    "id": "tibialis-anterior-kanan",
-    "nama_id": "Otot tibialis anterior kanan",
-    "nama_latin": "Musculus tibialis anterior dexter",
-    "sistem": "otot",
-    "deskripsi": "Otot tibialis anterior kanan terletak di kompartemen anterior tungkai bawah. Otot ini melakukan dorsifleksi pergelangan kaki dan inversi kaki untuk membantu kontrol langkah.",
-    "fakta": "Tendonnya melekat pada tulang kuneiform medial dan pangkal metatarsal pertama."
-  },
-  {
-    "id": "tibialis-anterior-kiri",
-    "nama_id": "Otot tibialis anterior kiri",
-    "nama_latin": "Musculus tibialis anterior sinister",
-    "sistem": "otot",
-    "deskripsi": "Otot tibialis anterior kiri terletak di kompartemen anterior tungkai bawah. Otot ini melakukan dorsifleksi pergelangan kaki dan inversi kaki untuk membantu kontrol langkah.",
-    "fakta": "Tendonnya melekat pada tulang kuneiform medial dan pangkal metatarsal pertama."
-  },
-  {
-    "id": "cranium",
-    "nama_id": "Tengkorak",
-    "nama_latin": "Cranium",
-    "sistem": "tulang",
-    "deskripsi": "Tengkorak adalah kerangka kepala yang tersusun atas tulang neurokranium dan tulang wajah. Bagian neurokranium membentuk rongga yang melindungi otak.",
-    "fakta": "Sebagian besar tulang tengkorak dihubungkan oleh sendi fibrosa yang disebut sutura."
-  },
-  {
-    "id": "mandibula",
-    "nama_id": "Rahang bawah",
-    "nama_latin": "Mandibula",
-    "sistem": "tulang",
-    "deskripsi": "Mandibula adalah tulang rahang bawah yang menopang gigi bawah. Tulang ini berartikulasi dengan tulang temporal pada sendi temporomandibular dan bergerak saat mengunyah.",
-    "fakta": "Mandibula merupakan satu-satunya tulang wajah yang memiliki gerakan luas terhadap tengkorak."
-  },
-  {
-    "id": "sternum",
-    "nama_id": "Tulang dada",
-    "nama_latin": "Sternum",
-    "sistem": "tulang",
-    "deskripsi": "Sternum merupakan tulang pipih pada garis tengah dinding dada anterior. Tulang ini terdiri atas manubrium, korpus, dan prosesus xifoideus serta menjadi tempat hubungan kartilago iga.",
-    "fakta": "Sudut sternum menjadi patokan untuk mengenali perlekatan iga kedua."
-  },
-  {
-    "id": "vertebra-servikal",
-    "nama_id": "Ruas tulang leher",
-    "nama_latin": "Vertebrae cervicales",
-    "sistem": "tulang",
-    "deskripsi": "Tulang belakang servikal terdiri atas tujuh ruas yang menopang kepala dan melindungi medula spinalis. Atlas dan aksis membentuk hubungan khusus yang memungkinkan gerakan kepala.",
-    "fakta": "Aksis memiliki tonjolan dens yang menjadi poros rotasi atlas."
-  },
-  {
-    "id": "vertebra-torakal",
-    "nama_id": "Ruas tulang punggung dada",
-    "nama_latin": "Vertebrae thoracicae",
-    "sistem": "tulang",
-    "deskripsi": "Tulang belakang torakal terdiri atas dua belas ruas pada daerah dada. Ruas-ruas ini memiliki faset artikular untuk hubungan dengan iga dan turut membentuk rangka toraks.",
-    "fakta": "Setiap ruas torakal berhubungan dengan sepasang iga."
-  },
-  {
-    "id": "vertebra-lumbal",
-    "nama_id": "Ruas tulang pinggang",
-    "nama_latin": "Vertebrae lumbales",
-    "sistem": "tulang",
-    "deskripsi": "Tulang belakang lumbal biasanya terdiri atas lima ruas di punggung bawah. Korpus yang besar menahan beban tubuh dan memungkinkan gerak fleksi serta ekstensi batang tubuh.",
-    "fakta": "Korpus vertebra lumbal lebih besar daripada korpus vertebra servikal."
-  },
-  {
-    "id": "pelvis",
-    "nama_id": "Panggul tulang",
-    "nama_latin": "Pelvis ossea",
-    "sistem": "tulang",
-    "deskripsi": "Panggul tulang dibentuk oleh kedua tulang panggul, sakrum, dan koksigis. Struktur ini menyalurkan beban batang tubuh ke tungkai serta melindungi organ di rongga pelvis.",
-    "fakta": "Setiap tulang panggul terbentuk dari ilium, iskium, dan pubis yang menyatu."
-  },
-  {
-    "id": "klavikula-kanan",
-    "nama_id": "Tulang selangka kanan",
-    "nama_latin": "Clavicula dextra",
-    "sistem": "tulang",
-    "deskripsi": "Klavikula kanan adalah tulang berbentuk S yang menghubungkan sternum dengan akromion skapula. Tulang ini menjaga posisi bahu agar anggota gerak atas dapat bergerak bebas.",
-    "fakta": "Klavikula merupakan penghubung tulang langsung antara anggota gerak atas dan rangka aksial."
-  },
-  {
-    "id": "klavikula-kiri",
-    "nama_id": "Tulang selangka kiri",
-    "nama_latin": "Clavicula sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Klavikula kiri adalah tulang berbentuk S yang menghubungkan sternum dengan akromion skapula. Tulang ini menjaga posisi bahu agar anggota gerak atas dapat bergerak bebas.",
-    "fakta": "Klavikula merupakan penghubung tulang langsung antara anggota gerak atas dan rangka aksial."
-  },
-  {
-    "id": "skapula-kanan",
-    "nama_id": "Tulang belikat kanan",
-    "nama_latin": "Scapula dextra",
-    "sistem": "tulang",
-    "deskripsi": "Skapula kanan adalah tulang pipih berbentuk segitiga pada dinding dada posterior. Rongga glenoidnya berartikulasi dengan kepala humerus membentuk sendi bahu.",
-    "fakta": "Akromion merupakan perluasan spina skapula yang dapat diraba di puncak bahu."
-  },
-  {
-    "id": "skapula-kiri",
-    "nama_id": "Tulang belikat kiri",
-    "nama_latin": "Scapula sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Skapula kiri adalah tulang pipih berbentuk segitiga pada dinding dada posterior. Rongga glenoidnya berartikulasi dengan kepala humerus membentuk sendi bahu.",
-    "fakta": "Akromion merupakan perluasan spina skapula yang dapat diraba di puncak bahu."
-  },
-  {
-    "id": "iga-kanan",
-    "nama_id": "Kelompok tulang rusuk kanan",
-    "nama_latin": "Costae dextrae",
-    "sistem": "tulang",
-    "deskripsi": "Kelompok iga kanan terdiri atas dua belas tulang melengkung yang membentuk dinding toraks. Iga melindungi organ dada dan bergerak bersama mekanika pernapasan.",
-    "fakta": "Iga ke-11 dan ke-12 disebut iga melayang karena tidak memiliki hubungan anterior dengan sternum."
-  },
-  {
-    "id": "iga-kiri",
-    "nama_id": "Kelompok tulang rusuk kiri",
-    "nama_latin": "Costae sinistrae",
-    "sistem": "tulang",
-    "deskripsi": "Kelompok iga kiri terdiri atas dua belas tulang melengkung yang membentuk dinding toraks. Iga melindungi organ dada dan bergerak bersama mekanika pernapasan.",
-    "fakta": "Iga ke-11 dan ke-12 disebut iga melayang karena tidak memiliki hubungan anterior dengan sternum."
-  },
-  {
-    "id": "humerus-kanan",
-    "nama_id": "Tulang lengan atas kanan",
-    "nama_latin": "Humerus dexter",
-    "sistem": "tulang",
-    "deskripsi": "Humerus kanan adalah tulang panjang yang menghubungkan bahu dan siku. Kepala humerus berartikulasi dengan skapula, sedangkan ujung distalnya berhubungan dengan radius dan ulna.",
-    "fakta": "Saraf radialis berjalan pada alur di permukaan posterior batang humerus."
-  },
-  {
-    "id": "humerus-kiri",
-    "nama_id": "Tulang lengan atas kiri",
-    "nama_latin": "Humerus sinister",
-    "sistem": "tulang",
-    "deskripsi": "Humerus kiri adalah tulang panjang yang menghubungkan bahu dan siku. Kepala humerus berartikulasi dengan skapula, sedangkan ujung distalnya berhubungan dengan radius dan ulna.",
-    "fakta": "Saraf radialis berjalan pada alur di permukaan posterior batang humerus."
-  },
-  {
-    "id": "radius-kanan",
-    "nama_id": "Tulang pengumpil kanan",
-    "nama_latin": "Radius dexter",
-    "sistem": "tulang",
-    "deskripsi": "Radius kanan terletak di sisi ibu jari lengan bawah pada posisi anatomis. Tulang ini berperan penting pada sendi pergelangan tangan dan bergerak terhadap ulna saat pronasi serta supinasi.",
-    "fakta": "Saat pronasi, radius menyilang di depan ulna."
-  },
-  {
-    "id": "radius-kiri",
-    "nama_id": "Tulang pengumpil kiri",
-    "nama_latin": "Radius sinister",
-    "sistem": "tulang",
-    "deskripsi": "Radius kiri terletak di sisi ibu jari lengan bawah pada posisi anatomis. Tulang ini berperan penting pada sendi pergelangan tangan dan bergerak terhadap ulna saat pronasi serta supinasi.",
-    "fakta": "Saat pronasi, radius menyilang di depan ulna."
-  },
-  {
-    "id": "ulna-kanan",
-    "nama_id": "Tulang hasta kanan",
-    "nama_latin": "Ulna dextra",
-    "sistem": "tulang",
-    "deskripsi": "Ulna kanan berada di sisi jari kelingking lengan bawah dalam posisi anatomis. Ujung proksimalnya membentuk bagian utama hubungan engsel dengan humerus pada siku.",
-    "fakta": "Olekranon ulna membentuk tonjolan siku yang dapat diraba."
-  },
-  {
-    "id": "ulna-kiri",
-    "nama_id": "Tulang hasta kiri",
-    "nama_latin": "Ulna sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Ulna kiri berada di sisi jari kelingking lengan bawah dalam posisi anatomis. Ujung proksimalnya membentuk bagian utama hubungan engsel dengan humerus pada siku.",
-    "fakta": "Olekranon ulna membentuk tonjolan siku yang dapat diraba."
-  },
-  {
-    "id": "karpal-kanan",
-    "nama_id": "Kelompok tulang pergelangan tangan kanan",
-    "nama_latin": "Ossa carpi dextra",
-    "sistem": "tulang",
-    "deskripsi": "Tulang karpal kanan adalah delapan tulang kecil yang tersusun dalam dua baris di pergelangan tangan. Tulang-tulang ini menghubungkan lengan bawah dengan metakarpal dan memungkinkan gerakan tangan.",
-    "fakta": "Tulang pisiform merupakan tulang sesamoid dalam tendon fleksor karpi ulnaris."
-  },
-  {
-    "id": "karpal-kiri",
-    "nama_id": "Kelompok tulang pergelangan tangan kiri",
-    "nama_latin": "Ossa carpi sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Tulang karpal kiri adalah delapan tulang kecil yang tersusun dalam dua baris di pergelangan tangan. Tulang-tulang ini menghubungkan lengan bawah dengan metakarpal dan memungkinkan gerakan tangan.",
-    "fakta": "Tulang pisiform merupakan tulang sesamoid dalam tendon fleksor karpi ulnaris."
-  },
-  {
-    "id": "tulang-panggul-kanan",
-    "nama_id": "Tulang panggul kanan",
-    "nama_latin": "Os coxae dextrum",
-    "sistem": "tulang",
-    "deskripsi": "Tulang panggul kanan dibentuk oleh penyatuan ilium, iskium, dan pubis. Asetabulum pada sisi lateralnya menerima kepala femur untuk membentuk sendi panggul.",
-    "fakta": "Ketiga komponennya bertemu di daerah asetabulum."
-  },
-  {
-    "id": "tulang-panggul-kiri",
-    "nama_id": "Tulang panggul kiri",
-    "nama_latin": "Os coxae sinistrum",
-    "sistem": "tulang",
-    "deskripsi": "Tulang panggul kiri dibentuk oleh penyatuan ilium, iskium, dan pubis. Asetabulum pada sisi lateralnya menerima kepala femur untuk membentuk sendi panggul.",
-    "fakta": "Ketiga komponennya bertemu di daerah asetabulum."
-  },
-  {
-    "id": "femur-kanan",
-    "nama_id": "Tulang paha kanan",
-    "nama_latin": "Femur dextrum",
-    "sistem": "tulang",
-    "deskripsi": "Femur kanan adalah tulang panjang paha yang menyalurkan beban dari panggul ke lutut. Kepala femur berartikulasi dengan asetabulum, sedangkan kondilus distalnya berhubungan dengan tibia.",
-    "fakta": "Femur merupakan tulang terpanjang tubuh manusia."
-  },
-  {
-    "id": "femur-kiri",
-    "nama_id": "Tulang paha kiri",
-    "nama_latin": "Femur sinistrum",
-    "sistem": "tulang",
-    "deskripsi": "Femur kiri adalah tulang panjang paha yang menyalurkan beban dari panggul ke lutut. Kepala femur berartikulasi dengan asetabulum, sedangkan kondilus distalnya berhubungan dengan tibia.",
-    "fakta": "Femur merupakan tulang terpanjang tubuh manusia."
-  },
-  {
-    "id": "patela-kanan",
-    "nama_id": "Tempurung lutut kanan",
-    "nama_latin": "Patella dextra",
-    "sistem": "tulang",
-    "deskripsi": "Patela kanan adalah tulang sesamoid di dalam tendon kuadrisep pada bagian depan lutut. Tulang ini melindungi sendi dan meningkatkan efektivitas tarikan otot kuadrisep.",
-    "fakta": "Patela merupakan tulang sesamoid terbesar pada tubuh."
-  },
-  {
-    "id": "patela-kiri",
-    "nama_id": "Tempurung lutut kiri",
-    "nama_latin": "Patella sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Patela kiri adalah tulang sesamoid di dalam tendon kuadrisep pada bagian depan lutut. Tulang ini melindungi sendi dan meningkatkan efektivitas tarikan otot kuadrisep.",
-    "fakta": "Patela merupakan tulang sesamoid terbesar pada tubuh."
-  },
-  {
-    "id": "tibia-kanan",
-    "nama_id": "Tulang kering kanan",
-    "nama_latin": "Tibia dextra",
-    "sistem": "tulang",
-    "deskripsi": "Tibia kanan adalah tulang utama penahan beban pada sisi medial tungkai bawah. Ujung proksimalnya berhubungan dengan femur, sedangkan ujung distal turut membentuk sendi pergelangan kaki.",
-    "fakta": "Maleolus medial di pergelangan kaki merupakan bagian tibia."
-  },
-  {
-    "id": "tibia-kiri",
-    "nama_id": "Tulang kering kiri",
-    "nama_latin": "Tibia sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Tibia kiri adalah tulang utama penahan beban pada sisi medial tungkai bawah. Ujung proksimalnya berhubungan dengan femur, sedangkan ujung distal turut membentuk sendi pergelangan kaki.",
-    "fakta": "Maleolus medial di pergelangan kaki merupakan bagian tibia."
-  },
-  {
-    "id": "fibula-kanan",
-    "nama_id": "Tulang betis kanan",
-    "nama_latin": "Fibula dextra",
-    "sistem": "tulang",
-    "deskripsi": "Fibula kanan adalah tulang ramping di sisi lateral tungkai bawah. Tulang ini terutama menjadi tempat perlekatan otot dan membantu kestabilan pergelangan kaki.",
-    "fakta": "Fibula tidak berartikulasi langsung dengan femur."
-  },
-  {
-    "id": "fibula-kiri",
-    "nama_id": "Tulang betis kiri",
-    "nama_latin": "Fibula sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Fibula kiri adalah tulang ramping di sisi lateral tungkai bawah. Tulang ini terutama menjadi tempat perlekatan otot dan membantu kestabilan pergelangan kaki.",
-    "fakta": "Fibula tidak berartikulasi langsung dengan femur."
-  },
-  {
-    "id": "tarsal-kanan",
-    "nama_id": "Kelompok tulang pergelangan kaki kanan",
-    "nama_latin": "Ossa tarsi dextra",
-    "sistem": "tulang",
-    "deskripsi": "Tulang tarsal kanan terdiri atas tujuh tulang di bagian belakang dan tengah kaki. Tulang-tulang ini berperan dalam penerimaan beban, gerakan pergelangan kaki, dan pembentukan lengkung kaki.",
-    "fakta": "Kalkaneus merupakan tulang tarsal terbesar dan membentuk tumit."
-  },
-  {
-    "id": "tarsal-kiri",
-    "nama_id": "Kelompok tulang pergelangan kaki kiri",
-    "nama_latin": "Ossa tarsi sinistra",
-    "sistem": "tulang",
-    "deskripsi": "Tulang tarsal kiri terdiri atas tujuh tulang di bagian belakang dan tengah kaki. Tulang-tulang ini berperan dalam penerimaan beban, gerakan pergelangan kaki, dan pembentukan lengkung kaki.",
-    "fakta": "Kalkaneus merupakan tulang tarsal terbesar dan membentuk tumit."
-  },
-  {
-    "id": "jantung-atrium-kanan",
-    "nama_id": "Serambi kanan jantung",
-    "nama_latin": "Atrium dextrum cordis",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Atrium kanan menerima darah dari vena kava superior, vena kava inferior, dan sinus koronarius. Darah mengalir dari ruang ini melalui katup trikuspid menuju ventrikel kanan.",
-    "fakta": "Nodus sinoatrial, pemacu irama normal jantung, berada di dinding atrium kanan."
-  },
-  {
-    "id": "jantung-atrium-kiri",
-    "nama_id": "Serambi kiri jantung",
-    "nama_latin": "Atrium sinistrum cordis",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Atrium kiri menerima darah kaya oksigen dari vena pulmonalis. Darah diteruskan melalui katup mitral menuju ventrikel kiri.",
-    "fakta": "Biasanya terdapat empat vena pulmonalis yang bermuara ke atrium kiri."
-  },
-  {
-    "id": "jantung-ventrikel-kanan",
-    "nama_id": "Bilik kanan jantung",
-    "nama_latin": "Ventriculus dexter cordis",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Ventrikel kanan menerima darah dari atrium kanan dan memompanya ke trunkus pulmonalis. Darah melewati katup pulmonal sebelum menuju sirkulasi paru.",
-    "fakta": "Dinding ventrikel kanan lebih tipis daripada dinding ventrikel kiri."
-  },
-  {
-    "id": "jantung-ventrikel-kiri",
-    "nama_id": "Bilik kiri jantung",
-    "nama_latin": "Ventriculus sinister cordis",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Ventrikel kiri menerima darah dari atrium kiri dan memompanya ke aorta. Kontraksinya menyediakan tekanan untuk mengalirkan darah ke sirkulasi sistemik.",
-    "fakta": "Ventrikel kiri memiliki dinding otot paling tebal di antara empat ruang jantung."
-  },
-  {
-    "id": "aorta",
-    "nama_id": "Aorta",
-    "nama_latin": "Aorta",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Aorta adalah arteri terbesar yang keluar dari ventrikel kiri. Cabang-cabangnya mendistribusikan darah beroksigen ke seluruh tubuh kecuali sirkulasi paru.",
-    "fakta": "Arteri koroner berasal dari pangkal aorta."
-  },
-  {
-    "id": "vena-kava-superior",
-    "nama_id": "Vena kava superior",
-    "nama_latin": "Vena cava superior",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Vena kava superior mengembalikan darah dari kepala, leher, anggota gerak atas, dan sebagian toraks. Pembuluh ini terbentuk dari penyatuan vena brakiosefalika dan bermuara ke atrium kanan.",
-    "fakta": "Vena azigos bermuara ke vena kava superior sebelum pembuluh ini memasuki jantung."
-  },
-  {
-    "id": "vena-kava-inferior",
-    "nama_id": "Vena kava inferior",
-    "nama_latin": "Vena cava inferior",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Vena kava inferior mengembalikan darah dari sebagian besar tubuh di bawah diafragma. Pembuluh ini berjalan di sebelah kanan aorta abdominalis dan bermuara ke atrium kanan.",
-    "fakta": "Vena kava inferior melewati diafragma melalui lubang khusus pada tendon sentral."
-  },
-  {
-    "id": "arteri-karotis-kanan",
-    "nama_id": "Arteri karotis komunis kanan",
-    "nama_latin": "Arteria carotis communis dextra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Arteri karotis komunis kanan berjalan di leher dan bercabang menjadi arteri karotis interna serta eksterna. Cabang-cabang tersebut memasok darah ke otak dan jaringan kepala serta leher.",
-    "fakta": "Sinus karotis di dekat percabangan berisi reseptor yang mendeteksi perubahan tekanan darah."
-  },
-  {
-    "id": "arteri-karotis-kiri",
-    "nama_id": "Arteri karotis komunis kiri",
-    "nama_latin": "Arteria carotis communis sinistra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Arteri karotis komunis kiri berjalan di leher dan bercabang menjadi arteri karotis interna serta eksterna. Cabang-cabang tersebut memasok darah ke otak dan jaringan kepala serta leher.",
-    "fakta": "Sinus karotis di dekat percabangan berisi reseptor yang mendeteksi perubahan tekanan darah."
-  },
-  {
-    "id": "arteri-brakialis-kanan",
-    "nama_id": "Arteri brakialis kanan",
-    "nama_latin": "Arteria brachialis dextra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Arteri brakialis kanan merupakan kelanjutan arteri aksilaris di lengan atas. Pembuluh ini memasok jaringan lengan dan biasanya bercabang menjadi arteri radialis serta ulnaris di daerah siku.",
-    "fakta": "Tekanan darah dengan manset lengan lazim dinilai melalui aliran arteri brakialis."
-  },
-  {
-    "id": "arteri-brakialis-kiri",
-    "nama_id": "Arteri brakialis kiri",
-    "nama_latin": "Arteria brachialis sinistra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Arteri brakialis kiri merupakan kelanjutan arteri aksilaris di lengan atas. Pembuluh ini memasok jaringan lengan dan biasanya bercabang menjadi arteri radialis serta ulnaris di daerah siku.",
-    "fakta": "Tekanan darah dengan manset lengan lazim dinilai melalui aliran arteri brakialis."
-  },
-  {
-    "id": "arteri-femoralis-kanan",
-    "nama_id": "Arteri femoralis kanan",
-    "nama_latin": "Arteria femoralis dextra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Arteri femoralis kanan adalah kelanjutan arteri iliaka eksterna setelah melewati bawah ligamen inguinal. Pembuluh ini memasok tungkai dan berlanjut sebagai arteri poplitea setelah melalui hiatus adduktor.",
-    "fakta": "Denyut femoralis dapat diraba di daerah lipat paha."
-  },
-  {
-    "id": "arteri-femoralis-kiri",
-    "nama_id": "Arteri femoralis kiri",
-    "nama_latin": "Arteria femoralis sinistra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Arteri femoralis kiri adalah kelanjutan arteri iliaka eksterna setelah melewati bawah ligamen inguinal. Pembuluh ini memasok tungkai dan berlanjut sebagai arteri poplitea setelah melalui hiatus adduktor.",
-    "fakta": "Denyut femoralis dapat diraba di daerah lipat paha."
-  },
-  {
-    "id": "vena-jugularis-kanan",
-    "nama_id": "Vena jugularis interna kanan",
-    "nama_latin": "Vena jugularis interna dextra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Vena jugularis interna kanan membawa darah dari otak dan jaringan dalam kepala serta leher. Pembuluh ini berjalan dalam selubung karotis dan bergabung dengan vena subklavia membentuk vena brakiosefalika.",
-    "fakta": "Vena jugularis interna merupakan kelanjutan sinus sigmoid di dasar tengkorak."
-  },
-  {
-    "id": "vena-jugularis-kiri",
-    "nama_id": "Vena jugularis interna kiri",
-    "nama_latin": "Vena jugularis interna sinistra",
-    "sistem": "kardiovaskular",
-    "deskripsi": "Vena jugularis interna kiri membawa darah dari otak dan jaringan dalam kepala serta leher. Pembuluh ini berjalan dalam selubung karotis dan bergabung dengan vena subklavia membentuk vena brakiosefalika.",
-    "fakta": "Vena jugularis interna merupakan kelanjutan sinus sigmoid di dasar tengkorak."
-  },
-  {
-    "id": "rongga-hidung-kanan",
-    "nama_id": "Rongga hidung kanan",
-    "nama_latin": "Cavitas nasi dextra",
-    "sistem": "pernapasan",
-    "deskripsi": "Rongga hidung kanan adalah ruang jalan napas yang dipisahkan dari sisi lainnya oleh septum hidung. Mukosanya membantu menyaring, menghangatkan, dan melembapkan udara yang dihirup.",
-    "fakta": "Konka hidung menambah luas permukaan mukosa dan membuat aliran udara lebih turbulen."
-  },
-  {
-    "id": "rongga-hidung-kiri",
-    "nama_id": "Rongga hidung kiri",
-    "nama_latin": "Cavitas nasi sinistra",
-    "sistem": "pernapasan",
-    "deskripsi": "Rongga hidung kiri adalah ruang jalan napas yang dipisahkan dari sisi lainnya oleh septum hidung. Mukosanya membantu menyaring, menghangatkan, dan melembapkan udara yang dihirup.",
-    "fakta": "Konka hidung menambah luas permukaan mukosa dan membuat aliran udara lebih turbulen."
-  },
-  {
-    "id": "faring",
-    "nama_id": "Faring",
-    "nama_latin": "Pharynx",
-    "sistem": "pernapasan",
-    "deskripsi": "Faring adalah saluran berotot di belakang rongga hidung, rongga mulut, dan laring. Struktur ini meneruskan udara menuju laring serta makanan dari mulut menuju esofagus.",
-    "fakta": "Faring terbagi menjadi nasofaring, orofaring, dan laringofaring."
-  },
-  {
-    "id": "laring",
-    "nama_id": "Laring",
-    "nama_latin": "Larynx",
-    "sistem": "pernapasan",
-    "deskripsi": "Laring menghubungkan faring dengan trakea dan mengandung lipatan vokal. Rangka kartilagonya menjaga jalan napas, sedangkan mekanisme penutupannya membantu melindungi saluran napas saat menelan.",
-    "fakta": "Lipatan vokal bergetar saat udara lewat untuk menghasilkan suara."
-  },
-  {
-    "id": "trakea",
-    "nama_id": "Trakea",
-    "nama_latin": "Trachea",
-    "sistem": "pernapasan",
-    "deskripsi": "Trakea adalah saluran udara dari laring menuju bronkus utama. Cincin kartilago berbentuk C membantu menjaga lumen tetap terbuka, dan epitel bersilia membantu pembersihan mukus.",
-    "fakta": "Bagian terbuka cincin kartilago menghadap posterior ke arah esofagus."
-  },
-  {
-    "id": "diafragma",
-    "nama_id": "Diafragma",
-    "nama_latin": "Diaphragma",
-    "sistem": "pernapasan",
-    "deskripsi": "Diafragma adalah sekat otot berbentuk kubah antara rongga dada dan abdomen. Kontraksinya menurunkan kubah sehingga volume toraks bertambah pada inspirasi.",
-    "fakta": "Persarafan motorik diafragma berasal dari saraf frenikus, terutama akar C3 sampai C5."
-  },
-  {
-    "id": "bronkus-kanan",
-    "nama_id": "Bronkus utama kanan",
-    "nama_latin": "Bronchus principalis dexter",
-    "sistem": "pernapasan",
-    "deskripsi": "Bronkus utama kanan merupakan cabang trakea yang memasuki paru melalui hilum. Pembuluh udara ini bercabang menjadi bronkus lobaris dan segmentalis untuk menyalurkan udara ke jaringan paru.",
-    "fakta": "Bronkus utama kanan lebih pendek, lebih lebar, dan lebih vertikal daripada yang kiri."
-  },
-  {
-    "id": "bronkus-kiri",
-    "nama_id": "Bronkus utama kiri",
-    "nama_latin": "Bronchus principalis sinister",
-    "sistem": "pernapasan",
-    "deskripsi": "Bronkus utama kiri merupakan cabang trakea yang memasuki paru melalui hilum. Pembuluh udara ini bercabang menjadi bronkus lobaris dan segmentalis untuk menyalurkan udara ke jaringan paru.",
-    "fakta": "Bronkus utama kanan lebih pendek, lebih lebar, dan lebih vertikal daripada yang kiri."
-  },
-  {
-    "id": "paru-kanan",
-    "nama_id": "Paru-paru kanan",
-    "nama_latin": "Pulmo dexter",
-    "sistem": "pernapasan",
-    "deskripsi": "Paru kanan adalah organ pertukaran gas di rongga toraks kanan yang diselubungi pleura. Parenkimnya terdiri atas tiga lobus yang dipisahkan oleh fisura horizontal dan oblik.",
-    "fakta": "Paru kanan memiliki tiga lobus, sedangkan paru kiri memiliki dua."
-  },
-  {
-    "id": "paru-kiri",
-    "nama_id": "Paru-paru kiri",
-    "nama_latin": "Pulmo sinister",
-    "sistem": "pernapasan",
-    "deskripsi": "Paru kiri adalah organ pertukaran gas di rongga toraks kiri yang diselubungi pleura. Organ ini memiliki lobus superior dan inferior serta lekukan untuk menyesuaikan letak jantung.",
-    "fakta": "Lingula adalah bagian lobus superior paru kiri yang menyerupai lidah."
-  },
-  {
-    "id": "alveolus-kanan",
-    "nama_id": "Alveoli paru kanan",
-    "nama_latin": "Alveoli pulmonis dexter",
-    "sistem": "pernapasan",
-    "deskripsi": "Alveoli paru kanan adalah kantong udara mikroskopis di bagian respiratorik paru. Dinding tipisnya berdekatan dengan kapiler sehingga memungkinkan difusi oksigen dan karbon dioksida.",
-    "fakta": "Pneumosit tipe II menghasilkan surfaktan yang membantu mencegah kolaps alveoli."
-  },
-  {
-    "id": "alveolus-kiri",
-    "nama_id": "Alveoli paru kiri",
-    "nama_latin": "Alveoli pulmonis sinister",
-    "sistem": "pernapasan",
-    "deskripsi": "Alveoli paru kiri adalah kantong udara mikroskopis di bagian respiratorik paru. Dinding tipisnya berdekatan dengan kapiler sehingga memungkinkan difusi oksigen dan karbon dioksida.",
-    "fakta": "Pneumosit tipe II menghasilkan surfaktan yang membantu mencegah kolaps alveoli."
-  },
-  {
-    "id": "mulut",
-    "nama_id": "Rongga mulut",
-    "nama_latin": "Cavitas oris",
-    "sistem": "pencernaan",
-    "deskripsi": "Rongga mulut merupakan pintu masuk makanan ke saluran pencernaan. Gigi dan lidah memecah serta mengolah makanan, sementara saliva membasahi makanan dan memulai pencernaan sebagian karbohidrat.",
-    "fakta": "Amilase saliva mulai memecah pati sebelum makanan mencapai lambung."
-  },
-  {
-    "id": "esofagus",
-    "nama_id": "Kerongkongan",
-    "nama_latin": "Oesophagus",
-    "sistem": "pencernaan",
-    "deskripsi": "Esofagus adalah tabung berotot yang membawa bolus dari faring ke lambung. Gerakan peristaltik mendorong makanan melalui toraks dan melewati diafragma.",
-    "fakta": "Bagian atas esofagus mengandung otot rangka, sedangkan bagian bawah didominasi otot polos."
-  },
-  {
-    "id": "lambung",
-    "nama_id": "Lambung",
-    "nama_latin": "Gaster",
-    "sistem": "pencernaan",
-    "deskripsi": "Lambung adalah bagian saluran cerna yang melebar antara esofagus dan duodenum. Organ ini menyimpan sementara makanan, mencampurnya dengan asam dan enzim, serta membentuk kimus.",
-    "fakta": "Sel parietal menghasilkan faktor intrinsik yang diperlukan untuk penyerapan vitamin B12 di ileum."
-  },
-  {
-    "id": "hati",
-    "nama_id": "Hati",
-    "nama_latin": "Hepar",
-    "sistem": "pencernaan",
-    "deskripsi": "Hati adalah organ besar di abdomen kanan atas yang memproses zat gizi dan berbagai senyawa dalam darah. Hati juga menghasilkan empedu, menyimpan glikogen, dan menyintesis banyak protein plasma.",
-    "fakta": "Hati menerima darah dari vena porta hepatika dan arteri hepatika."
-  },
-  {
-    "id": "kantong-empedu",
-    "nama_id": "Kantong empedu",
-    "nama_latin": "Vesica biliaris",
-    "sistem": "pencernaan",
-    "deskripsi": "Kantong empedu merupakan kantong kecil di permukaan bawah hati. Organ ini menyimpan dan memekatkan empedu sebelum mengalirkannya menuju duodenum.",
-    "fakta": "Empedu diproduksi oleh hati, bukan oleh kantong empedu."
-  },
-  {
-    "id": "pankreas",
-    "nama_id": "Pankreas eksokrin",
-    "nama_latin": "Pancreas, pars exocrina",
-    "sistem": "pencernaan",
-    "deskripsi": "Bagian eksokrin pankreas terdiri atas asinus dan saluran yang mengeluarkan enzim serta bikarbonat ke duodenum. Enzimnya membantu pencernaan karbohidrat, protein, dan lemak.",
-    "fakta": "Sebagian besar enzim pemecah protein pankreas dilepaskan sebagai prekursor yang belum aktif."
-  },
-  {
-    "id": "usus-halus",
-    "nama_id": "Usus halus",
-    "nama_latin": "Intestinum tenue",
-    "sistem": "pencernaan",
-    "deskripsi": "Usus halus membentang dari pilorus lambung hingga pertemuan dengan usus besar. Duodenum, jejunum, dan ileum menjadi tempat utama pencernaan serta penyerapan zat gizi.",
-    "fakta": "Vili dan mikrovili memperluas permukaan penyerapan usus halus."
-  },
-  {
-    "id": "usus-besar",
-    "nama_id": "Usus besar",
-    "nama_latin": "Intestinum crassum",
-    "sistem": "pencernaan",
-    "deskripsi": "Usus besar mencakup sekum, kolon, rektum, dan kanal anus. Organ ini menyerap air serta elektrolit yang tersisa dan memadatkan isi usus menjadi feses.",
-    "fakta": "Mikrobiota usus besar dapat menghasilkan sebagian vitamin K."
-  },
-  {
-    "id": "apendiks",
-    "nama_id": "Umbai cacing",
-    "nama_latin": "Appendix vermiformis",
-    "sistem": "pencernaan",
-    "deskripsi": "Apendiks adalah tabung sempit yang berasal dari sekum di dekat pertemuan ileum dan usus besar. Dindingnya mengandung jaringan limfoid yang berperan dalam aktivitas imun lokal.",
-    "fakta": "Pangkal apendiks berada pada pertemuan tiga pita otot longitudinal sekum."
-  },
-  {
-    "id": "rektum",
-    "nama_id": "Rektum",
-    "nama_latin": "Rectum",
-    "sistem": "pencernaan",
-    "deskripsi": "Rektum adalah bagian terminal usus besar sebelum kanal anus. Bagian ini menampung feses sementara dan peregangan dindingnya membantu memicu refleks defekasi.",
-    "fakta": "Rektum tidak memiliki taenia coli dan haustra seperti kolon."
-  },
-  {
-    "id": "hemisfer-serebrum-kanan",
-    "nama_id": "Belahan otak besar kanan",
-    "nama_latin": "Hemispherium cerebri dextrum",
-    "sistem": "saraf",
-    "deskripsi": "Belahan otak besar kanan mencakup korteks dan struktur di bawahnya yang mendukung persepsi, gerakan sadar, serta fungsi kognitif. Kedua belahan berkomunikasi melalui serabut komisural, terutama korpus kalosum.",
-    "fakta": "Sebagian besar kendali motorik korteks untuk tubuh bekerja pada sisi yang berlawanan."
-  },
-  {
-    "id": "hemisfer-serebrum-kiri",
-    "nama_id": "Belahan otak besar kiri",
-    "nama_latin": "Hemispherium cerebri sinistrum",
-    "sistem": "saraf",
-    "deskripsi": "Belahan otak besar kiri mencakup korteks dan struktur di bawahnya yang mendukung persepsi, gerakan sadar, serta fungsi kognitif. Kedua belahan berkomunikasi melalui serabut komisural, terutama korpus kalosum.",
-    "fakta": "Sebagian besar kendali motorik korteks untuk tubuh bekerja pada sisi yang berlawanan."
-  },
-  {
-    "id": "serebelum",
-    "nama_id": "Otak kecil",
-    "nama_latin": "Cerebellum",
-    "sistem": "saraf",
-    "deskripsi": "Serebelum terletak di fosa kranii posterior, di belakang batang otak. Struktur ini membantu koordinasi gerakan, keseimbangan, dan pembelajaran motorik.",
-    "fakta": "Serebelum menyesuaikan ketepatan gerak, bukan menjadi sumber utama perintah gerakan sadar."
-  },
-  {
-    "id": "batang-otak",
-    "nama_id": "Batang otak",
-    "nama_latin": "Truncus encephali",
-    "sistem": "saraf",
-    "deskripsi": "Batang otak terdiri atas mesensefalon, pons, dan medula oblongata. Struktur ini menghubungkan otak dengan medula spinalis serta mengandung banyak nukleus saraf kranial dan pusat pengaturan fungsi vital.",
-    "fakta": "Medula oblongata memuat jaringan pengatur pernapasan dan fungsi kardiovaskular."
-  },
-  {
-    "id": "medula-spinalis",
-    "nama_id": "Sumsum tulang belakang",
-    "nama_latin": "Medulla spinalis",
-    "sistem": "saraf",
-    "deskripsi": "Medula spinalis berada di dalam kanalis vertebralis dan menghubungkan otak dengan saraf spinal. Jaringan ini meneruskan informasi sensorik dan motorik sekaligus mengintegrasikan berbagai refleks.",
-    "fakta": "Pada orang dewasa, medula spinalis biasanya berakhir sekitar tingkat vertebra L1 atau L2."
-  },
-  {
-    "id": "saraf-optik-kanan",
-    "nama_id": "Saraf optik kanan",
-    "nama_latin": "Nervus opticus dexter",
-    "sistem": "saraf",
-    "deskripsi": "Saraf optik kanan membawa informasi visual dari retina menuju otak. Serabutnya berasal dari akson sel ganglion retina dan sebagian menyilang pada kiasma optikum.",
-    "fakta": "Saraf optik merupakan saraf kranial kedua."
-  },
-  {
-    "id": "saraf-optik-kiri",
-    "nama_id": "Saraf optik kiri",
-    "nama_latin": "Nervus opticus sinister",
-    "sistem": "saraf",
-    "deskripsi": "Saraf optik kiri membawa informasi visual dari retina menuju otak. Serabutnya berasal dari akson sel ganglion retina dan sebagian menyilang pada kiasma optikum.",
-    "fakta": "Saraf optik merupakan saraf kranial kedua."
-  },
-  {
-    "id": "saraf-vagus-kanan",
-    "nama_id": "Saraf vagus kanan",
-    "nama_latin": "Nervus vagus dexter",
-    "sistem": "saraf",
-    "deskripsi": "Saraf vagus kanan membawa komponen sensorik, motorik, dan parasimpatis ke banyak organ. Cabangnya melayani faring, laring, serta berbagai organ toraks dan abdomen.",
-    "fakta": "Vagus adalah saraf kranial kesepuluh dan menjangkau jauh melampaui kepala serta leher."
-  },
-  {
-    "id": "saraf-vagus-kiri",
-    "nama_id": "Saraf vagus kiri",
-    "nama_latin": "Nervus vagus sinister",
-    "sistem": "saraf",
-    "deskripsi": "Saraf vagus kiri membawa komponen sensorik, motorik, dan parasimpatis ke banyak organ. Cabangnya melayani faring, laring, serta berbagai organ toraks dan abdomen.",
-    "fakta": "Vagus adalah saraf kranial kesepuluh dan menjangkau jauh melampaui kepala serta leher."
-  },
-  {
-    "id": "pleksus-brakialis-kanan",
-    "nama_id": "Pleksus brakialis kanan",
-    "nama_latin": "Plexus brachialis dexter",
-    "sistem": "saraf",
-    "deskripsi": "Pleksus brakialis kanan adalah jejaring saraf yang umumnya dibentuk oleh rami anterior C5 sampai T1. Cabangnya memasok persarafan motorik dan sensorik untuk sebagian besar anggota gerak atas.",
-    "fakta": "Saraf medianus, ulnaris, dan radialis berasal dari pleksus brakialis."
-  },
-  {
-    "id": "pleksus-brakialis-kiri",
-    "nama_id": "Pleksus brakialis kiri",
-    "nama_latin": "Plexus brachialis sinister",
-    "sistem": "saraf",
-    "deskripsi": "Pleksus brakialis kiri adalah jejaring saraf yang umumnya dibentuk oleh rami anterior C5 sampai T1. Cabangnya memasok persarafan motorik dan sensorik untuk sebagian besar anggota gerak atas.",
-    "fakta": "Saraf medianus, ulnaris, dan radialis berasal dari pleksus brakialis."
-  },
-  {
-    "id": "saraf-skiatik-kanan",
-    "nama_id": "Saraf skiatik kanan",
-    "nama_latin": "Nervus ischiadicus dexter",
-    "sistem": "saraf",
-    "deskripsi": "Saraf skiatik kanan berasal dari pleksus sakral dengan kontribusi akar L4 sampai S3. Saraf ini melewati daerah gluteal dan paha posterior sebelum terbagi menjadi komponen tibialis serta fibularis komunis.",
-    "fakta": "Saraf skiatik merupakan saraf perifer terbesar tubuh."
-  },
-  {
-    "id": "saraf-skiatik-kiri",
-    "nama_id": "Saraf skiatik kiri",
-    "nama_latin": "Nervus ischiadicus sinister",
-    "sistem": "saraf",
-    "deskripsi": "Saraf skiatik kiri berasal dari pleksus sakral dengan kontribusi akar L4 sampai S3. Saraf ini melewati daerah gluteal dan paha posterior sebelum terbagi menjadi komponen tibialis serta fibularis komunis.",
-    "fakta": "Saraf skiatik merupakan saraf perifer terbesar tubuh."
-  },
-  {
-    "id": "ginjal-kanan",
-    "nama_id": "Ginjal kanan",
-    "nama_latin": "Ren dexter",
-    "sistem": "urinaria",
-    "deskripsi": "Ginjal kanan berada di ruang retroperitoneal dan mengandung nefron yang menyaring plasma darah. Organ ini mengatur air, elektrolit, keseimbangan asam-basa, serta menghasilkan hormon seperti eritropoietin.",
-    "fakta": "Ginjal kanan biasanya terletak lebih rendah daripada ginjal kiri karena posisi hati."
-  },
-  {
-    "id": "ginjal-kiri",
-    "nama_id": "Ginjal kiri",
-    "nama_latin": "Ren sinister",
-    "sistem": "urinaria",
-    "deskripsi": "Ginjal kiri berada di ruang retroperitoneal dan mengandung nefron yang menyaring plasma darah. Organ ini mengatur air, elektrolit, keseimbangan asam-basa, serta menghasilkan hormon seperti eritropoietin.",
-    "fakta": "Ginjal kanan biasanya terletak lebih rendah daripada ginjal kiri karena posisi hati."
-  },
-  {
-    "id": "ureter-kanan",
-    "nama_id": "Ureter kanan",
-    "nama_latin": "Ureter dexter",
-    "sistem": "urinaria",
-    "deskripsi": "Ureter kanan adalah tabung berotot yang membawa urine dari pelvis ginjal menuju kandung kemih. Gerakan peristaltik dindingnya membantu mengalirkan urine tanpa mengandalkan gravitasi saja.",
-    "fakta": "Lintasan ureter yang miring melalui dinding kandung kemih membantu mengurangi aliran balik urine."
-  },
-  {
-    "id": "ureter-kiri",
-    "nama_id": "Ureter kiri",
-    "nama_latin": "Ureter sinister",
-    "sistem": "urinaria",
-    "deskripsi": "Ureter kiri adalah tabung berotot yang membawa urine dari pelvis ginjal menuju kandung kemih. Gerakan peristaltik dindingnya membantu mengalirkan urine tanpa mengandalkan gravitasi saja.",
-    "fakta": "Lintasan ureter yang miring melalui dinding kandung kemih membantu mengurangi aliran balik urine."
-  },
-  {
-    "id": "kandung-kemih",
-    "nama_id": "Kandung kemih",
-    "nama_latin": "Vesica urinaria",
-    "sistem": "urinaria",
-    "deskripsi": "Kandung kemih adalah organ berongga berotot di pelvis yang menyimpan urine. Kontraksi otot detrusor bersama koordinasi sfingter memungkinkan pengosongan melalui uretra.",
-    "fakta": "Epitel transisional kandung kemih dapat menyesuaikan bentuk saat organ mengembang."
-  },
-  {
-    "id": "uretra",
-    "nama_id": "Uretra",
-    "nama_latin": "Urethra",
-    "sistem": "urinaria",
-    "deskripsi": "Uretra adalah saluran yang membawa urine dari kandung kemih ke luar tubuh. Panjang dan lintasannya berbeda pada anatomi reproduksi perempuan dan laki-laki; pada laki-laki saluran ini juga dilalui semen.",
-    "fakta": "Uretra perempuan lebih pendek daripada uretra laki-laki."
-  },
-  {
-    "id": "ovarium-kanan",
-    "nama_id": "Indung telur kanan",
-    "nama_latin": "Ovarium dextrum",
-    "sistem": "reproduksi",
-    "deskripsi": "Ovarium kanan adalah gonad yang mengandung folikel dengan oosit dan menghasilkan hormon reproduksi. Folikel mengalami perubahan selama siklus ovarium, dan ovulasi melepaskan oosit dari folikel matang.",
-    "fakta": "Setelah ovulasi, sisa folikel membentuk korpus luteum yang menghasilkan progesteron."
-  },
-  {
-    "id": "ovarium-kiri",
-    "nama_id": "Indung telur kiri",
-    "nama_latin": "Ovarium sinistrum",
-    "sistem": "reproduksi",
-    "deskripsi": "Ovarium kiri adalah gonad yang mengandung folikel dengan oosit dan menghasilkan hormon reproduksi. Folikel mengalami perubahan selama siklus ovarium, dan ovulasi melepaskan oosit dari folikel matang.",
-    "fakta": "Setelah ovulasi, sisa folikel membentuk korpus luteum yang menghasilkan progesteron."
-  },
-  {
-    "id": "tuba-uterina-kanan",
-    "nama_id": "Tuba uterina kanan",
-    "nama_latin": "Tuba uterina dextra",
-    "sistem": "reproduksi",
-    "deskripsi": "Tuba uterina kanan membentang dari dekat ovarium menuju uterus. Silia dan kontraksi otot polosnya membantu perpindahan oosit atau embrio awal menuju rongga uterus.",
-    "fakta": "Pembuahan paling sering terjadi di bagian ampula tuba uterina."
-  },
-  {
-    "id": "tuba-uterina-kiri",
-    "nama_id": "Tuba uterina kiri",
-    "nama_latin": "Tuba uterina sinistra",
-    "sistem": "reproduksi",
-    "deskripsi": "Tuba uterina kiri membentang dari dekat ovarium menuju uterus. Silia dan kontraksi otot polosnya membantu perpindahan oosit atau embrio awal menuju rongga uterus.",
-    "fakta": "Pembuahan paling sering terjadi di bagian ampula tuba uterina."
-  },
-  {
-    "id": "testis-kanan",
-    "nama_id": "Testis kanan",
-    "nama_latin": "Testis dexter",
-    "sistem": "reproduksi",
-    "deskripsi": "Testis kanan adalah gonad di dalam skrotum yang menghasilkan spermatozoa dan hormon testosteron. Produksi spermatozoa berlangsung di tubulus seminiferus dengan dukungan sel Sertoli.",
-    "fakta": "Sel Leydig di antara tubulus seminiferus menghasilkan testosteron."
-  },
-  {
-    "id": "testis-kiri",
-    "nama_id": "Testis kiri",
-    "nama_latin": "Testis sinister",
-    "sistem": "reproduksi",
-    "deskripsi": "Testis kiri adalah gonad di dalam skrotum yang menghasilkan spermatozoa dan hormon testosteron. Produksi spermatozoa berlangsung di tubulus seminiferus dengan dukungan sel Sertoli.",
-    "fakta": "Sel Leydig di antara tubulus seminiferus menghasilkan testosteron."
-  },
-  {
-    "id": "epididimis-kanan",
-    "nama_id": "Epididimis kanan",
-    "nama_latin": "Epididymis dextra",
-    "sistem": "reproduksi",
-    "deskripsi": "Epididimis kanan adalah saluran berkelok pada permukaan posterior testis. Struktur ini menjadi tempat pematangan dan penyimpanan spermatozoa sebelum dialirkan ke duktus deferens.",
-    "fakta": "Saluran epididimis yang sangat berkelok memungkinkan panjang saluran besar dalam ruang kecil."
-  },
-  {
-    "id": "epididimis-kiri",
-    "nama_id": "Epididimis kiri",
-    "nama_latin": "Epididymis sinistra",
-    "sistem": "reproduksi",
-    "deskripsi": "Epididimis kiri adalah saluran berkelok pada permukaan posterior testis. Struktur ini menjadi tempat pematangan dan penyimpanan spermatozoa sebelum dialirkan ke duktus deferens.",
-    "fakta": "Saluran epididimis yang sangat berkelok memungkinkan panjang saluran besar dalam ruang kecil."
-  },
-  {
-    "id": "vas-deferens-kanan",
-    "nama_id": "Saluran deferens kanan",
-    "nama_latin": "Ductus deferens dexter",
-    "sistem": "reproduksi",
-    "deskripsi": "Saluran deferens kanan adalah tabung berotot yang membawa spermatozoa dari epididimis. Saluran ini masuk ke rongga pelvis dan bergabung dengan saluran vesikula seminalis membentuk duktus ejakulatorius.",
-    "fakta": "Dinding otot yang tebal membantu mendorong spermatozoa selama ejakulasi."
-  },
-  {
-    "id": "vas-deferens-kiri",
-    "nama_id": "Saluran deferens kiri",
-    "nama_latin": "Ductus deferens sinister",
-    "sistem": "reproduksi",
-    "deskripsi": "Saluran deferens kiri adalah tabung berotot yang membawa spermatozoa dari epididimis. Saluran ini masuk ke rongga pelvis dan bergabung dengan saluran vesikula seminalis membentuk duktus ejakulatorius.",
-    "fakta": "Dinding otot yang tebal membantu mendorong spermatozoa selama ejakulasi."
-  },
-  {
-    "id": "uterus",
-    "nama_id": "Rahim",
-    "nama_latin": "Uterus",
-    "sistem": "reproduksi",
-    "deskripsi": "Uterus adalah organ berongga berotot di pelvis yang menjadi tempat implantasi dan perkembangan embrio serta janin. Dindingnya terdiri atas endometrium, miometrium, dan lapisan serosa atau adventisia sesuai lokasinya.",
-    "fakta": "Lapisan fungsional endometrium mengalami peluruhan saat menstruasi jika tidak terjadi kehamilan."
-  },
-  {
-    "id": "vagina",
-    "nama_id": "Vagina",
-    "nama_latin": "Vagina",
-    "sistem": "reproduksi",
-    "deskripsi": "Vagina adalah saluran fibromuskular yang menghubungkan serviks uterus dengan vestibulum. Saluran ini menjadi jalan keluarnya darah menstruasi dan bagian jalan lahir.",
-    "fakta": "Mukosa vagina tidak memiliki kelenjar; pelumas berasal antara lain dari transudasi dinding dan sekret serviks."
-  },
-  {
-    "id": "prostat",
-    "nama_id": "Kelenjar prostat",
-    "nama_latin": "Prostata",
-    "sistem": "reproduksi",
-    "deskripsi": "Prostat adalah kelenjar yang terletak di bawah kandung kemih dan mengelilingi bagian awal uretra laki-laki. Sekretnya menjadi bagian cairan semen dan mengandung enzim yang membantu pencairan semen setelah ejakulasi.",
-    "fakta": "Pembesaran prostat dapat memengaruhi aliran urine karena letaknya mengelilingi uretra."
-  },
-  {
-    "id": "penis",
-    "nama_id": "Penis",
-    "nama_latin": "Penis",
-    "sistem": "reproduksi",
-    "deskripsi": "Penis adalah organ eksternal yang mengandung dua korpus kavernosum dan satu korpus spongiosum. Uretra berjalan di dalam korpus spongiosum untuk menyalurkan urine atau semen pada waktu yang berbeda.",
-    "fakta": "Korpus spongiosum meluas di bagian distal membentuk glans penis."
-  },
-  {
-    "id": "nodus-limfa-aksila-kanan",
-    "nama_id": "Kelompok nodus limfa aksila kanan",
-    "nama_latin": "Nodi lymphoidei axillares dexter",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Nodus limfa aksila kanan adalah kelompok kelenjar limfa di daerah ketiak. Kelompok ini menyaring limfa dari anggota gerak atas, sebagian dinding toraks, dan sebagian besar jaringan payudara pada sisi tersebut.",
-    "fakta": "Nodus aksila merupakan salah satu lokasi penting penilaian penyebaran penyakit payudara."
-  },
-  {
-    "id": "nodus-limfa-aksila-kiri",
-    "nama_id": "Kelompok nodus limfa aksila kiri",
-    "nama_latin": "Nodi lymphoidei axillares sinister",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Nodus limfa aksila kiri adalah kelompok kelenjar limfa di daerah ketiak. Kelompok ini menyaring limfa dari anggota gerak atas, sebagian dinding toraks, dan sebagian besar jaringan payudara pada sisi tersebut.",
-    "fakta": "Nodus aksila merupakan salah satu lokasi penting penilaian penyebaran penyakit payudara."
-  },
-  {
-    "id": "limpa",
-    "nama_id": "Limpa",
-    "nama_latin": "Splen",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Limpa terletak di abdomen kiri atas dan merupakan organ limfoid yang menyaring darah. Pulpa merah membantu membuang eritrosit tua, sedangkan pulpa putih berperan dalam respons imun terhadap antigen dalam darah.",
-    "fakta": "Berbeda dengan nodus limfa yang menyaring limfa, limpa terutama menyaring darah."
-  },
-  {
-    "id": "timus",
-    "nama_id": "Timus",
-    "nama_latin": "Thymus",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Timus adalah organ limfoid di mediastinum anterior yang berperan dalam pematangan limfosit T. Lingkungannya membantu seleksi sel T agar dapat mengenali antigen tanpa menyerang jaringan tubuh secara berlebihan.",
-    "fakta": "Timus umumnya mengalami involusi dan bertambah kandungan lemaknya setelah pubertas."
-  },
-  {
-    "id": "tiroid",
-    "nama_id": "Kelenjar tiroid",
-    "nama_latin": "Glandula thyroidea",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Tiroid terletak di depan trakea bagian atas dan memiliki dua lobus yang dihubungkan oleh ismus. Sel folikularnya menghasilkan hormon T3 dan T4 yang memengaruhi metabolisme, pertumbuhan, serta perkembangan.",
-    "fakta": "Sintesis hormon tiroid memerlukan yodium."
-  },
-  {
-    "id": "pankreas-endokrin",
-    "nama_id": "Pulau pankreas",
-    "nama_latin": "Insulae pancreaticae",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Pulau pankreas adalah kelompok sel endokrin yang tersebar di antara jaringan eksokrin pankreas. Sel-selnya mengeluarkan insulin, glukagon, somatostatin, dan polipeptida pankreas ke aliran darah.",
-    "fakta": "Sel beta menghasilkan insulin, sedangkan sel alfa menghasilkan glukagon."
-  },
-  {
-    "id": "pituitari",
-    "nama_id": "Kelenjar hipofisis",
-    "nama_latin": "Hypophysis",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Hipofisis berada di sella turcica tulang sfenoid dan terhubung dengan hipotalamus melalui infundibulum. Lobus anterior menghasilkan sejumlah hormon, sedangkan lobus posterior menyimpan dan melepaskan hormon yang dibuat di hipotalamus.",
-    "fakta": "Oksitosin dan vasopresin dibuat di hipotalamus, bukan disintesis oleh hipofisis posterior."
-  },
-  {
-    "id": "paratiroid-superior-kanan",
-    "nama_id": "Kelenjar paratiroid superior kanan",
-    "nama_latin": "Glandula parathyroidea superior dextra",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Kelenjar paratiroid superior kanan umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
-    "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi."
-  },
-  {
-    "id": "paratiroid-superior-kiri",
-    "nama_id": "Kelenjar paratiroid superior kiri",
-    "nama_latin": "Glandula parathyroidea superior sinistra",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Kelenjar paratiroid superior kiri umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
-    "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi."
-  },
-  {
-    "id": "paratiroid-inferior-kanan",
-    "nama_id": "Kelenjar paratiroid inferior kanan",
-    "nama_latin": "Glandula parathyroidea inferior dextra",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Kelenjar paratiroid inferior kanan umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
-    "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi."
-  },
-  {
-    "id": "paratiroid-inferior-kiri",
-    "nama_id": "Kelenjar paratiroid inferior kiri",
-    "nama_latin": "Glandula parathyroidea inferior sinistra",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Kelenjar paratiroid inferior kiri umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
-    "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi."
-  },
-  {
-    "id": "adrenal-kanan",
-    "nama_id": "Kelenjar adrenal kanan",
-    "nama_latin": "Glandula suprarenalis dextra",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Kelenjar adrenal kanan berada di atas ginjal dan terdiri atas korteks serta medula. Korteks menghasilkan hormon steroid seperti kortisol dan aldosteron, sedangkan medula menghasilkan katekolamin.",
-    "fakta": "Korteks dan medula adrenal memiliki asal perkembangan embrional yang berbeda."
-  },
-  {
-    "id": "adrenal-kiri",
-    "nama_id": "Kelenjar adrenal kiri",
-    "nama_latin": "Glandula suprarenalis sinistra",
-    "sistem": "limfatik-endokrin",
-    "deskripsi": "Kelenjar adrenal kiri berada di atas ginjal dan terdiri atas korteks serta medula. Korteks menghasilkan hormon steroid seperti kortisol dan aldosteron, sedangkan medula menghasilkan katekolamin.",
-    "fakta": "Korteks dan medula adrenal memiliki asal perkembangan embrional yang berbeda."
-  }
+ {
+  "id": "epidermis",
+  "nama_id": "Epidermis",
+  "nama_latin": "Epidermis",
+  "sistem": "integumen",
+  "deskripsi": "Epidermis adalah lapisan terluar kulit yang tersusun dari epitel skuamosa berlapis berkeratin. Lapisan ini menjadi penghalang terhadap kehilangan air dan masuknya mikroorganisme.",
+  "fakta": "Epidermis tidak memiliki pembuluh darah; nutrisinya berdifusi dari jaringan di bawahnya.",
+  "nama_en": "Epidermis",
+  "deskripsi_en": "The epidermis is the outermost layer of the skin, composed of keratinized stratified squamous epithelium. It serves as a barrier against water loss and the entry of microorganisms.",
+  "fakta_en": "The epidermis is avascular; its nutrients diffuse from the underlying tissues."
+ },
+ {
+  "id": "dermis",
+  "nama_id": "Dermis",
+  "nama_latin": "Dermis",
+  "sistem": "integumen",
+  "deskripsi": "Dermis adalah lapisan jaringan ikat di bawah epidermis yang mengandung kolagen dan serat elastis. Pembuluh darah, ujung saraf, serta banyak bagian struktur tambahan kulit berada di lapisan ini.",
+  "fakta": "Dermis memiliki lapisan papiler dan retikuler yang berbeda susunan jaringan ikatnya.",
+  "nama_en": "Dermis",
+  "deskripsi_en": "The dermis is the connective tissue layer beneath the epidermis that contains collagen and elastic fibers. Blood vessels, nerve endings, and numerous skin appendages are located within this layer.",
+  "fakta_en": "The dermis consists of papillary and reticular layers, which differ in their connective tissue arrangement."
+ },
+ {
+  "id": "folikel-rambut",
+  "nama_id": "Folikel rambut",
+  "nama_latin": "Folliculus pili",
+  "sistem": "integumen",
+  "deskripsi": "Folikel rambut merupakan invaginasi epitel epidermis ke dalam dermis, kadang mencapai jaringan subkutan. Matriks pada bulbus rambut menghasilkan sel yang membentuk batang rambut.",
+  "fakta": "Otot penegak rambut yang melekat pada folikel dapat menyebabkan kulit merinding.",
+  "nama_en": "Hair follicle",
+  "deskripsi_en": "The hair follicle is an invagination of the epidermal epithelium into the dermis, sometimes extending into the subcutaneous tissue. The matrix within the hair bulb generates cells that form the hair shaft.",
+  "fakta_en": "The arrector pili muscle attached to the follicle can cause goosebumps."
+ },
+ {
+  "id": "kelenjar-keringat",
+  "nama_id": "Kelenjar keringat ekrin",
+  "nama_latin": "Glandula sudorifera eccrina",
+  "sistem": "integumen",
+  "deskripsi": "Kelenjar keringat ekrin adalah kelenjar tubular berkelok yang menghasilkan keringat encer. Salurannya bermuara ke permukaan kulit dan membantu pelepasan panas melalui penguapan.",
+  "fakta": "Telapak tangan dan telapak kaki memiliki kepadatan kelenjar ekrin yang tinggi.",
+  "nama_en": "Eccrine sweat gland",
+  "deskripsi_en": "The eccrine sweat gland is a coiled tubular gland that produces watery sweat. Its duct opens onto the skin surface and assists in heat dissipation through evaporation.",
+  "fakta_en": "The palms of the hands and the soles of the feet have a high density of eccrine glands."
+ },
+ {
+  "id": "kelenjar-sebasea",
+  "nama_id": "Kelenjar minyak",
+  "nama_latin": "Glandula sebacea",
+  "sistem": "integumen",
+  "deskripsi": "Kelenjar sebasea menghasilkan sebum yang melumasi rambut dan permukaan kulit. Sebagian besar kelenjar ini bermuara ke folikel rambut.",
+  "fakta": "Kelenjar sebasea tidak terdapat pada telapak tangan dan telapak kaki.",
+  "nama_en": "Sebaceous gland",
+  "deskripsi_en": "Sebaceous glands produce sebum, which lubricates the hair and the skin surface. Most of these glands open into hair follicles.",
+  "fakta_en": "Sebaceous glands are absent from the palms of the hands and the soles of the feet."
+ },
+ {
+  "id": "kuku-tangan-kanan",
+  "nama_id": "Kuku tangan kanan",
+  "nama_latin": "Ungues manus dextrae",
+  "sistem": "integumen",
+  "deskripsi": "Kuku tangan kanan adalah lempeng keratin keras pada permukaan dorsal ujung jari. Matriks kuku menghasilkan lempeng kuku yang melindungi ujung jari dan membantu manipulasi benda kecil.",
+  "fakta": "Bagian pucat berbentuk bulan sabit pada pangkal kuku disebut lunula.",
+  "nama_en": "Right fingernails",
+  "deskripsi_en": "The right fingernails are hard keratin plates on the dorsal surface of the distal digits of the hand. The nail matrix produces the nail plate, which protects the fingertips and aids in the manipulation of small objects.",
+  "fakta_en": "The pale, crescent-shaped region at the base of the nail is called the lunula."
+ },
+ {
+  "id": "kuku-tangan-kiri",
+  "nama_id": "Kuku tangan kiri",
+  "nama_latin": "Ungues manus sinistrae",
+  "sistem": "integumen",
+  "deskripsi": "Kuku tangan kiri adalah lempeng keratin keras pada permukaan dorsal ujung jari. Matriks kuku menghasilkan lempeng kuku yang melindungi ujung jari dan membantu manipulasi benda kecil.",
+  "fakta": "Bagian pucat berbentuk bulan sabit pada pangkal kuku disebut lunula.",
+  "nama_en": "Left fingernails",
+  "deskripsi_en": "The left fingernails are hard keratin plates on the dorsal surface of the distal digits of the hand. The nail matrix produces the nail plate, which protects the fingertips and aids in the manipulation of small objects.",
+  "fakta_en": "The pale, crescent-shaped region at the base of the nail is called the lunula."
+ },
+ {
+  "id": "kuku-kaki-kanan",
+  "nama_id": "Kuku kaki kanan",
+  "nama_latin": "Ungues pedis dextri",
+  "sistem": "integumen",
+  "deskripsi": "Kuku kaki kanan adalah lempeng keratin keras yang menutupi permukaan dorsal ujung jari kaki. Lempeng ini melindungi jaringan lunak di bawahnya dan tumbuh dari matriks kuku.",
+  "fakta": "Kuku kaki umumnya tumbuh lebih lambat daripada kuku tangan.",
+  "nama_en": "Right toenails",
+  "deskripsi_en": "The right toenails are hard keratin plates that cover the dorsal surface of the distal toes. These plates protect the underlying soft tissue and grow from the nail matrix.",
+  "fakta_en": "Toenails generally grow more slowly than fingernails."
+ },
+ {
+  "id": "kuku-kaki-kiri",
+  "nama_id": "Kuku kaki kiri",
+  "nama_latin": "Ungues pedis sinistri",
+  "sistem": "integumen",
+  "deskripsi": "Kuku kaki kiri adalah lempeng keratin keras yang menutupi permukaan dorsal ujung jari kaki. Lempeng ini melindungi jaringan lunak di bawahnya dan tumbuh dari matriks kuku.",
+  "fakta": "Kuku kaki umumnya tumbuh lebih lambat daripada kuku tangan.",
+  "nama_en": "Left toenails",
+  "deskripsi_en": "The left toenails are hard keratin plates that cover the dorsal surface of the distal toes. These plates protect the underlying soft tissue and grow from the nail matrix.",
+  "fakta_en": "Toenails generally grow more slowly than fingernails."
+ },
+ {
+  "id": "masseter-kanan",
+  "nama_id": "Otot pengunyah kanan",
+  "nama_latin": "Musculus masseter dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot masseter kanan menghubungkan lengkung zigomatik dengan ramus dan sudut mandibula. Kontraksinya mengangkat mandibula untuk menutup rahang.",
+  "fakta": "Masseter dipersarafi oleh cabang mandibular saraf trigeminus.",
+  "nama_en": "Right masseter muscle",
+  "deskripsi_en": "The right masseter muscle connects the zygomatic arch to the ramus and angle of the mandible. Its contraction elevates the mandible to close the jaw.",
+  "fakta_en": "The masseter is innervated by the mandibular nerve, a branch of the trigeminal nerve."
+ },
+ {
+  "id": "masseter-kiri",
+  "nama_id": "Otot pengunyah kiri",
+  "nama_latin": "Musculus masseter sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot masseter kiri menghubungkan lengkung zigomatik dengan ramus dan sudut mandibula. Kontraksinya mengangkat mandibula untuk menutup rahang.",
+  "fakta": "Masseter dipersarafi oleh cabang mandibular saraf trigeminus.",
+  "nama_en": "Left masseter muscle",
+  "deskripsi_en": "The left masseter muscle connects the zygomatic arch to the ramus and angle of the mandible. Its contraction elevates the mandible to close the jaw.",
+  "fakta_en": "The masseter is innervated by the mandibular nerve, a branch of the trigeminal nerve."
+ },
+ {
+  "id": "trapezius-kanan",
+  "nama_id": "Otot trapezius kanan",
+  "nama_latin": "Musculus trapezius dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot trapezius kanan adalah otot superfisial lebar pada leher posterior dan punggung atas. Serabutnya mengangkat, menarik ke medial, menurunkan, dan membantu rotasi ke atas skapula sesuai bagian yang berkontraksi.",
+  "fakta": "Saraf aksesorius merupakan sumber persarafan motorik utama trapezius.",
+  "nama_en": "Right trapezius muscle",
+  "deskripsi_en": "The right trapezius muscle is a broad, superficial muscle of the posterior neck and upper back. Depending on which part contracts, its fibers elevate, retract, depress, and assist in upward rotation of the scapula.",
+  "fakta_en": "The accessory nerve provides the primary motor innervation to the trapezius."
+ },
+ {
+  "id": "trapezius-kiri",
+  "nama_id": "Otot trapezius kiri",
+  "nama_latin": "Musculus trapezius sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot trapezius kiri adalah otot superfisial lebar pada leher posterior dan punggung atas. Serabutnya mengangkat, menarik ke medial, menurunkan, dan membantu rotasi ke atas skapula sesuai bagian yang berkontraksi.",
+  "fakta": "Saraf aksesorius merupakan sumber persarafan motorik utama trapezius.",
+  "nama_en": "Left trapezius muscle",
+  "deskripsi_en": "The left trapezius muscle is a broad, superficial muscle of the posterior neck and upper back. Its fibers elevate, retract, depress, and assist in upward rotation of the scapula, depending on which parts contract.",
+  "fakta_en": "The accessory nerve serves as the primary motor innervation for the trapezius."
+ },
+ {
+  "id": "deltoid-kanan",
+  "nama_id": "Otot deltoid kanan",
+  "nama_latin": "Musculus deltoideus dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot deltoid kanan menyelimuti bahu dan melekat pada klavikula, skapula, serta humerus. Bagian tengah terutama mengabduksi lengan, sedangkan bagian depan dan belakang membantu gerakan lengan lainnya.",
+  "fakta": "Deltoid dipersarafi oleh saraf aksilaris.",
+  "nama_en": "Right deltoid muscle",
+  "deskripsi_en": "The right deltoid muscle caps the shoulder and attaches to the clavicle, scapula, and humerus. Its middle part primarily abducts the arm, while the anterior and posterior parts assist in other arm movements.",
+  "fakta_en": "The deltoid is innervated by the axillary nerve."
+ },
+ {
+  "id": "deltoid-kiri",
+  "nama_id": "Otot deltoid kiri",
+  "nama_latin": "Musculus deltoideus sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot deltoid kiri menyelimuti bahu dan melekat pada klavikula, skapula, serta humerus. Bagian tengah terutama mengabduksi lengan, sedangkan bagian depan dan belakang membantu gerakan lengan lainnya.",
+  "fakta": "Deltoid dipersarafi oleh saraf aksilaris.",
+  "nama_en": "Left deltoid muscle",
+  "deskripsi_en": "The left deltoid muscle caps the shoulder and attaches to the clavicle, scapula, and humerus. Its middle part primarily abducts the arm, while the anterior and posterior parts assist in other arm movements.",
+  "fakta_en": "The deltoid is innervated by the axillary nerve."
+ },
+ {
+  "id": "pectoralis-major-kanan",
+  "nama_id": "Otot dada besar kanan",
+  "nama_latin": "Musculus pectoralis major dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot dada besar kanan berbentuk kipas di dinding dada anterior dan melekat pada humerus. Otot ini mengadduksi serta memutar lengan ke medial, dan bagian klavikulanya membantu fleksi bahu.",
+  "fakta": "Pectoralis major membentuk lipatan aksila anterior.",
+  "nama_en": "Right pectoralis major muscle",
+  "deskripsi_en": "The right pectoralis major is a fan-shaped muscle on the anterior chest wall that attaches to the humerus. It adducts and medially rotates the arm, and its clavicular head assists in shoulder flexion.",
+  "fakta_en": "The pectoralis major forms the anterior axillary fold."
+ },
+ {
+  "id": "pectoralis-major-kiri",
+  "nama_id": "Otot dada besar kiri",
+  "nama_latin": "Musculus pectoralis major sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot dada besar kiri berbentuk kipas di dinding dada anterior dan melekat pada humerus. Otot ini mengadduksi serta memutar lengan ke medial, dan bagian klavikulanya membantu fleksi bahu.",
+  "fakta": "Pectoralis major membentuk lipatan aksila anterior.",
+  "nama_en": "Left pectoralis major muscle",
+  "deskripsi_en": "The left pectoralis major is a fan-shaped muscle on the anterior chest wall that attaches to the humerus. It adducts and medially rotates the arm, and its clavicular head assists in shoulder flexion.",
+  "fakta_en": "The pectoralis major forms the anterior axillary fold."
+ },
+ {
+  "id": "biceps-brachii-kanan",
+  "nama_id": "Otot bisep lengan kanan",
+  "nama_latin": "Musculus biceps brachii dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot bisep lengan kanan berada di bagian anterior lengan atas dan memiliki dua kepala asal dari skapula. Otot ini menekuk siku dan melakukan supinasi lengan bawah.",
+  "fakta": "Tendon distal bisep melekat pada tuberositas radius.",
+  "nama_en": "Right biceps brachii muscle",
+  "deskripsi_en": "The right biceps brachii muscle is located in the anterior compartment of the arm and has two heads of origin from the scapula. It flexes the elbow and supinates the forearm.",
+  "fakta_en": "The distal tendon of the biceps attaches to the radial tuberosity."
+ },
+ {
+  "id": "biceps-brachii-kiri",
+  "nama_id": "Otot bisep lengan kiri",
+  "nama_latin": "Musculus biceps brachii sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot bisep lengan kiri berada di bagian anterior lengan atas dan memiliki dua kepala asal dari skapula. Otot ini menekuk siku dan melakukan supinasi lengan bawah.",
+  "fakta": "Tendon distal bisep melekat pada tuberositas radius.",
+  "nama_en": "Left biceps brachii muscle",
+  "deskripsi_en": "The left biceps brachii muscle is located in the anterior compartment of the arm and has two heads of origin from the scapula. It flexes the elbow and supinates the forearm.",
+  "fakta_en": "The distal tendon of the biceps attaches to the radial tuberosity."
+ },
+ {
+  "id": "triceps-brachii-kanan",
+  "nama_id": "Otot trisep lengan kanan",
+  "nama_latin": "Musculus triceps brachii dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot trisep lengan kanan terletak di kompartemen posterior lengan atas. Ketiga kepalanya bergabung menjadi tendon yang melekat pada olekranon ulna untuk mengekstensikan siku.",
+  "fakta": "Kepala panjang trisep melintasi sendi bahu sekaligus sendi siku.",
+  "nama_en": "Right triceps brachii muscle",
+  "deskripsi_en": "The right triceps brachii muscle is located in the posterior compartment of the arm. Its three heads merge into a tendon that attaches to the olecranon of the ulna to extend the elbow.",
+  "fakta_en": "The long head of the triceps crosses both the shoulder and elbow joints."
+ },
+ {
+  "id": "triceps-brachii-kiri",
+  "nama_id": "Otot trisep lengan kiri",
+  "nama_latin": "Musculus triceps brachii sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot trisep lengan kiri terletak di kompartemen posterior lengan atas. Ketiga kepalanya bergabung menjadi tendon yang melekat pada olekranon ulna untuk mengekstensikan siku.",
+  "fakta": "Kepala panjang trisep melintasi sendi bahu sekaligus sendi siku.",
+  "nama_en": "Left triceps brachii muscle",
+  "deskripsi_en": "The left triceps brachii muscle is located in the posterior compartment of the arm. Its three heads merge into a tendon that attaches to the olecranon of the ulna to extend the elbow.",
+  "fakta_en": "The long head of the triceps crosses both the shoulder and elbow joints."
+ },
+ {
+  "id": "rectus-abdominis-kanan",
+  "nama_id": "Otot perut lurus kanan",
+  "nama_latin": "Musculus rectus abdominis dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot perut lurus kanan memanjang di dinding perut anterior dari pubis menuju sternum dan kartilago iga. Otot ini membantu fleksi batang tubuh dan kompresi isi abdomen.",
+  "fakta": "Persilangan tendon pada otot ini membentuk pola yang dikenal sebagai six-pack.",
+  "nama_en": "Right rectus abdominis muscle",
+  "deskripsi_en": "The right rectus abdominis muscle extends along the anterior abdominal wall from the pubis to the sternum and costal cartilages. It assists in trunk flexion and compression of the abdominal contents.",
+  "fakta_en": "Tendinous intersections in this muscle form the pattern commonly known as the six-pack."
+ },
+ {
+  "id": "rectus-abdominis-kiri",
+  "nama_id": "Otot perut lurus kiri",
+  "nama_latin": "Musculus rectus abdominis sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot perut lurus kiri memanjang di dinding perut anterior dari pubis menuju sternum dan kartilago iga. Otot ini membantu fleksi batang tubuh dan kompresi isi abdomen.",
+  "fakta": "Persilangan tendon pada otot ini membentuk pola yang dikenal sebagai six-pack.",
+  "nama_en": "Left rectus abdominis muscle",
+  "deskripsi_en": "The left rectus abdominis muscle extends along the anterior abdominal wall from the pubis to the sternum and costal cartilages. It assists in trunk flexion and compression of the abdominal contents.",
+  "fakta_en": "Tendinous intersections in this muscle form the pattern commonly known as the six-pack."
+ },
+ {
+  "id": "obliquus-externus-kanan",
+  "nama_id": "Otot perut miring luar kanan",
+  "nama_latin": "Musculus obliquus externus abdominis dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot perut miring luar kanan membentuk lapisan superfisial sisi dinding abdomen. Kontraksi unilateral membantu memutar batang tubuh ke sisi berlawanan, sedangkan kontraksi bilateral membantu fleksi dan kompresi abdomen.",
+  "fakta": "Sebagian besar serabutnya berjalan ke arah bawah dan medial.",
+  "nama_en": "Right external oblique muscle",
+  "deskripsi_en": "The right external oblique muscle forms the superficial layer of the lateral abdominal wall. Unilateral contraction helps rotate the trunk to the opposite side, whereas bilateral contraction assists in trunk flexion and abdominal compression.",
+  "fakta_en": "Most of its fibers run in an inferomedial (downward and medial) direction."
+ },
+ {
+  "id": "obliquus-externus-kiri",
+  "nama_id": "Otot perut miring luar kiri",
+  "nama_latin": "Musculus obliquus externus abdominis sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot perut miring luar kiri membentuk lapisan superfisial sisi dinding abdomen. Kontraksi unilateral membantu memutar batang tubuh ke sisi berlawanan, sedangkan kontraksi bilateral membantu fleksi dan kompresi abdomen.",
+  "fakta": "Sebagian besar serabutnya berjalan ke arah bawah dan medial.",
+  "nama_en": "Left external oblique muscle",
+  "deskripsi_en": "The left external oblique muscle forms the superficial layer of the lateral abdominal wall. Unilateral contraction assists in rotating the trunk to the opposite side, while bilateral contraction assists in trunk flexion and abdominal compression.",
+  "fakta_en": "Most of its fibers run in an inferomedial direction (downward and medially)."
+ },
+ {
+  "id": "obliquus-internus-kanan",
+  "nama_id": "Otot perut miring dalam kanan",
+  "nama_latin": "Musculus obliquus internus abdominis dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot perut miring dalam kanan terletak di bawah otot perut miring luar. Kontraksi unilateral membantu rotasi batang tubuh ke sisi yang sama, dan kontraksi bilateral membantu kompresi abdomen.",
+  "fakta": "Serabutnya umumnya menyilang arah serabut otot miring luar.",
+  "nama_en": "Right internal oblique muscle",
+  "deskripsi_en": "The right internal oblique muscle lies deep to the external oblique muscle. Unilateral contraction assists in rotating the trunk to the same side, and bilateral contraction assists in abdominal compression.",
+  "fakta_en": "Its fibers generally run perpendicular to the direction of the external oblique fibers."
+ },
+ {
+  "id": "obliquus-internus-kiri",
+  "nama_id": "Otot perut miring dalam kiri",
+  "nama_latin": "Musculus obliquus internus abdominis sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot perut miring dalam kiri terletak di bawah otot perut miring luar. Kontraksi unilateral membantu rotasi batang tubuh ke sisi yang sama, dan kontraksi bilateral membantu kompresi abdomen.",
+  "fakta": "Serabutnya umumnya menyilang arah serabut otot miring luar.",
+  "nama_en": "Left internal oblique muscle",
+  "deskripsi_en": "The left internal oblique muscle lies deep to the external oblique muscle. Unilateral contraction assists in rotating the trunk to the same side, and bilateral contraction assists in abdominal compression.",
+  "fakta_en": "Its fibers generally run perpendicular to the direction of the external oblique fibers."
+ },
+ {
+  "id": "rectus-femoris-kanan",
+  "nama_id": "Otot paha lurus kanan",
+  "nama_latin": "Musculus rectus femoris dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lurus kanan merupakan salah satu dari empat komponen kuadrisep di bagian depan paha. Otot ini mengekstensikan lutut dan juga membantu fleksi panggul karena melintasi kedua sendi tersebut.",
+  "fakta": "Rectus femoris adalah satu-satunya komponen kuadrisep yang melintasi sendi panggul.",
+  "nama_en": "Right rectus femoris muscle",
+  "deskripsi_en": "The right rectus femoris muscle is one of the four quadriceps components on the anterior thigh. It extends the knee and also assists in hip flexion because it crosses both joints.",
+  "fakta_en": "The rectus femoris is the only component of the quadriceps that crosses the hip joint."
+ },
+ {
+  "id": "rectus-femoris-kiri",
+  "nama_id": "Otot paha lurus kiri",
+  "nama_latin": "Musculus rectus femoris sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lurus kiri merupakan salah satu dari empat komponen kuadrisep di bagian depan paha. Otot ini mengekstensikan lutut dan juga membantu fleksi panggul karena melintasi kedua sendi tersebut.",
+  "fakta": "Rectus femoris adalah satu-satunya komponen kuadrisep yang melintasi sendi panggul.",
+  "nama_en": "Left rectus femoris muscle",
+  "deskripsi_en": "The left rectus femoris muscle is one of the four quadriceps components on the anterior thigh. It extends the knee and also assists in hip flexion because it crosses both joints.",
+  "fakta_en": "The rectus femoris is the only component of the quadriceps that crosses the hip joint."
+ },
+ {
+  "id": "vastus-lateralis-kanan",
+  "nama_id": "Otot paha lebar lateral kanan",
+  "nama_latin": "Musculus vastus lateralis dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lebar lateral kanan berada di sisi luar paha dan merupakan bagian kuadrisep. Otot ini mengekstensikan lutut melalui tendon kuadrisep dan ligamen patela.",
+  "fakta": "Vastus lateralis merupakan komponen terbesar kelompok kuadrisep.",
+  "nama_en": "Right vastus lateralis muscle",
+  "deskripsi_en": "The right vastus lateralis muscle is located on the lateral side of the thigh and is part of the quadriceps femoris. It extends the knee via the quadriceps tendon and patellar ligament.",
+  "fakta_en": "The vastus lateralis is the largest component of the quadriceps muscle group."
+ },
+ {
+  "id": "vastus-lateralis-kiri",
+  "nama_id": "Otot paha lebar lateral kiri",
+  "nama_latin": "Musculus vastus lateralis sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lebar lateral kiri berada di sisi luar paha dan merupakan bagian kuadrisep. Otot ini mengekstensikan lutut melalui tendon kuadrisep dan ligamen patela.",
+  "fakta": "Vastus lateralis merupakan komponen terbesar kelompok kuadrisep.",
+  "nama_en": "Left vastus lateralis muscle",
+  "deskripsi_en": "The left vastus lateralis muscle is located on the lateral side of the thigh and is part of the quadriceps femoris. It extends the knee via the quadriceps tendon and patellar ligament.",
+  "fakta_en": "The vastus lateralis is the largest component of the quadriceps muscle group."
+ },
+ {
+  "id": "vastus-medialis-kanan",
+  "nama_id": "Otot paha lebar medial kanan",
+  "nama_latin": "Musculus vastus medialis dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lebar medial kanan merupakan komponen kuadrisep pada sisi dalam paha. Selain mengekstensikan lutut, serabut distalnya membantu menstabilkan posisi patela.",
+  "fakta": "Tonjolan otot di dekat sisi medial lutut berasal dari bagian distal vastus medialis.",
+  "nama_en": "Right vastus medialis muscle",
+  "deskripsi_en": "The right vastus medialis muscle is a component of the quadriceps on the medial aspect of the thigh. In addition to extending the knee, its distal fibers help stabilize the position of the patella.",
+  "fakta_en": "The muscular bulge near the medial aspect of the knee arises from the distal portion of the vastus medialis."
+ },
+ {
+  "id": "vastus-medialis-kiri",
+  "nama_id": "Otot paha lebar medial kiri",
+  "nama_latin": "Musculus vastus medialis sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lebar medial kiri merupakan komponen kuadrisep pada sisi dalam paha. Selain mengekstensikan lutut, serabut distalnya membantu menstabilkan posisi patela.",
+  "fakta": "Tonjolan otot di dekat sisi medial lutut berasal dari bagian distal vastus medialis.",
+  "nama_en": "Left vastus medialis muscle",
+  "deskripsi_en": "The left vastus medialis muscle is a component of the quadriceps on the medial aspect of the thigh. In addition to extending the knee, its distal fibers help stabilize the position of the patella.",
+  "fakta_en": "The muscular bulge near the medial aspect of the knee arises from the distal portion of the vastus medialis."
+ },
+ {
+  "id": "vastus-intermedius-kanan",
+  "nama_id": "Otot paha lebar tengah kanan",
+  "nama_latin": "Musculus vastus intermedius dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lebar tengah kanan terletak di bagian anterior femur, di bawah rectus femoris. Sebagai komponen kuadrisep, otot ini berperan dalam ekstensi lutut.",
+  "fakta": "Vastus intermedius tertutup oleh rectus femoris pada pandangan superfisial.",
+  "nama_en": "Right vastus intermedius muscle",
+  "deskripsi_en": "The right vastus intermedius muscle is situated on the anterior aspect of the femur, deep to the rectus femoris. As a component of the quadriceps, it functions in knee extension.",
+  "fakta_en": "The vastus intermedius is covered by the rectus femoris on superficial view."
+ },
+ {
+  "id": "vastus-intermedius-kiri",
+  "nama_id": "Otot paha lebar tengah kiri",
+  "nama_latin": "Musculus vastus intermedius sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot paha lebar tengah kiri terletak di bagian anterior femur, di bawah rectus femoris. Sebagai komponen kuadrisep, otot ini berperan dalam ekstensi lutut.",
+  "fakta": "Vastus intermedius tertutup oleh rectus femoris pada pandangan superfisial.",
+  "nama_en": "Left vastus intermedius muscle",
+  "deskripsi_en": "The left vastus intermedius muscle is situated on the anterior aspect of the femur, deep to the rectus femoris. As a component of the quadriceps, it functions in knee extension.",
+  "fakta_en": "The vastus intermedius is covered by the rectus femoris on superficial view."
+ },
+ {
+  "id": "biceps-femoris-kanan",
+  "nama_id": "Otot bisep paha kanan",
+  "nama_latin": "Musculus biceps femoris dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot bisep paha kanan berada di sisi lateral paha posterior dan memiliki kepala panjang serta pendek. Otot ini menekuk lutut dan memutar tungkai ke lateral ketika lutut ditekuk; kepala panjang juga membantu ekstensi panggul.",
+  "fakta": "Kepala pendek tidak melintasi panggul dan tidak memenuhi semua kriteria hamstring sejati.",
+  "nama_en": "Right biceps femoris muscle",
+  "deskripsi_en": "The right biceps femoris muscle is located on the lateral aspect of the posterior thigh and consists of a long head and a short head. It flexes the knee and laterally rotates the leg when the knee is flexed; the long head also assists in hip extension.",
+  "fakta_en": "The short head does not cross the hip joint and does not meet all criteria of a true hamstring muscle."
+ },
+ {
+  "id": "biceps-femoris-kiri",
+  "nama_id": "Otot bisep paha kiri",
+  "nama_latin": "Musculus biceps femoris sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot bisep paha kiri berada di sisi lateral paha posterior dan memiliki kepala panjang serta pendek. Otot ini menekuk lutut dan memutar tungkai ke lateral ketika lutut ditekuk; kepala panjang juga membantu ekstensi panggul.",
+  "fakta": "Kepala pendek tidak melintasi panggul dan tidak memenuhi semua kriteria hamstring sejati.",
+  "nama_en": "Left biceps femoris muscle",
+  "deskripsi_en": "The left biceps femoris muscle is located on the lateral aspect of the posterior thigh and has a long head and a short head. It flexes the knee and laterally rotates the leg when the knee is flexed; the long head also assists in hip extension.",
+  "fakta_en": "The short head does not cross the hip joint and does not meet all criteria of a true hamstring."
+ },
+ {
+  "id": "semitendinosus-kanan",
+  "nama_id": "Otot semitendinosus kanan",
+  "nama_latin": "Musculus semitendinosus dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot semitendinosus kanan adalah otot hamstring pada bagian medial paha posterior. Otot ini mengekstensikan panggul, menekuk lutut, dan membantu rotasi medial tungkai saat lutut ditekuk.",
+  "fakta": "Tendonnya bergabung dalam pes anserinus pada tibia bersama sartorius dan gracilis.",
+  "nama_en": "Right semitendinosus muscle",
+  "deskripsi_en": "The right semitendinosus muscle is a hamstring muscle located in the medial aspect of the posterior thigh. It extends the hip, flexes the knee, and assists in medial rotation of the leg when the knee is flexed.",
+  "fakta_en": "Its tendon joins the pes anserinus on the tibia along with the sartorius and gracilis."
+ },
+ {
+  "id": "semitendinosus-kiri",
+  "nama_id": "Otot semitendinosus kiri",
+  "nama_latin": "Musculus semitendinosus sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot semitendinosus kiri adalah otot hamstring pada bagian medial paha posterior. Otot ini mengekstensikan panggul, menekuk lutut, dan membantu rotasi medial tungkai saat lutut ditekuk.",
+  "fakta": "Tendonnya bergabung dalam pes anserinus pada tibia bersama sartorius dan gracilis.",
+  "nama_en": "Left semitendinosus muscle",
+  "deskripsi_en": "The left semitendinosus muscle is a hamstring muscle located in the medial aspect of the posterior thigh. It extends the hip, flexes the knee, and assists in medial rotation of the leg when the knee is flexed.",
+  "fakta_en": "Its tendon joins the pes anserinus on the tibia along with the sartorius and gracilis."
+ },
+ {
+  "id": "semimembranosus-kanan",
+  "nama_id": "Otot semimembranosus kanan",
+  "nama_latin": "Musculus semimembranosus dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot semimembranosus kanan merupakan otot hamstring medial dengan tendon asal yang lebar. Otot ini membantu ekstensi panggul, fleksi lutut, dan rotasi medial tungkai saat lutut ditekuk.",
+  "fakta": "Sebagian ekspansi tendonnya membentuk ligamen popliteum oblik.",
+  "nama_en": "Right semimembranosus muscle",
+  "deskripsi_en": "The right semimembranosus muscle is a medial hamstring muscle with a broad tendon of origin. It assists in hip extension, knee flexion, and medial rotation of the leg when the knee is flexed.",
+  "fakta_en": "A portion of its tendinous expansion forms the oblique popliteal ligament."
+ },
+ {
+  "id": "semimembranosus-kiri",
+  "nama_id": "Otot semimembranosus kiri",
+  "nama_latin": "Musculus semimembranosus sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot semimembranosus kiri merupakan otot hamstring medial dengan tendon asal yang lebar. Otot ini membantu ekstensi panggul, fleksi lutut, dan rotasi medial tungkai saat lutut ditekuk.",
+  "fakta": "Sebagian ekspansi tendonnya membentuk ligamen popliteum oblik.",
+  "nama_en": "Left semimembranosus muscle",
+  "deskripsi_en": "The left semimembranosus muscle is a medial hamstring muscle with a broad tendon of origin. It assists in hip extension, knee flexion, and medial rotation of the leg when the knee is flexed.",
+  "fakta_en": "A portion of its tendinous expansion forms the oblique popliteal ligament."
+ },
+ {
+  "id": "gastrocnemius-kanan",
+  "nama_id": "Otot betis gastroknemius kanan",
+  "nama_latin": "Musculus gastrocnemius dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot gastroknemius kanan membentuk bagian superfisial betis dan berasal dari dua kepala pada femur. Otot ini melakukan fleksi plantar pergelangan kaki serta membantu menekuk lutut.",
+  "fakta": "Gastroknemius bergabung dengan soleus melalui tendon kalkaneus atau tendon Achilles.",
+  "nama_en": "Right gastrocnemius muscle",
+  "deskripsi_en": "The right gastrocnemius muscle forms the superficial part of the calf and originates from two heads on the femur. It plantarflexes the ankle and assists in knee flexion.",
+  "fakta_en": "The gastrocnemius unites with the soleus to form the calcaneal tendon (Achilles tendon)."
+ },
+ {
+  "id": "gastrocnemius-kiri",
+  "nama_id": "Otot betis gastroknemius kiri",
+  "nama_latin": "Musculus gastrocnemius sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot gastroknemius kiri membentuk bagian superfisial betis dan berasal dari dua kepala pada femur. Otot ini melakukan fleksi plantar pergelangan kaki serta membantu menekuk lutut.",
+  "fakta": "Gastroknemius bergabung dengan soleus melalui tendon kalkaneus atau tendon Achilles.",
+  "nama_en": "Left gastrocnemius muscle",
+  "deskripsi_en": "The left gastrocnemius muscle forms the superficial part of the calf and originates from two heads on the femur. It plantarflexes the ankle and assists in knee flexion.",
+  "fakta_en": "The gastrocnemius unites with the soleus to form the calcaneal tendon (Achilles tendon)."
+ },
+ {
+  "id": "gluteus-maximus-kanan",
+  "nama_id": "Otot bokong besar kanan",
+  "nama_latin": "Musculus gluteus maximus dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot bokong besar kanan adalah otot superfisial utama daerah gluteal. Otot ini mengekstensikan dan memutar paha ke lateral, terutama saat bangkit dari duduk atau menaiki tangga.",
+  "fakta": "Sebagian serabutnya melekat pada traktus iliotibialis, bukan langsung pada femur.",
+  "nama_en": "Right gluteus maximus muscle",
+  "deskripsi_en": "The right gluteus maximus muscle is the principal superficial muscle of the gluteal region. It extends and laterally rotates the thigh, particularly when rising from a seated position or climbing stairs.",
+  "fakta_en": "A portion of its fibers inserts into the iliotibial tract rather than directly onto the femur."
+ },
+ {
+  "id": "gluteus-maximus-kiri",
+  "nama_id": "Otot bokong besar kiri",
+  "nama_latin": "Musculus gluteus maximus sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot bokong besar kiri adalah otot superfisial utama daerah gluteal. Otot ini mengekstensikan dan memutar paha ke lateral, terutama saat bangkit dari duduk atau menaiki tangga.",
+  "fakta": "Sebagian serabutnya melekat pada traktus iliotibialis, bukan langsung pada femur.",
+  "nama_en": "Left gluteus maximus muscle",
+  "deskripsi_en": "The left gluteus maximus muscle is the principal superficial muscle of the gluteal region. It extends and laterally rotates the thigh, particularly when rising from a seated position or climbing stairs.",
+  "fakta_en": "A portion of its fibers inserts into the iliotibial tract rather than directly onto the femur."
+ },
+ {
+  "id": "tibialis-anterior-kanan",
+  "nama_id": "Otot tibialis anterior kanan",
+  "nama_latin": "Musculus tibialis anterior dexter",
+  "sistem": "otot",
+  "deskripsi": "Otot tibialis anterior kanan terletak di kompartemen anterior tungkai bawah. Otot ini melakukan dorsifleksi pergelangan kaki dan inversi kaki untuk membantu kontrol langkah.",
+  "fakta": "Tendonnya melekat pada tulang kuneiform medial dan pangkal metatarsal pertama.",
+  "nama_en": "Right tibialis anterior muscle",
+  "deskripsi_en": "The right tibialis anterior muscle is located in the anterior compartment of the leg. It dorsiflexes the ankle and inverts the foot to assist in gait control.",
+  "fakta_en": "Its tendon attaches to the medial cuneiform bone and the base of the first metatarsal."
+ },
+ {
+  "id": "tibialis-anterior-kiri",
+  "nama_id": "Otot tibialis anterior kiri",
+  "nama_latin": "Musculus tibialis anterior sinister",
+  "sistem": "otot",
+  "deskripsi": "Otot tibialis anterior kiri terletak di kompartemen anterior tungkai bawah. Otot ini melakukan dorsifleksi pergelangan kaki dan inversi kaki untuk membantu kontrol langkah.",
+  "fakta": "Tendonnya melekat pada tulang kuneiform medial dan pangkal metatarsal pertama.",
+  "nama_en": "Left tibialis anterior muscle",
+  "deskripsi_en": "The left tibialis anterior muscle is located in the anterior compartment of the leg. It dorsiflexes the ankle and inverts the foot to assist in gait control.",
+  "fakta_en": "Its tendon attaches to the medial cuneiform bone and the base of the first metatarsal."
+ },
+ {
+  "id": "cranium",
+  "nama_id": "Tengkorak",
+  "nama_latin": "Cranium",
+  "sistem": "tulang",
+  "deskripsi": "Tengkorak adalah kerangka kepala yang tersusun atas tulang neurokranium dan tulang wajah. Bagian neurokranium membentuk rongga yang melindungi otak.",
+  "fakta": "Sebagian besar tulang tengkorak dihubungkan oleh sendi fibrosa yang disebut sutura.",
+  "nama_en": "Skull",
+  "deskripsi_en": "The skull is the skeletal framework of the head composed of the neurocranium and facial bones. The neurocranium forms the cavity that encloses and protects the brain.",
+  "fakta_en": "Most bones of the skull are joined by fibrous joints called sutures."
+ },
+ {
+  "id": "mandibula",
+  "nama_id": "Rahang bawah",
+  "nama_latin": "Mandibula",
+  "sistem": "tulang",
+  "deskripsi": "Mandibula adalah tulang rahang bawah yang menopang gigi bawah. Tulang ini berartikulasi dengan tulang temporal pada sendi temporomandibular dan bergerak saat mengunyah.",
+  "fakta": "Mandibula merupakan satu-satunya tulang wajah yang memiliki gerakan luas terhadap tengkorak.",
+  "nama_en": "Mandible",
+  "deskripsi_en": "The mandible is the lower jawbone that supports the lower teeth. It articulates with the temporal bone at the temporomandibular joint and moves during mastication.",
+  "fakta_en": "The mandible is the only facial bone capable of extensive movement relative to the skull."
+ },
+ {
+  "id": "sternum",
+  "nama_id": "Tulang dada",
+  "nama_latin": "Sternum",
+  "sistem": "tulang",
+  "deskripsi": "Sternum merupakan tulang pipih pada garis tengah dinding dada anterior. Tulang ini terdiri atas manubrium, korpus, dan prosesus xifoideus serta menjadi tempat hubungan kartilago iga.",
+  "fakta": "Sudut sternum menjadi patokan untuk mengenali perlekatan iga kedua.",
+  "nama_en": "Sternum",
+  "deskripsi_en": "The sternum is a flat bone located in the midline of the anterior thoracic wall. It consists of the manubrium, body, and xiphoid process, and serves as an attachment site for the costal cartilages.",
+  "fakta_en": "The sternal angle serves as a landmark for identifying the attachment of the second rib."
+ },
+ {
+  "id": "vertebra-servikal",
+  "nama_id": "Ruas tulang leher",
+  "nama_latin": "Vertebrae cervicales",
+  "sistem": "tulang",
+  "deskripsi": "Tulang belakang servikal terdiri atas tujuh ruas yang menopang kepala dan melindungi medula spinalis. Atlas dan aksis membentuk hubungan khusus yang memungkinkan gerakan kepala.",
+  "fakta": "Aksis memiliki tonjolan dens yang menjadi poros rotasi atlas.",
+  "nama_en": "Cervical vertebrae",
+  "deskripsi_en": "The cervical spine consists of seven vertebrae that support the head and protect the spinal cord. The atlas and axis form a specialized articulation that permits movement of the head.",
+  "fakta_en": "The axis features a projection called the dens, which serves as a pivot for the rotation of the atlas."
+ },
+ {
+  "id": "vertebra-torakal",
+  "nama_id": "Ruas tulang punggung dada",
+  "nama_latin": "Vertebrae thoracicae",
+  "sistem": "tulang",
+  "deskripsi": "Tulang belakang torakal terdiri atas dua belas ruas pada daerah dada. Ruas-ruas ini memiliki faset artikular untuk hubungan dengan iga dan turut membentuk rangka toraks.",
+  "fakta": "Setiap ruas torakal berhubungan dengan sepasang iga.",
+  "nama_en": "Thoracic vertebrae",
+  "deskripsi_en": "The thoracic spine consists of twelve vertebrae in the chest region. These vertebrae possess articular facets for articulation with the ribs and contribute to the formation of the thoracic cage.",
+  "fakta_en": "Each thoracic vertebra articulates with a pair of ribs."
+ },
+ {
+  "id": "vertebra-lumbal",
+  "nama_id": "Ruas tulang pinggang",
+  "nama_latin": "Vertebrae lumbales",
+  "sistem": "tulang",
+  "deskripsi": "Tulang belakang lumbal biasanya terdiri atas lima ruas di punggung bawah. Korpus yang besar menahan beban tubuh dan memungkinkan gerak fleksi serta ekstensi batang tubuh.",
+  "fakta": "Korpus vertebra lumbal lebih besar daripada korpus vertebra servikal.",
+  "nama_en": "Lumbar vertebrae",
+  "deskripsi_en": "The lumbar spine typically consists of five vertebrae in the lower back. Their large vertebral bodies bear the weight of the trunk and allow flexion and extension of the torso.",
+  "fakta_en": "The bodies of the lumbar vertebrae are larger than those of the cervical vertebrae."
+ },
+ {
+  "id": "pelvis",
+  "nama_id": "Panggul tulang",
+  "nama_latin": "Pelvis ossea",
+  "sistem": "tulang",
+  "deskripsi": "Panggul tulang dibentuk oleh kedua tulang panggul, sakrum, dan koksigis. Struktur ini menyalurkan beban batang tubuh ke tungkai serta melindungi organ di rongga pelvis.",
+  "fakta": "Setiap tulang panggul terbentuk dari ilium, iskium, dan pubis yang menyatu.",
+  "nama_en": "Bony pelvis",
+  "deskripsi_en": "The bony pelvis is formed by the two hip bones, the sacrum, and the coccyx. This structure transmits the weight of the trunk to the lower limbs and protects the organs within the pelvic cavity.",
+  "fakta_en": "Each hip bone is formed by the fusion of the ilium, ischium, and pubis."
+ },
+ {
+  "id": "klavikula-kanan",
+  "nama_id": "Tulang selangka kanan",
+  "nama_latin": "Clavicula dextra",
+  "sistem": "tulang",
+  "deskripsi": "Klavikula kanan adalah tulang berbentuk S yang menghubungkan sternum dengan akromion skapula. Tulang ini menjaga posisi bahu agar anggota gerak atas dapat bergerak bebas.",
+  "fakta": "Klavikula merupakan penghubung tulang langsung antara anggota gerak atas dan rangka aksial.",
+  "nama_en": "Right clavicle",
+  "deskripsi_en": "The right clavicle is an S-shaped bone that connects the sternum to the acromion of the scapula. It braces the shoulder to allow the upper limb to move freely.",
+  "fakta_en": "The clavicle provides the only direct bony connection between the upper limb and the axial skeleton."
+ },
+ {
+  "id": "klavikula-kiri",
+  "nama_id": "Tulang selangka kiri",
+  "nama_latin": "Clavicula sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Klavikula kiri adalah tulang berbentuk S yang menghubungkan sternum dengan akromion skapula. Tulang ini menjaga posisi bahu agar anggota gerak atas dapat bergerak bebas.",
+  "fakta": "Klavikula merupakan penghubung tulang langsung antara anggota gerak atas dan rangka aksial.",
+  "nama_en": "Left clavicle",
+  "deskripsi_en": "The left clavicle is an S-shaped bone that connects the sternum to the acromion of the scapula. It braces the shoulder to allow the upper limb to move freely.",
+  "fakta_en": "The clavicle provides the only direct bony connection between the upper limb and the axial skeleton."
+ },
+ {
+  "id": "skapula-kanan",
+  "nama_id": "Tulang belikat kanan",
+  "nama_latin": "Scapula dextra",
+  "sistem": "tulang",
+  "deskripsi": "Skapula kanan adalah tulang pipih berbentuk segitiga pada dinding dada posterior. Rongga glenoidnya berartikulasi dengan kepala humerus membentuk sendi bahu.",
+  "fakta": "Akromion merupakan perluasan spina skapula yang dapat diraba di puncak bahu.",
+  "nama_en": "Right scapula",
+  "deskripsi_en": "The right scapula is a flat, triangular bone located on the posterior chest wall. Its glenoid cavity articulates with the head of the humerus to form the shoulder joint.",
+  "fakta_en": "The acromion is an extension of the spine of the scapula that can be palpated at the tip of the shoulder."
+ },
+ {
+  "id": "skapula-kiri",
+  "nama_id": "Tulang belikat kiri",
+  "nama_latin": "Scapula sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Skapula kiri adalah tulang pipih berbentuk segitiga pada dinding dada posterior. Rongga glenoidnya berartikulasi dengan kepala humerus membentuk sendi bahu.",
+  "fakta": "Akromion merupakan perluasan spina skapula yang dapat diraba di puncak bahu.",
+  "nama_en": "Left scapula",
+  "deskripsi_en": "The left scapula is a flat, triangular bone located on the posterior chest wall. Its glenoid cavity articulates with the head of the humerus to form the shoulder joint.",
+  "fakta_en": "The acromion is an extension of the spine of the scapula that can be palpated at the tip of the shoulder."
+ },
+ {
+  "id": "iga-kanan",
+  "nama_id": "Kelompok tulang rusuk kanan",
+  "nama_latin": "Costae dextrae",
+  "sistem": "tulang",
+  "deskripsi": "Kelompok iga kanan terdiri atas dua belas tulang melengkung yang membentuk dinding toraks. Iga melindungi organ dada dan bergerak bersama mekanika pernapasan.",
+  "fakta": "Iga ke-11 dan ke-12 disebut iga melayang karena tidak memiliki hubungan anterior dengan sternum.",
+  "nama_en": "Right ribs",
+  "deskripsi_en": "The right ribs consist of twelve curved bones that form the thoracic wall. They protect the thoracic organs and move in conjunction with respiratory mechanics.",
+  "fakta_en": "The 11th and 12th ribs are termed floating ribs because they lack an anterior attachment to the sternum."
+ },
+ {
+  "id": "iga-kiri",
+  "nama_id": "Kelompok tulang rusuk kiri",
+  "nama_latin": "Costae sinistrae",
+  "sistem": "tulang",
+  "deskripsi": "Kelompok iga kiri terdiri atas dua belas tulang melengkung yang membentuk dinding toraks. Iga melindungi organ dada dan bergerak bersama mekanika pernapasan.",
+  "fakta": "Iga ke-11 dan ke-12 disebut iga melayang karena tidak memiliki hubungan anterior dengan sternum.",
+  "nama_en": "Left ribs",
+  "deskripsi_en": "The left ribs consist of twelve curved bones that form the thoracic wall. They protect the thoracic organs and move in conjunction with respiratory mechanics.",
+  "fakta_en": "The 11th and 12th ribs are termed floating ribs because they lack an anterior attachment to the sternum."
+ },
+ {
+  "id": "humerus-kanan",
+  "nama_id": "Tulang lengan atas kanan",
+  "nama_latin": "Humerus dexter",
+  "sistem": "tulang",
+  "deskripsi": "Humerus kanan adalah tulang panjang yang menghubungkan bahu dan siku. Kepala humerus berartikulasi dengan skapula, sedangkan ujung distalnya berhubungan dengan radius dan ulna.",
+  "fakta": "Saraf radialis berjalan pada alur di permukaan posterior batang humerus.",
+  "nama_en": "Right humerus",
+  "deskripsi_en": "The right humerus is a long bone connecting the shoulder and the elbow. The head of the humerus articulates with the scapula, while its distal end connects with the radius and ulna.",
+  "fakta_en": "The radial nerve runs in a groove on the posterior surface of the humeral shaft."
+ },
+ {
+  "id": "humerus-kiri",
+  "nama_id": "Tulang lengan atas kiri",
+  "nama_latin": "Humerus sinister",
+  "sistem": "tulang",
+  "deskripsi": "Humerus kiri adalah tulang panjang yang menghubungkan bahu dan siku. Kepala humerus berartikulasi dengan skapula, sedangkan ujung distalnya berhubungan dengan radius dan ulna.",
+  "fakta": "Saraf radialis berjalan pada alur di permukaan posterior batang humerus.",
+  "nama_en": "Left humerus",
+  "deskripsi_en": "The left humerus is a long bone connecting the shoulder and the elbow. The head of the humerus articulates with the scapula, while its distal end connects with the radius and ulna.",
+  "fakta_en": "The radial nerve runs in a groove on the posterior surface of the humeral shaft."
+ },
+ {
+  "id": "radius-kanan",
+  "nama_id": "Tulang pengumpil kanan",
+  "nama_latin": "Radius dexter",
+  "sistem": "tulang",
+  "deskripsi": "Radius kanan terletak di sisi ibu jari lengan bawah pada posisi anatomis. Tulang ini berperan penting pada sendi pergelangan tangan dan bergerak terhadap ulna saat pronasi serta supinasi.",
+  "fakta": "Saat pronasi, radius menyilang di depan ulna.",
+  "nama_en": "Right radius",
+  "deskripsi_en": "The right radius is located on the thumb side of the forearm in the anatomical position. This bone plays an important role in the wrist joint and moves relative to the ulna during pronation and supination.",
+  "fakta_en": "During pronation, the radius crosses anterior to the ulna."
+ },
+ {
+  "id": "radius-kiri",
+  "nama_id": "Tulang pengumpil kiri",
+  "nama_latin": "Radius sinister",
+  "sistem": "tulang",
+  "deskripsi": "Radius kiri terletak di sisi ibu jari lengan bawah pada posisi anatomis. Tulang ini berperan penting pada sendi pergelangan tangan dan bergerak terhadap ulna saat pronasi serta supinasi.",
+  "fakta": "Saat pronasi, radius menyilang di depan ulna.",
+  "nama_en": "Left radius",
+  "deskripsi_en": "The left radius is located on the thumb side of the forearm in the anatomical position. This bone plays an important role in the wrist joint and moves relative to the ulna during pronation and supination.",
+  "fakta_en": "During pronation, the radius crosses anterior to the ulna."
+ },
+ {
+  "id": "ulna-kanan",
+  "nama_id": "Tulang hasta kanan",
+  "nama_latin": "Ulna dextra",
+  "sistem": "tulang",
+  "deskripsi": "Ulna kanan berada di sisi jari kelingking lengan bawah dalam posisi anatomis. Ujung proksimalnya membentuk bagian utama hubungan engsel dengan humerus pada siku.",
+  "fakta": "Olekranon ulna membentuk tonjolan siku yang dapat diraba.",
+  "nama_en": "Right ulna",
+  "deskripsi_en": "The right ulna is located on the little finger side of the forearm in the anatomical position. Its proximal end forms the major part of the hinge articulation with the humerus at the elbow.",
+  "fakta_en": "The olecranon of the ulna forms the palpable point of the elbow."
+ },
+ {
+  "id": "ulna-kiri",
+  "nama_id": "Tulang hasta kiri",
+  "nama_latin": "Ulna sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Ulna kiri berada di sisi jari kelingking lengan bawah dalam posisi anatomis. Ujung proksimalnya membentuk bagian utama hubungan engsel dengan humerus pada siku.",
+  "fakta": "Olekranon ulna membentuk tonjolan siku yang dapat diraba.",
+  "nama_en": "Left ulna",
+  "deskripsi_en": "The left ulna is located on the little finger side of the forearm in the anatomical position. Its proximal end forms the major part of the hinge articulation with the humerus at the elbow.",
+  "fakta_en": "The olecranon of the ulna forms the palpable point of the elbow."
+ },
+ {
+  "id": "karpal-kanan",
+  "nama_id": "Kelompok tulang pergelangan tangan kanan",
+  "nama_latin": "Ossa carpi dextra",
+  "sistem": "tulang",
+  "deskripsi": "Tulang karpal kanan adalah delapan tulang kecil yang tersusun dalam dua baris di pergelangan tangan. Tulang-tulang ini menghubungkan lengan bawah dengan metakarpal dan memungkinkan gerakan tangan.",
+  "fakta": "Tulang pisiform merupakan tulang sesamoid dalam tendon fleksor karpi ulnaris.",
+  "nama_en": "Right carpal bones",
+  "deskripsi_en": "The right carpal bones are eight small bones arranged in two rows at the wrist. These bones connect the forearm to the metacarpals and allow hand movements.",
+  "fakta_en": "The pisiform bone is a sesamoid bone within the tendon of the flexor carpi ulnaris."
+ },
+ {
+  "id": "karpal-kiri",
+  "nama_id": "Kelompok tulang pergelangan tangan kiri",
+  "nama_latin": "Ossa carpi sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Tulang karpal kiri adalah delapan tulang kecil yang tersusun dalam dua baris di pergelangan tangan. Tulang-tulang ini menghubungkan lengan bawah dengan metakarpal dan memungkinkan gerakan tangan.",
+  "fakta": "Tulang pisiform merupakan tulang sesamoid dalam tendon fleksor karpi ulnaris.",
+  "nama_en": "Left carpal bones",
+  "deskripsi_en": "The left carpal bones are eight small bones arranged in two rows at the wrist. These bones connect the forearm to the metacarpals and allow hand movements.",
+  "fakta_en": "The pisiform bone is a sesamoid bone within the tendon of the flexor carpi ulnaris."
+ },
+ {
+  "id": "tulang-panggul-kanan",
+  "nama_id": "Tulang panggul kanan",
+  "nama_latin": "Os coxae dextrum",
+  "sistem": "tulang",
+  "deskripsi": "Tulang panggul kanan dibentuk oleh penyatuan ilium, iskium, dan pubis. Asetabulum pada sisi lateralnya menerima kepala femur untuk membentuk sendi panggul.",
+  "fakta": "Ketiga komponennya bertemu di daerah asetabulum.",
+  "nama_en": "Right hip bone",
+  "deskripsi_en": "The right hip bone is formed by the fusion of the ilium, ischium, and pubis. The acetabulum on its lateral aspect receives the femoral head to form the hip joint.",
+  "fakta_en": "Its three components meet at the region of the acetabulum."
+ },
+ {
+  "id": "tulang-panggul-kiri",
+  "nama_id": "Tulang panggul kiri",
+  "nama_latin": "Os coxae sinistrum",
+  "sistem": "tulang",
+  "deskripsi": "Tulang panggul kiri dibentuk oleh penyatuan ilium, iskium, dan pubis. Asetabulum pada sisi lateralnya menerima kepala femur untuk membentuk sendi panggul.",
+  "fakta": "Ketiga komponennya bertemu di daerah asetabulum.",
+  "nama_en": "Left hip bone",
+  "deskripsi_en": "The left hip bone is formed by the fusion of the ilium, ischium, and pubis. The acetabulum on its lateral aspect receives the femoral head to form the hip joint.",
+  "fakta_en": "Its three components meet at the region of the acetabulum."
+ },
+ {
+  "id": "femur-kanan",
+  "nama_id": "Tulang paha kanan",
+  "nama_latin": "Femur dextrum",
+  "sistem": "tulang",
+  "deskripsi": "Femur kanan adalah tulang panjang paha yang menyalurkan beban dari panggul ke lutut. Kepala femur berartikulasi dengan asetabulum, sedangkan kondilus distalnya berhubungan dengan tibia.",
+  "fakta": "Femur merupakan tulang terpanjang tubuh manusia.",
+  "nama_en": "Right femur",
+  "deskripsi_en": "The right femur is the long bone of the thigh that transmits weight from the pelvis to the knee. The head of the femur articulates with the acetabulum, while its distal condyles connect with the tibia.",
+  "fakta_en": "The femur is the longest bone in the human body."
+ },
+ {
+  "id": "femur-kiri",
+  "nama_id": "Tulang paha kiri",
+  "nama_latin": "Femur sinistrum",
+  "sistem": "tulang",
+  "deskripsi": "Femur kiri adalah tulang panjang paha yang menyalurkan beban dari panggul ke lutut. Kepala femur berartikulasi dengan asetabulum, sedangkan kondilus distalnya berhubungan dengan tibia.",
+  "fakta": "Femur merupakan tulang terpanjang tubuh manusia.",
+  "nama_en": "Left femur",
+  "deskripsi_en": "The left femur is the long bone of the thigh that transmits weight from the pelvis to the knee. The head of the femur articulates with the acetabulum, while its distal condyles connect with the tibia.",
+  "fakta_en": "The femur is the longest bone in the human body."
+ },
+ {
+  "id": "patela-kanan",
+  "nama_id": "Tempurung lutut kanan",
+  "nama_latin": "Patella dextra",
+  "sistem": "tulang",
+  "deskripsi": "Patela kanan adalah tulang sesamoid di dalam tendon kuadrisep pada bagian depan lutut. Tulang ini melindungi sendi dan meningkatkan efektivitas tarikan otot kuadrisep.",
+  "fakta": "Patela merupakan tulang sesamoid terbesar pada tubuh.",
+  "nama_en": "Right patella",
+  "deskripsi_en": "The right patella is a sesamoid bone embedded within the quadriceps tendon on the anterior aspect of the knee. It protects the joint and increases the mechanical leverage of the quadriceps muscle.",
+  "fakta_en": "The patella is the largest sesamoid bone in the human body."
+ },
+ {
+  "id": "patela-kiri",
+  "nama_id": "Tempurung lutut kiri",
+  "nama_latin": "Patella sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Patela kiri adalah tulang sesamoid di dalam tendon kuadrisep pada bagian depan lutut. Tulang ini melindungi sendi dan meningkatkan efektivitas tarikan otot kuadrisep.",
+  "fakta": "Patela merupakan tulang sesamoid terbesar pada tubuh.",
+  "nama_en": "Left patella",
+  "deskripsi_en": "The left patella is a sesamoid bone embedded within the quadriceps tendon on the anterior aspect of the knee. It protects the joint and increases the mechanical leverage of the quadriceps muscle.",
+  "fakta_en": "The patella is the largest sesamoid bone in the human body."
+ },
+ {
+  "id": "tibia-kanan",
+  "nama_id": "Tulang kering kanan",
+  "nama_latin": "Tibia dextra",
+  "sistem": "tulang",
+  "deskripsi": "Tibia kanan adalah tulang utama penahan beban pada sisi medial tungkai bawah. Ujung proksimalnya berhubungan dengan femur, sedangkan ujung distal turut membentuk sendi pergelangan kaki.",
+  "fakta": "Maleolus medial di pergelangan kaki merupakan bagian tibia.",
+  "nama_en": "Right tibia",
+  "deskripsi_en": "The right tibia is the primary weight-bearing bone on the medial side of the leg. Its proximal end articulates with the femur, while its distal end contributes to the formation of the ankle joint.",
+  "fakta_en": "The medial malleolus of the ankle is part of the tibia."
+ },
+ {
+  "id": "tibia-kiri",
+  "nama_id": "Tulang kering kiri",
+  "nama_latin": "Tibia sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Tibia kiri adalah tulang utama penahan beban pada sisi medial tungkai bawah. Ujung proksimalnya berhubungan dengan femur, sedangkan ujung distal turut membentuk sendi pergelangan kaki.",
+  "fakta": "Maleolus medial di pergelangan kaki merupakan bagian tibia.",
+  "nama_en": "Left tibia",
+  "deskripsi_en": "The left tibia is the primary weight-bearing bone on the medial side of the leg. Its proximal end articulates with the femur, while its distal end contributes to the formation of the ankle joint.",
+  "fakta_en": "The medial malleolus of the ankle is part of the tibia."
+ },
+ {
+  "id": "fibula-kanan",
+  "nama_id": "Tulang betis kanan",
+  "nama_latin": "Fibula dextra",
+  "sistem": "tulang",
+  "deskripsi": "Fibula kanan adalah tulang ramping di sisi lateral tungkai bawah. Tulang ini terutama menjadi tempat perlekatan otot dan membantu kestabilan pergelangan kaki.",
+  "fakta": "Fibula tidak berartikulasi langsung dengan femur.",
+  "nama_en": "Right fibula",
+  "deskripsi_en": "The right fibula is a slender bone situated on the lateral side of the leg. It primarily serves as a site for muscle attachment and contributes to the stability of the ankle joint.",
+  "fakta_en": "The fibula does not articulate directly with the femur."
+ },
+ {
+  "id": "fibula-kiri",
+  "nama_id": "Tulang betis kiri",
+  "nama_latin": "Fibula sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Fibula kiri adalah tulang ramping di sisi lateral tungkai bawah. Tulang ini terutama menjadi tempat perlekatan otot dan membantu kestabilan pergelangan kaki.",
+  "fakta": "Fibula tidak berartikulasi langsung dengan femur.",
+  "nama_en": "Left fibula",
+  "deskripsi_en": "The left fibula is a slender bone situated on the lateral side of the leg. It primarily serves as a site for muscle attachment and contributes to the stability of the ankle joint.",
+  "fakta_en": "The fibula does not articulate directly with the femur."
+ },
+ {
+  "id": "tarsal-kanan",
+  "nama_id": "Kelompok tulang pergelangan kaki kanan",
+  "nama_latin": "Ossa tarsi dextra",
+  "sistem": "tulang",
+  "deskripsi": "Tulang tarsal kanan terdiri atas tujuh tulang di bagian belakang dan tengah kaki. Tulang-tulang ini berperan dalam penerimaan beban, gerakan pergelangan kaki, dan pembentukan lengkung kaki.",
+  "fakta": "Kalkaneus merupakan tulang tarsal terbesar dan membentuk tumit.",
+  "nama_en": "Right tarsal bones",
+  "deskripsi_en": "The right tarsal bones consist of seven bones located in the hindfoot and midfoot. These bones are involved in weight transmission, ankle movement, and the formation of the arches of the foot.",
+  "fakta_en": "The calcaneus is the largest tarsal bone and forms the heel."
+ },
+ {
+  "id": "tarsal-kiri",
+  "nama_id": "Kelompok tulang pergelangan kaki kiri",
+  "nama_latin": "Ossa tarsi sinistra",
+  "sistem": "tulang",
+  "deskripsi": "Tulang tarsal kiri terdiri atas tujuh tulang di bagian belakang dan tengah kaki. Tulang-tulang ini berperan dalam penerimaan beban, gerakan pergelangan kaki, dan pembentukan lengkung kaki.",
+  "fakta": "Kalkaneus merupakan tulang tarsal terbesar dan membentuk tumit.",
+  "nama_en": "Left tarsal bones",
+  "deskripsi_en": "The left tarsal bones consist of seven bones located in the hindfoot and midfoot. These bones are involved in weight transmission, ankle movement, and the formation of the arches of the foot.",
+  "fakta_en": "The calcaneus is the largest tarsal bone and forms the heel."
+ },
+ {
+  "id": "jantung-atrium-kanan",
+  "nama_id": "Serambi kanan jantung",
+  "nama_latin": "Atrium dextrum cordis",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Atrium kanan menerima darah dari vena kava superior, vena kava inferior, dan sinus koronarius. Darah mengalir dari ruang ini melalui katup trikuspid menuju ventrikel kanan.",
+  "fakta": "Nodus sinoatrial, pemacu irama normal jantung, berada di dinding atrium kanan.",
+  "nama_en": "Right atrium of the heart",
+  "deskripsi_en": "The right atrium receives deoxygenated blood from the superior vena cava, inferior vena cava, and coronary sinus. Blood flows from this chamber through the tricuspid valve into the right ventricle.",
+  "fakta_en": "The sinoatrial node, the primary pacemaker of the heart, is located in the wall of the right atrium."
+ },
+ {
+  "id": "jantung-atrium-kiri",
+  "nama_id": "Serambi kiri jantung",
+  "nama_latin": "Atrium sinistrum cordis",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Atrium kiri menerima darah kaya oksigen dari vena pulmonalis. Darah diteruskan melalui katup mitral menuju ventrikel kiri.",
+  "fakta": "Biasanya terdapat empat vena pulmonalis yang bermuara ke atrium kiri.",
+  "nama_en": "Left atrium of the heart",
+  "deskripsi_en": "The left atrium receives oxygenated blood from the pulmonary veins. Blood is then directed through the mitral valve into the left ventricle.",
+  "fakta_en": "Typically, four pulmonary veins drain into the left atrium."
+ },
+ {
+  "id": "jantung-ventrikel-kanan",
+  "nama_id": "Bilik kanan jantung",
+  "nama_latin": "Ventriculus dexter cordis",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Ventrikel kanan menerima darah dari atrium kanan dan memompanya ke trunkus pulmonalis. Darah melewati katup pulmonal sebelum menuju sirkulasi paru.",
+  "fakta": "Dinding ventrikel kanan lebih tipis daripada dinding ventrikel kiri.",
+  "nama_en": "Right ventricle of the heart",
+  "deskripsi_en": "The right ventricle receives blood from the right atrium and pumps it into the pulmonary trunk. Blood passes through the pulmonary valve before entering the pulmonary circulation.",
+  "fakta_en": "The wall of the right ventricle is thinner than the wall of the left ventricle."
+ },
+ {
+  "id": "jantung-ventrikel-kiri",
+  "nama_id": "Bilik kiri jantung",
+  "nama_latin": "Ventriculus sinister cordis",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Ventrikel kiri menerima darah dari atrium kiri dan memompanya ke aorta. Kontraksinya menyediakan tekanan untuk mengalirkan darah ke sirkulasi sistemik.",
+  "fakta": "Ventrikel kiri memiliki dinding otot paling tebal di antara empat ruang jantung.",
+  "nama_en": "Left ventricle of the heart",
+  "deskripsi_en": "The left ventricle receives blood from the left atrium and pumps it into the aorta. Its contraction generates the pressure required to circulate blood throughout the systemic circulation.",
+  "fakta_en": "The left ventricle has the thickest muscular wall among the four chambers of the heart."
+ },
+ {
+  "id": "aorta",
+  "nama_id": "Aorta",
+  "nama_latin": "Aorta",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Aorta adalah arteri terbesar yang keluar dari ventrikel kiri. Cabang-cabangnya mendistribusikan darah beroksigen ke seluruh tubuh kecuali sirkulasi paru.",
+  "fakta": "Arteri koroner berasal dari pangkal aorta.",
+  "nama_en": "Aorta",
+  "deskripsi_en": "The aorta is the largest artery arising from the left ventricle. Its branches distribute oxygenated blood to the entire body except the pulmonary circulation.",
+  "fakta_en": "The coronary arteries arise from the root of the aorta."
+ },
+ {
+  "id": "vena-kava-superior",
+  "nama_id": "Vena kava superior",
+  "nama_latin": "Vena cava superior",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Vena kava superior mengembalikan darah dari kepala, leher, anggota gerak atas, dan sebagian toraks. Pembuluh ini terbentuk dari penyatuan vena brakiosefalika dan bermuara ke atrium kanan.",
+  "fakta": "Vena azigos bermuara ke vena kava superior sebelum pembuluh ini memasuki jantung.",
+  "nama_en": "Superior vena cava",
+  "deskripsi_en": "The superior vena cava returns blood from the head, neck, upper limbs, and parts of the thorax. It is formed by the union of the brachiocephalic veins and drains into the right atrium.",
+  "fakta_en": "The azygos vein empties into the superior vena cava before the vessel enters the heart."
+ },
+ {
+  "id": "vena-kava-inferior",
+  "nama_id": "Vena kava inferior",
+  "nama_latin": "Vena cava inferior",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Vena kava inferior mengembalikan darah dari sebagian besar tubuh di bawah diafragma. Pembuluh ini berjalan di sebelah kanan aorta abdominalis dan bermuara ke atrium kanan.",
+  "fakta": "Vena kava inferior melewati diafragma melalui lubang khusus pada tendon sentral.",
+  "nama_en": "Inferior vena cava",
+  "deskripsi_en": "The inferior vena cava returns blood from most of the body below the diaphragm. It ascends to the right of the abdominal aorta and drains into the right atrium.",
+  "fakta_en": "The inferior vena cava passes through the diaphragm via a dedicated opening in the central tendon."
+ },
+ {
+  "id": "arteri-karotis-kanan",
+  "nama_id": "Arteri karotis komunis kanan",
+  "nama_latin": "Arteria carotis communis dextra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Arteri karotis komunis kanan berjalan di leher dan bercabang menjadi arteri karotis interna serta eksterna. Cabang-cabang tersebut memasok darah ke otak dan jaringan kepala serta leher.",
+  "fakta": "Sinus karotis di dekat percabangan berisi reseptor yang mendeteksi perubahan tekanan darah.",
+  "nama_en": "Right common carotid artery",
+  "deskripsi_en": "The right common carotid artery ascends in the neck and bifurcates into the internal and external carotid arteries. These branches supply blood to the brain and tissues of the head and neck.",
+  "fakta_en": "The carotid sinus near the bifurcation contains receptors that detect changes in blood pressure."
+ },
+ {
+  "id": "arteri-karotis-kiri",
+  "nama_id": "Arteri karotis komunis kiri",
+  "nama_latin": "Arteria carotis communis sinistra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Arteri karotis komunis kiri berjalan di leher dan bercabang menjadi arteri karotis interna serta eksterna. Cabang-cabang tersebut memasok darah ke otak dan jaringan kepala serta leher.",
+  "fakta": "Sinus karotis di dekat percabangan berisi reseptor yang mendeteksi perubahan tekanan darah.",
+  "nama_en": "Left common carotid artery",
+  "deskripsi_en": "The left common carotid artery ascends in the neck and bifurcates into the internal and external carotid arteries. These branches supply blood to the brain and tissues of the head and neck.",
+  "fakta_en": "The carotid sinus near the bifurcation contains receptors that detect changes in blood pressure."
+ },
+ {
+  "id": "arteri-brakialis-kanan",
+  "nama_id": "Arteri brakialis kanan",
+  "nama_latin": "Arteria brachialis dextra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Arteri brakialis kanan merupakan kelanjutan arteri aksilaris di lengan atas. Pembuluh ini memasok jaringan lengan dan biasanya bercabang menjadi arteri radialis serta ulnaris di daerah siku.",
+  "fakta": "Tekanan darah dengan manset lengan lazim dinilai melalui aliran arteri brakialis.",
+  "nama_en": "Right brachial artery",
+  "deskripsi_en": "The right brachial artery is the continuation of the axillary artery in the arm. It supplies the tissues of the upper limb and typically bifurcates into the radial and ulnar arteries in the cubital fossa.",
+  "fakta_en": "Blood pressure measured with an arm cuff is routinely assessed using the flow of the brachial artery."
+ },
+ {
+  "id": "arteri-brakialis-kiri",
+  "nama_id": "Arteri brakialis kiri",
+  "nama_latin": "Arteria brachialis sinistra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Arteri brakialis kiri merupakan kelanjutan arteri aksilaris di lengan atas. Pembuluh ini memasok jaringan lengan dan biasanya bercabang menjadi arteri radialis serta ulnaris di daerah siku.",
+  "fakta": "Tekanan darah dengan manset lengan lazim dinilai melalui aliran arteri brakialis.",
+  "nama_en": "Left brachial artery",
+  "deskripsi_en": "The left brachial artery is the continuation of the axillary artery in the arm. It supplies the tissues of the upper limb and typically bifurcates into the radial and ulnar arteries in the cubital fossa.",
+  "fakta_en": "Blood pressure measured with an arm cuff is routinely assessed using the flow of the brachial artery."
+ },
+ {
+  "id": "arteri-femoralis-kanan",
+  "nama_id": "Arteri femoralis kanan",
+  "nama_latin": "Arteria femoralis dextra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Arteri femoralis kanan adalah kelanjutan arteri iliaka eksterna setelah melewati bawah ligamen inguinal. Pembuluh ini memasok tungkai dan berlanjut sebagai arteri poplitea setelah melalui hiatus adduktor.",
+  "fakta": "Denyut femoralis dapat diraba di daerah lipat paha.",
+  "nama_en": "Right femoral artery",
+  "deskripsi_en": "The right femoral artery is the continuation of the external iliac artery after passing deep to the inguinal ligament. It supplies the lower limb and continues as the popliteal artery after traversing the adductor hiatus.",
+  "fakta_en": "The femoral pulse can be palpated in the groin."
+ },
+ {
+  "id": "arteri-femoralis-kiri",
+  "nama_id": "Arteri femoralis kiri",
+  "nama_latin": "Arteria femoralis sinistra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Arteri femoralis kiri adalah kelanjutan arteri iliaka eksterna setelah melewati bawah ligamen inguinal. Pembuluh ini memasok tungkai dan berlanjut sebagai arteri poplitea setelah melalui hiatus adduktor.",
+  "fakta": "Denyut femoralis dapat diraba di daerah lipat paha.",
+  "nama_en": "Left femoral artery",
+  "deskripsi_en": "The left femoral artery is the continuation of the external iliac artery after passing deep to the inguinal ligament. It supplies the lower limb and continues as the popliteal artery after traversing the adductor hiatus.",
+  "fakta_en": "The femoral pulse can be palpated in the groin."
+ },
+ {
+  "id": "vena-jugularis-kanan",
+  "nama_id": "Vena jugularis interna kanan",
+  "nama_latin": "Vena jugularis interna dextra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Vena jugularis interna kanan membawa darah dari otak dan jaringan dalam kepala serta leher. Pembuluh ini berjalan dalam selubung karotis dan bergabung dengan vena subklavia membentuk vena brakiosefalika.",
+  "fakta": "Vena jugularis interna merupakan kelanjutan sinus sigmoid di dasar tengkorak.",
+  "nama_en": "Right internal jugular vein",
+  "deskripsi_en": "The right internal jugular vein drains blood from the brain and deep tissues of the head and neck. It courses within the carotid sheath and joins the subclavian vein to form the brachiocephalic vein.",
+  "fakta_en": "The internal jugular vein is the direct continuation of the sigmoid sinus at the base of the skull."
+ },
+ {
+  "id": "vena-jugularis-kiri",
+  "nama_id": "Vena jugularis interna kiri",
+  "nama_latin": "Vena jugularis interna sinistra",
+  "sistem": "kardiovaskular",
+  "deskripsi": "Vena jugularis interna kiri membawa darah dari otak dan jaringan dalam kepala serta leher. Pembuluh ini berjalan dalam selubung karotis dan bergabung dengan vena subklavia membentuk vena brakiosefalika.",
+  "fakta": "Vena jugularis interna merupakan kelanjutan sinus sigmoid di dasar tengkorak.",
+  "nama_en": "Left internal jugular vein",
+  "deskripsi_en": "The left internal jugular vein drains blood from the brain and deep tissues of the head and neck. It courses within the carotid sheath and joins the subclavian vein to form the brachiocephalic vein.",
+  "fakta_en": "The internal jugular vein is the direct continuation of the sigmoid sinus at the base of the skull."
+ },
+ {
+  "id": "rongga-hidung-kanan",
+  "nama_id": "Rongga hidung kanan",
+  "nama_latin": "Cavitas nasi dextra",
+  "sistem": "pernapasan",
+  "deskripsi": "Rongga hidung kanan adalah ruang jalan napas yang dipisahkan dari sisi lainnya oleh septum hidung. Mukosanya membantu menyaring, menghangatkan, dan melembapkan udara yang dihirup.",
+  "fakta": "Konka hidung menambah luas permukaan mukosa dan membuat aliran udara lebih turbulen.",
+  "nama_en": "Right nasal cavity",
+  "deskripsi_en": "The right nasal cavity is an airway space separated from the contralateral side by the nasal septum. Its mucosa helps filter, warm, and humidify inspired air.",
+  "fakta_en": "The nasal conchae increase the mucosal surface area and create turbulent airflow."
+ },
+ {
+  "id": "rongga-hidung-kiri",
+  "nama_id": "Rongga hidung kiri",
+  "nama_latin": "Cavitas nasi sinistra",
+  "sistem": "pernapasan",
+  "deskripsi": "Rongga hidung kiri adalah ruang jalan napas yang dipisahkan dari sisi lainnya oleh septum hidung. Mukosanya membantu menyaring, menghangatkan, dan melembapkan udara yang dihirup.",
+  "fakta": "Konka hidung menambah luas permukaan mukosa dan membuat aliran udara lebih turbulen.",
+  "nama_en": "Left nasal cavity",
+  "deskripsi_en": "The left nasal cavity is an airway space separated from the contralateral side by the nasal septum. Its mucosa helps filter, warm, and humidify inhaled air.",
+  "fakta_en": "The nasal conchae increase mucosal surface area and produce turbulent airflow."
+ },
+ {
+  "id": "faring",
+  "nama_id": "Faring",
+  "nama_latin": "Pharynx",
+  "sistem": "pernapasan",
+  "deskripsi": "Faring adalah saluran berotot di belakang rongga hidung, rongga mulut, dan laring. Struktur ini meneruskan udara menuju laring serta makanan dari mulut menuju esofagus.",
+  "fakta": "Faring terbagi menjadi nasofaring, orofaring, dan laringofaring.",
+  "nama_en": "Pharynx",
+  "deskripsi_en": "The pharynx is a muscular passage located posterior to the nasal cavity, oral cavity, and larynx. It conducts air to the larynx and directs food from the mouth into the esophagus.",
+  "fakta_en": "The pharynx is divided into the nasopharynx, oropharynx, and laryngopharynx."
+ },
+ {
+  "id": "laring",
+  "nama_id": "Laring",
+  "nama_latin": "Larynx",
+  "sistem": "pernapasan",
+  "deskripsi": "Laring menghubungkan faring dengan trakea dan mengandung lipatan vokal. Rangka kartilagonya menjaga jalan napas, sedangkan mekanisme penutupannya membantu melindungi saluran napas saat menelan.",
+  "fakta": "Lipatan vokal bergetar saat udara lewat untuk menghasilkan suara.",
+  "nama_en": "Larynx",
+  "deskripsi_en": "The larynx connects the pharynx with the trachea and houses the vocal folds. Its cartilaginous framework maintains airway patency, while its closure mechanism helps protect the respiratory tract during swallowing.",
+  "fakta_en": "The vocal folds vibrate as air passes between them to produce sound."
+ },
+ {
+  "id": "trakea",
+  "nama_id": "Trakea",
+  "nama_latin": "Trachea",
+  "sistem": "pernapasan",
+  "deskripsi": "Trakea adalah saluran udara dari laring menuju bronkus utama. Cincin kartilago berbentuk C membantu menjaga lumen tetap terbuka, dan epitel bersilia membantu pembersihan mukus.",
+  "fakta": "Bagian terbuka cincin kartilago menghadap posterior ke arah esofagus.",
+  "nama_en": "Trachea",
+  "deskripsi_en": "The trachea is an airway extending from the larynx to the main bronchi. C-shaped cartilaginous rings maintain lumen patency, and its ciliated epithelium facilitates mucus clearance.",
+  "fakta_en": "The open posterior aspect of the cartilaginous rings faces the esophagus."
+ },
+ {
+  "id": "diafragma",
+  "nama_id": "Diafragma",
+  "nama_latin": "Diaphragma",
+  "sistem": "pernapasan",
+  "deskripsi": "Diafragma adalah sekat otot berbentuk kubah antara rongga dada dan abdomen. Kontraksinya menurunkan kubah sehingga volume toraks bertambah pada inspirasi.",
+  "fakta": "Persarafan motorik diafragma berasal dari saraf frenikus, terutama akar C3 sampai C5.",
+  "nama_en": "Diaphragm",
+  "deskripsi_en": "The diaphragm is a dome-shaped muscular partition separating the thoracic and abdominal cavities. Its contraction depresses the central tendon, expanding thoracic volume during inspiration.",
+  "fakta_en": "Motor innervation to the diaphragm is supplied by the phrenic nerve, primarily from spinal roots C3 through C5."
+ },
+ {
+  "id": "bronkus-kanan",
+  "nama_id": "Bronkus utama kanan",
+  "nama_latin": "Bronchus principalis dexter",
+  "sistem": "pernapasan",
+  "deskripsi": "Bronkus utama kanan merupakan cabang trakea yang memasuki paru melalui hilum. Pembuluh udara ini bercabang menjadi bronkus lobaris dan segmentalis untuk menyalurkan udara ke jaringan paru.",
+  "fakta": "Bronkus utama kanan lebih pendek, lebih lebar, dan lebih vertikal daripada yang kiri.",
+  "nama_en": "Right main bronchus",
+  "deskripsi_en": "The right main bronchus is a primary branch of the trachea that enters the lung through the hilum. It divides into lobar and segmental bronchi to distribute air throughout the pulmonary parenchyma.",
+  "fakta_en": "The right main bronchus is shorter, wider, and more vertically oriented than the left."
+ },
+ {
+  "id": "bronkus-kiri",
+  "nama_id": "Bronkus utama kiri",
+  "nama_latin": "Bronchus principalis sinister",
+  "sistem": "pernapasan",
+  "deskripsi": "Bronkus utama kiri merupakan cabang trakea yang memasuki paru melalui hilum. Pembuluh udara ini bercabang menjadi bronkus lobaris dan segmentalis untuk menyalurkan udara ke jaringan paru.",
+  "fakta": "Bronkus utama kanan lebih pendek, lebih lebar, dan lebih vertikal daripada yang kiri.",
+  "nama_en": "Left main bronchus",
+  "deskripsi_en": "The left main bronchus is a primary branch of the trachea that enters the lung through the hilum. It divides into lobar and segmental bronchi to distribute air throughout the pulmonary parenchyma.",
+  "fakta_en": "The right main bronchus is shorter, wider, and more vertical than the left."
+ },
+ {
+  "id": "paru-kanan",
+  "nama_id": "Paru-paru kanan",
+  "nama_latin": "Pulmo dexter",
+  "sistem": "pernapasan",
+  "deskripsi": "Paru kanan adalah organ pertukaran gas di rongga toraks kanan yang diselubungi pleura. Parenkimnya terdiri atas tiga lobus yang dipisahkan oleh fisura horizontal dan oblik.",
+  "fakta": "Paru kanan memiliki tiga lobus, sedangkan paru kiri memiliki dua.",
+  "nama_en": "Right lung",
+  "deskripsi_en": "The right lung is a gas-exchange organ located in the right hemithorax and enveloped by pleura. Its parenchyma comprises three lobes separated by horizontal and oblique fissures.",
+  "fakta_en": "The right lung has three lobes, whereas the left lung has two."
+ },
+ {
+  "id": "paru-kiri",
+  "nama_id": "Paru-paru kiri",
+  "nama_latin": "Pulmo sinister",
+  "sistem": "pernapasan",
+  "deskripsi": "Paru kiri adalah organ pertukaran gas di rongga toraks kiri yang diselubungi pleura. Organ ini memiliki lobus superior dan inferior serta lekukan untuk menyesuaikan letak jantung.",
+  "fakta": "Lingula adalah bagian lobus superior paru kiri yang menyerupai lidah.",
+  "nama_en": "Left lung",
+  "deskripsi_en": "The left lung is a gas-exchange organ located in the left hemithorax and enveloped by pleura. It consists of superior and inferior lobes and features a cardiac notch to accommodate the heart.",
+  "fakta_en": "The lingula is a tongue-shaped projection of the superior lobe of the left lung."
+ },
+ {
+  "id": "alveolus-kanan",
+  "nama_id": "Alveoli paru kanan",
+  "nama_latin": "Alveoli pulmonis dexter",
+  "sistem": "pernapasan",
+  "deskripsi": "Alveoli paru kanan adalah kantong udara mikroskopis di bagian respiratorik paru. Dinding tipisnya berdekatan dengan kapiler sehingga memungkinkan difusi oksigen dan karbon dioksida.",
+  "fakta": "Pneumosit tipe II menghasilkan surfaktan yang membantu mencegah kolaps alveoli.",
+  "nama_en": "Right pulmonary alveoli",
+  "deskripsi_en": "The right pulmonary alveoli are microscopic air sacs within the respiratory zone of the lung. Their thin walls lie in close apposition to capillaries, permitting the diffusion of oxygen and carbon dioxide.",
+  "fakta_en": "Type II pneumocytes synthesize pulmonary surfactant, which helps prevent alveolar collapse."
+ },
+ {
+  "id": "alveolus-kiri",
+  "nama_id": "Alveoli paru kiri",
+  "nama_latin": "Alveoli pulmonis sinister",
+  "sistem": "pernapasan",
+  "deskripsi": "Alveoli paru kiri adalah kantong udara mikroskopis di bagian respiratorik paru. Dinding tipisnya berdekatan dengan kapiler sehingga memungkinkan difusi oksigen dan karbon dioksida.",
+  "fakta": "Pneumosit tipe II menghasilkan surfaktan yang membantu mencegah kolaps alveoli.",
+  "nama_en": "Left pulmonary alveoli",
+  "deskripsi_en": "The left pulmonary alveoli are microscopic air sacs within the respiratory zone of the lung. Their thin walls lie in close apposition to capillaries, permitting the diffusion of oxygen and carbon dioxide.",
+  "fakta_en": "Type II pneumocytes synthesize pulmonary surfactant, which helps prevent alveolar collapse."
+ },
+ {
+  "id": "mulut",
+  "nama_id": "Rongga mulut",
+  "nama_latin": "Cavitas oris",
+  "sistem": "pencernaan",
+  "deskripsi": "Rongga mulut merupakan pintu masuk makanan ke saluran pencernaan. Gigi dan lidah memecah serta mengolah makanan, sementara saliva membasahi makanan dan memulai pencernaan sebagian karbohidrat.",
+  "fakta": "Amilase saliva mulai memecah pati sebelum makanan mencapai lambung.",
+  "nama_en": "Oral cavity",
+  "deskripsi_en": "The oral cavity serves as the entrance of the alimentary canal. The teeth and tongue mechanically break down and manipulate food, while saliva lubricates the bolus and initiates partial carbohydrate digestion.",
+  "fakta_en": "Salivary amylase begins breaking down starches before food enters the stomach."
+ },
+ {
+  "id": "esofagus",
+  "nama_id": "Kerongkongan",
+  "nama_latin": "Oesophagus",
+  "sistem": "pencernaan",
+  "deskripsi": "Esofagus adalah tabung berotot yang membawa bolus dari faring ke lambung. Gerakan peristaltik mendorong makanan melalui toraks dan melewati diafragma.",
+  "fakta": "Bagian atas esofagus mengandung otot rangka, sedangkan bagian bawah didominasi otot polos.",
+  "nama_en": "Esophagus",
+  "deskripsi_en": "The esophagus is a muscular tube that carries the food bolus from the pharynx to the stomach. Peristaltic movements propel food through the thorax and across the diaphragm.",
+  "fakta_en": "The upper part of the esophagus contains skeletal muscle, whereas the lower part is predominantly composed of smooth muscle."
+ },
+ {
+  "id": "lambung",
+  "nama_id": "Lambung",
+  "nama_latin": "Gaster",
+  "sistem": "pencernaan",
+  "deskripsi": "Lambung adalah bagian saluran cerna yang melebar antara esofagus dan duodenum. Organ ini menyimpan sementara makanan, mencampurnya dengan asam dan enzim, serta membentuk kimus.",
+  "fakta": "Sel parietal menghasilkan faktor intrinsik yang diperlukan untuk penyerapan vitamin B12 di ileum.",
+  "nama_en": "Stomach",
+  "deskripsi_en": "The stomach is a dilated segment of the digestive tract situated between the esophagus and the duodenum. It temporarily stores food, mixes it with acid and enzymes, and forms chyme.",
+  "fakta_en": "Parietal cells secrete intrinsic factor, which is essential for the absorption of vitamin B12 in the ileum."
+ },
+ {
+  "id": "hati",
+  "nama_id": "Hati",
+  "nama_latin": "Hepar",
+  "sistem": "pencernaan",
+  "deskripsi": "Hati adalah organ besar di abdomen kanan atas yang memproses zat gizi dan berbagai senyawa dalam darah. Hati juga menghasilkan empedu, menyimpan glikogen, dan menyintesis banyak protein plasma.",
+  "fakta": "Hati menerima darah dari vena porta hepatika dan arteri hepatika.",
+  "nama_en": "Liver",
+  "deskripsi_en": "The liver is a large organ in the right upper quadrant of the abdomen that processes nutrients and various compounds in the blood. It also produces bile, stores glycogen, and synthesizes many plasma proteins.",
+  "fakta_en": "The liver receives blood from both the hepatic portal vein and the hepatic artery."
+ },
+ {
+  "id": "kantong-empedu",
+  "nama_id": "Kantong empedu",
+  "nama_latin": "Vesica biliaris",
+  "sistem": "pencernaan",
+  "deskripsi": "Kantong empedu merupakan kantong kecil di permukaan bawah hati. Organ ini menyimpan dan memekatkan empedu sebelum mengalirkannya menuju duodenum.",
+  "fakta": "Empedu diproduksi oleh hati, bukan oleh kantong empedu.",
+  "nama_en": "Gallbladder",
+  "deskripsi_en": "The gallbladder is a small sac situated on the inferior surface of the liver. It stores and concentrates bile before releasing it into the duodenum.",
+  "fakta_en": "Bile is synthesized by the liver, not by the gallbladder."
+ },
+ {
+  "id": "pankreas",
+  "nama_id": "Pankreas eksokrin",
+  "nama_latin": "Pancreas, pars exocrina",
+  "sistem": "pencernaan",
+  "deskripsi": "Bagian eksokrin pankreas terdiri atas asinus dan saluran yang mengeluarkan enzim serta bikarbonat ke duodenum. Enzimnya membantu pencernaan karbohidrat, protein, dan lemak.",
+  "fakta": "Sebagian besar enzim pemecah protein pankreas dilepaskan sebagai prekursor yang belum aktif.",
+  "nama_en": "Exocrine pancreas",
+  "deskripsi_en": "The exocrine part of the pancreas consists of acini and ducts that secrete digestive enzymes and bicarbonate into the duodenum. Its enzymes assist in the digestion of carbohydrates, proteins, and lipids.",
+  "fakta_en": "Most pancreatic protein-digesting enzymes are secreted as inactive zymogens (precursors)."
+ },
+ {
+  "id": "usus-halus",
+  "nama_id": "Usus halus",
+  "nama_latin": "Intestinum tenue",
+  "sistem": "pencernaan",
+  "deskripsi": "Usus halus membentang dari pilorus lambung hingga pertemuan dengan usus besar. Duodenum, jejunum, dan ileum menjadi tempat utama pencernaan serta penyerapan zat gizi.",
+  "fakta": "Vili dan mikrovili memperluas permukaan penyerapan usus halus.",
+  "nama_en": "Small intestine",
+  "deskripsi_en": "The small intestine extends from the pylorus of the stomach to the junction with the large intestine. The duodenum, jejunum, and ileum serve as the primary sites of digestion and nutrient absorption.",
+  "fakta_en": "Villi and microvilli vastly increase the absorptive surface area of the small intestine."
+ },
+ {
+  "id": "usus-besar",
+  "nama_id": "Usus besar",
+  "nama_latin": "Intestinum crassum",
+  "sistem": "pencernaan",
+  "deskripsi": "Usus besar mencakup sekum, kolon, rektum, dan kanal anus. Organ ini menyerap air serta elektrolit yang tersisa dan memadatkan isi usus menjadi feses.",
+  "fakta": "Mikrobiota usus besar dapat menghasilkan sebagian vitamin K.",
+  "nama_en": "Large intestine",
+  "deskripsi_en": "The large intestine comprises the cecum, colon, rectum, and anal canal. It absorbs remaining water and electrolytes and compacts intestinal contents into feces.",
+  "fakta_en": "The microbiota of the large intestine can synthesize a portion of the body's vitamin K."
+ },
+ {
+  "id": "apendiks",
+  "nama_id": "Umbai cacing",
+  "nama_latin": "Appendix vermiformis",
+  "sistem": "pencernaan",
+  "deskripsi": "Apendiks adalah tabung sempit yang berasal dari sekum di dekat pertemuan ileum dan usus besar. Dindingnya mengandung jaringan limfoid yang berperan dalam aktivitas imun lokal.",
+  "fakta": "Pangkal apendiks berada pada pertemuan tiga pita otot longitudinal sekum.",
+  "nama_en": "Vermiform appendix",
+  "deskripsi_en": "The appendix is a narrow tube arising from the cecum near the junction of the ileum and the large intestine. Its wall contains lymphoid tissue that participates in local mucosal immunity.",
+  "fakta_en": "The base of the appendix is located at the convergence of the three longitudinal muscle bands (taeniae coli) of the cecum."
+ },
+ {
+  "id": "rektum",
+  "nama_id": "Rektum",
+  "nama_latin": "Rectum",
+  "sistem": "pencernaan",
+  "deskripsi": "Rektum adalah bagian terminal usus besar sebelum kanal anus. Bagian ini menampung feses sementara dan peregangan dindingnya membantu memicu refleks defekasi.",
+  "fakta": "Rektum tidak memiliki taenia coli dan haustra seperti kolon.",
+  "nama_en": "Rectum",
+  "deskripsi_en": "The rectum is the terminal part of the large intestine preceding the anal canal. It temporarily holds feces, and stretching of its walls helps initiate the defecation reflex.",
+  "fakta_en": "The rectum lacks the taeniae coli and haustra characteristic of the colon."
+ },
+ {
+  "id": "hemisfer-serebrum-kanan",
+  "nama_id": "Belahan otak besar kanan",
+  "nama_latin": "Hemispherium cerebri dextrum",
+  "sistem": "saraf",
+  "deskripsi": "Belahan otak besar kanan mencakup korteks dan struktur di bawahnya yang mendukung persepsi, gerakan sadar, serta fungsi kognitif. Kedua belahan berkomunikasi melalui serabut komisural, terutama korpus kalosum.",
+  "fakta": "Sebagian besar kendali motorik korteks untuk tubuh bekerja pada sisi yang berlawanan.",
+  "nama_en": "Right cerebral hemisphere",
+  "deskripsi_en": "The right cerebral hemisphere comprises the cortex and underlying subcortical structures that support perception, voluntary movement, and cognitive functions. Both hemispheres communicate across commissural fibers, primarily the corpus callosum.",
+  "fakta_en": "Most cortical motor control of the body operates on the contralateral side."
+ },
+ {
+  "id": "hemisfer-serebrum-kiri",
+  "nama_id": "Belahan otak besar kiri",
+  "nama_latin": "Hemispherium cerebri sinistrum",
+  "sistem": "saraf",
+  "deskripsi": "Belahan otak besar kiri mencakup korteks dan struktur di bawahnya yang mendukung persepsi, gerakan sadar, serta fungsi kognitif. Kedua belahan berkomunikasi melalui serabut komisural, terutama korpus kalosum.",
+  "fakta": "Sebagian besar kendali motorik korteks untuk tubuh bekerja pada sisi yang berlawanan.",
+  "nama_en": "Left cerebral hemisphere",
+  "deskripsi_en": "The left cerebral hemisphere comprises the cortex and underlying subcortical structures that support perception, voluntary movement, and cognitive functions. Both hemispheres communicate across commissural fibers, primarily the corpus callosum.",
+  "fakta_en": "Most cortical motor control of the body operates on the contralateral side."
+ },
+ {
+  "id": "serebelum",
+  "nama_id": "Otak kecil",
+  "nama_latin": "Cerebellum",
+  "sistem": "saraf",
+  "deskripsi": "Serebelum terletak di fosa kranii posterior, di belakang batang otak. Struktur ini membantu koordinasi gerakan, keseimbangan, dan pembelajaran motorik.",
+  "fakta": "Serebelum menyesuaikan ketepatan gerak, bukan menjadi sumber utama perintah gerakan sadar.",
+  "nama_en": "Cerebellum",
+  "deskripsi_en": "The cerebellum is located in the posterior cranial fossa, posterior to the brainstem. It contributes to motor coordination, balance, and motor learning.",
+  "fakta_en": "The cerebellum fine-tunes motor precision rather than initiating voluntary motor commands."
+ },
+ {
+  "id": "batang-otak",
+  "nama_id": "Batang otak",
+  "nama_latin": "Truncus encephali",
+  "sistem": "saraf",
+  "deskripsi": "Batang otak terdiri atas mesensefalon, pons, dan medula oblongata. Struktur ini menghubungkan otak dengan medula spinalis serta mengandung banyak nukleus saraf kranial dan pusat pengaturan fungsi vital.",
+  "fakta": "Medula oblongata memuat jaringan pengatur pernapasan dan fungsi kardiovaskular.",
+  "nama_en": "Brainstem",
+  "deskripsi_en": "The brainstem consists of the midbrain, pons, and medulla oblongata. It connects the brain with the spinal cord and contains numerous cranial nerve nuclei as well as centers regulating vital functions.",
+  "fakta_en": "The medulla oblongata contains networks that regulate respiratory and cardiovascular functions."
+ },
+ {
+  "id": "medula-spinalis",
+  "nama_id": "Sumsum tulang belakang",
+  "nama_latin": "Medulla spinalis",
+  "sistem": "saraf",
+  "deskripsi": "Medula spinalis berada di dalam kanalis vertebralis dan menghubungkan otak dengan saraf spinal. Jaringan ini meneruskan informasi sensorik dan motorik sekaligus mengintegrasikan berbagai refleks.",
+  "fakta": "Pada orang dewasa, medula spinalis biasanya berakhir sekitar tingkat vertebra L1 atau L2.",
+  "nama_en": "Spinal cord",
+  "deskripsi_en": "The spinal cord is situated within the vertebral canal and connects the brain with the spinal nerves. It conveys sensory and motor information while also integrating various reflexes.",
+  "fakta_en": "In adults, the spinal cord typically terminates around the level of the L1 or L2 vertebra."
+ },
+ {
+  "id": "saraf-optik-kanan",
+  "nama_id": "Saraf optik kanan",
+  "nama_latin": "Nervus opticus dexter",
+  "sistem": "saraf",
+  "deskripsi": "Saraf optik kanan membawa informasi visual dari retina menuju otak. Serabutnya berasal dari akson sel ganglion retina dan sebagian menyilang pada kiasma optikum.",
+  "fakta": "Saraf optik merupakan saraf kranial kedua.",
+  "nama_en": "Right optic nerve",
+  "deskripsi_en": "The right optic nerve conveys visual information from the retina to the brain. Its fibers arise from the axons of retinal ganglion cells, with some decussating at the optic chiasm.",
+  "fakta_en": "The optic nerve is the second cranial nerve."
+ },
+ {
+  "id": "saraf-optik-kiri",
+  "nama_id": "Saraf optik kiri",
+  "nama_latin": "Nervus opticus sinister",
+  "sistem": "saraf",
+  "deskripsi": "Saraf optik kiri membawa informasi visual dari retina menuju otak. Serabutnya berasal dari akson sel ganglion retina dan sebagian menyilang pada kiasma optikum.",
+  "fakta": "Saraf optik merupakan saraf kranial kedua.",
+  "nama_en": "Left optic nerve",
+  "deskripsi_en": "The left optic nerve conveys visual information from the retina to the brain. Its fibers arise from the axons of retinal ganglion cells, with some decussating at the optic chiasm.",
+  "fakta_en": "The optic nerve is the second cranial nerve."
+ },
+ {
+  "id": "saraf-vagus-kanan",
+  "nama_id": "Saraf vagus kanan",
+  "nama_latin": "Nervus vagus dexter",
+  "sistem": "saraf",
+  "deskripsi": "Saraf vagus kanan membawa komponen sensorik, motorik, dan parasimpatis ke banyak organ. Cabangnya melayani faring, laring, serta berbagai organ toraks dan abdomen.",
+  "fakta": "Vagus adalah saraf kranial kesepuluh dan menjangkau jauh melampaui kepala serta leher.",
+  "nama_en": "Right vagus nerve",
+  "deskripsi_en": "The right vagus nerve carries sensory, motor, and parasympathetic components to numerous organs. Its branches supply the pharynx, larynx, and various thoracic and abdominal organs.",
+  "fakta_en": "The vagus nerve is the tenth cranial nerve and extends far beyond the head and neck."
+ },
+ {
+  "id": "saraf-vagus-kiri",
+  "nama_id": "Saraf vagus kiri",
+  "nama_latin": "Nervus vagus sinister",
+  "sistem": "saraf",
+  "deskripsi": "Saraf vagus kiri membawa komponen sensorik, motorik, dan parasimpatis ke banyak organ. Cabangnya melayani faring, laring, serta berbagai organ toraks dan abdomen.",
+  "fakta": "Vagus adalah saraf kranial kesepuluh dan menjangkau jauh melampaui kepala serta leher.",
+  "nama_en": "Left vagus nerve",
+  "deskripsi_en": "The left vagus nerve carries sensory, motor, and parasympathetic components to numerous organs. Its branches supply the pharynx, larynx, and various thoracic and abdominal organs.",
+  "fakta_en": "The vagus nerve is the tenth cranial nerve and extends far beyond the head and neck."
+ },
+ {
+  "id": "pleksus-brakialis-kanan",
+  "nama_id": "Pleksus brakialis kanan",
+  "nama_latin": "Plexus brachialis dexter",
+  "sistem": "saraf",
+  "deskripsi": "Pleksus brakialis kanan adalah jejaring saraf yang umumnya dibentuk oleh rami anterior C5 sampai T1. Cabangnya memasok persarafan motorik dan sensorik untuk sebagian besar anggota gerak atas.",
+  "fakta": "Saraf medianus, ulnaris, dan radialis berasal dari pleksus brakialis.",
+  "nama_en": "Right brachial plexus",
+  "deskripsi_en": "The right brachial plexus is a nerve network typically formed by the anterior rami of C5 through T1. Its branches provide motor and sensory innervation to most of the upper limb.",
+  "fakta_en": "The median, ulnar, and radial nerves arise from the brachial plexus."
+ },
+ {
+  "id": "pleksus-brakialis-kiri",
+  "nama_id": "Pleksus brakialis kiri",
+  "nama_latin": "Plexus brachialis sinister",
+  "sistem": "saraf",
+  "deskripsi": "Pleksus brakialis kiri adalah jejaring saraf yang umumnya dibentuk oleh rami anterior C5 sampai T1. Cabangnya memasok persarafan motorik dan sensorik untuk sebagian besar anggota gerak atas.",
+  "fakta": "Saraf medianus, ulnaris, dan radialis berasal dari pleksus brakialis.",
+  "nama_en": "Left brachial plexus",
+  "deskripsi_en": "The left brachial plexus is a nerve network typically formed by the anterior rami of C5 through T1. Its branches provide motor and sensory innervation to most of the upper limb.",
+  "fakta_en": "The median, ulnar, and radial nerves arise from the brachial plexus."
+ },
+ {
+  "id": "saraf-skiatik-kanan",
+  "nama_id": "Saraf skiatik kanan",
+  "nama_latin": "Nervus ischiadicus dexter",
+  "sistem": "saraf",
+  "deskripsi": "Saraf skiatik kanan berasal dari pleksus sakral dengan kontribusi akar L4 sampai S3. Saraf ini melewati daerah gluteal dan paha posterior sebelum terbagi menjadi komponen tibialis serta fibularis komunis.",
+  "fakta": "Saraf skiatik merupakan saraf perifer terbesar tubuh.",
+  "nama_en": "Right sciatic nerve",
+  "deskripsi_en": "The right sciatic nerve arises from the sacral plexus with contributions from the L4 through S3 roots. It traverses the gluteal region and posterior thigh before dividing into the tibial and common fibular components.",
+  "fakta_en": "The sciatic nerve is the largest peripheral nerve in the body."
+ },
+ {
+  "id": "saraf-skiatik-kiri",
+  "nama_id": "Saraf skiatik kiri",
+  "nama_latin": "Nervus ischiadicus sinister",
+  "sistem": "saraf",
+  "deskripsi": "Saraf skiatik kiri berasal dari pleksus sakral dengan kontribusi akar L4 sampai S3. Saraf ini melewati daerah gluteal dan paha posterior sebelum terbagi menjadi komponen tibialis serta fibularis komunis.",
+  "fakta": "Saraf skiatik merupakan saraf perifer terbesar tubuh.",
+  "nama_en": "Left sciatic nerve",
+  "deskripsi_en": "The left sciatic nerve arises from the sacral plexus with contributions from the L4 through S3 roots. It traverses the gluteal region and posterior thigh before dividing into the tibial and common fibular components.",
+  "fakta_en": "The sciatic nerve is the largest peripheral nerve in the body."
+ },
+ {
+  "id": "ginjal-kanan",
+  "nama_id": "Ginjal kanan",
+  "nama_latin": "Ren dexter",
+  "sistem": "urinaria",
+  "deskripsi": "Ginjal kanan berada di ruang retroperitoneal dan mengandung nefron yang menyaring plasma darah. Organ ini mengatur air, elektrolit, keseimbangan asam-basa, serta menghasilkan hormon seperti eritropoietin.",
+  "fakta": "Ginjal kanan biasanya terletak lebih rendah daripada ginjal kiri karena posisi hati.",
+  "nama_en": "Right kidney",
+  "deskripsi_en": "The right kidney lies in the retroperitoneal space and contains nephrons that filter blood plasma. It regulates water, electrolytes, and acid-base balance, and produces hormones such as erythropoietin.",
+  "fakta_en": "The right kidney is typically positioned lower than the left kidney due to the presence of the liver."
+ },
+ {
+  "id": "ginjal-kiri",
+  "nama_id": "Ginjal kiri",
+  "nama_latin": "Ren sinister",
+  "sistem": "urinaria",
+  "deskripsi": "Ginjal kiri berada di ruang retroperitoneal dan mengandung nefron yang menyaring plasma darah. Organ ini mengatur air, elektrolit, keseimbangan asam-basa, serta menghasilkan hormon seperti eritropoietin.",
+  "fakta": "Ginjal kanan biasanya terletak lebih rendah daripada ginjal kiri karena posisi hati.",
+  "nama_en": "Left kidney",
+  "deskripsi_en": "The left kidney lies in the retroperitoneal space and contains nephrons that filter blood plasma. It regulates water, electrolytes, and acid-base balance, and produces hormones such as erythropoietin.",
+  "fakta_en": "The right kidney is typically positioned lower than the left kidney due to the presence of the liver."
+ },
+ {
+  "id": "ureter-kanan",
+  "nama_id": "Ureter kanan",
+  "nama_latin": "Ureter dexter",
+  "sistem": "urinaria",
+  "deskripsi": "Ureter kanan adalah tabung berotot yang membawa urine dari pelvis ginjal menuju kandung kemih. Gerakan peristaltik dindingnya membantu mengalirkan urine tanpa mengandalkan gravitasi saja.",
+  "fakta": "Lintasan ureter yang miring melalui dinding kandung kemih membantu mengurangi aliran balik urine.",
+  "nama_en": "Right ureter",
+  "deskripsi_en": "The right ureter is a muscular tube that carries urine from the renal pelvis to the urinary bladder. Peristaltic contractions of its wall help propel urine without relying on gravity alone.",
+  "fakta_en": "The oblique course of the ureter through the bladder wall helps prevent backflow of urine."
+ },
+ {
+  "id": "ureter-kiri",
+  "nama_id": "Ureter kiri",
+  "nama_latin": "Ureter sinister",
+  "sistem": "urinaria",
+  "deskripsi": "Ureter kiri adalah tabung berotot yang membawa urine dari pelvis ginjal menuju kandung kemih. Gerakan peristaltik dindingnya membantu mengalirkan urine tanpa mengandalkan gravitasi saja.",
+  "fakta": "Lintasan ureter yang miring melalui dinding kandung kemih membantu mengurangi aliran balik urine.",
+  "nama_en": "Left ureter",
+  "deskripsi_en": "The left ureter is a muscular tube that carries urine from the renal pelvis to the urinary bladder. Peristaltic contractions of its wall help propel urine without relying on gravity alone.",
+  "fakta_en": "The oblique course of the ureter through the bladder wall helps prevent backflow of urine."
+ },
+ {
+  "id": "kandung-kemih",
+  "nama_id": "Kandung kemih",
+  "nama_latin": "Vesica urinaria",
+  "sistem": "urinaria",
+  "deskripsi": "Kandung kemih adalah organ berongga berotot di pelvis yang menyimpan urine. Kontraksi otot detrusor bersama koordinasi sfingter memungkinkan pengosongan melalui uretra.",
+  "fakta": "Epitel transisional kandung kemih dapat menyesuaikan bentuk saat organ mengembang.",
+  "nama_en": "Urinary bladder",
+  "deskripsi_en": "The urinary bladder is a hollow muscular organ in the pelvis that stores urine. Contraction of the detrusor muscle combined with sphincter coordination allows for emptying through the urethra.",
+  "fakta_en": "The transitional epithelium of the urinary bladder can adapt its shape as the organ distends."
+ },
+ {
+  "id": "uretra",
+  "nama_id": "Uretra",
+  "nama_latin": "Urethra",
+  "sistem": "urinaria",
+  "deskripsi": "Uretra adalah saluran yang membawa urine dari kandung kemih ke luar tubuh. Panjang dan lintasannya berbeda pada anatomi reproduksi perempuan dan laki-laki; pada laki-laki saluran ini juga dilalui semen.",
+  "fakta": "Uretra perempuan lebih pendek daripada uretra laki-laki.",
+  "nama_en": "Urethra",
+  "deskripsi_en": "The urethra is a duct that carries urine from the urinary bladder to the outside of the body. Its length and path differ between female and male reproductive anatomy; in males, it also conveys semen.",
+  "fakta_en": "The female urethra is shorter than the male urethra."
+ },
+ {
+  "id": "ovarium-kanan",
+  "nama_id": "Indung telur kanan",
+  "nama_latin": "Ovarium dextrum",
+  "sistem": "reproduksi",
+  "deskripsi": "Ovarium kanan adalah gonad yang mengandung folikel dengan oosit dan menghasilkan hormon reproduksi. Folikel mengalami perubahan selama siklus ovarium, dan ovulasi melepaskan oosit dari folikel matang.",
+  "fakta": "Setelah ovulasi, sisa folikel membentuk korpus luteum yang menghasilkan progesteron.",
+  "nama_en": "Right ovary",
+  "deskripsi_en": "The right ovary is a gonad that contains follicles with oocytes and produces reproductive hormones. Follicles undergo changes during the ovarian cycle, and ovulation releases an oocyte from a mature follicle.",
+  "fakta_en": "After ovulation, the remnants of the follicle form the corpus luteum, which produces progesterone."
+ },
+ {
+  "id": "ovarium-kiri",
+  "nama_id": "Indung telur kiri",
+  "nama_latin": "Ovarium sinistrum",
+  "sistem": "reproduksi",
+  "deskripsi": "Ovarium kiri adalah gonad yang mengandung folikel dengan oosit dan menghasilkan hormon reproduksi. Folikel mengalami perubahan selama siklus ovarium, dan ovulasi melepaskan oosit dari folikel matang.",
+  "fakta": "Setelah ovulasi, sisa folikel membentuk korpus luteum yang menghasilkan progesteron.",
+  "nama_en": "Left ovary",
+  "deskripsi_en": "The left ovary is a gonad that contains follicles with oocytes and produces reproductive hormones. Follicles undergo changes during the ovarian cycle, and ovulation releases an oocyte from a mature follicle.",
+  "fakta_en": "After ovulation, the remnants of the follicle form the corpus luteum, which produces progesterone."
+ },
+ {
+  "id": "tuba-uterina-kanan",
+  "nama_id": "Tuba uterina kanan",
+  "nama_latin": "Tuba uterina dextra",
+  "sistem": "reproduksi",
+  "deskripsi": "Tuba uterina kanan membentang dari dekat ovarium menuju uterus. Silia dan kontraksi otot polosnya membantu perpindahan oosit atau embrio awal menuju rongga uterus.",
+  "fakta": "Pembuahan paling sering terjadi di bagian ampula tuba uterina.",
+  "nama_en": "Right uterine tube",
+  "deskripsi_en": "The right uterine tube extends from near the ovary toward the uterus. Its cilia and smooth muscle contractions help transport the oocyte or early embryo toward the uterine cavity.",
+  "fakta_en": "Fertilization most commonly occurs in the ampulla of the uterine tube."
+ },
+ {
+  "id": "tuba-uterina-kiri",
+  "nama_id": "Tuba uterina kiri",
+  "nama_latin": "Tuba uterina sinistra",
+  "sistem": "reproduksi",
+  "deskripsi": "Tuba uterina kiri membentang dari dekat ovarium menuju uterus. Silia dan kontraksi otot polosnya membantu perpindahan oosit atau embrio awal menuju rongga uterus.",
+  "fakta": "Pembuahan paling sering terjadi di bagian ampula tuba uterina.",
+  "nama_en": "Left uterine tube",
+  "deskripsi_en": "The left uterine tube extends from near the ovary toward the uterus. Its cilia and smooth muscle contractions help transport the oocyte or early embryo toward the uterine cavity.",
+  "fakta_en": "Fertilization most commonly occurs in the ampulla of the uterine tube."
+ },
+ {
+  "id": "testis-kanan",
+  "nama_id": "Testis kanan",
+  "nama_latin": "Testis dexter",
+  "sistem": "reproduksi",
+  "deskripsi": "Testis kanan adalah gonad di dalam skrotum yang menghasilkan spermatozoa dan hormon testosteron. Produksi spermatozoa berlangsung di tubulus seminiferus dengan dukungan sel Sertoli.",
+  "fakta": "Sel Leydig di antara tubulus seminiferus menghasilkan testosteron.",
+  "nama_en": "Right testis",
+  "deskripsi_en": "The right testis is a gonad within the scrotum that produces spermatozoa and the hormone testosterone. Sperm production takes place in the seminiferous tubules with the support of Sertoli cells.",
+  "fakta_en": "Leydig cells located between the seminiferous tubules produce testosterone."
+ },
+ {
+  "id": "testis-kiri",
+  "nama_id": "Testis kiri",
+  "nama_latin": "Testis sinister",
+  "sistem": "reproduksi",
+  "deskripsi": "Testis kiri adalah gonad di dalam skrotum yang menghasilkan spermatozoa dan hormon testosteron. Produksi spermatozoa berlangsung di tubulus seminiferus dengan dukungan sel Sertoli.",
+  "fakta": "Sel Leydig di antara tubulus seminiferus menghasilkan testosteron.",
+  "nama_en": "Left testis",
+  "deskripsi_en": "The left testis is a gonad within the scrotum that produces spermatozoa and the hormone testosterone. Sperm production takes place in the seminiferous tubules with the support of Sertoli cells.",
+  "fakta_en": "Leydig cells located between the seminiferous tubules produce testosterone."
+ },
+ {
+  "id": "epididimis-kanan",
+  "nama_id": "Epididimis kanan",
+  "nama_latin": "Epididymis dextra",
+  "sistem": "reproduksi",
+  "deskripsi": "Epididimis kanan adalah saluran berkelok pada permukaan posterior testis. Struktur ini menjadi tempat pematangan dan penyimpanan spermatozoa sebelum dialirkan ke duktus deferens.",
+  "fakta": "Saluran epididimis yang sangat berkelok memungkinkan panjang saluran besar dalam ruang kecil.",
+  "nama_en": "Right epididymis",
+  "deskripsi_en": "The right epididymis is a coiled duct on the posterior surface of the testis. It serves as the site for the maturation and storage of spermatozoa before they are conveyed to the ductus deferens.",
+  "fakta_en": "The highly convoluted duct of the epididymis accommodates a long ductal length within a small space."
+ },
+ {
+  "id": "epididimis-kiri",
+  "nama_id": "Epididimis kiri",
+  "nama_latin": "Epididymis sinistra",
+  "sistem": "reproduksi",
+  "deskripsi": "Epididimis kiri adalah saluran berkelok pada permukaan posterior testis. Struktur ini menjadi tempat pematangan dan penyimpanan spermatozoa sebelum dialirkan ke duktus deferens.",
+  "fakta": "Saluran epididimis yang sangat berkelok memungkinkan panjang saluran besar dalam ruang kecil.",
+  "nama_en": "Left epididymis",
+  "deskripsi_en": "The left epididymis is a coiled duct on the posterior surface of the testis. It serves as the site for the maturation and storage of spermatozoa before they are conveyed to the ductus deferens.",
+  "fakta_en": "The highly convoluted duct of the epididymis accommodates a long ductal length within a small space."
+ },
+ {
+  "id": "vas-deferens-kanan",
+  "nama_id": "Saluran deferens kanan",
+  "nama_latin": "Ductus deferens dexter",
+  "sistem": "reproduksi",
+  "deskripsi": "Saluran deferens kanan adalah tabung berotot yang membawa spermatozoa dari epididimis. Saluran ini masuk ke rongga pelvis dan bergabung dengan saluran vesikula seminalis membentuk duktus ejakulatorius.",
+  "fakta": "Dinding otot yang tebal membantu mendorong spermatozoa selama ejakulasi.",
+  "nama_en": "Right ductus deferens",
+  "deskripsi_en": "The right ductus deferens (vas deferens) is a muscular tube that carries spermatozoa from the epididymis. It enters the pelvic cavity and joins the duct of the seminal vesicle to form the ejaculatory duct.",
+  "fakta_en": "Its thick muscular wall helps propel spermatozoa during ejaculation."
+ },
+ {
+  "id": "vas-deferens-kiri",
+  "nama_id": "Saluran deferens kiri",
+  "nama_latin": "Ductus deferens sinister",
+  "sistem": "reproduksi",
+  "deskripsi": "Saluran deferens kiri adalah tabung berotot yang membawa spermatozoa dari epididimis. Saluran ini masuk ke rongga pelvis dan bergabung dengan saluran vesikula seminalis membentuk duktus ejakulatorius.",
+  "fakta": "Dinding otot yang tebal membantu mendorong spermatozoa selama ejakulasi.",
+  "nama_en": "Left ductus deferens",
+  "deskripsi_en": "The left ductus deferens (vas deferens) is a muscular tube that carries spermatozoa from the epididymis. It enters the pelvic cavity and joins the duct of the seminal vesicle to form the ejaculatory duct.",
+  "fakta_en": "Its thick muscular wall helps propel spermatozoa during ejaculation."
+ },
+ {
+  "id": "uterus",
+  "nama_id": "Rahim",
+  "nama_latin": "Uterus",
+  "sistem": "reproduksi",
+  "deskripsi": "Uterus adalah organ berongga berotot di pelvis yang menjadi tempat implantasi dan perkembangan embrio serta janin. Dindingnya terdiri atas endometrium, miometrium, dan lapisan serosa atau adventisia sesuai lokasinya.",
+  "fakta": "Lapisan fungsional endometrium mengalami peluruhan saat menstruasi jika tidak terjadi kehamilan.",
+  "nama_en": "Uterus",
+  "deskripsi_en": "The uterus is a hollow muscular organ in the pelvis that serves as the site for implantation and development of the embryo and fetus. Its wall consists of the endometrium, myometrium, and a serous or adventitial layer depending on the location.",
+  "fakta_en": "The functional layer of the endometrium is shed during menstruation if pregnancy does not occur."
+ },
+ {
+  "id": "vagina",
+  "nama_id": "Vagina",
+  "nama_latin": "Vagina",
+  "sistem": "reproduksi",
+  "deskripsi": "Vagina adalah saluran fibromuskular yang menghubungkan serviks uterus dengan vestibulum. Saluran ini menjadi jalan keluarnya darah menstruasi dan bagian jalan lahir.",
+  "fakta": "Mukosa vagina tidak memiliki kelenjar; pelumas berasal antara lain dari transudasi dinding dan sekret serviks.",
+  "nama_en": "Vagina",
+  "deskripsi_en": "The vagina is a fibromuscular canal that connects the uterine cervix to the vestibule. It serves as an excretory channel for menstrual fluid and forms part of the birth canal.",
+  "fakta_en": "The vaginal mucosa has no glands; lubrication is derived, among other sources, from transudation across the vaginal wall and cervical secretions."
+ },
+ {
+  "id": "prostat",
+  "nama_id": "Kelenjar prostat",
+  "nama_latin": "Prostata",
+  "sistem": "reproduksi",
+  "deskripsi": "Prostat adalah kelenjar yang terletak di bawah kandung kemih dan mengelilingi bagian awal uretra laki-laki. Sekretnya menjadi bagian cairan semen dan mengandung enzim yang membantu pencairan semen setelah ejakulasi.",
+  "fakta": "Pembesaran prostat dapat memengaruhi aliran urine karena letaknya mengelilingi uretra.",
+  "nama_en": "Prostate gland",
+  "deskripsi_en": "The prostate is a gland located inferior to the urinary bladder that encircles the initial portion of the male urethra. Its secretion contributes to seminal fluid and contains enzymes that aid in semen liquefaction after ejaculation.",
+  "fakta_en": "Prostatic enlargement can affect urinary flow because the gland surrounds the urethra."
+ },
+ {
+  "id": "penis",
+  "nama_id": "Penis",
+  "nama_latin": "Penis",
+  "sistem": "reproduksi",
+  "deskripsi": "Penis adalah organ eksternal yang mengandung dua korpus kavernosum dan satu korpus spongiosum. Uretra berjalan di dalam korpus spongiosum untuk menyalurkan urine atau semen pada waktu yang berbeda.",
+  "fakta": "Korpus spongiosum meluas di bagian distal membentuk glans penis.",
+  "nama_en": "Penis",
+  "deskripsi_en": "The penis is an external organ containing two corpora cavernosa and one corpus spongiosum. The urethra traverses the corpus spongiosum to convey urine or semen at different times.",
+  "fakta_en": "The corpus spongiosum expands distally to form the glans penis."
+ },
+ {
+  "id": "nodus-limfa-aksila-kanan",
+  "nama_id": "Kelompok nodus limfa aksila kanan",
+  "nama_latin": "Nodi lymphoidei axillares dexter",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Nodus limfa aksila kanan adalah kelompok kelenjar limfa di daerah ketiak. Kelompok ini menyaring limfa dari anggota gerak atas, sebagian dinding toraks, dan sebagian besar jaringan payudara pada sisi tersebut.",
+  "fakta": "Nodus aksila merupakan salah satu lokasi penting penilaian penyebaran penyakit payudara.",
+  "nama_en": "Right axillary lymph nodes",
+  "deskripsi_en": "The right axillary lymph nodes are a group of lymph nodes in the axillary region. They filter lymph from the upper limb, part of the thoracic wall, and most of the breast tissue on that side.",
+  "fakta_en": "Axillary nodes are a critical site for evaluating the spread of breast disease."
+ },
+ {
+  "id": "nodus-limfa-aksila-kiri",
+  "nama_id": "Kelompok nodus limfa aksila kiri",
+  "nama_latin": "Nodi lymphoidei axillares sinister",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Nodus limfa aksila kiri adalah kelompok kelenjar limfa di daerah ketiak. Kelompok ini menyaring limfa dari anggota gerak atas, sebagian dinding toraks, dan sebagian besar jaringan payudara pada sisi tersebut.",
+  "fakta": "Nodus aksila merupakan salah satu lokasi penting penilaian penyebaran penyakit payudara.",
+  "nama_en": "Left axillary lymph nodes",
+  "deskripsi_en": "The left axillary lymph nodes are a group of lymph nodes in the axillary region. They filter lymph from the upper limb, part of the thoracic wall, and most of the breast tissue on that side.",
+  "fakta_en": "Axillary nodes are a critical site for evaluating the spread of breast disease."
+ },
+ {
+  "id": "limpa",
+  "nama_id": "Limpa",
+  "nama_latin": "Splen",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Limpa terletak di abdomen kiri atas dan merupakan organ limfoid yang menyaring darah. Pulpa merah membantu membuang eritrosit tua, sedangkan pulpa putih berperan dalam respons imun terhadap antigen dalam darah.",
+  "fakta": "Berbeda dengan nodus limfa yang menyaring limfa, limpa terutama menyaring darah.",
+  "nama_en": "Spleen",
+  "deskripsi_en": "The spleen is located in the left upper abdomen and is a lymphoid organ that filters blood. The red pulp helps eliminate senescent erythrocytes, while the white pulp is involved in immune responses to blood-borne antigens.",
+  "fakta_en": "Unlike lymph nodes, which filter lymph, the spleen primarily filters blood."
+ },
+ {
+  "id": "timus",
+  "nama_id": "Timus",
+  "nama_latin": "Thymus",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Timus adalah organ limfoid di mediastinum anterior yang berperan dalam pematangan limfosit T. Lingkungannya membantu seleksi sel T agar dapat mengenali antigen tanpa menyerang jaringan tubuh secara berlebihan.",
+  "fakta": "Timus umumnya mengalami involusi dan bertambah kandungan lemaknya setelah pubertas.",
+  "nama_en": "Thymus",
+  "deskripsi_en": "The thymus is a lymphoid organ in the anterior mediastinum that plays a role in T-lymphocyte maturation. Its environment facilitates T-cell selection so that they can recognize antigens without excessively attacking self-tissues.",
+  "fakta_en": "The thymus typically undergoes involution and has an increased adipose content after puberty."
+ },
+ {
+  "id": "tiroid",
+  "nama_id": "Kelenjar tiroid",
+  "nama_latin": "Glandula thyroidea",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Tiroid terletak di depan trakea bagian atas dan memiliki dua lobus yang dihubungkan oleh ismus. Sel folikularnya menghasilkan hormon T3 dan T4 yang memengaruhi metabolisme, pertumbuhan, serta perkembangan.",
+  "fakta": "Sintesis hormon tiroid memerlukan yodium.",
+  "nama_en": "Thyroid gland",
+  "deskripsi_en": "The thyroid is located anterior to the upper trachea and has two lobes connected by an isthmus. Its follicular cells produce the hormones T3 and T4, which influence metabolism, growth, and development.",
+  "fakta_en": "Thyroid hormone synthesis requires iodine."
+ },
+ {
+  "id": "pankreas-endokrin",
+  "nama_id": "Pulau pankreas",
+  "nama_latin": "Insulae pancreaticae",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Pulau pankreas adalah kelompok sel endokrin yang tersebar di antara jaringan eksokrin pankreas. Sel-selnya mengeluarkan insulin, glukagon, somatostatin, dan polipeptida pankreas ke aliran darah.",
+  "fakta": "Sel beta menghasilkan insulin, sedangkan sel alfa menghasilkan glukagon.",
+  "nama_en": "Pancreatic islets",
+  "deskripsi_en": "Pancreatic islets are clusters of endocrine cells scattered among the exocrine tissue of the pancreas. Their cells secrete insulin, glucagon, somatostatin, and pancreatic polypeptide into the bloodstream.",
+  "fakta_en": "Beta cells produce insulin, whereas alpha cells produce glucagon."
+ },
+ {
+  "id": "pituitari",
+  "nama_id": "Kelenjar hipofisis",
+  "nama_latin": "Hypophysis",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Hipofisis berada di sella turcica tulang sfenoid dan terhubung dengan hipotalamus melalui infundibulum. Lobus anterior menghasilkan sejumlah hormon, sedangkan lobus posterior menyimpan dan melepaskan hormon yang dibuat di hipotalamus.",
+  "fakta": "Oksitosin dan vasopresin dibuat di hipotalamus, bukan disintesis oleh hipofisis posterior.",
+  "nama_en": "Pituitary gland",
+  "deskripsi_en": "The pituitary gland sits in the sella turcica of the sphenoid bone and is connected to the hypothalamus via the infundibulum. The anterior lobe produces several hormones, whereas the posterior lobe stores and releases hormones synthesized in the hypothalamus.",
+  "fakta_en": "Oxytocin and vasopressin are produced in the hypothalamus, not synthesized by the posterior pituitary."
+ },
+ {
+  "id": "paratiroid-superior-kanan",
+  "nama_id": "Kelenjar paratiroid superior kanan",
+  "nama_latin": "Glandula parathyroidea superior dextra",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Kelenjar paratiroid superior kanan umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
+  "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi.",
+  "nama_en": "Right superior parathyroid gland",
+  "deskripsi_en": "The right superior parathyroid gland is typically located near the posterior surface of the thyroid gland. Its chief cells produce parathyroid hormone, which helps raise blood calcium levels when they decline.",
+  "fakta_en": "Most individuals have four parathyroid glands, but their number and location can vary."
+ },
+ {
+  "id": "paratiroid-superior-kiri",
+  "nama_id": "Kelenjar paratiroid superior kiri",
+  "nama_latin": "Glandula parathyroidea superior sinistra",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Kelenjar paratiroid superior kiri umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
+  "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi.",
+  "nama_en": "Left superior parathyroid gland",
+  "deskripsi_en": "The left superior parathyroid gland is typically located near the posterior surface of the thyroid gland. Its chief cells produce parathyroid hormone, which helps raise blood calcium levels when they decline.",
+  "fakta_en": "Most individuals have four parathyroid glands, but their number and location can vary."
+ },
+ {
+  "id": "paratiroid-inferior-kanan",
+  "nama_id": "Kelenjar paratiroid inferior kanan",
+  "nama_latin": "Glandula parathyroidea inferior dextra",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Kelenjar paratiroid inferior kanan umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
+  "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi.",
+  "nama_en": "Right inferior parathyroid gland",
+  "deskripsi_en": "The right inferior parathyroid gland is typically located near the posterior surface of the thyroid gland. Its chief cells produce parathyroid hormone, which helps raise blood calcium levels when they decline.",
+  "fakta_en": "Most individuals have four parathyroid glands, but their number and location can vary."
+ },
+ {
+  "id": "paratiroid-inferior-kiri",
+  "nama_id": "Kelenjar paratiroid inferior kiri",
+  "nama_latin": "Glandula parathyroidea inferior sinistra",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Kelenjar paratiroid inferior kiri umumnya terletak di dekat permukaan posterior tiroid. Sel utamanya menghasilkan hormon paratiroid yang membantu menaikkan kadar kalsium darah ketika kadar tersebut turun.",
+  "fakta": "Sebagian besar orang memiliki empat kelenjar paratiroid, tetapi jumlah dan lokasinya dapat bervariasi.",
+  "nama_en": "Left inferior parathyroid gland",
+  "deskripsi_en": "The left inferior parathyroid gland is typically located near the posterior surface of the thyroid gland. Its chief cells produce parathyroid hormone, which helps raise blood calcium levels when they decline.",
+  "fakta_en": "Most individuals have four parathyroid glands, but their number and location can vary."
+ },
+ {
+  "id": "adrenal-kanan",
+  "nama_id": "Kelenjar adrenal kanan",
+  "nama_latin": "Glandula suprarenalis dextra",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Kelenjar adrenal kanan berada di atas ginjal dan terdiri atas korteks serta medula. Korteks menghasilkan hormon steroid seperti kortisol dan aldosteron, sedangkan medula menghasilkan katekolamin.",
+  "fakta": "Korteks dan medula adrenal memiliki asal perkembangan embrional yang berbeda.",
+  "nama_en": "Right adrenal gland",
+  "deskripsi_en": "The right adrenal gland sits atop the kidney and consists of a cortex and a medulla. The cortex produces steroid hormones such as cortisol and aldosterone, whereas the medulla produces catecholamines.",
+  "fakta_en": "The adrenal cortex and medulla have distinct embryological origins."
+ },
+ {
+  "id": "adrenal-kiri",
+  "nama_id": "Kelenjar adrenal kiri",
+  "nama_latin": "Glandula suprarenalis sinistra",
+  "sistem": "limfatik-endokrin",
+  "deskripsi": "Kelenjar adrenal kiri berada di atas ginjal dan terdiri atas korteks serta medula. Korteks menghasilkan hormon steroid seperti kortisol dan aldosteron, sedangkan medula menghasilkan katekolamin.",
+  "fakta": "Korteks dan medula adrenal memiliki asal perkembangan embrional yang berbeda.",
+  "nama_en": "Left adrenal gland",
+  "deskripsi_en": "The left adrenal gland sits atop the kidney and consists of a cortex and a medulla. The cortex produces steroid hormones such as cortisol and aldosterone, whereas the medulla produces catecholamines.",
+  "fakta_en": "The adrenal cortex and medulla have distinct embryological origins."
+ }
 ]

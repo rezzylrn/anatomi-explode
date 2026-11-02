@@ -340,3 +340,11 @@ html, body {
 
   .modal-card { width: calc(100vw - 48px); max-width: 340px; }
 }
+
+/* toggle bahasa di header */
+.lang-toggle { flex-shrink: 0; }
+.lang-toggle .seg-btn { padding: 5px 10px; }
+
+@media (max-width: 820px) {
+  .lang-toggle { order: 4; }
+}

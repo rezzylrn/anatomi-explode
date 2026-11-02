@@ -1,35 +1,36 @@
-# Anatomi Explode
+# Anatomy Explode
 
-Web edukasi anatomi 3D: 10 sistem tubuh yang bisa di-explode, klik tiap organ buat lihat nama Indonesia + Latin dan penjelasannya.
+A 3D anatomy education website: 10 body systems you can explode apart, click any organ to see its name (English + Latin) and description.
 
-Coba langsung: https://anatomi-explode-cqyylhb5y-rezzylrns-projects.vercel.app
+Live demo: https://anatomi-explode-zzc55etq3-rezzylrns-projects.vercel.app
 
-## Fitur
+## Features
 
-- 2.234 mesh organ 3D dari dataset BodyParts3D
-- Slider explode: misahin tiap sistem jadi grid rapi
-- Klik organ → panel nama (Indonesia/Latin) + penjelasan
-- Search organ, mode kuis, orbit/zoom/putar
-- Situs statis, tanpa build step
+- 2,234 organ meshes from the BodyParts3D dataset
+- Explode slider: separates each system into a neat grid
+- Click an organ → panel with name (English/Latin) + description
+- Search organs, quiz mode, orbit/zoom/rotate
+- Bilingual UI: Indonesian and English (ID/EN toggle)
+- Static site, no build step, works on desktop and mobile
 
-## Jalanin lokal
+## Run locally
 
-Butuh HTTP server (browser nolak fetch file lokal):
+Needs an HTTP server (browsers block fetching local files):
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Buka http://localhost:8000
+Open http://localhost:8000
 
-## Struktur
+## Structure
 
-- `index.html`, `app.js`, `styles.css` — aplikasinya
-- `models/` — 13 file GLB per sistem + manifest
-- `data/anatomy.json` — nama & penjelasan tiap organ
-- `vendor/` — Three.js lokal (biar bisa offline)
-- `tools/` — script konversi dataset ke GLB
+- `index.html`, `app.js`, `styles.css` — the app
+- `models/` — 13 GLB files, one per system, + manifest
+- `data/anatomy.json` — organ names & descriptions (Indonesian + English)
+- `vendor/` — local Three.js (works offline)
+- `tools/` — dataset-to-GLB conversion scripts
 
-## Sumber data
+## Data source
 
-Mesh 3D dari [BodyParts3D 4.0](https://lifesciencedb.jp/bp3d/) © Database Center for Life Science (DBCLS), lisensi CC BY 4.0.
+3D meshes from [BodyParts3D 4.0](https://lifesciencedb.jp/bp3d/) © Database Center for Life Science (DBCLS), CC BY 4.0.

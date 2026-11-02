@@ -38,6 +38,10 @@
       </div>
 
       <div class="header-actions">
+        <div class="segmented lang-toggle" role="group" aria-label="Bahasa / Language">
+          <button id="lang-id" class="seg-btn active">ID</button>
+          <button id="lang-en" class="seg-btn">EN</button>
+        </div>
         <button id="btn-quiz" class="btn btn-ghost">Kuis</button>
         <button id="btn-reset-view" class="btn-text" title="Kembalikan kamera ke posisi awal">Reset kamera</button>
       </div>
@@ -65,20 +69,20 @@
         <canvas id="webgl-canvas"></canvas>
 
         <div id="quiz-banner" class="quiz-bar" style="display: none;">
-          <span class="quiz-label">Kuis</span>
+          <span class="quiz-label" id="quiz-label">Kuis</span>
           <span class="quiz-stats">
             <span id="quiz-progress-text">Soal 1 / 10</span> ·
             <span id="quiz-score-text">Skor: 0</span> ·
             <span id="quiz-streak-text">Beruntun: 0</span>
           </span>
-          <span class="quiz-target">Klik: <strong id="quiz-target-name">…</strong></span>
+          <span class="quiz-target"><span id="quiz-target-label">Klik:</span> <strong id="quiz-target-name">…</strong></span>
           <span id="quiz-feedback" class="quiz-feedback"></span>
           <button id="btn-exit-quiz" class="btn-text">Keluar</button>
         </div>
 
         <div id="startup-loader" class="startup-loader">
           <div class="loader-spinner"></div>
-          <div class="loader-title">Memuat model…</div>
+          <div class="loader-title" id="loader-title">Memuat model…</div>
           <p id="loader-status" class="loader-desc"></p>
           <div class="progress-bar-bg">
             <div id="loader-progress-bar" class="progress-bar-fill" style="width: 0%;"></div>
@@ -113,27 +117,27 @@
             </div>
             <h2 id="info-name-id" class="info-title-id">Nama struktur</h2>
             <div id="info-name-latin" class="info-latin">Nama latin</div>
-            <div class="info-dataset"><span class="info-dataset-key">Dataset</span> <span id="info-name-en" class="info-dataset-val">mesh_name</span></div>
+            <div class="info-dataset"><span class="info-dataset-key" id="info-dataset-key">Dataset</span> <span id="info-name-en" class="info-dataset-val">mesh_name</span></div>
           </div>
 
           <div class="info-card-body">
             <div class="info-section">
-              <h4 class="info-section-title">Deskripsi</h4>
+              <h4 class="info-section-title" id="info-desc-title">Deskripsi</h4>
               <p id="info-desc" class="info-desc-text"></p>
             </div>
 
             <div id="info-fact-container" class="info-fact-box">
-              <h4 class="info-section-title">Catatan</h4>
+              <h4 class="info-section-title" id="info-fact-title">Catatan</h4>
               <p id="info-fact" class="info-fact-text"></p>
             </div>
 
             <div class="info-meta">
               <div class="meta-item">
-                <span class="meta-label">ID</span>
+                <span class="meta-label" id="meta-id-label">ID</span>
                 <span id="info-meta-id" class="meta-value">-</span>
               </div>
               <div class="meta-item">
-                <span class="meta-label">Posisi</span>
+                <span class="meta-label" id="meta-pos-label">Posisi</span>
                 <span id="info-meta-pos" class="meta-value">-</span>
               </div>
             </div>
@@ -148,12 +152,12 @@
 
     <div id="quiz-result-modal" class="modal-backdrop" style="display: none;">
       <div class="modal-card">
-        <h3 class="modal-title">Hasil kuis</h3>
+        <h3 class="modal-title" id="modal-title">Hasil kuis</h3>
         <div class="modal-score"><span id="modal-final-score">8</span><span class="modal-score-den"> / 10</span></div>
         <p id="modal-result-summary" class="modal-summary"></p>
         <div class="modal-metrics">
-          <div class="metric"><span class="metric-label">Akurasi</span><span id="modal-metric-acc" class="metric-val">80%</span></div>
-          <div class="metric"><span class="metric-label">Beruntun terbaik</span><span id="modal-metric-streak" class="metric-val">5</span></div>
+          <div class="metric"><span class="metric-label" id="modal-acc-label">Akurasi</span><span id="modal-metric-acc" class="metric-val">80%</span></div>
+          <div class="metric"><span class="metric-label" id="modal-streak-label">Beruntun terbaik</span><span id="modal-metric-streak" class="metric-val">5</span></div>
         </div>
         <div class="modal-actions">
           <button id="btn-modal-retry" class="btn btn-primary">Kuis baru</button>
@@ -166,7 +170,7 @@
       <div class="footer-left">
         <span>BodyParts3D © Database Center for Life Science, CC BY 4.0</span>
         <span class="footer-sep">·</span>
-        <span class="footer-note">Media edukasi, bukan alat klinis.</span>
+        <span class="footer-note" id="footer-note">Media edukasi, bukan alat klinis.</span>
       </div>
       <div class="footer-right">
         <span id="footer-stats"></span>
